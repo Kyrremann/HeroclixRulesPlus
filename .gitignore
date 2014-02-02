@@ -24,3 +24,6 @@ local.properties
 
 # Meld files
 *orig
+
+# Emacs backup
+*~
