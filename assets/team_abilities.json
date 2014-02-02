@@ -1,0 +1,332 @@
+{
+    "2000 AD":{
+	"english":"At any time during the game, you may declare an opposing team ability or character as your target. Once the character or team ability is chosen, it may not be changed. All characters using the 2000 AD team ability increase their attack value by 1 when attacking the chosen character or a character possessing the chosen team ability.",
+	"image":""
+    },
+    "ARACHNOS":{
+	"english":"When a character using the Arachnos team ability takes damage from an attack, the attacker is dealt 1 unavoidable damage. This damage is not an attack.",
+	"image":""
+    },
+    "ASCENDENT":{
+	"english":"A character using this team ability modifies its attack value by +1 when marked with one action token.",
+	"image":""
+    },
+    "ASSASSINS":{
+	"english":"Characters with this team ability can use Stealth. When a close combat attack by an opposing character misses this character and the attack roll is doubles, you may place an action token on this character and deal the attacker 1 damage.",
+	"image":""
+    },
+    "AVENGERS":{
+	"english":"When you give a character using the Avengers team ability a move action, it does not count toward your available actions for the turn.",
+	"spanish":"Cuando le das una acción de movimiento a un personaje que usa la habilidad de equipo Avengers no cuenta para el total de acciones que tienes disponibles este turno.",
+	"image":""
+    },
+    "AVENGERS INITIATIVE":{
+	"english":"Characters using the Avengers Initiative team ability treat hindering terrain as clear terrain for movement and line of fire purposes.",
+	"spanish":"Los personajes que usan la habilidad de equipo Avengers Initiative tratan el terreno obstaculizado como terreno limpio para movimiento y líneas de fuego.",
+	"image":""
+    },
+    "BATMAN ALLY":{
+	"english":"A character using the Batman Ally team ability may use Stealth.",
+	"spanish":"Un personaje que usa la habilidad de equipo Batman Ally puede usar Stealth.",
+	"image":""
+    },
+    "BATMAN ENEMY":{
+	"english":"Characters using the Batman Enemy team ability may replace their attack value with the unmodified attack value of an adjacent friendly character using the Batman Enemy team ability.",
+	"spanish":"Los personajes que usan la habilidad de equipo Batman Enemy pueden reemplazar su valor de ataque con el valor de ataque sin modificar de un personaje amigo adyacente que usa la habilidad de equipo Batman Enemy.",
+	"image":""
+    },
+    "BROTHERHOOD OF MUTANTS":{
+	"english":"When you give a character using the Brotherhood of Mutants team ability a move action, it does not count toward your available actions for the turn.",
+	"spanish":"Cuando le das una acción de movimiento a un personaje que usa la habilidad de equipo Brotherhoof of Mutants no cuenta para el total de acciones que tienes disponibles este turno.",
+	"image":""
+    },
+    "BUREAU OF PARANORMAL RESEARCH AND DEFENSE":{
+	"english":"WCharacters using the B.P.R.D. team ability are wild cards.",
+	"spanish":"Los miembros del equipo B.P.R.D. son comodines.",
+	"image":""
+    },
+    "CALCULATOR":{
+	"english":"Characters using the Calculator team ability are wild cards.",
+	"spanish":"Los miembros del equipo Calculator son comodines.",
+	"image":""
+    },
+    "COALITION OF ORDERED GOVERNMENTS (COG)":{
+	"english":"When this character makes a ranged combat attack, after actions resolve it may move up to 3 squares as a free action if they end the move occupying hindering terrain or adjacent to blocking terrain or a wall. Uncopyable.",
+	"image":""
+    },
+    "COUNCIL OF THE MISTS":{
+	"english":"A character using this team ability can use Probability Control, but only during your turn and if the reroll does not have at least one die with a 1 or 6, the reroll is ignored.",
+	"image":""
+    },
+    "COVENANT EMPIRE":{
+	"english":"When a character using this team ability is given a move action, it can use the Carry ability, but only to carry characters using this team ability. It can carry up to two characters if both also have a lower point value. Uncopyable.",
+	"image":""
+    },
+    "CRIME SYNDICATE":{
+	"english":"Characters using the Crime Syndicate team ability may use Probability Control. When a roll is ignored because of this team ability an action token must be placed on a friendly character on the battlefield or the roll is not ignored. Uncopyable.",
+	"spanish":"Los personajes que usan la habilidad de equipo Crime Syndicate pueden usar Probability Control. Cuando se ignora una tirada debido a esta habilidad de equipo, se debe colocar un token de acción en un personaje amigo en el campo de batalla o la tirada no se ignora. No copiable.",
+	"image":""
+    },
+    "CROSSGEN":{
+	"english":"When a character using the CrossGen team ability takes damage from an attack, the attacker is dealt 1 unavoidable damage. This damage is not an attack.",
+	"image":""
+    },
+    "CRUSADE":{
+	"english":"All attack rolls made by characters using the Crusade team ability that result in doubles (except two 1s) cause knock back equal to the attacking character’s damage value.",
+	"image":""
+    },
+    "DANGER GIRL":{
+	"english":"This character can use Shape Change, but only succeeds on a roll of 6. Using Shape Change in this way does not prevent the character from using Shape Change through another game effect.",
+	"image":""
+    },
+    "DEFENDERS":{
+	"english":"Characters using the Defenders team ability may replace their defense value with the unmodified defense value of an adjacent friendly character using the Defenders team ability.",
+	"spanish":"Los personajes que usan la habilidad de equipo Defenders pueden reemplazar su valor de defensa con el valor de defensa sin modificar de un personaje amigo adyacente que use la habilidad de equipo Defenders.",
+	"image":""
+    },
+    "DOMINION":{
+	"english":"When a ship using this team ability is knocked out, one friendly ship that shares a keyword or team ability with the KO’d ship may deal 1 penetrating damage to an opposing ship within 2 squares.",
+	"image":""
+    },
+    "DOMINION PACT":{
+	"english":"When an opposing character within 4 squares is KO'd, characters using this team ability are healed 1 damage.",
+	"image":""
+    },
+    "FANTASTIC FOUR":{
+	"english":"When a character using the Fantastic Four team ability is KO’d, each other friendly character using the Fantastic Four team ability may be healed of 1 damage. If all remaining characters using the team ability are KO’d as part of the same action, this team ability can’t be used.",
+	"spanish":"Cuando un personaje que usa la habilidad Fantastic Four es derrotado, cada uno de los personajes amigos que usan la habilidad Fantastic Four se cura 1 daño. Si todos los personajes que usan esta habilidad son derrotados como parte de la misma acción esta habilidad no puede ser usada.",
+	"image":""
+    },
+    "FEDERATION":{
+	"english":"When a ship using this team ability is attacked by a ship with one or more action tokens, modify this ship's defense value by +1. Uncopyable.",
+	"image":""
+    },
+    "FEDERATION AWAY TEAM":{
+	"english":"Once per game per character, when this character occupies your starting area, you may give another character with the Federation keyword a power action and place this character within 12 squares of its current square. Uncopyable.",
+	"image":""
+    },
+    "FEDERATION SUPPORT TEAM":{
+	"english":"Once during each of your turns, you may give a character that can use this team ability a power action to use Perplex, but only to target a character with the Federation keyword. This Perplex may be used in addition to other uses of Perplex by this character.",
+	"image":""
+    },
+    "FOUNDERS":{
+	"english":"At the beginning of your turn, choose a single opposing character within line of fire of any one character that can use this team ability; all friendly characters using this team ability modify their attack value by +1 when attacking the chosen target this turn. Uncopyable.",
+	"image":""
+    },
+    "FREEDOM PHALANX":{
+	"english":"Characters using the Freedom Phalanx team ability are wild cards.",
+	"image":""
+    },
+    "GREEN LANTERN CORPS":{
+	"english":"When using the Carry ability, characters using the Green Lantern Corps team ability may carry up to 8 friendly characters.",
+	"spanish":"Los personajes que usan la habilidad de equipo Green Lantern Corps pueden llevar hasta 8 personajes amigos cuando usan la habilidad Carry.",
+	"image":""
+    },
+    "GUARDIANS OF THE GLOBE":{
+	"english":"When a character uses this team ability rolls doubles on the dice on a successful attack roll, the target is not knocked back. The attack deals damage normally. If the target has zero or one action token after the attack has been resolved, give the target an action token.",
+	"image":""
+    },
+    "HYDRA":{
+	"english":"When this character is adjacent to a friendly character making a ranged combat attack, modify the target’s defense value by -1 if the target is within line of fire of this character.",
+	"spanish":"Cuando un personaje que usa la habilidad de equipo Hydra está adyacente a un personaje amigo que hace un ataque a distancia, modifica el valor de defensa del objetivo en -1 si el objetivo esta dentro de la línea de fuego de este personaje.",
+	"image":""
+    },
+    "HYPERTIME":{
+	"english":"Whenever an opposing character given an action attempts to move from a non-adjacent square into a square that is adjacent to a character using the Hypertime team ability, it must roll a d6. On a result of 1-2, the opposing character can’t move to any square adjacent to the character using this team ability that turn. Characters using this team ability ignore it on opposing characters.",
+	"spanish":"Siempre que un personaje opuesto al que se le dio una acción intente moverse desde un casillero no adyacente a uno adyacente a un personaje que usa la habilidad de equipo Hypertime, debe tirar un D6. Con un resultado de 1 a 2 el personaje oponente no puede moverse a ningún casillero adyacente al personaje que usa esta habilidad de equipo durante este turno. Los personajes que usan esta habilidad de equipo la ignoran en personajes opuestos.",
+	"image":""
+    },
+    "INJUSTICE LEAGUE":{
+	"english":"Whenever a character using the Injustice League team ability attacks an opposing character that was attacked by another character using the Injustice League team ability this turn, the action does not count toward your available actions for the turn.",
+	"spanish":"Siempre que un personaje que usa la habilidad de equipo Injustice League ataca un personaje opuesto que fue atacado este turno por otro personaje que usa la habilidad de equipo Injustice League, la acción no cuenta para el total de acciones que tienes disponibles este turno.",
+	"image":""
+    },
+    "JUSTICE LEAGUE":{
+	"english":"When you give a character using the Justice League team ability a move action, it does not count toward your available actions for the turn.",
+	"spanish":"Cuando le das una acción de movimiento a un personaje que usa la habilidad de equipo Justice League no cuenta para el total de acciones que tienes disponibles este turno.",
+	"image":""
+    },
+    "JUSTICE SOCIETY":{
+	"english":"Characters using the Justice Society team ability may replace their defense value with the unmodified defense value of an adjacent friendly character using the Justice Society team ability.",
+	"spanish":"Los personajes que usan la habilidad de equipo Justice Society pueden reemplazar su valor de defensa con el valor de defensa sin modificar de un personaje amigo adyacente que use la habilidad de equipo Justice Society.",
+	"image":""
+    },
+    "KABUKI":{
+	"english":"A character using the Kabuki team ability may use Stealth.",
+	"image":""
+    },
+    "KAIJU":{
+	"english":"When a character using the Kaiju team ability takes damage from an attack, the attacker is dealt 1 unavoidable damage. This damage is not an attack.",
+	"image":""
+    },
+    "KINGDOM COME":{
+	"english":"Whenever an opposing character given an action attempts to move from a non-adjacent square into a square that is adjacent to a character using the Hypertime team ability, it must roll a d6. On a result of 1-2, the opposing character can’t move to any square adjacent to the character using this team ability that turn. Characters using this team ability ignore it on opposing characters.",
+	"spanish":"Siempre que un personaje opuesto al que se le dio una acción intente moverse desde un casillero no adyacente a uno adyacente a un personaje que usa la habilidad de equipo Hypertime, debe tirar un D6. Con un resultado de 1 a 2 el personaje oponente no puede moverse a ningún casillero adyacente al personaje que usa esta habilidad de equipo durante este turno. Los personajes que usan esta habilidad de equipo la ignoran en personajes opuestos.",
+	"image":""
+    },
+    "KLINGON EMPIRE":{
+	"english":"When an opposing ship KOs a ship using this team ability, other ships using this team ability modify their attack values by +1 until the end of your next turn. Uncopyable.",
+	"image":""
+    },
+    "LEGION OF SUPER HEROES":{
+	"english":"Characters using the Legion of Super Heroes team ability are wild cards.",
+	"spanish":"Los miembros del equipo Legion Of Super Heroes son comodines.",
+	"image":""
+    },
+    "LOCUST HORDE":{
+	"english":"This character can use Phasing/Teleport. When it does, after actions resolve you may knock back one adjacent opposing character 1 square. Uncopyable.",
+	"image":""
+    },
+    "MASTERS OF EVIL":{
+	"english":"When a character using the Masters of Evil team ability has two action tokens on it, it can still be given a non-free action. If you do, deal it one unavoidable damage after the action resolves. At the end of your turn, do not remove action tokens from a character that used this team ability this turn.",
+	"spanish":"Cuando un personaje que usa la habilidad de equipo Masters of Evil tiene dos tokens de acción asignados, se le puede dar una acción no gratuita. Si lo haces, se le hace 1 daño inevitable después de resolver la acción. Al final de tu turno, no remuevas tokens de acción de un personaje que ha usado esta habilidad este turno.",
+	"image":""
+    },
+    "MINIONS OF DOOM":{
+	"english":"Characters using the Minions of Doom team ability are wild cards.",
+	"spanish":"Los miembros del equipo Minions of Doom son comodines.",
+	"image":""
+    },
+    "MORLOCKS":{
+	"english":"See the Additional Team Ability section.",
+	"spanish":"Ver sección de Habilidades de Equipo Adicionales.",
+	"image":""
+    },
+    "MYSTICS":{
+	"english":"When a character using the Mystics team ability takes damage from an attack, the attacker is dealt 1 unavoidable damage. This damage is not an attack.",
+	"spanish":"Cuando un personaje que usa la habilidad de equipo Mystics toma daño por un ataque, se hace al agresor 1 daño inevitable. Este daño no es un ataque.",
+	"image":""
+    },
+    "OUTSIDERS":{
+	"english":"Give a character using the Outsiders team ability a free action to choose a character (including itself) within 10 squares and line of fire. Until the beginning of your next turn, the chosen character’s combat values can’t be modified. Uncopyable.",
+	"spanish":"Dale una accion gratuita a un personaje que usa la habilidad de equipo Outsiders para elegir un personaje (incluyendo ellos mismos) dentro de las 10 casillas de distancia y a la cual tengan línea de fuego. Hasta el comienzo de tu próximo turno, los valores de combate del objetivo no pueden ser modificados. No copiable.",
+	"image":""
+    },
+    "PAN PACIFIC DEFENSE CORPS":{
+	"english":"When a character using the Pan Pacific Defense Corps team ability is adjacent to a friendly character making a ranged combat attack, modify the target's defense value by -1 if the target is within line of fire of this character.",
+	"image":""
+    },
+    "PHOENIX CONCORD":{
+	"english":"Once per turn when a power or ability of a character using this team ability or an adjacent friendly character would be countered, roll a d6; on a result of 5 - 6, the power or ability is not countered.",
+	"image":""
+    },
+    "POLICE":{
+	"english":"When this character is adjacent to a friendly character making a ranged combat attack, modify the target’s defense value by -1 if the target is within line of fire of this character.",
+	"spanish":"Cuando un personaje que usa la habilidad de equipo Police está adyacente a un personaje amigo que hace un ataque a distancia, modifica el valor de defensa del objetivo en -1 si el objetivo esta dentro de la línea de fuego de este personaje.",
+	"image":""
+    },
+    "POWER COSMIC":{
+	"english":"Characters using the Power Cosmic team ability can use Willpower and their powers can’t be countered. Uncopyable.",
+	"spanish":"Los personajes que usan la habilidad de equipo Power Cosmic pueden usar Willpower y sus poderes no pueden ser contrarrestados. No copiable.",
+	"image":""
+    },
+    "QUINTESSENCE":{
+	"english":"Characters using the Quintessence team ability can use Willpower and their powers can’t be countered. Uncopyable.",
+	"spanish":"Los personajes que usan la habilidad de equipo Quintessence pueden usar Willpower y sus poderes no pueden ser contrarrestados. No copiable.",
+	"image":""
+    },
+    "ROMULAN STAR EMPIRE":{
+	"english":"Before the beginning of the first turn, choose a keyword possessed by an opposing ship for all friendly ships with this team ability; damage dealt by ships using this team ability to ships with the chosen keyword can’t be reduced to less than 1. Uncopyable.",
+	"image":""
+    },
+    "S.H.I.E.L.D":{
+	"english":"Adjacent friendly characters modify their range values by +1. Give this character a power action and choose an adjacent friendly character. The chosen character modifies its damage value by +1 while adjacent to this character and making ranged combat attacks this turn.",
+	"spanish":"Personajes amigos adyacentes modifican su valor de rango en +1. Dale a este personaje una acción de poder y elige un personaje amigo adyacente. El personaje elegido modifica su valor de daño en +1 mientras este adyacente a este personaje y haga ataques a distancia este turno.",
+	"image":""
+    },
+    "S.H.I.E.L.D":{
+	"english":"Adjacent friendly characters modify their range values by +1. Give this character a power action and choose an adjacent friendly character. The chosen character modifies its damage value by +1 while adjacent to this character and making ranged combat attacks this turn.",
+	"spanish":"Personajes amigos adyacentes modifican su valor de rango en +1. Dale a este personaje una acción de poder y elige un personaje amigo adyacente. El personaje elegido modifica su valor de daño en +1 mientras este adyacente a este personaje y haga ataques a distancia este turno.",
+	"image":""
+    },
+    "SERPENT SOCIETY":{
+	"english":"See the Additional Team Ability section.",
+	"spanish":"Ver sección de Habilidades de Equipo Adicionales.",
+	"image":""
+    },
+    "SINISTER SYNDICATE":{
+	"english":"Characters using the Sinister Syndicate team ability may replace their attack value with the unmodified attack value of an adjacent friendly character using the Sinister Syndicate team ability.",
+	"spanish":"Los personajes que usan la habilidad de equipo Sinister Syndicate pueden reemplazar su valor de ataque con el valor de ataque sin modificar de un personaje amigo adyacente que usa la habilidad de equipo Sinister Syndicate.",
+	"image":""
+    },
+    "SKRULLS":{
+	"english":"This character can use Shape Change, but only succeeds on a roll of 6. Using Shape Change in this way does not prevent the character from using Shape Change through another game effect.",
+	"spanish":"Este personaje puede usar Shape Change, pero la tirada solo tiene éxito con un 6. Usar Shape Change de esta manera no previene que el personaje use Shape Change a través de otro efecto de juego.",
+	"image":""
+    },
+    "SPIDER-MAN":{
+	"english":"Characters using the Spider-Man team ability are wild cards.",
+	"spanish":"Los miembros del equipo Spider-Man son comodines.",
+	"image":""
+    },
+    "STREET FIGHTER":{
+	"english":"Give this character a power action to move up to 3 squares and then make a close combat attack. Uncopyable.",
+	"image":""
+    },
+    "SUICIDE SQUAD":{
+	"english":"When a friendly character adjacent to a character using the Suicide Squad team ability is KO’d, roll a d6 and subtract 2 from the result, minimum result 1. After the action is resolved, if this character is not KO’d, you may heal it of damage equal to the result.",
+	"spanish":"Cuando un personaje amigo adyacente a un personaje que usa la habilidad de equipo Suicide Squad es derrotado, tira un D6 y resta 2 al resultado, resultado mínimo 1. Después que se resuelve la acción, si este personaje no fue derrotado, cura daño igual al resultado.",
+	"image":""
+    },
+    "SUPERMAN ALLY":{
+	"english":"Characters using the Superman Ally team ability treat hindering terrain as clear terrain for movement and line of fire purposes.",
+	"spanish":"Los personajes que usan la habilidad de equipo Superman Ally tratan el terreno obstaculizado como terreno limpio para movimiento y líneas de fuego.",
+	"image":""
+    },
+    "SUPERMAN ENEMY":{
+	"english":"When two friendly characters that can use the Superman Enemy team ability are adjacent to each other, the character with the higher point value may be given a free action to immediately use Outwit. That character can use Outwit until the beginning of your next turn, if it can’t use Outwit already and continues to use this ability. If the two characters have the same point value, their controller chooses which is treated as the higher point character this turn.",
+	"spanish":"Cuando dos personajes amigos que pueden usar la habilidad de equipo Superman Enemy están adyacentes, se le puede dar una acción gratuita al personaje de mayor puntaje para usar inmediatamente Outwit. Ese personaje puede usar Outwit hasta el comienzo de tu próximo turno, si es que ya no puede usar Outwit y continúa usando esta habilidad. Si los dos personajes tienen el mismo valor de puntaje, quien los controla elige cual de los dos será tratado como el de mayor puntaje este turno.",
+	"image":""
+    },
+    "SUPERMAN ENEMY":{
+	"english":"When two friendly characters that can use the Superman Enemy team ability are adjacent to each other, the character with the higher point value may be given a free action to immediately use Outwit. That character can use Outwit until the beginning of your next turn, if it can’t use Outwit already and continues to use this ability. If the two characters have the same point value, their controller chooses which is treated as the higher point character this turn.",
+	"spanish":"Cuando dos personajes amigos que pueden usar la habilidad de equipo Superman Enemy están adyacentes, se le puede dar una acción gratuita al personaje de mayor puntaje para usar inmediatamente Outwit. Ese personaje puede usar Outwit hasta el comienzo de tu próximo turno, si es que ya no puede usar Outwit y continúa usando esta habilidad. Si los dos personajes tienen el mismo valor de puntaje, quien los controla elige cual de los dos será tratado como el de mayor puntaje este turno.",
+	"image":""
+    },
+    "TEMPLARS":{
+	"english":"When this character has one or more action tokens at the beginning of your turn, as a free action they can modify the attack or defense value of an adjacent friendly character by +1 until your next turn.",
+	"image":""
+    },
+    "TITANS":{
+	"english":"When two friendly characters that can use the Titans team ability are adjacent to each other, give one of them a power action and roll a d6. Heal the other character of 1 damage. If the result was 1-4, deal the character given the power action 1 unavoidable damage.",
+	"spanish":"Cuando dos personajes amigos que pueden usar la habilidad de equipo Titans están adyacentes, dale a uno de ellos una acción de poder y tira un D6. Cura al segundo personaje 1 de daño. Si el resultado fue 1 a 4 haz 1 daño inevitable al personaje al que diste la acción de poder.",
+	"image":""
+    },
+    "TOP COW":{
+	"english":"When you give a character using the Top Cow team ability a move action, it does not count toward your available actions for the turn.",
+	"image":""
+    },
+    "ULTIMATES":{
+	"english":"Characters using the Ultimates team ability treat hindering terrain as clear terrain for movement and line of fire purposes.",
+	"spanish":"Los personajes que usan la habilidad de equipo Ultimates tratan el terreno obstaculizado como terreno limpio para movimiento y líneas de fuego.",
+	"image":""
+    },
+    "ULTIMATE X-MEN":{
+	"english":"Once per game per character, a character using the Ultimate X-Men team ability may choose one opposing character or all characters possessing a single chosen team ability; this choice can be made only once per game even if the character has used another team ability. When this character attacks a chosen character, modify the chosen character’s defense value by -1.",
+	"spanish":"Una vez por juego y por personaje, un personaje que usa la habilidad Ultimate X-Men puede elegir un personaje opuesto o todos los personajes que posean una sola habilidad de equipo elegida; esta elección se puede hacer solo una vez por juego incluso si este personaje ha usado otra habilidad de equipo. Cuando este personaje ataca un personaje elegido, modifica la defensa del personaje elegido en -1.",
+	"image":""
+    },
+    "UNDERWORLD":{
+	"english":"When a character using the Underworld team ability is given a move action, it can use the Carry ability, but can only carry characters using the Underworld team ability; it can carry two friendly characters, if both also have a lower point value.",
+	"spanish":"Cuando se le da una acción de movimiento a un personaje que usa la habilidad Underworld, puede usar la habilidad Carry, pero solo puede llevar personajes que usan la habilidad Underworld; puede llevar hasta dos personajes amigos si ambos tienen un valor de puntaje menor.",
+	"image":""
+    },
+    "UNITED NATIONS SPACE COMMAND (UNSC)":{
+	"english":"Adjacent friendly characters modify their range values by +1. Give this character a power action and choose an adjacent friendly character. The chosen character modifies its damage value by +1 while adjacent to this character and making ranged combat attacks this turn. Uncopyable.",
+	"image":""
+    },
+    "VOX POPULI":{
+	"english":"When a character using this team ability is marked with an action token and makes an attack, any attack roll of doubles (other and a critical miss) is considered a hit.",
+	"image":""
+    },
+    "WATCHMEN":{
+	"english":"The combat values of characters using the Watchmen team ability can’t be modified by opposing characters.",
+	"spanish":"Los valores de combate de personajes que usan la habilidad Watchmen no pueden ser modificados por personajes opuestos.",
+	"image":""
+    },
+    "X-MEN":{
+	"english":"When two friendly characters that can use the X-Men team ability are adjacent to each other, give one of them a power action and roll a d6. Heal the other character of 1 damage. If the result was 1-4, deal the character given the power action 1 unavoidable damage.",
+	"spanish":"Cuando dos personajes amigos que pueden usar la habilidad de equipo X-Men están adyacentes, dale a uno de ellos una acción de poder y tira un D6. Cura al segundo personaje 1 de daño. Si el resultado fue 1 a 4 hace 1 daño inevitable al personaje al que diste la acción de poder.",
+	"image":""
+    }
+}
