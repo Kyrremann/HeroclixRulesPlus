@@ -12,7 +12,7 @@
     <application
         android:name="net.fifthfloorstudio.heroclixrules.plus.RulesApplication"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@style/Theme.Default"
         tools:ignore="NewApi" >

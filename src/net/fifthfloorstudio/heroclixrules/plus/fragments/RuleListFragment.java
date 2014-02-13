@@ -1,5 +1,9 @@
-package net.fifthfloorstudio.heroclixrules.plus;
+package net.fifthfloorstudio.heroclixrules.plus.fragments;
 
+import java.util.Locale;
+
+import net.fifthfloorstudio.heroclixrules.plus.R;
+import net.fifthfloorstudio.heroclixrules.plus.RulesApplication;
 import net.fifthfloorstudio.heroclixrules.plus.inteface.RuleSelectedListener;
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,7 +13,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class RuleListFragment extends Fragment implements OnItemClickListener {
@@ -31,16 +34,15 @@ public class RuleListFragment extends Fragment implements OnItemClickListener {
 				false);
 		String title = getArguments().getString(ARG_RULE_TITLE);
 		getActivity().setTitle(title);
+
 		ListView list = (ListView) rootView.findViewById(R.id.rules_list);
-		title = title.replaceAll(" ", "_");
-		int ruleId = getResources().getIdentifier(title, "array",
-				getActivity().getPackageName());
-		// rules_array = getResources().getStringArray(ruleId);
+		String category = title.replaceAll(" powers", "").toLowerCase(
+				Locale.ENGLISH);
 		application = (RulesApplication) getActivity().getApplicationContext();
-		rules_array = application.getPowerRulesTitles("speed");
-		list.setAdapter(new ArrayAdapter<String>(getActivity(),
-				android.R.layout.simple_list_item_1, android.R.id.text1,
-				rules_array));
+		rules_array = application.getRuleTitles(category);
+		list.setAdapter(new RuleListArrayAdapter(getActivity(),
+				R.layout.rules_with_image_row, R.id.rule_title,
+				R.id.rule_image, rules_array, category));
 		list.setOnItemClickListener(this);
 		return rootView;
 	}

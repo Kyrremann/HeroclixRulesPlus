@@ -7,7 +7,6 @@ import android.graphics.drawable.Drawable;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.ImageSpan;
-import android.widget.Toast;
 
 public class StringUtils {
 
@@ -156,7 +155,6 @@ public class StringUtils {
 				}
 				
 				if (i == tmp.length - 2 && tmp.length > 5) {
-					Toast.makeText(context, "" + tmp.length, Toast.LENGTH_SHORT).show();
 					builder.append("and ");
 				}
 				

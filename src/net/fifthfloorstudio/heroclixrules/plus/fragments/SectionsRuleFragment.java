@@ -1,14 +1,20 @@
-package net.fifthfloorstudio.heroclixrules.plus;
+package net.fifthfloorstudio.heroclixrules.plus.fragments;
 
 import static net.fifthfloorstudio.heroclixrules.plus.utils.StringUtils.parseText;
 
 import java.util.Locale;
+
+import net.fifthfloorstudio.heroclixrules.plus.R;
+import net.fifthfloorstudio.heroclixrules.plus.RulesApplication;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.ImageSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -101,9 +107,22 @@ public class SectionsRuleFragment extends Fragment {
 					R.layout.fragment_main_activity_test_dummy, container,
 					false);
 			int pos = getArguments().getInt(ARG_SECTION_NUMBER);
+			SpannableStringBuilder builder = new SpannableStringBuilder();
+			SpannableStringBuilder ruleText = parseText(getActivity(),
+					application.getRuleText(pos, rules_array[pos],
+							rule_category));
+			ImageSpan ruleImage = application.getImageSpanForRuleIfExists(pos, rules_array[pos], rule_category);
+			
+			if (ruleImage != null) {
+				builder.append("  ");
+				builder.setSpan(ruleImage, 0, 1,
+						Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+			}
+
+			builder.append(ruleText);
+
 			((TextView) rootView.findViewById(R.id.general_rule))
-					.setText(parseText(getActivity(), application.getPowerRule(
-							rules_array[pos], rule_category)));
+					.setText(builder);
 			return rootView;
 		}
 	}

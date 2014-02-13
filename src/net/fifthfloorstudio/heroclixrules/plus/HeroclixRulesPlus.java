@@ -16,6 +16,8 @@
 
 package net.fifthfloorstudio.heroclixrules.plus;
 
+import net.fifthfloorstudio.heroclixrules.plus.fragments.RuleListFragment;
+import net.fifthfloorstudio.heroclixrules.plus.fragments.SectionsRuleFragment;
 import net.fifthfloorstudio.heroclixrules.plus.inteface.RuleSelectedListener;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
@@ -117,7 +119,8 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 			break;
 		case R.id.menu_images:
 			toggle_images = !item.isChecked();
-			Editor editor = getSharedPreferences(PREFS_NAME, MODE_PRIVATE).edit();
+			Editor editor = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
+					.edit();
 			editor.putBoolean(PREFS_TOGGLE_IMAGES, toggle_images);
 			editor.commit();
 			break;
@@ -170,7 +173,6 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	public void setTitle(CharSequence title) {
 		mTitle = title;
 		super.setTitle(mTitle);
-		// getActionBar().setTitle(mTitle);
 	}
 
 	/**
@@ -188,7 +190,7 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	@Override
 	public void onConfigurationChanged(Configuration newConfig) {
 		super.onConfigurationChanged(newConfig);
-		// Pass any configuration change to the drawer toggls
+		// Pass any configuration change to the drawer toggle
 		mDrawerToggle.onConfigurationChanged(newConfig);
 	}
 

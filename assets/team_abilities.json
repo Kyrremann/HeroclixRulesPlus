@@ -1,7 +1,7 @@
 {
     "2000 AD":{
 	"english":"At any time during the game, you may declare an opposing team ability or character as your target. Once the character or team ability is chosen, it may not be changed. All characters using the 2000 AD team ability increase their attack value by 1 when attacking the chosen character or a character possessing the chosen team ability.",
-	"image":""
+	"image":"2000ad"
     },
     "ARACHNOS":{
 	"english":"When a character using the Arachnos team ability takes damage from an attack, the attacker is dealt 1 unavoidable damage. This damage is not an attack.",
@@ -38,12 +38,12 @@
     "BROTHERHOOD OF MUTANTS":{
 	"english":"When you give a character using the Brotherhood of Mutants team ability a move action, it does not count toward your available actions for the turn.",
 	"spanish":"Cuando le das una acción de movimiento a un personaje que usa la habilidad de equipo Brotherhoof of Mutants no cuenta para el total de acciones que tienes disponibles este turno.",
-	"image":""
+	"image":"brotherhood"
     },
     "BUREAU OF PARANORMAL RESEARCH AND DEFENSE":{
-	"english":"WCharacters using the B.P.R.D. team ability are wild cards.",
+	"english":"Characters using the B.P.R.D. team ability are wild cards.",
 	"spanish":"Los miembros del equipo B.P.R.D. son comodines.",
-	"image":""
+	"image":"bprd"
     },
     "CALCULATOR":{
 	"english":"Characters using the Calculator team ability are wild cards.",
@@ -52,7 +52,7 @@
     },
     "COALITION OF ORDERED GOVERNMENTS (COG)":{
 	"english":"When this character makes a ranged combat attack, after actions resolve it may move up to 3 squares as a free action if they end the move occupying hindering terrain or adjacent to blocking terrain or a wall. Uncopyable.",
-	"image":""
+	"image":"cog"
     },
     "COUNCIL OF THE MISTS":{
 	"english":"A character using this team ability can use Probability Control, but only during your turn and if the reroll does not have at least one die with a 1 or 6, the reroll is ignored.",
@@ -71,7 +71,7 @@
 	"english":"When a character using the CrossGen team ability takes damage from an attack, the attacker is dealt 1 unavoidable damage. This damage is not an attack.",
 	"image":""
     },
-    "CRUSADE":{
+    "CRUSADERS":{
 	"english":"All attack rolls made by characters using the Crusade team ability that result in doubles (except two 1s) cause knock back equal to the attacking character’s damage value.",
 	"image":""
     },
@@ -204,7 +204,7 @@
     },
     "PAN PACIFIC DEFENSE CORPS":{
 	"english":"When a character using the Pan Pacific Defense Corps team ability is adjacent to a friendly character making a ranged combat attack, modify the target's defense value by -1 if the target is within line of fire of this character.",
-	"image":""
+	"image":"ppdc"
     },
     "PHOENIX CONCORD":{
 	"english":"Once per turn when a power or ability of a character using this team ability or an adjacent friendly character would be countered, roll a d6; on a result of 5 - 6, the power or ability is not countered.",
@@ -227,17 +227,12 @@
     },
     "ROMULAN STAR EMPIRE":{
 	"english":"Before the beginning of the first turn, choose a keyword possessed by an opposing ship for all friendly ships with this team ability; damage dealt by ships using this team ability to ships with the chosen keyword can’t be reduced to less than 1. Uncopyable.",
-	"image":""
+	"image":"romulan"
     },
     "S.H.I.E.L.D":{
 	"english":"Adjacent friendly characters modify their range values by +1. Give this character a power action and choose an adjacent friendly character. The chosen character modifies its damage value by +1 while adjacent to this character and making ranged combat attacks this turn.",
 	"spanish":"Personajes amigos adyacentes modifican su valor de rango en +1. Dale a este personaje una acción de poder y elige un personaje amigo adyacente. El personaje elegido modifica su valor de daño en +1 mientras este adyacente a este personaje y haga ataques a distancia este turno.",
-	"image":""
-    },
-    "S.H.I.E.L.D":{
-	"english":"Adjacent friendly characters modify their range values by +1. Give this character a power action and choose an adjacent friendly character. The chosen character modifies its damage value by +1 while adjacent to this character and making ranged combat attacks this turn.",
-	"spanish":"Personajes amigos adyacentes modifican su valor de rango en +1. Dale a este personaje una acción de poder y elige un personaje amigo adyacente. El personaje elegido modifica su valor de daño en +1 mientras este adyacente a este personaje y haga ataques a distancia este turno.",
-	"image":""
+	"image":"shield"
     },
     "SERPENT SOCIETY":{
 	"english":"See the Additional Team Ability section.",
@@ -249,12 +244,12 @@
 	"spanish":"Los personajes que usan la habilidad de equipo Sinister Syndicate pueden reemplazar su valor de ataque con el valor de ataque sin modificar de un personaje amigo adyacente que usa la habilidad de equipo Sinister Syndicate.",
 	"image":""
     },
-    "SKRULLS":{
+    "SKRULL":{
 	"english":"This character can use Shape Change, but only succeeds on a roll of 6. Using Shape Change in this way does not prevent the character from using Shape Change through another game effect.",
 	"spanish":"Este personaje puede usar Shape Change, pero la tirada solo tiene éxito con un 6. Usar Shape Change de esta manera no previene que el personaje use Shape Change a través de otro efecto de juego.",
 	"image":""
     },
-    "SPIDER-MAN":{
+    "SPIDER-MAN ALLY":{
 	"english":"Characters using the Spider-Man team ability are wild cards.",
 	"spanish":"Los miembros del equipo Spider-Man son comodines.",
 	"image":""
@@ -278,18 +273,13 @@
 	"spanish":"Cuando dos personajes amigos que pueden usar la habilidad de equipo Superman Enemy están adyacentes, se le puede dar una acción gratuita al personaje de mayor puntaje para usar inmediatamente Outwit. Ese personaje puede usar Outwit hasta el comienzo de tu próximo turno, si es que ya no puede usar Outwit y continúa usando esta habilidad. Si los dos personajes tienen el mismo valor de puntaje, quien los controla elige cual de los dos será tratado como el de mayor puntaje este turno.",
 	"image":""
     },
-    "SUPERMAN ENEMY":{
-	"english":"When two friendly characters that can use the Superman Enemy team ability are adjacent to each other, the character with the higher point value may be given a free action to immediately use Outwit. That character can use Outwit until the beginning of your next turn, if it can’t use Outwit already and continues to use this ability. If the two characters have the same point value, their controller chooses which is treated as the higher point character this turn.",
-	"spanish":"Cuando dos personajes amigos que pueden usar la habilidad de equipo Superman Enemy están adyacentes, se le puede dar una acción gratuita al personaje de mayor puntaje para usar inmediatamente Outwit. Ese personaje puede usar Outwit hasta el comienzo de tu próximo turno, si es que ya no puede usar Outwit y continúa usando esta habilidad. Si los dos personajes tienen el mismo valor de puntaje, quien los controla elige cual de los dos será tratado como el de mayor puntaje este turno.",
+    "TEEN TITANS":{
+	"english":"When two friendly characters that can use the Titans team ability are adjacent to each other, give one of them a power action and roll a d6. Heal the other character of 1 damage. If the result was 1-4, deal the character given the power action 1 unavoidable damage.",
+	"spanish":"Cuando dos personajes amigos que pueden usar la habilidad de equipo Titans están adyacentes, dale a uno de ellos una acción de poder y tira un D6. Cura al segundo personaje 1 de daño. Si el resultado fue 1 a 4 haz 1 daño inevitable al personaje al que diste la acción de poder.",
 	"image":""
     },
     "TEMPLARS":{
 	"english":"When this character has one or more action tokens at the beginning of your turn, as a free action they can modify the attack or defense value of an adjacent friendly character by +1 until your next turn.",
-	"image":""
-    },
-    "TITANS":{
-	"english":"When two friendly characters that can use the Titans team ability are adjacent to each other, give one of them a power action and roll a d6. Heal the other character of 1 damage. If the result was 1-4, deal the character given the power action 1 unavoidable damage.",
-	"spanish":"Cuando dos personajes amigos que pueden usar la habilidad de equipo Titans están adyacentes, dale a uno de ellos una acción de poder y tira un D6. Cura al segundo personaje 1 de daño. Si el resultado fue 1 a 4 haz 1 daño inevitable al personaje al que diste la acción de poder.",
 	"image":""
     },
     "TOP COW":{
@@ -313,7 +303,7 @@
     },
     "UNITED NATIONS SPACE COMMAND (UNSC)":{
 	"english":"Adjacent friendly characters modify their range values by +1. Give this character a power action and choose an adjacent friendly character. The chosen character modifies its damage value by +1 while adjacent to this character and making ranged combat attacks this turn. Uncopyable.",
-	"image":""
+	"image":"unsc"
     },
     "VOX POPULI":{
 	"english":"When a character using this team ability is marked with an action token and makes an attack, any attack roll of doubles (other and a critical miss) is considered a hit.",

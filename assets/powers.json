@@ -58,7 +58,7 @@
             "name":"APPIEDATO/DISATTIVATO",
             "text":"Questo personaggio possiede #speed#, #attack#, #defense#, #damage# al posto dei suoi simboli di combattimento. Questo potere non può essere neutralizzato o ignorato."
          },
-         "image":"(pendiente)"
+         "image":"lime"
       },
       {
          "english":{
@@ -88,7 +88,7 @@
             "name":"CONTROLLO MENTALE",
             "text":"Assegna a questo personaggio un’azione di combattimento in corpo a corpo o a distanza (gittata minima 4) che non infligge danno. Ogni bersaglio colpito diventa alleato della tua squadra, ad ogni bersaglio colpito può essere assegnata un’azione come azione gratuita a termine della quale il bersaglio tornerà ad essere un avversario della tua squadra. Infliggi al personaggio che utilizza questo potere 1 danno inevitabile se il valore combinato in punti dei personaggi colpiti è 150 o più."
          },
-         "image":"(pendiente)"
+         "image":"turquois"
       },
       {
          "english":{
@@ -240,7 +240,7 @@
             "name":"TERREMOTO",
             "text":"Assegna a questo personaggio un’azione di combattimento corpo a corpo, il danno di questo attacco diventa 2 ed è bloccato. Effettua un attacco in corpo a corpo che bersaglia tutti gli avversari che potrebbero essere colpiti con un attacco in corpo a corpo. Ogni avversario che subisce danno da questo attacco subisce contraccolpo."
          },
-         "image":"(pendiente)"
+         "image":"lime"
       },
       {
          "english":{
@@ -270,7 +270,7 @@
             "name":"INTRALCIARE",
             "text":"Assegna a questo personaggio un’azione di combattimento in corpo a corpo o a distanza che non infligge danno. Se l’attacco colpisce assegna al bersaglio un segnalino azione. Se il bersaglio ha già due segnalini, infliggi al bersaglio 1 danno penetrante."
          },
-         "image":"(pendiente)"
+         "image":"turquois"
       },
       {
          "english":{
@@ -422,7 +422,7 @@
             "name":"RIFLESSI DA COMBATTIMENTO",
             "text":"Modifica il valore di difesa di questo personaggio di +2 contro gli attacchi in corpo a corpo. Questo personaggio ignora il contraccolpo."
          },
-         "image":"(pendiente)"
+         "image":"lime"
       },
       {
          "english":{
@@ -452,7 +452,7 @@
             "name":"BARRIERA",
             "text":"Assegna a questo personaggio un’azione di potere, piazza fino a 4 segnalini di terreno bloccante in caselle libere e adiacenti tutte entro la gittata (gittata minima 4). Almeno uno dei segnalini deve trovarsi sulla linea di fuoco del personaggio quando viene posizionato, i segnalini restano in gioco fino all’inizio del tuo prossimo turno."
          },
-         "image":"(pendiente)"
+         "image":"turquois"
       },
       {
          "english":{
@@ -604,7 +604,7 @@
             "name":"PUNTO DEBOLE",
             "text":"Assegna a questo personaggio un’azione di combattimento in corpo a corpo. Il danno da questo attacco è penetrante."
          },
-         "image":"(pendiente)"
+         "image":"lime"
       },
       {
          "english":{
@@ -634,7 +634,7 @@
             "name":"CONTROLLO DELLE PROBABILITÀ",
             "text":"Una volta durante il tuo turno questo personaggio ti permette di ritirare un tiro di dadi ignorando il tiro precedente. Un personaggio che utilizza questo potere deve trovarsi entro raggio (minimo 6) e in linea di fuoco con il personaggio per il quale il tiro di dado originale è stato eseguito. Impiegando le stesse regole, una volta a round durante il turno dell’avversario puoi costringere l’avversario a ritirare un singolo tiro di dado, ignorando il risultato precedente."
          },
-         "image":"(pendiente)"
+         "image":"turquois"
       },
       {
          "english":{
