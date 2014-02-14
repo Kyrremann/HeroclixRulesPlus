@@ -11,7 +11,7 @@
         <item>Defense powers</item>
         <item>Damage powers</item>
         <item>Team Abilities</item>
-        <!-- <item>Additional Team Abilities</item>
+        <item>Additional Team Abilities</item>
         <item>General rules</item>
         <item>Abilities</item>
         <item>Resources</item>
@@ -20,7 +20,7 @@
         <item>Map rules</item>
         <item>Object rules</item>
         <item>Glossary</item>
-        <item>Uncarded Figure Keyword</item> -->
+        <item>Uncarded Figure Keyword</item>
     </string-array>
 
     <string name="menu_toggle_images">Images</string>

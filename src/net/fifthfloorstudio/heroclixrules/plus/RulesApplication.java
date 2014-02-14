@@ -13,6 +13,7 @@ import org.json.JSONObject;
 
 import android.app.Application;
 import android.text.style.ImageSpan;
+import android.widget.Toast;
 
 public class RulesApplication extends Application {
 
@@ -24,8 +25,7 @@ public class RulesApplication extends Application {
 	public final static String SPANISH = "spanish";
 	public final static String ITALIAN = "italian";
 
-	private JSONObject powerRules;
-	private JSONObject teamAbilitiesRules;;
+	private JSONObject powerRules, teamAbilitiesRules, generalRules, abilitiesRules;
 
 	private HashMap<String, String[]> titles;
 	private String language;
@@ -41,11 +41,21 @@ public class RulesApplication extends Application {
 				powerRules = JSONParser.getPowers(this);
 			}
 			return powerRules;
-		} else if (category.equals("team abilities")) {
+		} else if (category.equals("team abilities")) { // TODO Should use String resource from R.string?
 			if (teamAbilitiesRules == null) {
 				teamAbilitiesRules = JSONParser.getTeamAbilities(this);
 			}
 			return teamAbilitiesRules;
+		} else if (category.equals("general rules")) {
+			if (generalRules == null) {
+				generalRules = JSONParser.getGeneralRules(this);
+			}
+			return generalRules;
+		} else if (category.equals("abilities")) {
+			if (abilitiesRules == null) {
+				abilitiesRules = JSONParser.getAbilities(this);
+			}
+			return abilitiesRules;
 		}
 
 		return null;

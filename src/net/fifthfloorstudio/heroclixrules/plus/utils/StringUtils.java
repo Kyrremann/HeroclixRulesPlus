@@ -55,11 +55,11 @@ public class StringUtils {
 			} else if (tmp[i].equals("colossus")) {
 				text = tmp[i];
 			} else if (tmp[i].equals("transSwim")) {
-				text = "transporter (doplhine)";
+				text = "transporter swim";
 			} else if (tmp[i].equals("transFlight")) {
-				text = "transpoter (wing)";
+				text = "transpoter flight";
 			} else if (tmp[i].equals("transSpeed")) {
-				text = "transporter (boot)";
+				text = "transporter speed";
 			} else if (tmp[i].equals("trait")) {
 				text = tmp[i];
 			} else if (tmp[i].equals("lightning")) {
