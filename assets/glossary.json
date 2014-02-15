@@ -1,0 +1,467 @@
+{
+  "3-D OBJECT": {
+    "english": "A three-dimensional sculpture marked with the #3d# symbol."
+  },
+  "ABILITY": {
+    "english": "A capability possessed by a character, indicated by a symbol on its base and/or explained on its character card."
+  },
+  "ACTION": {
+    "english": "A character’s attack, move, or use of a power or ability."
+  },
+  "ACTION TOKEN": {
+    "english": "A coin, bead, or some other item used to indicate that a character has been given an action (other than a free action) and how many actions (other than free actions) that character has been given since it last cleared."
+  },
+  "ACTION TOTAL": {
+    "english": "The number of actions a player has available to give to his or her characters on each of that player’s turns."
+  },
+  "ACTIVATE": {
+    "english": "To initiate the use of a power or ability. A power or ability can be activated by an action given to a character."
+  },
+  "ACTIVE PLAYER": {
+    "english": "The player whose turn it is."
+  },
+  "ADJACENT SQUARES": {
+    "english": "All squares on the battlefield that touch a given square, including those on the diagonal. Terrain effects can cause 2 squares that share a border to not be adjacent."
+  },
+  "ATTACK": {
+    "english": "Part of an action that includes an attack roll to determine whether one character hits another."
+  },
+  "ATTACK ROLL": {
+    "english": "The result of rolling 2d6 when a character makes a close combat or ranged combat attack."
+  },
+  "ATTACK TOTAL": {
+    "english": "The combined result when an attack roll is added to an Attack Value, including all game effects."
+  },
+  "ATTACK VALUE": {
+    "english": "A number that represents a character’s ability to successfully hit a target in combat."
+  },
+  "ATTACKER": {
+    "english": "The character initiating an attack."
+  },
+  "BASE": {
+    "english": "The piece of plastic on which a figure is mounted."
+  },
+  "BASED": {
+    "english": "A character that has an opposing character occupying an adjacent square."
+  },
+  "BATTLEFIELD": {
+    "english": "The map where a HeroClix game takes place."
+  },
+  "BLOCKING TERRAIN": {
+    "english": "Terrain that prevents movement and an attacker from drawing a clear line of fire. Squares within a brown border are blocking terrain."
+  },
+  "BOUNDARY LINE": {
+    "english": "The colored line indicating the type and outermost squares of an area of terrain."
+  },
+  "BREAK AWAY": {
+    "english": "To move away from adjacent opposing characters."
+  },
+  "BUILD TOTAL": {
+    "english": "The maximum value allowed when the point values of all elements of a player’s force for a game are added together."
+  },
+  "BYSTANDER TOKEN": {
+    "english": "A disc with a graphical representation of a character on it, rather than a figure, that can be included as part of your force."
+  },
+  "CHARACTER": {
+    "english": "The playing piece that represents a personality in the game."
+  },
+  "CHARACTER CARD": {
+    "english": "A card specific to a particular HeroClix character that is printed with information relevant to that character, such as powers, character background, first appearance, and so on."
+  },
+  "CLEAR TERRAIN": {
+    "english": "Areas of the battlefield where a character can move or make a ranged combat attack without penalty."
+  },
+  "CLEARING": {
+    "english": "Removing action tokens from a character at the end of your turn."
+  },
+  "CLICK": {
+    "english": "A single turn of the combat dial resulting in a “click” that can be felt and heard."
+  },
+  "CLICK NUMBER": {
+    "english": "A number that represents the sequence number of each portion of the character’s dial."
+  },
+  "CLOSE COMBAT ACTION": {
+    "english": "An action given to a character that allows it to make a close combat attack."
+  },
+  "CLOSE COMBAT ATTACK": {
+    "english": "A melee or hand-to-hand attack."
+  },
+  "COLLECTOR’S NUMBER": {
+    "english": "An identifying number specific to a particular character in a set."
+  },
+  "COLOSSAL CHARACTER": {
+    "english": "A character with the Colossal Stamina ability and Great Size ability, usually indicated by the #colossal# damage symbol on its base."
+  },
+  "COMBAT DIAL": {
+    "english": "The piece of plastic under a character’s base, upon which the character’s powers and combat values are printed."
+  },
+  "COMBAT VALUES": {
+    "english": "The four numbers visible through the stat slot on a character’s combat dial, and the number next to the lightning bolt(s) on a character’s base."
+  },
+  "COPY": {
+    "english": "A multiple of a game element. For example, a force can contain more than one copy of a non-Unique character."
+  },
+  "COUNTER": {
+    "english": "A game effect that causes another power, ability, or effect to no longer be possessed by a character."
+  },
+  "CONTINUAL": {
+    "english": "The special ability of a special object with the Continual keyword is not ignored while being held or moved"
+  },
+  "CRITICAL HIT": {
+    "english": "Any roll of the dice that results in two 6s showing."
+  },
+  "CRITICAL MISS": {
+    "english": "Any roll of the dice that results in two 1s showing."
+  },
+  "D6 (OR 2D6)": {
+    "english": "An abbreviation for “six-sided die” (or “two six-sided dice”)."
+  },
+  "DAMAGE": {
+    "english": "A change in a character’s condition that brings it closer to being defeated, causing a player to click the combat dial of the character in a clockwise direction."
+  },
+  "DAMAGE DEALT": {
+    "english": "The number of clicks an attacking character deals to a target."
+  },
+  "DAMAGE TAKEN": {
+    "english": "The number of clockwise clicks applied to a target after damage is dealt."
+  },
+  "DAMAGE VALUE": {
+    "english": "A number that represents the number of clicks of damage a character can deal with a successful attack."
+  },
+  "DEFEATED": {
+    "english": "A character that is knocked out and removed from the game."
+  },
+  "DEFENSE VALUE": {
+    "english": "A number that represents a character’s ability to avoid being hit."
+  },
+  "DOUBLES": {
+    "english": "The result of rolling the same number on 2d6 (such as two 4s)."
+  },
+  "DUO CHARACTER": {
+    "english": "A character with the Duo Attack ability, usually indicated by the #duo# attack symbol."
+  },
+  "EDGE": {
+    "english": "One of the outermost boundaries of a map or an area of terrain."
+  },
+  "EFFECT": {
+    "english": "A power, ability, or other rule than can affect a game."
+  },
+  "ELEVATED": {
+    "english": "On a square of elevated terrain."
+  },
+  "ELEVATED TERRAIN": {
+    "english": "Terrain on the map that is located above another level of the map. Squares inside the boundary of a red line are elevated terrain."
+  },
+  "ELEVATION LEVEL": {
+    "english": "The relative height that a square of elevated terrain is located in comparison to other squares on the map."
+  },
+  "EVADE": {
+    "english": "To avoid being hit by an attack that would normally be successful."
+  },
+  "EVENT DIAL": {
+    "english": "A dial used to create a dynamically changing scenario during a game.\nEvent Dials with a point cost added to your force build are subject only to the rules of the event and the judge’s discretion."
+  },
+  "FEAT": {
+    "english": "Special training or abilities that can be possessed by a qualifying character, represented by a card assigned to the character."
+  },
+  "FIGURE": {
+    "english": "The sculptural representation of a character that is mounted on its base."
+  },
+  "FIRST PLAYER": {
+    "english": "The person who takes the first turn in a game."
+  },
+  "FLIER": {
+    "english": "A character using the Flight ability, usually indicated by the #flight# or #transFlight# speed symbols."
+  },
+  "FORCE": {
+    "english": "The team of characters controlled by a player."
+  },
+  "FORMAT": {
+    "english": "The set of rules that will be in effect during a HeroClix game."
+  },
+  "FREE ACTION": {
+    "english": "An action that doesn’t give an action token to a character and does not affect the action total for this turn."
+  },
+  "FRIENDLY CHARACTERS": {
+    "english": "Characters that you control, and characters controlled by an allied teammate."
+  },
+  "GAME EFFECT": {
+    "english": "See “EFFECT”"
+  },
+  "GENERIC KEYWORDS": {
+    "english": "• Animal\n • Armor\n • Brute\n • Celebrity\n • Cosmic\n • Deity\n • Detective\n • Future\n • Herald\n • Kid\n • Martial • Artist\n • Monster\n • Mutant\n • Mystical\n • Past\n • Police\n • Politician\n • Psychic\n • Reporter\n • Robot\n • Ruler\n • Scientist\n • Soldier\n • Spy\n • Teen\n • Vehicle\n • Warrior"
+  },
+  "GIANT": {
+    "english": "A character with the Giant Reach ability and Great Size ability, usually indicated by damage symbol."
+  },
+  "GOLDEN AGE": {
+    "english": "Golden Age events have no restrictions on the player’s force other than standard HeroClix rules. Between the event format (see below) and special rules (established in the event description), other rules may be applied to the force construction."
+  },
+  "GRENADE POOL": {
+    "english": "Number of grenades a character starts with."
+  },
+  "GRENADE TYPE(S)": {
+    "english": "The different types of grenades usable. Frag, Ink, Smoke, Thermite, Plasma and Flashbang."
+  },
+  "GROUNDED": {
+    "english": "Characters, objects, and terrain that are not elevated. Also known as elevation level 1."
+  },
+  "HEALING": {
+    "english": "Restoring health that has been reduced by damage by clicking the combat dial of a character in a counterclockwise direction."
+  },
+  "HEAVY OBJECT": {
+    "english": "An object that can be carried or moved and modifies a character’s Damage Value by +2 when used in a close combat attack or deals 3 damage when used in a ranged combat attack. Heavy object tokens have a red border."
+  },
+  "HINDERING TERRAIN": {
+    "english": "An area containing trees, furniture, debris, objects, and other similar items that might obstruct a character’s actions. Squares inside the border of a green line are hindering terrain."
+  },
+  "HIT": {
+    "english": "When the result of 2d6 and the attacker’s Attack Value is equal to or greater than the Defense Value of the target and the target does not evade the attack."
+  },
+  "IGNORES": {
+    "english": "Is not affected by or treats the stated property or effect as if it didn’t exist or happen."
+  },
+  "IMMOBILE OBJECT": {
+    "english": "An object that can’t be carried, placed, or moved by any game effect. Immobile object tokens have a blue border."
+  },
+  "INDOMITABLE": {
+    "english": "A character using the Indomitable ability usually indicated by the #indomitable# defense symbol."
+  },
+  "INDOORS": {
+    "english": "Anywhere on a battle map labeled “Indoor” or “Indoors” or inside a yellow boundary line on a map labeled “Indoor/Outdoor.”"
+  },
+  "INTERSECTION": {
+    "english": "Squares that meet a given square at that square’s corners are considered diagonal from the given square."
+  },
+  "KEYWORD": {
+    "english": "A special trait of a character. Players create themed teams based on character keywords."
+  },
+  "KNOCK BACK": {
+    "english": "Movement away from an attacker due to the force of its attack."
+  },
+  "KNOCK BACK DAMAGE": {
+    "english": "Damage dealt to a character when its knock back path intersects with a wall, the edge of the map, the boundary of elevated terrain, or the boundary of blocking terrain."
+  },
+  "KNOCK BACK PATH": {
+    "english": "The line of squares a knocked back character passes through if otherwise uninterrupted."
+  },
+  "KNOCKED OUT": {
+    "english": "A character with KO symbols showing on its combat dial; such a character is defeated."
+  },
+  "KO’D": {
+    "english": "Knocked out or defeated."
+  },
+  "LIGHT OBJECT": {
+    "english": "An object that can be carried or moved and modifies a character’s Damage Value by +1 when used in a close combat attack, or deals 2 damage when used in a ranged combat attack. Light object tokens have a yellow border."
+  },
+  "LINE OF FIRE": {
+    "english": "The path between a character using a game effect (such as a ranged combat attack) and the target, square, object, terrain, or other game effect."
+  },
+  "LOST POWER": {
+    "english": "When a power is no longer showing on a character’s combat dial after the character takes damage or is healed."
+  },
+  "LOST ABILITY": {
+    "english": "When an ability is no longer possessed by a character after a character’s combat symbols, team symbols, or trait symbols have been modified."
+  },
+  "MAP": {
+    "english": "A gridded space representing the area in which a HeroClix game takes place."
+  },
+  "MODERN AGE": {
+    "english": "Modern Age events restrict the player’s force to being made up of only characters and possibly objects. All characters must be from the Modern Age sets. The following HeroClix sets comprise the Modern Age. Any sets not included on this list are considered to be Golden Age: Brightest Day, DC 75th Anniversary, Giant-Size X-Men, Green Lantern, Green Lantern Corps Fast Forces, WizKids 2011 Exclusives, Street Fighter, Crimebusters Fast Forces, Captain America, Warriors of Asgard Fast Forces, Superman, Battle for Smallville Fast Forces, The Incredible Hulk, Smash Fast Forces, Infinity Gauntlet, Galactic Guardians, Annihilators Fast Forces, The Avengers Movie, The Avengers Movie Starter, Dark Knight Rises, Giant-Size X-Men Fast Forces, War of Light Fast Forces, Chaos War, Chaos War Fast Forces, WizKids 2012 Exclusives, Star Trek Tactics: Away Team, Justice League New 52, Justice League New 52 Fast Forces, DC HeroClix - 10th Anniversary, Marvel HeroClix - 10th Anniversary, TabApp, Batman, Batman Fast Forces, No Man’s Land, Sreets of Gotham, Streets of Gotham Fast Forces and any  Marvel, DC or Street Fighter sets released after any Modern Age set. Objects must either be standard objects or special objects from the Modern Age sets. Alternate Team Ability cards are permitted in Modern Age events regardless of the set they were originally printed. Between the event format and special rules, other rules may be applied to the force construction.\n At present the ships of Star Trek: Tactics are NOT part of any HeroClix Ages. Characters from these sets are not ships and are considered Golden Age. "
+  },
+  "MODIFIER": {
+    "english": "A number that increases or decreases a combat value, damage dealt, or damage taken."
+  },
+  "MOVE": {
+    "english": "What a character does when traveling between 2 squares and each square in between is identified as being traveled through. "
+  },
+  "MOVE ACTION": {
+    "english": "An action given to a character that allows it to move up to its speed value in squares and/or make a break away attempt."
+  },
+  "NAMED POWER": {
+    "english": "A power with a character-specific label in capital letters, followed by the name of a standard power in parentheses."
+  },
+  "NO DAMAGE": {
+    "english": "An attack that deals no damage can’t have the damage modified by powers or team abilities."
+  },
+  "OBJECT TOKENS": {
+    "english": "Round pieces of cardboard that represent objects on the map."
+  },
+  "OPPOSING CHARACTERS": {
+    "english": "Characters controlled by an opponent."
+  },
+  "OUTDOORS": {
+    "english": "Anywhere on a battle map labeled “Outdoor” or “Outdoors” or not inside a yellow boundary line on a map labeled “Indoor/Outdoor”."
+  },
+  "PENETRATING DAMAGE": {
+    "english": "Damage dealt that can’t be reduced."
+  },
+  "PLACE (OR PUT)": {
+    "english": "To place (or put) a character or other game element in a position on the map; a character that previously occupied another position on the map is not considered to have moved if it was placed. "
+  },
+  "POSSESS": {
+    "english": "To directly have a power, ability, or effect printed on a card or dial—not simply used via another power, ability, or effect."
+  },
+  "POWER ACTION": {
+    "english": "An action given to a character that allows it to use a power, ability, or feat."
+  },
+  "POWERS": {
+    "english": "A character’s special abilities. Powers are represented on a character’s combat dial by colored squares surrounding the character’s combat values and by similarly colored circles on a character’s character card."
+  },
+  "PRIME": {
+    "english": "A character rank represented by a green ring around the outer edge of a character’s base. Only one Prime character can be added to a given force."
+  },
+  "PUSH": {
+    "english": "To give a character a second action token before the first action token is removed."
+  },
+  "PUSHED": {
+    "english": "A character that has been given a second action token."
+  },
+  "PUSHING DAMAGE": {
+    "english": "Damage dealt (typically when a character receives a second action token) that can’t be evaded, reduced, ignored, or transferred unless a game effect specifically says so."
+  },
+  "RANGE": {
+    "english": "The distance (in squares) between a character and a target square, counting from the center of one square to the target square."
+  },
+  "RANGE VALUE": {
+    "english": "The maximum distance (in squares) at which the character can use a ranged combat attack to attack a target."
+  },
+  "RANGED COMBAT ACTION": {
+    "english": "An action given to a character that allows it to make a ranged combat attack."
+  },
+  "RANGED COMBAT ATTACK": {
+    "english": "An attack that requires an unblocked line of fire to a target up to the character’s range value away in squares. "
+  },
+  "RELIC": {
+    "english": "A special object that is Immobile and can’t be destroyed. Characters occupying a square containing a relic may be given a power action and then roll a d6 that can’t be rerolled. On a result matching the relic value noted on the object, the relic is placed on the character’s card."
+  },
+  "REMOVED FROM THE BATTLEFIELD": {
+    "english": "A character, object, or other game piece that is removed from the map, but still eligible to return to the game if certain conditions are met."
+  },
+  "REMOVED FROM THE GAME": {
+    "english": "A character, object, or other game piece permanently removed from the current game."
+  },
+  "REPLACEMENT VALUE": {
+    "english": "A value that is substituted for one of a character’s combat values."
+  },
+  "RESOLVE": {
+    "english": "Completing an action and determining its effects, including any of the following\n declaring the action, completing a move, rolling a die or dice, taking any free actions allowed by the declared action, dealing damage, taking damage, assigning action tokens, and applying pushing damage."
+  },
+  "RESOURCES": {
+    "english": "A game effect assigned to your force or a character on your force. The effects of each resource are defined on the resource’s instruction card."
+  },
+  "RIM": {
+    "english": "The squares with the red boundary line running through them along the edge of an area of elevated terrain."
+  },
+  "ROLL": {
+    "english": "Using a die or dice to determine a random result. All dice must be rolled together when more than one die is needed."
+  },
+  "ROUND": {
+    "english": "A measure of time during which all players take a single turn."
+  },
+  "SCENARIO": {
+    "english": "Special rules for a particular HeroClix game, as agreed upon by all players before the game begins."
+  },
+  "SET SYMBOL": {
+    "english": "An icon on a character’s base that marks it as part of a particular HeroClix set."
+  },
+  "SHARPSHOOTER": {
+    "english": "A character using the sharpshooter ability, usually indicated by the #sharpshooter# attack symbol."
+  },
+  "SHIP": {
+    "english": "A ship is another name for a character; some character cards and game effects refer to “ships” without mentioning characters. The terms may be used synonymously. For example, an effect that says to target a ship may target a character, and vice versa."
+  },
+  "SPECIAL OBJECT": {
+    "english": "An object token or 3-D object printed with the #3d# symbol."
+  },
+  "SPECIAL POWER": {
+    "english": "A power whose name and effects are explained on a character’s character card."
+  },
+  "SPEED VALUE": {
+    "english": "The maximum number of squares a character can move in an action."
+  },
+  "STANDARD CHARACTER": {
+    "english": "A character with the standard combat symbols or abilities."
+  },
+  "STANDARD POWER": {
+    "english": "A power or ability whose effects are described on the Powers and Abilities Card."
+  },
+  "STARTING AREA": {
+    "english": "An area inside the boundary of a purple line."
+  },
+  "STARTING POSITION": {
+    "english": "The position on the combat dial that represents a character’s combat values at the beginning of a game. This position is designated by the number 1 on the click, and/or a vertical green line to the left of one set of combat values."
+  },
+  "STAT SLOT": {
+    "english": "The “window” in a character’s base through which the character’s combat dial is visible."
+  },
+  "SUCCESSFUL ATTACK ROLL": {
+    "english": "An attack roll that grants an attack total high enough to equal or exceed the target’s defense value, regardless as to whether or not the target evades the attack."
+  },
+  "SURVIVING CHARACTER": {
+    "english": "A character that has not been defeated when a game ends."
+  },
+  "SWIMMER": {
+    "english": "A character using the Swim ability, usually indicated by the #swim# or #transSwim# speed symbols."
+  },
+  "TACTICS": {
+    "english": "Additional rules and effects that can be employed in a game of HeroClix if allowed by the agreed-upon format of the game."
+  },
+  "TARGET": {
+    "english": "The character or characters against which an attack is being made or a power is being used."
+  },
+  "TEAM ABILITIES": {
+    "english": "Special abilities that a character possesses due to its membership in a group, as indicated by a team symbol printed on the character’s base."
+  },
+  "TEAM SYMBOL": {
+    "english": "A symbol printed on a character’s base that identifies it as a member of a group and possessing the associated team ability. Not all characters have team symbols."
+  },
+  "TERRAIN": {
+    "english": "Map features that represent water, trees, rocks, cars, walls, buildings, and other physical features that might appear on the battlefield."
+  },
+  "TERRAIN MARKERS": {
+    "english": "Square pieces of cardboard used to represent different types of terrain, such as barriers, clouds of smoke, destroyed walls or objects, and special items required by scenarios."
+  },
+  "THEMED TEAM": {
+    "english": "A force composed of characters (other than bystander tokens) that share a single common keyword."
+  },
+  "THIS CHARACTER": {
+    "english": "The phrase “this character” always refers to the active character or the character using a power."
+  },
+  "TINY": {
+    "english": "A character with the Tiny Size ability, usually indicated by #tiny# damage symbol."
+  },
+  "TRAIT ABILITY": {
+    "english": "An aspect or capability of a character that it possesses at all times, regardless of how its combat dial is turned during a game, as indicated by the #trait# on its base and indicated on its character card."
+  },
+  "TRANSPORTER": {
+    "english": "A character using the Carry ability and Move and Attack ability usually indicated by the #transSpeed#, #transFlight#, or the #transSwim# speed symbol."
+  },
+  "ULTRA-HEAVY OBJECT": {
+    "english": "An object that can only be carried by characters with a point value of 100 points or more. Ultra- Heavy objects modify a character’s damage value by +3 when used in a close combat attack; they may not be used in a ranged combat attack or placed with Telekinesis. Ultra Heavy object tokens have a purple border and are only destroyed if they are dealt 4 or more damage."
+  },
+  "UNAVOIDABLE DAMAGE": {
+    "english": "Damage dealt that can’t be evaded, reduced, modified, ignored, or transferred to a different character."
+  },
+  "UNIQUE": {
+    "english": "A character rank represented by a silver, bronze, or gold ring around the outer edge of a character’s base. Only one copy of a particular Unique character can be added to a given force. "
+  },
+  "UNMODIFIED": {
+    "english": "A character’s base combat value, unaffected by any modifiers such as those from powers, terrain, and so on."
+  },
+  "UNOCCUPIED SQUARE": {
+    "english": "A square on the battlefield that does not have a character in it. Terrain effects would not cause a square to be considered occupied."
+  },
+  "USE": {
+    "english": "To employ a power, ability, or effect."
+  },
+  "VICTORY CONDITIONS": {
+    "english": "The rules that outline how a winner is determined at the end of a HeroClix game."
+  },
+  "WATER TERRAIN": {
+    "english": "Squares inside a blue boundary line are water terrain."
+  },
+  "WILD CARD": {
+    "english": "A team ability that allows a character to use any team ability possessed by any friendly character on the map."
+  }
+}
