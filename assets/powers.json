@@ -3,7 +3,7 @@
       {
          "english":{
             "name":"FLURRY",
-            "text":"Give this character a close combat action. After the close combat attack resolves, it may make a second close combat attack as a free action."
+            "text":"Give this character a close combat action. After the close combat attack resolves, it may make a second close combat attack as a free action. The first attack does not activate the Damage Depletion Modifier."
          },
          "spanish":{
             "name":"RÁFAGA DE GOLPES",
