@@ -1,4 +1,7 @@
 {
+	"General":{
+		"english":"Trait abilities are generally denoted by the #trait# symbol, but other symbols may be used to denote a trait. When a symbol appears to the left of the combat symbols on a figure’s dial (except for the #imptar# symbol), that symbol denotes a trait whose description will be found on the character card with that symbol."
+	}
 	"Capture":{
 		"english":"The rules for Capture can be seen on page 18 of the 2012 HeroClix Core Rulebook.\n\nIf a character is holding an object when captured, the object is placed in the square the character occupied when captured. If there is an object already in the square, the dropped object would be removed from play.\n\nIf a character using this ability loses it, then any captives are rescued.\n\nCapture is a combat ability appearing only on characters specifically designating that they can use it."
 	},
