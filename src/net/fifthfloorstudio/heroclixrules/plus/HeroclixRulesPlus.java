@@ -19,8 +19,12 @@ package net.fifthfloorstudio.heroclixrules.plus;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.RuleListFragment;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.SectionsRuleFragment;
 import net.fifthfloorstudio.heroclixrules.plus.utils.RuleSelectedListener;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
@@ -49,6 +53,8 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	protected String[] mRulesTitles;
 	protected boolean toggle_images = false;
 	protected int selectedDrawer;
+	private AlertDialog donateDialog;
+	private AlertDialog aboutDialog;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -89,11 +95,18 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		// Handle action buttons
 		switch (item.getItemId()) {
 		case R.id.menu_about:
+			createAbout();
 			break;
 		case R.id.menu_settings:
 			startActivity(createIntent(SettingsActivity.class,
 					SettingsActivityHoneyComb.class));
 			selectItem(selectedDrawer);
+			break;
+		case R.id.menu_donate:
+			createDonate();
+			break;
+		case R.id.menu_feedback:
+			createFeedback();
 			break;
 		default:
 			return super.onOptionsItemSelected(item);
@@ -207,5 +220,96 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		if (savedInstanceState == null) {
 			selectItem(0);
 		}
+	}
+
+	private void createDonate() {
+		if (donateDialog == null) {
+			AlertDialog.Builder builder = new AlertDialog.Builder(this);
+			builder.setTitle("Donation");
+			builder.setMessage(R.string.donateText);
+			builder.setPositiveButton(android.R.string.ok,
+					new DialogInterface.OnClickListener() {
+
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							Intent browserIntent = new Intent(
+									"android.intent.action.VIEW",
+									Uri.parse("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ATWBY2VZ3SW7Q"));
+							startActivity(browserIntent);
+						}
+					});
+			builder.setNegativeButton(R.string.later,
+					new DialogInterface.OnClickListener() {
+
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							dialog.cancel();
+						}
+					});
+
+			donateDialog = builder.create();
+		}
+		donateDialog.show();
+	}
+
+	public void createAbout() {
+		if (aboutDialog == null) {
+			AlertDialog.Builder builder = new AlertDialog.Builder(this);
+			builder.setTitle(R.string.about);
+			builder.setMessage(R.string.aboutText);
+			builder.setPositiveButton(R.string.rate,
+					new DialogInterface.OnClickListener() {
+
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							String url;
+							// url =
+							// "http://www.amazon.com/gp/mas/dl/android?p=heroclix.Rules";
+							url = "market://details?id=heroclix.Rules";
+
+							Intent browserIntent = new Intent(
+									"android.intent.action.VIEW", Uri
+											.parse(url));
+
+							startActivity(browserIntent);
+						}
+					});
+
+			builder.setNeutralButton(android.R.string.ok,
+					new DialogInterface.OnClickListener() {
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							dialog.cancel();
+						}
+					});
+			builder.setNegativeButton(R.string.donate,
+					new DialogInterface.OnClickListener() {
+
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							createDonate();
+						}
+					});
+
+			aboutDialog = builder.create();
+		}
+		aboutDialog.show();
+	}
+
+	private void createFeedback() {
+		Intent intent = new Intent(Intent.ACTION_SEND);
+		intent.setType("plain/text");
+		intent.putExtra(Intent.EXTRA_EMAIL,
+				new String[] { getString(R.string.e_mail) });
+		String version = "3.*";
+		try {
+			version = getPackageManager().getPackageInfo(
+					getString(R.string.package_name), 0).versionName;
+		} catch (NameNotFoundException e) {
+			e.printStackTrace();
+		}
+		intent.putExtra(Intent.EXTRA_SUBJECT,
+				getString(R.string.feedback_subject) + version);
+		startActivity(Intent.createChooser(intent, ""));
 	}
 }

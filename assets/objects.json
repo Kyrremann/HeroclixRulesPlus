@@ -660,12 +660,6 @@
 		"relic":"4-6",
 		"english":"Character can use Telekinesis and the Flight ability."
 	},
-	"":{
-		"type":"",
-		"cost":"",
-		"relic":"",
-		"english":""
-	},
 	"WHITE LIGHT":{
 		"type":"Immobile",
 		"cost":"8",

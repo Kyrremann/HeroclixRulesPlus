@@ -28,6 +28,9 @@ public class RulesApplication extends Application {
 	private static final String JSON_POWERS_ERRETA = "powers_erreta.json";
 	private static final String JSON_OBJECTS = "objects.json";
 	private static final String JSON_OBJECTS_ERRETA = "objects_erreta.json";
+	private static final String JSON_ATA_ERRETA = "ata_erreta.json";
+	private static final String JSON_GLOSSARY = "glossary.json";
+	private static final String JSON_TEAM_ABILITIES_ERRETA = "team_abilities_erreta.json";
 
 	public final static String NAME = "name";
 	public final static String TEXT = "text";
@@ -50,6 +53,9 @@ public class RulesApplication extends Application {
 	private JSONObject abilitiesErretaRules;
 	private JSONObject mapsErretaRules;
 	private JSONObject objectsErretaRules;
+	private JSONObject ataErretaRules;
+	private JSONObject glossaryRules;
+	private JSONObject teamAbilitiesErretaRules;
 
 	public RulesApplication() {
 		language = ENGLISH;
@@ -62,15 +68,13 @@ public class RulesApplication extends Application {
 				powerRules = JSONParser.getJsonRule(this, JSON_POWERS);
 			}
 			return powerRules;
-		} else if (category.equals("team abilities")) { // TODO Should use
-														// String resource from
-														// R.string?
+		} else if (category.equals("team abilities")) {
 			if (teamAbilitiesRules == null) {
 				teamAbilitiesRules = JSONParser.getJsonRule(this,
 						JSON_TEAM_ABILITIES);
 			}
 			return teamAbilitiesRules;
-		} else if (category.equals("general rules")) {
+		} else if (category.equals("general")) {
 			if (generalRules == null) {
 				generalRules = JSONParser.getJsonRule(this, JSON_GENERAL_RULES);
 			}
@@ -125,6 +129,24 @@ public class RulesApplication extends Application {
 						.getJsonRule(this, JSON_MAPS_ERRETA);
 			}
 			return mapsErretaRules;
+		} else if (category.equals("ata erreta")) {
+			if (ataErretaRules == null) {
+				ataErretaRules = JSONParser
+						.getJsonRule(this, JSON_ATA_ERRETA);
+			}
+			return ataErretaRules;
+		} else if (category.equals("glossary")) {
+			if (glossaryRules == null) {
+				glossaryRules = JSONParser
+						.getJsonRule(this, JSON_GLOSSARY);
+			}
+			return glossaryRules;
+		} else if (category.equals("team abilities erreta")) {
+			if (teamAbilitiesErretaRules == null) {
+				teamAbilitiesErretaRules = JSONParser
+						.getJsonRule(this, JSON_TEAM_ABILITIES_ERRETA);
+			}
+			return teamAbilitiesErretaRules;
 		}
 
 		return null;
