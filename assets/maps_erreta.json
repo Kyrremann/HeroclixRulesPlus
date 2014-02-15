@@ -1,0 +1,137 @@
+{
+  "General": {
+    "english": "Map Type\nA map which does not have a designation of outdoor, indoor, or indoor/outdoor is an outdoor map unless it also includes the yellow lines for indoor terrain, in which case it is an indoor/outdoor map.\n\nA map labeled as outdoor/indoor follows the rules for an indoor/outdoor map.\n\nOrange Squares/Circles\nOrange squares/circles are clear terrain unless anything in the special rules for that map and/or other effects change them. Placing an object in an orange square (assuming the rules for that map permit it) would make the square act as hindering, but would not remove the properties the special rules for the map provide for it.\n\nTournament Legality\nOfficial HeroClix maps without the modern color designations are retired. Official HeroClix maps with the modern color designations are only legal in events for which that particular set is legal for force construction."
+  },
+  "Blackest Night Starter": {
+    "english": "The last sentence of the special rules reads: \"When placing objects at the beginning of the game, each player must place their first two objects (if any) on squares within an orange boundary line\".\n\nMissing gridlines should be considered to be printed on the map. This affects areas B3-E6, L3-O6, B11-D14, G11-J14, and M11-O16.\n\nAny angled door is considered open, clear terrain. There is no wall along the edge of the following squares: E2, O2, A3, K3, F6, P6, B7, L7, E18, O18, A19, K19, F22, P22, B23 and L23.\n\nThe 2 Armories and the Control Room are surrounded by walls. The only openings are along the edges of the following squares: E12, K12, L12, E13, F13, and L13.\n\nThe line that runs between rows 8 and 9 is a wall except for H8-J9 (which is all hindering terrain).\n\nThe line that runs between rows 16 and 17 is a wall except for G16I17 (which is all hindering terrain).\n\nThis map is an Indoor map."
+  },
+  "DC Starter Set Map A – Indoor, \"The Office\"": {
+    "english": "The squares of the circular desk are not surrounded by a thick black line; therefore, the desk is hindering terrain."
+  },
+  "DC Starter Set Map B – Outdoor, \"The Truck Stop\"": {
+    "english": "The squares occupied by the trucks are not surrounded by a thick black line; therefore, they are hindering terrain."
+  },
+  "DC Premier Set Map C – Indoors, \"The Museum\"": {
+    "english": "The colored areas surrounding and including the dinosaur exhibits are hindering terrain.\n\nThe section of the map that the stairs lead to is not elevated terrain. The wall that separates this section is indoor blocking terrain, while the stairs themselves are clear terrain.\n\nThe squares containing the Desk and the Suits of Armor are surrounded by thick black line and are considered to be blocking terrain."
+  },
+  "DC Premier Set Map D – Outdoors, \"The Apartment Complex\"": {
+    "english": "The thick black lines that surround the stairwells are blocking terrain. Since the top square of the stairs is elevated, the blocking terrain surrounding it may not be destroyed.\n\nThe awnings extending out from the buildings are considered to be grounded hindering terrain."
+  },
+  "DC HeroClix Map Set Justice League Watchtower Indoor": {
+    "english": "The squares with the video screens that fully occupy the square are hindering terrain (consider them to be giant bulky screens that you can hide behind).\n\nThe squares that the pool occupies are water terrain.\n\nIn the garden, the flowers and small green plant squares are clear terrain. The plants alongside the outside of the room, and the benches, are hindering terrain.\n\nThe twisting stairs are clear terrain.\n\nIn the kitchen, the table, refrigerator and counter top/cabinet squares are hindering terrain. The squares with the light gray strip are clear terrain.\n\nThe teleport portal (green circle) is clear terrain.\n\nThe squares that the shuttle occupies and the squares that the shuttle wings cut through are hindering terrain. (The squares with a very minor overlap of the shuttle are clear terrain.)\n\n"
+  },
+  "DC HeroClix Map Set Metropolis Outdoor": {
+    "english": "The squares with S.T.A.R. Labs' front doors are clear terrain.\n\nThe top square of the 2-part stairs on the Metropolis Museum of Art and the Daily Planet should not have a thick black line on the edge adjoining the rooftop. You may enter the rooftop from this square.\n\nThe single square of stairs at the front of the Metropolis Museum of Art does not lead to the roof. (It leads to the front door.)\n\nOn top of the Daily Planet, the 4X4 area that the globe occupies is hindering terrain. The rest of the rooftop is clear elevated terrain.\n\nThe 4X5 area that the pond occupies is water terrain except for the 4 corner squares, which are hindering terrain.\n\nAside from the elevated terrain, there are no thick black lines on this map. The cars, news stand, concession stands, statues, park benches, bus stops, bushes and signs are all hindering terrain.\n\n"
+  },
+  "DC HeroClix Map Set S.T.A.R. Labs Indoor": {
+    "english": "The 2X3 fountain in the middle of the map is water terrain. The gray shallow water squares that are surrounding it re normal hindering terrain."
+  },
+  "DC HeroClix Map Set The Batcave Indoor": {
+    "english": "The yellow crate squares are hindering terrain.\n\nThe weapon display case and Bat Computer squares are blocking terrain.\n\nThe twisting stairs are clear terrain.\n\nSquares that the Batcycle, Batmobile and Batcopter occupy are hindering terrain.\n\nThe rocky dirt section of the map is entirely hindering terrain.\n\nThe red gym mats in the workout area are clear terrain."
+  },
+  "DC Collateral Damage Map – \"The Junkyard\"": {
+    "english": "There is no wall between squares D12-13 and E12-13.\n\nEntrance to the indoor section of the map can be gained by the stairs (at E8, E11, E17, & C22), ramp (at B3 & C3), and conveyer belt (E12 & E13).\n\nThe elevated terrain surrounding the \"car crusher\" (squares M12-P12 & M13-P13) does not block the line of fire from colossal to those squares."
+  },
+  "DC Legion of Super Heroes Map – \"Central Port\"": {
+    "english": "In order to use the transmatter gates to teleport, the character given the action must end its action (including placing the token and taking push damage) occupying a square with a gate and may then be placed in a different gate.\n\nOnly the character given the action may use the gate. Carrying another figure and placing them on the gate does not allow them to be placed in a square of a different gate.\n\nIn the case of a character being targeted by Mind Control, its free action must be resolved before the Mind Controlling character can elect to use the gate (if that character has ended its move or power action in a square with a gate). The Mind Controller itself would only be able to use a gate when the entire Mind Control action ends."
+  },
+  "DC Brightest Day Map – \"The Monument\"": {
+    "english": "This is an outdoor map."
+  },
+  "DC 75th Anniversary Map – \"Hawkworld\"": {
+    "english": "This is an outdoor map.\n\nThe rules text for this map reads: \"Orange squares are Open Air (Low Gravity). After actions resolve, if a character who can't use the Flight ability occupies an Open Air square, deal them 1 unavoidable damage, then that character's owner places them in their starting area. Non-held objects in Open Air squares are removed from the map. Open Air squares are otherwise treated as clear terrain\"."
+  },
+  "DC 75th Anniversary Map – \"Airport Terminal\"": {
+    "english": "The rules text for this map reads: \"Orange squares are moving walkways. At the beginning of each turn, each character completely occupying a moving walkway square that can't use the Flight ability must be placed in this area 1 square closer to the thick orange line of this area. This placement starts with the character closest to the thick orange line\"."
+  },
+  "DC Green Lantern Fast Forces Map – \"Oa\"": {
+    "english": "This is an outdoor map."
+  },
+  "DC Green Lantern Fast Forces Map – \"Ferris Air\"": {
+    "english": "This is an indoor/outdoor map."
+  },
+  "DC Watchmen Crimebusters Map – \"Karnak\"": {
+    "english": "Only the thick black lines with the faint white border are walls."
+  },
+  "DC Battle For Smallville Map – \"Bizarro World\"": {
+    "english": "Between squares I9 and I10, there is a ladder from level 2 to level 3, respectively.\n\nSquares I10 and I11 are adjacent, as they are 2 squares of the same elevation that share a border."
+  },
+  "DC Batman Fast Forces Map – \"The Temple\"": {
+    "english": "This map has a purple border surrounding squares between E1 and L3."
+  },
+  "Marvel Starter Set Map 1 – Indoors, \"The Mall\"": {
+    "english": "The water fountain is only hindering terrain, not water terrain."
+  },
+  "Marvel Premier Set Map 3 Outdoors \"The Park\"": {
+    "english": "The building in the park is blocking terrain; it is not elevated terrain.\n\nIf water covers more than half a square on the map, it is considered to be a water terrain square.\n\nThe grass and dirt pathways on the map are clear terrain, not hindering terrain."
+  },
+  "Marvel Premier Set Map 4 – Indoors, \"The Warehouse\"": {
+    "english": "The crates in the middle of the warehouse are blocking terrain."
+  },
+  "Marvel HeroClix Map Set Xaviers School Outdoor": {
+    "english": "The bluish-gray section with a boat in it is water terrain.\n\nThe dock is clear terrain.\n\nThe squares with the basketball hoops in them are clear terrain.\n\nThe thick black lines on either side of the Xavier School Sign gazebo are walls."
+  },
+  "Marvel HeroClix Map Set Avengers Mansion Outdoor": {
+    "english": "The top square of the stairs should not have a thick black line on the edge adjoining the rooftop. You may enter the rooftop from this square.\n\nThe rooftops are considered to be clear elevated terrain.\n\nThe cars are hindering terrain."
+  },
+  "Marvel HeroClix Map Set Danger Room Indoor": {
+    "english": "The small tufts of grass on this map are clear terrain.\n\nThe log and rock squares in the pond are normal (non-water) hindering terrain.\n\nThe lava flow squares are hindering terrain."
+  },
+  "Marvel HeroClix Map Set Avengers Mansion Indoor": {
+    "english": "The squares with the thin plasma screens are clear terrain.\n\nThe square with the coat-rack is hindering terrain.\n\nThe bluish-gray elevator squares are clear terrain."
+  },
+  "Marvel Sinister Map – \"The Prison\"": {
+    "english": "Squares F1-F2 and F23-F24 are blocking terrain."
+  },
+  "Marvel Supernova Map – \"Deep Space\"": {
+    "english": "Space terrain is considered an alternate terrain type similar to Outdoor and Indoor terrain. Characters in these squares obey the special rules of the terrain regardless to how they can otherwise interact with terrain.\n\nThe range value for a character using Hypersonic Speed is one quarter (halved per the description of the power and halved again for space terrain).\n\nThe \"half range\" only applies to characters or their targets that are in space terrain. If the line of fire crosses space terrain but neither character is occupying space terrain, the range is not halved."
+  },
+  "Marvel Fantastic Four Starter Set– Outdoor, \"Castle Doom Gardens\"": {
+    "english": "The first paragraph of the text of this map reads: \"Thick orange lines along the grid of this map are force fields. The effects of this terrain can't be ignored\"."
+  },
+  "Marvel Fantastic Four Starter Set– Indoor, \"Baxter Building\"": {
+    "english": "There is a wall between:\nsquares M15 and M16.\nsquares N15 and N16.\nsquares P14 and P15.\nsquares O15 and P15.\nsquares O15 and O16.\nsquares O16 and P16.\nsquares O17 and P17.\nsquares O18 and P18."
+  },
+  "Marvel Hammer of Thor Fast Forces Map – \"Muspelheim\"": {
+    "english": "This is an outdoor map."
+  },
+  "Marvel Captain America Map – \"S.H.I.E.LD. Helicarrier Midsection (S-2)\"": {
+    "english": "This is an indoor/outdoor map.\n\nA result of 7 on the roll for Balcony Below squares counts as a 6."
+  },
+  "Marvel Captain America Map – \"S.H.I.E.LD. Helicarrier Below Decks (S-4)\"": {
+    "english": "A knock back path can't continue into 10,000 Feet Below squares.\n\nThe effects of this terrain can't be ignored.\n\nA result of 7 on the roll for Balcony Below squares counts as a 6."
+  },
+  "Marvel Amazing Spider-Man Map – \"Bell Tower\"": {
+    "english": "The wall which begins between B7 and C7 and continues to between F11 and G11 is elevation 3.\n\nThe wall which begins between F14 and G14 and continues to between B18 and C18 is elevation 3."
+  },
+  "Indy Starter Set Map A – Indoor, \"The Evil Headquarters\"": {
+    "english": "The goldfish pond is water terrain.\n\nThe cement and dirt squares are clear terrain.\n\nThe Computer squares are hindering terrain with a wall of blocking terrain behind them.\n\nThe square in the center of the desk is clear terrain."
+  },
+  "Indy Starter Set Map B – Outdoor, \"The Temple\"": {
+    "english": "The rooftops are clear elevated terrain.\n\nThe statues and gong are hindering terrain.\n\nThe goldfish pond is water terrain."
+  },
+  "Outdoor Adventure Pack Map 2 – Outdoors, \"The Construction Site\"": {
+    "english": "The chain link fence (thick gray line) is special hindering terrain. If a figure moves across the fence, they must end their move in the square after crossing the fence. If this movement ends in clear terrain, the character may move normally the next turn.\n\nThe dark brown area with the truck backed up to it is a big pile of dirt with a ramp leading up to it. It is considered to be elevated and hindering terrain.\n\nThe squares occupied by the crane and the trucks are hindering terrain.\n\nThe blue patch in the middle of the map is a puddle and considered to be water terrain.\n\nThe brown patch near the pond is a small patch of dirt and considered to be hindering terrain."
+  },
+  "Indoor Adventure Pack Map 1 – \"The Factory\"": {
+    "english": "The gray tables in the factory area are hindering terrain."
+  },
+  "Indoor Adventure Pack Map 2 – \"The Mansion\"": {
+    "english": "The open blue squares in the pool are considered to be water terrain.\n\nThe squares in the pool that contain the diving boards are considered to be normal hindering terrain, not water terrain.\n\nThe slide is hindering terrain, not elevated terrain.\n\nThe grass, cement, and asphalt on the map are clear terrain, not hindering terrain."
+  },
+  "Lord of the Rings Map – \"Helm's Deep\"": {
+    "english": "The Bomb reads: \"Before the beginning of the game, place a Bomb token in this square. The Bomb token can be picked up and held like an object by any character, but if the character can't use Super Strength when picking up the Bomb, place an additional token on the character after actions resolve\".\n\nMap effects referring to Force A or Force B only apply during campaigns.\n\nThe second sentence of The Culvert begins \"If a character holding the Bomb…\""
+  },
+  "Lord of the Rings Map – \"Minas Tirith\"": {
+    "english": "Trebuchet should say \"Pelennor\" instead of \"Pellenor\".\n\nMap effects referring to Force A or Force B only apply during campaigns."
+  },
+  "Star Trek Tactic Map – \"Borg Transwarp Hub\"": {
+    "english": "Transwarp Gateways reads: \"When a ship moves into an area inside orange lines from any square not inside orange lines, immediately roll a d6. Immediately place the ship in any square in the area with the number that matches the result: if the result is 1, you may place the ship in the area of your choice, but deal the ship 1 unavoidable damage after the action resolves\".\n\nOn a 1, you have the option of not placing the ship. You also have the option of placing the ship into the same area, but if you choose this, you will be dealt the unavoidable damage."
+  },
+  "Star Trek Tactic Map – \"The Mutara Nebula\"": {
+    "english": "Effect 4 reads: \"Once during the turn, ships can use Smoke Cloud as a free action immediately before taking another action.\""
+  },
+  "Star Trek Tactic Map – \"Qo'Nos\"": {
+    "english": "The debris tokens move as though it is a figure with #speed# and the Flight ability."
+  }
+}
