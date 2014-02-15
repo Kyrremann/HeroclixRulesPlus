@@ -1,0 +1,78 @@
+{
+  "Flurry": {
+    "english": "Any powers that are not in use when the first attack is made with Flurry can't be used for the second attack. Any powers in use for the first attack are in use on the second attack unless the power has been lost.",
+    "image": "Red"
+  },
+  "Phasing/Teleport": {
+    "english": "A character using Phasing/Teleport that is able to carry characters can carry characters through blocking terrain and such as it uses Phasing/Teleport. A character using Phasing/Teleport that is able to pick an object up can do so while using Phasing/Teleport.",
+    "image": "Yellow"
+  },
+  "Charge": {
+    "english": "Characters using Charge still follow standard rules of movement, including break away and the ability to carry other characters. However, a carried character must be dropped before the Charging character uses the Free Action portion of Charge to attack.",
+    "image": "Green"
+  },
+  "Mind Control": {
+    "english": "If a character affected by Mind Control KOs another opposing character, or is KOd itself, the controlling player receives the victory points.\n\nWhen a character is affected by Mind Control, any of its powers previously countered remain countered. Powers and abilities that may only be used once per turn, round, or game may be used accordingly per Mind Controller.\n\nA character that is successfully hit by Mind Control can't use any game elements assigned to it during force construction until the Mind Control action resolves.\n\nSince a character targeted with Mind Control returns to its previous controller's force immediately after the free action resolves, any free actions that could be given to the targeted character \"after actions resolve\" can't be given.",
+    "image": "Turquoise"
+  },
+  "Force Blast": {
+    "english": "Though not an attack, this power targets the figure(s) being knocked back.",
+    "image": "Purple"
+  },
+  "Hypersonic Speed": {
+    "english": "All references to \"Hypersonic Speed, Option 1\" refer to the power Hypersonic Speed.\n\nIf the target character is defeated by the attack, it is removed from the board immediately and the attacking character can occupy that square.\n\nThe Hypersonic Speed character commits to the square from which the attack will be made prior to making the attack.",
+    "image": "Brown"
+  },
+  "Running Shot": {
+    "english": "Characters using Running Shot still follow standard rules of movement, including break away and the ability to carry other figures. However, a carried figure must be dropped before the character using Running Shot uses the Free Action portion of Running Shot to attack.",
+    "image": "Grey"
+  },
+  "Blades/Claws/Fangs": {
+    "english": "This power may be used to destroy a wall even though no attack roll is made. The result of the roll to determine the damage value must meet or exceed 3.",
+    "image": "red"
+  },
+  "Energy Explosion": {
+    "english": "When knock back occurs from this attack, all characters that take damage from this attack are knocked back normally in the direction away from the attacker starting with those farthest from the attacker. If the attacker itself takes damage, it is not knocked back.\n\nThe first sentence reads: \"When this character is given a ranged combat action and deals damage, an area of effect may include all untargeted characters that are adjacent to one or more hit targets assigned at least 1 damage\".\n\nWhen a special power indicates that a character can use Energy Explosion and it adjusts the number of #lightning# the character can use, this only changes the number of different targets the character can target with a single ranged combat attack. It does not alter the number of printed #lightning#; when calculating damage to untargeted but hit characters, use only the printed #lightning#.",
+    "image": "orange"
+  },
+  "Pulse Wave": {
+    "english": "While Pulse Wave ignores powers and abilities, it does not counter them. Therefore, terrain created as a result of using a power is considered terrain and affects Pulse Wave normally, even if the character generating that terrain is within range of the Pulse Wave. Characters holding an object due to a feat or power would still be able to hold the object and even use the held object (if it helps defensively).\n\nThe character using Pulse Wave does not have any of its powers, traits, abilities, or feats ignored during the Pulse Wave attack.\n\nPulse Wave does not ignore the effects of terrain except as noted in the power.",
+    "image": "yellow"
+  },
+  "Quake": {
+    "english": "When using Quake against multiple opposing characters and one or more of the characters becomes an illegal target (due to Shape Change, Skrull, etc.), the attack is still made against all legal targets. If there are no legal targets then the attack can't be made.",
+    "image": "lime"
+  },
+  "Penetrating/Psychic Blast": {
+    "english": "Any reference to \"Psychic Blast\" refers to \"Penetrating/Psychic Blast\".",
+    "image": "blue"
+  },
+  "Steal Energy": {
+    "english": "A character using Steal Energy while on their first click is not considered healed when an opposing character takes damage from a close combat attack.",
+    "image": "black"
+  },
+  "Telekinesis": {
+    "english": "A character that has been placed via Telekinesis can't use Telekinesis until the end of the turn.\n\nA friendly character placed via Telekinesis can still be given a non-free action the turn it was moved (though it can't use Telekinesis).\n\nA figure may not target itself with Telekinesis.\n\nAny reference to an \"option\" of Telekinesis is resolved as follows. Option 1: A is an opposing character; Option 2: A is a friendly character or A is an object placed with no attack; Option 3: A is an object placed to make an attack.\n\nThe third sentence reads: \"Place A in B. If A is a character, it must be a single base character and possess the #tiny# or #damage# symbols\".\n\nThe last sentence reads: \"If A is an object and B is occupied by an opposing character, this character may make a ranged combat attack targeting the character occupying B, dealing object damage and destroying the object\".\n\nWhen designating an object as A and making an attack, the only line of fire required is to square B. The attacked character does not have a line of fire drawn to it and, as such, would not benefit from a hindering terrain bonus (even if the target is using Stealth while occupying hindering terrain). It is still a target of a ranged combat attack, though, so powers like Energy Shield/Deflection, Shape Change and Super Senses would still activate.\n\nA range value of 0 will not prevent a character from using Telekinesis to make ranged combat attacks.",
+    "image": "grey"
+  },
+  "Barrier": {
+    "english": "Blocking terrain markers can be destroyed as per the rules for destroying blocking terrain. They would be replaced with debris markers when destroyed. The debris markers are removed from the game the same time that the normal blocking terrain markers are removed from the game.",
+    "image": "turquoise"
+  },
+  "Mastermind": {
+    "english": "Damage dealt by Mastermind is considered to have come from the original attacker.",
+    "image": "blue"
+  },
+  "Outwit": {
+    "english": "When a Special Power is used to counter all powers on a character, it causes new powers to appear on the dial to also be countered, as the character's dial changes.\n\nIf a countered power no longer shows on the dial, but then returns to the dial before the beginning of the Outwitting player's next turn, the power is still countered.",
+    "image": "black"
+  },
+  "Leadership": {
+    "english": "Game effects which refer to a Leadership result of 4-6 are actually referring to a successful Leadership roll, which is now a result of 5-6.",
+    "image": "grey"
+  },
+  "Defend": {
+    "english": "The decision to replace the value occurs before any applicable dice rolls occur.",
+    "image": "yellow"
+  }
+}
