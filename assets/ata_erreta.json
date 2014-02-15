@@ -1,0 +1,41 @@
+{
+	"General":{
+		"english":"Print and Play: For WizKids events, players can print any legitimate copy of a cardboard element from HeroClix. The printed version must not be functionally different from a legal WizKids-released version of the element.\n\nAdditional Team Abilities must be used and costed for all qualified team members on your force.\n\nAdditional Team Abilities can't be used by a character during a free action granted by being successfully hit with Mind Control.\n\nUnless an Additional Team Ability says otherwise, the team ability it grants is in addition to any other team ability the character can currently use.\n\nAdditional Team Abilities printed on character cards must still be assigned to characters for their separate point cost. (They are not \"built in\" to those characters' point values) They follow all normal rules of Additional Team Abilities, including being assigned to all qualifying characters on your force."
+	},
+	"GUARDIANS OF THE GALAXY":{
+		"english":"Remove the following text from this additional team ability: \"All characters on your force with the Guardians of the Galaxy keyword are assigned this feat and have the following team ability instead of any other team ability:\""
+	},
+	"HYDRA DEEP SCIENCE DIVISION":{
+		"english":"The minimum squares is determined after all adjustments are applied.\n\nThis team ability reads: \"When an opposing character uses Outwit, Perplex, or Probability Control, modify its range value by -1 for each friendly character using this team ability. Reduce the minimum range value by the same amount, but no lower than 1.\""
+	},
+	"INTELLIGENCIA":{
+		"english":"This team ability reads: \"If no friendly character is affected by an opponent's Outwit and/or Perplex, friendly characters that can use Outwit and/or Perplex and all characters using this team ability modify their range values by +2.\""
+	},
+	"JUSTICE LEAGUE INTERNATIONAL":{
+		"english":"This additional team ability includes: \"(This can only be used once per damage dealt.)\""
+	},
+	"LEAGUE OF ASSASSINS":{
+		"english":"The first sentence reads \"When it is not your turn, lines of fire drawn…\""
+	},
+	"NEW MUTANTS":{
+		"english":"The prerequisite for this additional team ability is \"Generation X or New Mutants\""
+	},
+	"NEXTWAVE":{
+		"english":"In the text of the team ability, \"this character\" refers to the character making the KO."
+	},
+	"RUNAWAYS":{
+		"english":"Remove the following text from this additional team ability: \"All characters on your force with the Runaways keyword are assigned this feat and have the following team ability instead of any other team ability:\""
+	},
+	"SECRET WARRIORS":{
+		"english":"The first sentence reads: \"When you build your force, choose…\""
+	},
+	"THE SOCIETY":{
+		"english":"If a character attempts to use Outwit against a Society member and the Outwit fails due to a successful roll of the team ability, the Outwit can be used against a different opposing character.\n\nThe required keywords for this ATA are: \"Secret Society of Super Villains or Society\"."
+	},
+	"STRATEGIC HOMELAND INTERVENTION, ENFORCEMENT AND LOGISTICS DIVISION":{
+		"english":"The maximum squares is determined after all adjustments are applied.\n\nThis team ability reads: \"When a friendly character using this team ability uses Outwit, Perplex, or Probability Control, modify its range value and the minimum range value for the power by +1 for each other friendly character using this team ability.\""
+	},
+	"THUNDERBOLTS":{
+		"english":"A player using this ATA may change their chosen team ability with each new round of a tournament.\n\nThe definition of a \"Marvel team ability\" is a team ability listed at the end of Section 15 of the Players Guide.The first sentence reads \"Once at the beginning of the game, choose any one Marvel team ability other than an additional team ability…\"."
+	}
+}
