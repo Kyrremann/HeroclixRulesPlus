@@ -13,9 +13,21 @@ import org.json.JSONObject;
 
 import android.app.Application;
 import android.text.style.ImageSpan;
-import android.widget.Toast;
 
 public class RulesApplication extends Application {
+
+	public static final String JSON_POWERS = "powers.json";
+	public static final String JSON_TEAM_ABILITIES = "team_abilities.json";
+	public static final String JSON_GENERAL_RULES = "general.json";
+	public static final String JSON_ABILITIES = "abilities.json";
+	private static final String JSON_FEATS = "feats.json";
+	private static final String JSON_MAPS = "maps.json";
+	private static final String JSON_MAPS_ERRETA = "maps_erreta.json";
+	private static final String JSON_ABILITIES_ERRETA = "abilities_erreta.json";
+	private static final String JSON_RESOURCES_ERRETA = "resources_erreta.json";
+	private static final String JSON_POWERS_ERRETA = "powers_erreta.json";
+	private static final String JSON_OBJECTS = "objects.json";
+	private static final String JSON_OBJECTS_ERRETA = "objects_erreta.json";
 
 	public final static String NAME = "name";
 	public final static String TEXT = "text";
@@ -25,10 +37,19 @@ public class RulesApplication extends Application {
 	public final static String SPANISH = "spanish";
 	public final static String ITALIAN = "italian";
 
-	private JSONObject powerRules, teamAbilitiesRules, generalRules, abilitiesRules;
+	private JSONObject powerRules, teamAbilitiesRules, generalRules,
+			abilitiesRules;
 
 	private HashMap<String, String[]> titles;
 	private String language;
+	private JSONObject mapsRules;
+	private JSONObject featsRules;
+	private JSONObject objectsRules;
+	private JSONObject powersErretaRules;
+	private JSONObject resourcesErretaRules;
+	private JSONObject abilitiesErretaRules;
+	private JSONObject mapsErretaRules;
+	private JSONObject objectsErretaRules;
 
 	public RulesApplication() {
 		language = ENGLISH;
@@ -38,24 +59,72 @@ public class RulesApplication extends Application {
 	public JSONObject getJSONRules(String category) {
 		if (isPowerRule(category)) {
 			if (powerRules == null) {
-				powerRules = JSONParser.getPowers(this);
+				powerRules = JSONParser.getJsonRule(this, JSON_POWERS);
 			}
 			return powerRules;
-		} else if (category.equals("team abilities")) { // TODO Should use String resource from R.string?
+		} else if (category.equals("team abilities")) { // TODO Should use
+														// String resource from
+														// R.string?
 			if (teamAbilitiesRules == null) {
-				teamAbilitiesRules = JSONParser.getTeamAbilities(this);
+				teamAbilitiesRules = JSONParser.getJsonRule(this,
+						JSON_TEAM_ABILITIES);
 			}
 			return teamAbilitiesRules;
 		} else if (category.equals("general rules")) {
 			if (generalRules == null) {
-				generalRules = JSONParser.getGeneralRules(this);
+				generalRules = JSONParser.getJsonRule(this, JSON_GENERAL_RULES);
 			}
 			return generalRules;
 		} else if (category.equals("abilities")) {
 			if (abilitiesRules == null) {
-				abilitiesRules = JSONParser.getAbilities(this);
+				abilitiesRules = JSONParser.getJsonRule(this, JSON_ABILITIES);
 			}
 			return abilitiesRules;
+		} else if (category.equals("maps")) {
+			if (mapsRules == null) {
+				mapsRules = JSONParser.getJsonRule(this, JSON_MAPS);
+			}
+			return mapsRules;
+		} else if (category.equals("feats")) {
+			if (featsRules == null) {
+				featsRules = JSONParser.getJsonRule(this, JSON_FEATS);
+			}
+			return featsRules;
+		} else if (category.equals("objects")) {
+			if (objectsRules == null) {
+				objectsRules = JSONParser.getJsonRule(this, JSON_OBJECTS);
+			}
+			return objectsRules;
+		} else if (category.equals("objects erreta")) {
+			if (objectsErretaRules == null) {
+				objectsErretaRules = JSONParser.getJsonRule(this,
+						JSON_OBJECTS_ERRETA);
+			}
+			return objectsErretaRules;
+		} else if (category.equals("powers erreta")) {
+			if (powersErretaRules == null) {
+				powersErretaRules = JSONParser.getJsonRule(this,
+						JSON_POWERS_ERRETA);
+			}
+			return powersErretaRules;
+		} else if (category.equals("resources erreta")) {
+			if (resourcesErretaRules == null) {
+				resourcesErretaRules = JSONParser.getJsonRule(this,
+						JSON_RESOURCES_ERRETA);
+			}
+			return resourcesErretaRules;
+		} else if (category.equals("abilities erreta")) {
+			if (abilitiesErretaRules == null) {
+				abilitiesErretaRules = JSONParser.getJsonRule(this,
+						JSON_ABILITIES_ERRETA);
+			}
+			return abilitiesErretaRules;
+		} else if (category.equals("maps erreta")) {
+			if (mapsErretaRules == null) {
+				mapsErretaRules = JSONParser
+						.getJsonRule(this, JSON_MAPS_ERRETA);
+			}
+			return mapsErretaRules;
 		}
 
 		return null;
@@ -133,7 +202,8 @@ public class RulesApplication extends Application {
 				|| category.equals("defense") || category.equals("damage");
 	}
 
-	public ImageSpan getImageSpanForRuleIfExists(int position, String title, String category) {
+	public ImageSpan getImageSpanForRuleIfExists(int position, String title,
+			String category) {
 		try {
 			int id = getImageIdForRuleIfExists(
 					getRuleJSON(position, title, category), title);
@@ -158,13 +228,13 @@ public class RulesApplication extends Application {
 							.replaceAll("(\\s|-)", "_");
 				}
 
-				int id = getResources().getIdentifier("ta_" + imageName, "drawable",
-						getPackageName());
+				int id = getResources().getIdentifier("ta_" + imageName,
+						"drawable", getPackageName());
 				if (id == 0) {
-					id = getResources().getIdentifier("pa_" + imageName, "drawable",
-							getPackageName());
+					id = getResources().getIdentifier("pa_" + imageName,
+							"drawable", getPackageName());
 				}
-				
+
 				return id;
 			}
 		} catch (JSONException e) {

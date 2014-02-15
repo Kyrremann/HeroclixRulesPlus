@@ -165,12 +165,6 @@
 		"type":"Light",
 		"cost":"",
 		"relic":"",
-		"english":""
-	},
-	"":{
-		"type":"",
-		"cost":"",
-		"relic":"",
 		"english":"Damage dealt to characters 4 or fewer squares from this object can't be reduced. This object has no effect when held."
 	},
 	"ELEHA'AL VINE":{

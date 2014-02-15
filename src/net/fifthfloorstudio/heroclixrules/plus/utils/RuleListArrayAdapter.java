@@ -1,4 +1,4 @@
-package net.fifthfloorstudio.heroclixrules.plus.fragments;
+package net.fifthfloorstudio.heroclixrules.plus.utils;
 
 import net.fifthfloorstudio.heroclixrules.plus.RulesApplication;
 

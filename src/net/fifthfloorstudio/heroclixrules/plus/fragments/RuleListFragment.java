@@ -1,10 +1,13 @@
 package net.fifthfloorstudio.heroclixrules.plus.fragments;
 
+import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.Locale;
 
 import net.fifthfloorstudio.heroclixrules.plus.R;
 import net.fifthfloorstudio.heroclixrules.plus.RulesApplication;
-import net.fifthfloorstudio.heroclixrules.plus.inteface.RuleSelectedListener;
+import net.fifthfloorstudio.heroclixrules.plus.utils.RuleListArrayAdapter;
+import net.fifthfloorstudio.heroclixrules.plus.utils.RuleSelectedListener;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -40,11 +43,23 @@ public class RuleListFragment extends Fragment implements OnItemClickListener {
 				Locale.ENGLISH);
 		application = (RulesApplication) getActivity().getApplicationContext();
 		rules_array = application.getRuleTitles(category);
+		rules_array = moveGeneralItemToTopOfArray(rules_array);
 		list.setAdapter(new RuleListArrayAdapter(getActivity(),
 				R.layout.rules_with_image_row, R.id.rule_title,
 				R.id.rule_image, rules_array, category));
 		list.setOnItemClickListener(this);
 		return rootView;
+	}
+
+	private String[] moveGeneralItemToTopOfArray(String[] array) {
+		LinkedList<String> linkedList = new LinkedList<String>();
+		linkedList.addAll(Arrays.asList(array));
+		if (linkedList.contains("General")) {
+			linkedList.remove("General");
+			linkedList.addFirst("General");
+		}
+		
+		return linkedList.toArray(new String[array.length]);
 	}
 
 	@Override

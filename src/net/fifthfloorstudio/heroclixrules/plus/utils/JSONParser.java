@@ -9,11 +9,6 @@ import org.json.JSONObject;
 import android.content.Context;
 
 public class JSONParser {
-	
-	public static final String JSON_POWERS = "powers.json";
-	public static final String JSON_TEAM_ABILITIES = "team_abilities.json";
-	public static final String JSON_GENERAL_RULES = "general.json";
-	public static final String JSON_ABILITIES = "abilities.json";
 
 	private static JSONObject getMeSomeJson(Context context, String file)
 			throws IOException, JSONException {
@@ -27,45 +22,9 @@ public class JSONParser {
 		return new JSONObject(new String(buffer));
 	}
 
-	public static JSONObject getPowers(Context context) {
+	public static JSONObject getJsonRule(Context context, String json) {
 		try {
-			return JSONParser.getMeSomeJson(context, JSON_POWERS);
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (JSONException e) {
-			e.printStackTrace();
-		}
-
-		return null;
-	}
-	
-	public static JSONObject getTeamAbilities(Context context) {
-		try {
-			return JSONParser.getMeSomeJson(context, JSON_TEAM_ABILITIES);
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (JSONException e) {
-			e.printStackTrace();
-		}
-
-		return null;
-	}
-	
-	public static JSONObject getAbilities(Context context) {
-		try {
-			return JSONParser.getMeSomeJson(context, JSON_ABILITIES);
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (JSONException e) {
-			e.printStackTrace();
-		}
-
-		return null;
-	}
-	
-	public static JSONObject getGeneralRules(Context context) {
-		try {
-			return JSONParser.getMeSomeJson(context, JSON_GENERAL_RULES);
+			return JSONParser.getMeSomeJson(context, json);
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (JSONException e) {

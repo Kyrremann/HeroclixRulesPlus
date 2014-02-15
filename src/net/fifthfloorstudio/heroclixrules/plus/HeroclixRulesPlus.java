@@ -18,7 +18,7 @@ package net.fifthfloorstudio.heroclixrules.plus;
 
 import net.fifthfloorstudio.heroclixrules.plus.fragments.RuleListFragment;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.SectionsRuleFragment;
-import net.fifthfloorstudio.heroclixrules.plus.inteface.RuleSelectedListener;
+import net.fifthfloorstudio.heroclixrules.plus.utils.RuleSelectedListener;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Build;

@@ -1,31 +1,31 @@
 {
   "Flurry": {
     "english": "Any powers that are not in use when the first attack is made with Flurry can't be used for the second attack. Any powers in use for the first attack are in use on the second attack unless the power has been lost.",
-    "image": "Red"
+    "image": "red"
   },
   "Phasing/Teleport": {
     "english": "A character using Phasing/Teleport that is able to carry characters can carry characters through blocking terrain and such as it uses Phasing/Teleport. A character using Phasing/Teleport that is able to pick an object up can do so while using Phasing/Teleport.",
-    "image": "Yellow"
+    "image": "yellow"
   },
   "Charge": {
     "english": "Characters using Charge still follow standard rules of movement, including break away and the ability to carry other characters. However, a carried character must be dropped before the Charging character uses the Free Action portion of Charge to attack.",
-    "image": "Green"
+    "image": "green"
   },
   "Mind Control": {
     "english": "If a character affected by Mind Control KOs another opposing character, or is KOd itself, the controlling player receives the victory points.\n\nWhen a character is affected by Mind Control, any of its powers previously countered remain countered. Powers and abilities that may only be used once per turn, round, or game may be used accordingly per Mind Controller.\n\nA character that is successfully hit by Mind Control can't use any game elements assigned to it during force construction until the Mind Control action resolves.\n\nSince a character targeted with Mind Control returns to its previous controller's force immediately after the free action resolves, any free actions that could be given to the targeted character \"after actions resolve\" can't be given.",
-    "image": "Turquoise"
+    "image": "turquois"
   },
   "Force Blast": {
     "english": "Though not an attack, this power targets the figure(s) being knocked back.",
-    "image": "Purple"
+    "image": "purple"
   },
   "Hypersonic Speed": {
     "english": "All references to \"Hypersonic Speed, Option 1\" refer to the power Hypersonic Speed.\n\nIf the target character is defeated by the attack, it is removed from the board immediately and the attacking character can occupy that square.\n\nThe Hypersonic Speed character commits to the square from which the attack will be made prior to making the attack.",
-    "image": "Brown"
+    "image": "brown"
   },
   "Running Shot": {
     "english": "Characters using Running Shot still follow standard rules of movement, including break away and the ability to carry other figures. However, a carried figure must be dropped before the character using Running Shot uses the Free Action portion of Running Shot to attack.",
-    "image": "Grey"
+    "image": "grey"
   },
   "Blades/Claws/Fangs": {
     "english": "This power may be used to destroy a wall even though no attack roll is made. The result of the roll to determine the damage value must meet or exceed 3.",
@@ -57,7 +57,7 @@
   },
   "Barrier": {
     "english": "Blocking terrain markers can be destroyed as per the rules for destroying blocking terrain. They would be replaced with debris markers when destroyed. The debris markers are removed from the game the same time that the normal blocking terrain markers are removed from the game.",
-    "image": "turquoise"
+    "image": "turquois"
   },
   "Mastermind": {
     "english": "Damage dealt by Mastermind is considered to have come from the original attacker.",
