@@ -19,9 +19,9 @@ package net.fifthfloorstudio.heroclixrules.plus;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.RuleListFragment;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.SectionsRuleFragment;
 import net.fifthfloorstudio.heroclixrules.plus.inteface.RuleSelectedListener;
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
+import android.content.Intent;
 import android.content.res.Configuration;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
@@ -33,7 +33,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.WindowManager.LayoutParams;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -49,10 +48,7 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	protected CharSequence mTitle;
 	protected String[] mRulesTitles;
 	protected boolean toggle_images = false;
-
-	public static final String PREFS_NAME = "settings";
-	public static final String PREFS_TOGGLE_SCREEN = "toggle_screen";
-	public static final String PREFS_TOGGLE_IMAGES = "toggle_images";
+	protected int selectedDrawer;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -74,15 +70,6 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
 		createDrawer(savedInstanceState);
-
-		SharedPreferences sharedPreferences = getSharedPreferences(PREFS_NAME,
-				MODE_PRIVATE);
-
-		toggle_images = sharedPreferences
-				.getBoolean(PREFS_TOGGLE_IMAGES, false);
-		boolean toggle_screen = sharedPreferences.getBoolean(
-				PREFS_TOGGLE_SCREEN, false);
-		toggleScreenOn(toggle_screen);
 	}
 
 	@Override
@@ -90,17 +77,6 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		MenuInflater inflater = getMenuInflater();
 		inflater.inflate(R.menu.main, menu);
 		return super.onCreateOptionsMenu(menu);
-	}
-
-	@Override
-	public boolean onPrepareOptionsMenu(Menu menu) {
-		SharedPreferences sharedPreferences = getSharedPreferences(PREFS_NAME,
-				MODE_PRIVATE);
-
-		menu.findItem(R.id.menu_images).setChecked(toggle_images);
-		menu.findItem(R.id.menu_toggle_screen).setChecked(
-				sharedPreferences.getBoolean(PREFS_TOGGLE_SCREEN, false));
-		return true;
 	}
 
 	@Override
@@ -114,15 +90,10 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		switch (item.getItemId()) {
 		case R.id.menu_about:
 			break;
-		case R.id.menu_toggle_screen:
-			toggleScreenOn(!item.isChecked());
-			break;
-		case R.id.menu_images:
-			toggle_images = !item.isChecked();
-			Editor editor = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
-					.edit();
-			editor.putBoolean(PREFS_TOGGLE_IMAGES, toggle_images);
-			editor.commit();
+		case R.id.menu_settings:
+			startActivity(createIntent(SettingsActivity.class,
+					SettingsActivityHoneyComb.class));
+			selectItem(selectedDrawer);
 			break;
 		default:
 			return super.onOptionsItemSelected(item);
@@ -130,22 +101,25 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		return true;
 	}
 
-	protected void toggleScreenOn(boolean isChecked) {
-		Editor editor = getSharedPreferences(PREFS_NAME, MODE_PRIVATE).edit();
-		editor.putBoolean(PREFS_TOGGLE_SCREEN, isChecked);
-		editor.commit();
-
-		if (isChecked) {
-			getWindow().addFlags(LayoutParams.FLAG_KEEP_SCREEN_ON);
+	private <T, S> Intent createIntent(Class<T> normalClass,
+			Class<S> honeyCombClass) {
+		Intent intent = null;
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+			intent = new Intent(this, honeyCombClass);
+		} else {
+			intent = new Intent(this, normalClass);
 		}
+		return intent;
 	}
 
 	/* The click listener for ListView in the navigation drawer */
 	private class DrawerItemClickListener implements
 			ListView.OnItemClickListener {
+
 		@Override
 		public void onItemClick(AdapterView<?> parent, View view, int position,
 				long id) {
+			selectedDrawer = position;
 			selectItem(position);
 		}
 	}

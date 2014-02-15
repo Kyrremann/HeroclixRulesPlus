@@ -30,7 +30,7 @@ public class RuleListFragment extends Fragment implements OnItemClickListener {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		View rootView = inflater.inflate(R.layout.fragment_planet, container,
+		View rootView = inflater.inflate(R.layout.fragment_rule_list, container,
 				false);
 		String title = getArguments().getString(ARG_RULE_TITLE);
 		getActivity().setTitle(title);

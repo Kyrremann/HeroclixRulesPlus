@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_image">Enable images</string>
+    <string name="pref_description_image">Disable to see text instead of images in rules</string>
+    <string name="pref_title_screen">Screen always on</string>
+    <string name="pref_description_screen">Enable to force the screen to stay on</string>
+    <string name="pref_title_language">Select language</string>
+
+    <string-array name="pref_language_list_titles">
+        <item>English</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Spanish</item>
+    </string-array>
+    <string-array name="pref_language_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

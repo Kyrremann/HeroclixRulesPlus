@@ -1,22 +1,32 @@
 package net.fifthfloorstudio.heroclixrules.plus.utils;
 
-import net.fifthfloorstudio.heroclixrules.plus.HeroclixRulesPlus;
 import net.fifthfloorstudio.heroclixrules.plus.R;
+import net.fifthfloorstudio.heroclixrules.plus.SettingsActivity;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
+import android.preference.PreferenceManager;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.ImageSpan;
 
 public class StringUtils {
+	
+	private static final float IMAGE_THRESHOLD_DP = 24f;
+	private static int image_dp = 24;
+	private static float scale = 0f;
 
-	/*
-	 * Parse a text and insert corresponding images
-	 */
 	public static SpannableStringBuilder parseText(Context context, String rule) {
-		boolean images = context.getSharedPreferences(
-				HeroclixRulesPlus.PREFS_NAME, Context.MODE_PRIVATE).getBoolean(
-				HeroclixRulesPlus.PREFS_TOGGLE_IMAGES, false);
+		if (scale == 0) {
+			scale = context.getResources().getDisplayMetrics().density;
+			image_dp = (int) (IMAGE_THRESHOLD_DP * scale + 0.5f);
+		}
+		
+//		boolean images = context.getSharedPreferences(
+//				HeroclixRulesPlus.PREFS_NAME, Context.MODE_PRIVATE).getBoolean(
+//				HeroclixRulesPlus.PREFS_TOGGLE_IMAGES, false);
+		SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+		boolean images = preferences.getBoolean(SettingsActivity.PREFS_IMAGES, true);
 		if (images) {
 			return parseTextAndInsertImages(context, rule);
 		} else {
@@ -295,7 +305,7 @@ public class StringUtils {
 					builder.append(" ");
 					lengthOfPart += tmp[i].length() + 1;
 				} else {
-					d.setBounds(0, 0, 24, 24); // <---- Very important otherwise
+					d.setBounds(0, 0, image_dp, image_dp); // <---- Very important otherwise
 												// your image won't appear
 					ImageSpan myImage = new ImageSpan(d);
 					builder.setSpan(myImage, lengthOfPart, lengthOfPart + 1,
