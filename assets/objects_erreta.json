@@ -1,0 +1,113 @@
+{
+	"General":{
+		"english":"Print and Play: For WizKids events, players can print any legitimate copy of a cardboard element from HeroClix. The printed version must not be different from a legal WizKids-released version of the element. This policy does not apply to 3D elements, though it does apply to the card that accompanies it.\n\n3D objects are not legal for sealed events unless otherwise specified by the Judge running the event.\n\nWhen building a force, players may choose 0-3 objects. Based on the number of objects a player chooses they can include:\n\t1 object – any type (heavy, light, or immobile)\n\t2 objects – any two types that are not the same\n\t3 objects – one can be any type, the other two must be a heavy and a light.\n\nIn a sealed game, players may only use objects that are drawn from a booster supplemented by any standard objects. A player's object pool must still conform to force building rules.\n\nAll special objects are treated as Unique for force construction.\n\nThe 3D objects from the Adventure Kits (Bookcase, Computer, Crate, Dumpster, Light Post, Mailbox, Office Desk, and Soda Machine) have the special object \"gear\" symbol.\n\nIt is possible for multiple objects to exist in the same square. When this happens, each object is treated individually.\n\nBlocking terrain, walls, or character bases do not block the area of effect of a Special Object but will block the line of fire to and from a Special Object per the standard line of fire rules.\n\nThe effects of objects placed on character cards only apply until the object is returned to the map.\n\nThe \"continual\" keyword is removed from all objects.\n\nRelics are special objects that are Immobile and can't be destroyed. Once per game per character, give a character occupying a square containing a relic a power action and roll a d6 that can't be rerolled. On a result matching the relic value noted on the object, place this object on that character's card.\n\nAll objects occupy one square unless it specifically has a base which indicates otherwise."
+	},
+	"AERIAL BAFFLER":{
+		"english":"A character that gains Earthbound as a result of the Aerial Baffler may be carried. However, that character will regain flight as soon as it leaves the Aerial Baffler's area of effect and must be dropped at that point.\n\nA character gains Earthbound as soon as it enters into the Aerial Baffler's area of effect. A character may continue its movement after entering the area of effect of the Aerial Baffler, but would do so as a non-flier.\n\nThe special properties of this object are ignored while this object is held."
+	},
+	"BLUE LANTERN":{
+		"english":"Blue Lantern's effect only increases range values when using Barrier.\n\nBlue Lantern's effect ends \"...if they can already use Telekinesis\"."
+	},
+	"BOOKCASE":{
+		"english":"This object ends with \"when used in an attack\"."
+	},
+	"BROKEN DRONE":{
+		"english":"The first sentence begins: \"While a character is holding this object...\"."
+	},
+	"BUCKET OF WATER":{
+		"english":"The effect of this object begins: \"When not held...\"."
+	},
+	"COMPUTER":{
+		"english":"This object ends with \"when used in an attack\"."
+	},
+	"CRATE":{
+		"english":"This object can be used for 10 squares instead of 8."
+	},
+	"CRIMSON GEM OF CYTTORAK":{
+		"english":"This object is a relic requiring a roll of 5-6.\n\nThe effect of this relic reads: \"Modify the character's damage value by +1 and the character can use Charge, Super Strength, and Toughness. (Characters can't use more than one damage reduction power.)\""
+	},
+	"DARK CAULDRON":{
+		"english":"Special properties of this object are ignored while it is held."
+	},
+	"DYNAMOSTAT":{
+		"english":"Dynamostat's effect reads: \"This object is considered to be blocking terrain until it is destroyed, but it may be picked up and moved normally\".\n\nSpecial properties of this object are ignored while it is held.\n\nIf this object is dropped while held, it is placed into an adjacent, unoccupied square, if possible, otherwise remove it from the game."
+	},
+	"ELEHA'AL VINE":{
+		"english":"Special properties of this object are ignored while it is held."
+	},
+	"FORCE FIELD GENERATOR":{
+		"english":"Once the character has used Barrier as a result of this object, adjacency to the object is no longer required in order for the Barrier tokens to remain. Only destroying the object, the terrain or the beginning of the player's turn will cause the Barrier tokens to be removed from play.\n\nSpecial properties of this object are ignored while it is held."
+	},
+	"FUEL TANK":{
+		"english":"If the Fuel Tank is used to destroy a wall or square of blocking terrain during a close combat attack, all characters adjacent to the targeted section of terrain will be dealt damage from the Fuel Tank."
+	},
+	"KINETIC ABSORBER":{
+		"english":"Special properties of this object are ignored while it is held."
+	},
+	"KINETIC ACCELERATOR":{
+		"english":"This card includes the sentence: \"If the roll does not allow the given action to be performed against any targets, the action ends immediately\".\n\nIf a character is given an action that would require them to replace their speed value (e.g., Charge or Running Shot) while they occupy the same square as the Kinetic Accelerator, both replacements occur at the same time and therefore the active player can choose which effect goes first. If the roll makes is so that the given action can't be performed, the character is assigned a token for the action and not moved."
+	},
+	"LASER TURRET":{
+		"english":"Replace the text on the card with: \"(optional) Once during your turn (but not during another action) when a character friendly to you occupies this object's square, give this object a free action to make a ranged combat attack (#attack#8, #damage#2, 4#lightning#) against any opposing figure\".\n\nThe Laser Turret may make an attack against any opposing character within range, regardless of adjacency.\n\nWhen making an attack with the Laser Turret, any adverse effects that can normally result from the attack (such as damage from the Mystics team ability or a critical miss) are dealt to the Laser Turret and not the character using the Laser Turret.\n\nSpecial properties of this object are ignored while it is held."
+	},
+	"LIGHT POST":{
+		"english":"The Light Post object does not add an action token to a colossal figure."
+	},
+	"MAILBOX":{
+		"english":"This object ends with \"when used in an attack\"."
+	},
+	"METEORITE":{
+		"english":"Meteorite is subject to the Rule of 3. A die roll of 6 will add 3 (and not 4) to the attacker's unmodified damage value due to the Rule of 3.\n\nDue to the last line of the text, powers, abilities, or other effects that reduce damage dealt can't be used to reduce the damage dealt by Meteorite. Likewise, a critical hit will not increase the damage dealt.\n\nThe last sentence reads: \"The damage value is locked, and the damage dealt can't otherwise be modified\"."
+	},
+	"MJOLNIR":{
+		"english":"This object is a relic requiring a roll of 6.\n\nThe effect of this relic reads: \"Modify the characters' attack and damage values by +2, and the character can use Quake, Energy Explosion, and the Flight ability\"."
+	},
+	"OFFICE DESK":{
+		"english":"This object should read: \"Light: When a character holding this object is attacked, you may modify the holding character's defense value by +2. If you do, the object is destroyed after the attack resolves\"."
+	},
+	"OPENED HYDRANT":{
+		"english":"Special properties of this object are ignored while it is held."
+	},
+	"RED KRYPTONITE":{
+		"english":"The text of this object reads: \"Characters within 4 squares must roll a d6 immediately before they are given a non-free action. On a roll of 1-2, the character is given an action token and can't be given any non-free actions this turn, but can use Perplex until your next turn if they can't already use it\"."
+	},
+	"RELICS":{
+		"english":"Relics are special objects with the following property: \"Once placed on the map, this object can't be destroyed, picked up, moved, or placed. Once per game per character, the character occupying the same square as this object may be given a power action and roll a d6 that can't be rerolled. On a roll of X, place this object on that character's character card, and character can use the effects listed on this card if they can't already. When that character is defeated, place this object in the square they last occupied. At the end of the game, if an opponent's character has this object on their card or all of your characters have been defeated, your opponent scores this object\".\n\nX is the number or range of numbers beside the word \"Relic\" on the object card.\n\nThe phrase \"place this object on that character's character card\" is simply indicating that the object is taken off the map and placed somewhere to indicate that this is the character that has it. Players can use any acceptable method to simulate this when using a character without a character card."
+	},
+	"SATELLITE":{
+		"english":"The first sentence reads: \"Give a character holding this object a power action\"."
+	},
+	"SCORPIO KEY":{
+		"english":"This object is a relic requiring a roll of 5-6.\n\nThe effect of this relic reads: \"Modify the character's range value by +2 and the character can use Penetrating/Psychic Blast\"."
+	},
+	"SEPARATION FIELD GENERATOR":{
+		"english":"This object reads: \"A character holding an object or carrying a character immediately drops it into an adjacent square when 3 or fewer squares from this object. The carrying or holding character may continue its move. Objects can't be picked up by characters that are 3 or fewer squares from this object\"."
+	},
+	"SHARK REPELLANT SPRAY":{
+		"english":"This object reads: \"Character modifies its defense value by +2 when targeted by a character who possesses #swim# or #tranSwim#\"."
+	},
+	"SHIELD DISRUPTOR":{
+		"english":"Special properties of this object are ignored while it is held."
+	},
+	"SODA MACHINE":{
+		"english":"This object ends with \"when used in an attack\"."
+	},
+	"STANDARD 3D OBJECTS":{
+		"english":"The following objects are standard objects:\n\nSilver Anvil Heavy\nFin Fang Foom's Finger Heavy\nShield – Light\n\nThese objects are always legal for use in modern age."
+	},
+	"STEP LADDER":{
+		"english":"This object begins with: \"When this object occupies a square adjacent to a square of higher elevation…\"."
+	},
+	"STRUCTURAL INTEGRITY FIELD":{
+		"english":"This special object begins: \"Blocking terrain (but not blocking terrain markers) and walls…\".\n\nSpecial properties of this object are ignored while it is held."
+	},
+	"TELEPHONE BOOTH":{
+		"english":"This special object should read \"Once per turn per character, a character occupying the same square as this object can be dealt 1 unavoidable damage as a free action\".\n\nSpecial properties of this object are ignored while it is held."
+	},
+	"TELEPORT PAD":{
+		"english":"A character using the Teleport Pad may pick up and hold a character or object when moving via the Teleport Pad, if they could normally do so."
+	},
+	"TOMBSTONE":{
+		"english":"Tombstone reads: \"The defense value of a character holding a Tombstone is modified by +2. After the resolution of an unsuccessful attack against a character holding a Tombstone, remove Tombstone from the game\"."
+	}
+}
