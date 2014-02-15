@@ -11,7 +11,7 @@ import android.text.SpannableStringBuilder;
 import android.text.style.ImageSpan;
 
 public class StringUtils {
-	
+
 	private static final float IMAGE_THRESHOLD_DP = 24f;
 	private static int image_dp = 24;
 	private static float scale = 0f;
@@ -21,12 +21,11 @@ public class StringUtils {
 			scale = context.getResources().getDisplayMetrics().density;
 			image_dp = (int) (IMAGE_THRESHOLD_DP * scale + 0.5f);
 		}
-		
-//		boolean images = context.getSharedPreferences(
-//				HeroclixRulesPlus.PREFS_NAME, Context.MODE_PRIVATE).getBoolean(
-//				HeroclixRulesPlus.PREFS_TOGGLE_IMAGES, false);
-		SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
-		boolean images = preferences.getBoolean(SettingsActivity.PREFS_IMAGES, true);
+
+		SharedPreferences preferences = PreferenceManager
+				.getDefaultSharedPreferences(context);
+		boolean images = preferences.getBoolean(SettingsActivity.PREFS_IMAGES,
+				true);
 		if (images) {
 			return parseTextAndInsertImages(context, rule);
 		} else {
@@ -39,7 +38,7 @@ public class StringUtils {
 		String[] tmp = rule.split("[#]");
 		SpannableStringBuilder builder = new SpannableStringBuilder();
 		builder.append(tmp[0]);
-		
+
 		for (int i = 1; i < tmp.length; i++) {
 			String text = null;
 			if (tmp[i].equals("speed")) {
@@ -88,6 +87,8 @@ public class StringUtils {
 				text = "improved movement:";
 			else if (tmp[i].equals("imptar"))
 				text = "improved target:";
+			else if (tmp[i].equals("ignwt"))
+				text = "ignores water terrain";
 			else if (tmp[i].equals("ignet"))
 				text = "ignores elevated terrain";
 			else if (tmp[i].equals("ignht"))
@@ -163,17 +164,17 @@ public class StringUtils {
 				if (i == 1 && text.matches("improved (movement|target):")) {
 					tmp[2] = " "; // overrides the next comma
 				}
-				
+
 				if (i == tmp.length - 2 && tmp.length > 5) {
 					builder.append("and ");
 				}
-				
+
 				builder.append(text);
 			} else {
 				builder.append(tmp[i]);
 			}
 		}
-		
+
 		return builder;
 	}
 
@@ -233,6 +234,8 @@ public class StringUtils {
 				image = R.drawable.impmov;
 			else if (tmp[i].equals("imptar"))
 				image = R.drawable.imptar;
+			else if (tmp[i].equals("ignwt"))
+				image = R.drawable.ignwt;
 			else if (tmp[i].equals("ignet"))
 				image = R.drawable.ignet;
 			else if (tmp[i].equals("ignht"))
@@ -305,8 +308,11 @@ public class StringUtils {
 					builder.append(" ");
 					lengthOfPart += tmp[i].length() + 1;
 				} else {
-					d.setBounds(0, 0, image_dp, image_dp); // <---- Very important otherwise
-												// your image won't appear
+					if (imageExtraWide(tmp[i])) {
+						d.setBounds(0, 0, image_dp * 2, image_dp);
+					} else {
+						d.setBounds(0, 0, image_dp, image_dp);
+					}
 					ImageSpan myImage = new ImageSpan(d);
 					builder.setSpan(myImage, lengthOfPart, lengthOfPart + 1,
 							Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
@@ -319,5 +325,10 @@ public class StringUtils {
 			}
 		}
 		return builder;
+	}
+
+	private static boolean imageExtraWide(String string) {
+		return string.equals("doubleoarr")
+				|| string.equals("doubleo");
 	}
 }
