@@ -309,7 +309,7 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 			e.printStackTrace();
 		}
 		intent.putExtra(Intent.EXTRA_SUBJECT,
-				getString(R.string.feedback_subject) + version);
+				getString(R.string.feedback_subject) + " " + version);
 		startActivity(Intent.createChooser(intent, ""));
 	}
 }

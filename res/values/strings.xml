@@ -6,7 +6,7 @@
     <string name="e_mail">heroclix@fifthfloorstudio.net</string>
     <string name="ffs">Fifth Floor Studio</string>
     <string name="logo_cd">The Fifth Floor Studio logo. It\'s a pyramide.</string>
-    <string name="feedback_subject">Feedback: Heroclix Rules </string>
+    <string name="feedback_subject">Feedback: Heroclix Rules</string>
 
     <string-array name="rules_array">
         <item>Speed powers</item>
