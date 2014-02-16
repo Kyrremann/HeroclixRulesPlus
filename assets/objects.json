@@ -1,711 +1,622 @@
 {
-	"BOOKCASE":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"Increase the attacker's attack value by 1 when used in an attack."
-	},
-	"COMPUTER":{
-		"type":"Heavy",
-		"cost":"",
-		"relic":"",
-		"english":"Increases the attacker's attack value by 1 when used in an attack."
-	},
-	"OFFICE DESK":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"When a character holding this object is attacked, you may modify the holding character's defense value by +2. If you do, the object is destroyed after the attack resolves."
-	},
-	"SODA MACHINE":{
-		"type":"Heavy",
-		"cost":"",
-		"relic":"",
-		"english":"Increase the attacker's damage dealt by 1 when used in an attack."
-	},
-	"CRATE":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"A character may throw this object 10 squares."
-	},
-	"DUMPSTER":{
-		"type":"Heavy",
-		"cost":"",
-		"relic":"",
-		"english":"This object is not destroyed when used in an attack. The attacker places it in any square adjacent to the target after use."
-	},
-	"LIGHT POST":{
-		"type":"Heavy",
-		"cost":"",
-		"relic":"",
-		"english":"A target with 0 or 1 action tokens that is successfully hit with this object also receives an action token, which can result in pushing damage."
-	},
-	"MAILBOX":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"Increases the attacker's damage dealt by 1 when used in an attack."
-	},
-	"BROKEN DRONE":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"While a character is holding this object, you may choose to either (1) use this object normally in an attack, or (2) give this character a ranged combat action (treating the character's range value as 4) and make a ranged combat attack against a single target opposing character. An attack using option 2 deals 1 damage but does not destroy this object."
-	},
-	"GENERATOR":{
-		"type":"Heavy",
-		"cost":"",
-		"relic":"",
-		"english":"This object is not destroyed when used in an attack. After the Generator is used as part of an attack, the attacker places it in any square adjacent to the target after the attack resolves."
-	},
-	"COM DISH":{
-		"type":"Heavy",
-		"cost":"",
-		"relic":"",
-		"english":"When this object is used in an attack, modify the attacker's damage value by +1 for the attack."
-	},
-	"NEWSBOT":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"When you give a character an action to attack using this object, it does not count toward your available actions for the turn."
-	},
-	"TELEPORT PAD":{
-		"type":"Immobile",
-		"cost":"",
-		"relic":"",
-		"english":"If a character friendly to you is adjacent to this object, give the character a power action and move it up to 6 squares, ignoring characters and terrain features for movement purposes."
-	},
-	"KINETIC ABSORBER":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"All clear and water terrain 2 or fewer squares from this object is hindering terrain for movement purposes. This object has no effect when held."
-	},
-	"SEPARATION FIELD GENERATOR":{
-		"type":"Immobile",
-		"cost":"",
-		"relic":"",
-		"english":"A character holding an object or carrying a character immediately drops it into an adjacent square when 3 or fewer squares from this object. The carrying or holding character may continue its move. Objects can't be picked up by characters that are 3 or fewer squares from this object."
-	},
-	"LASER TURRET":{
-		"type":"Heavy",
-		"cost":"",
-		"relic":"",
-		"english":"(optional) Once during your turn (but not during another action) when a character friendly to you occupies this object's square, give this object a free action to make a ranged combat attack (#attack#8, #damage#2, 4#lightning#) against any opposing figure. This object has no effect when held."
-	},
-	"AERIAL BAFFLER":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"Any character with the #flight# or #transFlight# speed mode that is 3 or fewer squares from this object gains Earthbound. Any character it carries takes no damage and is placed in the nearest square it can occupy. This object has no effect when held."
-	},
-	"FUEL TANK":{
-		"type":"Heavy",
-		"cost":"",
-		"relic":"",
-		"english":"A character may throw this object up to 6 squares. If this object is used as part of a successful attack, also deal 1 damage to all figures adjacent to the target."
-	},
-	"STEPLADDER":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"When this object occupies a square adjacent to a square of higher elevation, the squares are connected by a ladder. This object is not hindering terrain for movement purposes."
-	},
-	"STATUE":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"This object deals 3 damage when thrown as part of an attack targeting terrain or a wall."
-	},
-	"METEORITE":{
-		"type":"Heavy",
-		"cost":"",
-		"relic":"",
-		"english":"When this object is used in a successful close combat attack, roll one six-sided die and subtract 2 from the result, minimum result 1. add the result to the attacker's unmodified damage value for the attack. The damage value is locked, and the damage dealt can't otherwise be modified."
-	},
-	"SATELLITE":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"Give a character holding this object a power action. Remove this object from the game and place a debris token in the square occupied by the character and in any two adjacent, unoccupied squares."
-	},
-	"FORCE FIELD GENERATOR":{
-		"type":"Immobile",
-		"cost":"",
-		"relic":"",
-		"english":"This object allows an adjacent character to use Barrier as if the character had a range value of 0. If this object is destroyed, any barrier terrain markers placed using Barrier granted by this object are removed from the game."
-	},
-	"DARK CAULDRON":{
-		"type":"Immobile",
-		"cost":"",
-		"relic":"",
-		"english":"Characters 4 or fewer squares from this object can't be healed."
-	},
-	"TELEPHONE BOOTH":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"Once per turn per character, a character occupying the same square as this object can be dealt 1 unavoidable damage as a free action. This object has no effect when held."
-	},
-	"STRUCTURAL INTEGRITY FIELD":{
-		"type":"Heavy",
-		"cost":"",
-		"relic":"",
-		"english":"Blocking terrain (but not blocking terrain markers) and walls 6 or fewer squares from this object can't be destroyed. This object has no effect when held."
-	},
-	"TOMBSTONE":{
-		"type":"Heavy",
-		"cost":"",
-		"relic":"",
-		"english":"The defense value of a character holding a Tombstone is modified by +2. After the resolution of an unsuccessful attack against a character holding a Tombstone, remove Tombstone from the game."
-	},
-	"SHIELD DISRUPTOR":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"Damage dealt to characters 4 or fewer squares from this object can't be reduced. This object has no effect when held."
-	},
-	"ELEHA'AL VINE":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"Give a character occupying the same square as this object a power action. Roll a d6 and subtract 4 from the result, minimum result 1. Heal the character of damage equal to the result. This object has no effect when held."
-	},
-	"TRAPPED DUMPSTER":{
-		"type":"Heavy",
-		"cost":"",
-		"relic":"",
-		"english":"When this object is picked up, roll a d6. On a result of 1, deal the character that picked up this object 1 damage immediately after the action resolves (even if the character no longer holds the object)."
-	},
-	"MASS-ABSORBER":{
-		"type":"Light",
-		"cost":"",
-		"relic":"",
-		"english":"If a character using this object as part of a close combat attack is 3 or fewer squares from blocking terrain, modify the character's damage value by +2 (instead of +1)."
-	},
-	"OPENED HYDRANT":{
-		"type":"Immobile",
-		"cost":"",
-		"relic":"",
-		"english":"Clear grounded terrain 3 or fewer squares from this object is water terrain."
-	},
-	"DYNAMOSTAT":{
-		"type":"Heavy",
-		"cost":"",
-		"relic":"",
-		"english":"This object is considered to be blocking terrain until it is destroyed, but it may be picked up and moved normally. This object has no effect when held."
-	},
-	"KINETIC ACCELERATOR":{
-		"type":"Immobile",
-		"cost":"",
-		"relic":"",
-		"english":"When a character occupying the same square as this object is given a move or power action, roll a d6 and replace the character's speed value with its speed value plus the result; on a result of 5 or 6, remove this object from the game after the action resolves. If the roll does not allow the given action to be performed against any targets, the action ends immediately. This object is not considered hindering terrain for movement purposes."
-	},
-	"MJOLNIR":{
-		"type":"Immobile",
-		"cost":"0",
-		"relic":"6",
-		"english":"Modify the characters' attack and damage values by +2, and the character can use Quake, Energy Explosion, and the Flight ability."
-	},
-	"RED LANTERN":{
-		"type":"Light",
-		"cost":"5",
-		"relic":"",
-		"english":"Characters within 4 squares of this object that can use Battle Fury modify their damage value by +1."
-	},
-	"ORANGE LANTERN":{
-		"type":"Light",
-		"cost":"5",
-		"relic":"",
-		"english":"When a character uses Poison within 4 squares of this object, that character is considered to be adjacent to opposing characters up to two squares away to which is has a clear line of fire."
-	},
-	"YELLOW LANTERN":{
-		"type":"Light",
-		"cost":"5",
-		"relic":"",
-		"english":"Characters within 4 squares of this object that can use Exploit Weakness or Penetrating/Psychic Blast modify their attack value by +1."
-	},
-	"GREEN LANTERN":{
-		"type":"Light",
-		"cost":"5",
-		"relic":"",
-		"english":"Characters within 4 squares of this object that can use Indomitable or Willpower modify their defense values by +3 when they are the target of an attack using Incapacitate or Mind Control."
-	},
-	"BLUE LANTERN":{
-		"type":"Light",
-		"cost":"5",
-		"relic":"",
-		"english":"Characters within 4 squares of this object that can use Barrier or Telekinesis modify their range values by +2 and can use Telekinesis for 10 squares instead of 8 (for all limitations of Telekinesis) if they can already use Telekinesis."
-	},
-	"INDIGO LANTERN":{
-		"type":"Light",
-		"cost":"5",
-		"relic":"",
-		"english":"Characters within 4 squares of this object that can use Support or Regeneration only subtract 1 from their die roll instead of 2 when using those powers."
-	},
-	"VIOLET LANTERN":{
-		"type":"Light",
-		"cost":"5",
-		"relic":"",
-		"english":"Characters within 4 squares of this object that can use Mind Control modify their range value for that attack by +2 (figures with a range of 0 replace their range with 6 instead of 4 for that attack), and if that attack is successful, each character successfully hit modifies its damage value by +1 until its free action granted by Mind Control is resolved."
-	},
-	"BLACK LANTERN":{
-		"type":"Light",
-		"cost":"0",
-		"relic":"",
-		"english":"During your turn, whenever an opposing character within 4 squares of this object is KOd, you may heal 1 damage on a single friendly character within 4 squares of this object."
-	},
-	"BUCKET OF WATER":{
-		"type":"Light",
-		"cost":"0",
-		"relic":"",
-		"english":"When not held, a square containing this object is not considered hindering terrain because of this object, it is considered water terrain instead."
-	},
-	"WHITE LANTERN":{
-		"type":"Immobile",
-		"cost":"5",
-		"relic":"",
-		"english":"Characters within 4 squares of this object that can use Support or Regeneration can't have those powers, or special powers that allow their use, countered."
-	},
-	"CRIMSON GEM OF CYTTORAK":{
-		"type":"Immobile",
-		"cost":"5",
-		"relic":"5-6",
-		"english":"Modify the character's damage value by +1 and the character can use Charge, Super Strength, and Toughness. (Characters can't use more than one damage reduction power)."
-	},
-	"SCORPIO KEY":{
-		"type":"Immobile",
-		"cost":"4",
-		"relic":"5-6",
-		"english":"Modify the character's range value by +2 and the character can use Penetrating/Psychic Blast. When that character is defeated, place this object in the square that character last occupied."
-	},
-	"GREEN KRYPTONITE":{
-		"type":"Light",
-		"cost":"5",
-		"relic":"",
-		"english":"Characters within 4 squares modify their attack values by -1 and can't use the Flight ability Characters within 4 squares that possess the Superman Ally team ability or the Kryptonian keyword can't have damage dealt to them reduced below 1."
-	},
-	"RED KRYPTONITE":{
-		"type":"Light",
-		"cost":"5",
-		"relic":"",
-		"english":"Characters within 4 squares must roll a d6 immediately before they are given a non-free action. On a roll of 1-2, the character is given an action token and can't be given any non-free actions this turn, but can use Perplex until your next turn if they can't already use it."
-	},
-	"JEWEL KRYPTONITE":{
-		"type":"Light",
-		"cost":"5",
-		"relic":"",
-		"english":"Characters within 4 squares can use Mind Control and Smoke Cloud if they can't already. Characters using Mind Control in this way can only target characters of a lower Cost. All characters within 4 squares using Mind Control and Smoke Cloud have a minimum range value of 6 when using those powers."
-	},
-	"GOLD KRYPTONITE":{
-		"type":"Light",
-		"cost":"10",
-		"relic":"",
-		"english":"Characters within 4 squares can't use Exploit Weakness, Penetrating/Psychic Blast, Pulse Wave, or Telekinesis. A character holding this object can't use any powers except Super Strength."
-	},
-	"WHITE KRYPTONITE":{
-		"type":"Light",
-		"cost":"10",
-		"relic":"",
-		"english":"Other squares within 4 squares become clear terrain instead of hindering terrain. This has no effect on objects or water terrain."
-	},
-	"X-KRYPTONITE":{
-		"type":"Light",
-		"cost":"10",
-		"relic":"",
-		"english":"Characters within 4 squares that are 75 points or less can use the Flight ability for as long as they are within 4 squares."
-	},
-	"THE ONE RING":{
-		"type":"Immobile",
-		"cost":"15",
-		"relic":"6",
-		"owner":"Frodo, Frodo and Sam, Gollum, Mr. Underhill, Ringbearer, Sauron",
-		"english":"The character controlling The One Ring can use Leadership, Probability Control and Stealth. At the end of each turn of the character controlling The One Ring, roll a d6 that can't be rerolled. On a roll of 1, the character places The One Ring in its square and is dealt 1 unavoidable damage. (Owners automatically roll a 6 when rolling to pick up The One Ring.)"
-	},
-	"GAMMA BOMB":{
-		"type":"Immobile",
-		"cost":"5",
-		"relic":"",
-		"english":"The Gamma Bomb can't be destroyed and begins on the green starting line. At the beginning of each player's turn, if it's not disarmed, click the dial once to the right. Once per game per character, a character occupying this square can be given a free action to roll a d6. On a result of 4 or 5, click the dial 4 clicks to the left (12 is the maximum), and on a result of 6, disarm it. When the red line is crossed, deal 3 damage to each character and destroy each object, wall, and square of blocking terrain within 8 squares and then remove this object from the map."
-	},
-	"GLOBE OF ULTIMATE KNOWLEDGE":{
-		"type":"Immobile",
-		"cost":"10",
-		"relic":"6",
-		"english":"Character can use Outwit."
-	},
-	"SOUL GEM":{
-		"type":"Immobile",
-		"cost":"10",
-		"relic":"5-6",
-		"english":"Character can use Steal Energy. When character KO's an opposing character, heal character of 2 damage."
-	},
-	"POWER GEM":{
-		"type":"Immobile",
-		"cost":"10",
-		"relic":"5-6",
-		"english":"If character's printed range value is 4 or less, character can use Close Combat Expert. If character's printed range value is 5 or more, character can use Ranged Combat Expert."
-	},
-	"TIME GEM":{
-		"type":"Immobile",
-		"cost":"10",
-		"relic":"5-6",
-		"english":"Character can use Incapacitate and Super Senses."
-	},
-	"SPACE GEM":{
-		"type":"Immobile",
-		"cost":"10",
-		"relic":"5-6",
-		"english":"Character can use Phasing/Teleport and the Carry ability. Modify character's speed value by +2."
-	},
-	"REALITY GEM":{
-		"type":"Immobile",
-		"cost":"10",
-		"relic":"5-6",
-		"english":"Character can use Probability Control, but only during character's turn."
-	},
-	"MIND GEM":{
-		"type":"Immobile",
-		"cost":"10",
-		"relic":"5-6",
-		"english":"Character can use Mind Control and Telekinesis."
-	},
-	"NOVA HELMET":{
-		"type":"Immobile",
-		"cost":"6",
-		"relic":"5-6",
-		"english":"This character can use Charge and the Flight ability and possesses the Nova Corps keyword."
-	},
-	"COSMIC CUBE":{
-		"type":"Immobile",
-		"cost":"12",
-		"relic":"4-6",
-		"english":"Character can use Perplex and Probability Control. Each time a character uses one of these powers, after actions resolve, roll a d6 that can't be rerolled. On a roll of 1-2, place the Cosmic Cube in the square that character occupies."
-	},
-	"IRON MAN BRIEFCASE ARMOR":{
-		"type":"Immobile",
-		"cost":"12",
-		"relic":"5-6",
-		"english":"This character can use Force Blast and Invulnerability."
-	},
-	"TANK TURRET":{
-		"type":"Ultra-Heavy",
-		"cost":"2",
-		"relic":"",
-		"english":"When used in a close combat attack, modify the attacker's damage value by +3 instead of +2. This object can't be thrown. Characters less than 100 points can't hold this object. This object can't be the target of Telekinesis. This object can't be destroyed by an attack targeting it for 3 damage; it requires 4 or more."
-	},
-	"MR. FREEZE'S GUN":{
-		"type":"Immobile'",
-		"cost":"5",
-		"relic":"5-6",
-		"english":"Character can use Barrier. When it does, it can use Incapacitate as a free action targeting all opposing characters adjacent to a blocking terrain marker placed by this character with a close combat attack."
-	},
-	"SUIT OF SORROWS":{
-		"type":"Immobile",
-		"cost":"5",
-		"relic":"4-6",
-		"english":"This character can use Battle Fury and Super Strength."
-	},
-	"SONIC TRANSMITTER":{
-		"type":"Immobile",
-		"cost":"7",
-		"relic":"4-6",
-		"english":"Give this character a power action. Each friendly Flock of Bats may be given a move action as a free action; halve its speed value for the action."
-	},
-	"ORCRIST":{
-		"type":"Immobile",
-		"cost":"5",
-		"relic":"5-6",
-		"english":"Character can use Exploit Weakness, but only to target characters with the Monster keyword."
-	},
-	"STING":{
-		"type":"Immobile",
-		"cost":"5",
-		"relic":"5-6",
-		"english":"Character can use Blades/Claws/Fangs. When it is given a close combat action, it may modify its attack value by +2; if it does and hits, it must roll for Blades/Claws/Fangs and the result is a maximum of 3."
-	},
-	"GAS PELLETS/SMOKE GRENADE":{
-		"type":"Immobile",
-		"cost":"3",
-		"relic":"4-6",
-		"english":"Character can use Smoke Cloud. When it does, after actions resolve it can be given a move action as a free action with a speed value of 4."
-	},
-	"BATARANGS":{
-		"type":"Immobile",
-		"cost":"10",
-		"relic":"4-6",
-		"english":"Character can use Incapacitate, the Sharpshooter ability and possesses one additional #lightning#."
-	},
-	"GRAPNEL GUN":{
-		"type":"Immobile",
-		"cost":"4",
-		"relic":"4-6",
-		"english":"Character can use #impmov# #ignet# and the Carry ability."
-	},
-	"FLASH GRENADE":{
-		"type":"Immobile",
-		"cost":"5",
-		"relic":"4-6",
-		"english":"Character can use the Throw a Grenade ability using Flashbang Grenades and has a Grenade Pool: +3."
-	},
-	"REBREATHER":{
-		"type":"Immobile",
-		"cost":"6",
-		"relic":"4-6",
-		"english":"When this character occupies water terrain, it can use Willpower. This character ignores opposing characters' Poison."
-	},
-	"HANDCUFFS":{
-		"type":"Immobile",
-		"cost":"5",
-		"relic":"4-6",
-		"english":"Character can use Plasticity. Opposing characters adjacent to this character modify their attack values by -1."
-	},
-	"BATMAN COWL":{
-		"type":"Immobile",
-		"cost":"5",
-		"relic":"4-6",
-		"english":"This character possesses #tabatman#. If character already possesses #tabatman# and is adjacent to a wall or square of a higher elevated terrain, lines of fire drawn to it are blocked when it is not your turn."
-	},
-	"BAT SIGNAL":{
-		"type":"Heavy",
-		"cost":"2",
-		"relic":"",
-		"english":"Give a character adjacent to this object a power action and choose another friendly character that is not within 8 squares of this object. Place the chosen character adjacent to this character and this object."
-	},
-	"RADAR MONITOR":{
-		"type":"Immobile",
-		"cost":"10",
-		"relic":"5-6",
-		"english":"Immobile: This character is a wild card, but can use opposing team abilities instead of friendly team abilities."
-	},
-	"EYE OF AGAMOTTO":{
-		"type":"Immobile",
-		"cost":"12",
-		"relic":"5-6",
-		"english":"Characters that are attacked by a character with the Eye of Agamotto on its card can't use Shape Change and Super Senses for the attack. A character with the Eye of Agamotto on its card can use Probability Control when it attacks. If a character with the Eye of Agamotto on its card has the Mystical keyword, it can use Perplex."
-	},
-	"DR. OCTOPUS ARMS":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"5-6",
-		"english":"A character with Dr. Octopus Arms on its character card has a minimum range value of 4, has #lightning##lightning##lightning#, and can use Perplex twice during your turn, but only to target itself."
-	},
-	"ROBIN UNIFORM":{
-		"type":"Immobile",
-		"cost":"5",
-		"relic":"4-6",
-		"english":"This character possesses #tateen#. If this character already has #tateen#, it can use the team ability as a free action."
-	},
-	"HARVEST STAFF":{
-		"type":"Immobile",
-		"cost":"15",
-		"relic":"6",
-		"english":"This character can use Incapacitate and Outwit. When you use Outwit and actions resolve, if this character targets the same opposing character with Incapacitate, modify this character's attack value by +1. Give this character a power action and choose a power; that power is countered on all opposing characters within 5 squares. Give this character a double power action and choose a character within 10 squares and line of fire; deal that character 1 unavoidable damage and all of its powers and abilities are countered until your next turn."
-	},
-	"WONDER GIRL LASSO":{
-		"type":"Immobile",
-		"cost":"5",
-		"relic":"5-6",
-		"english":"This character can use Steal Energy, but is also healed when its ranged combat attack causes an opposing character to take damage."
-	},
-	"KUURTH'S HAMMER":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"5-6",
-		"english":"This character can use Charge, #impmov# #igndmg# #ignht#, and Toughness. This character modifies its attack value by +2."
-	},
-	"MOKK'S HAMMER":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"5-6",
-		"english":"This character can use Plasticity and Running Shot with a minimum range of 4. This character modifies its attack value by +2."
-	},
-	"SKIRN'S HAMMER":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"5-6",
-		"english":"This character can use Charge, #impmov# #ignet# #chara#, and Toughness. This character modifies its attack value by +2."
-	},
-	"GREITHOTH'S HAMMER":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"5-6",
-		"english":"This character possesses #giant# and can use Running Shot with a minimum range of 4. This character modifies it's attack value by +2."
-	},
-	"NERKKOD'S HAMMER":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"5-6",
-		"english":"This character can use and Running Shot with a minimum range of 4. This character modifies it's attack value by +2."
-	},
-	"NUL'S HAMMER":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"5-6",
-		"english":"This character can use Running Shot with a minimum range of 4 and Willpower. This character modifies it's attack value by +2."
-	},
-	"ANGRIR'S HAMMER":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"5-6",
-		"english":"This character can use Charge, Regeneration, Steal Energy, and Toughness. This character modifies its attack value by +2."
-	},
-	"SKADI'S HAMMER":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"5-6",
-		"english":"This character can use Charge, Exploit Weakness, and Toughness. This character modifies its attack value by +2."
-	},
-	"URU FORGE":{
-		"type":"Immobile",
-		"cost":"10",
-		"relic":"3-6",
-		"english":"When a character would place this relic on its character card, choose one: Modify this character's speed or range value by +3 this game; Modify this character's attack, defense, or damage value by +1 this game; or remove this relic from the game and replace it with another relic of equal or less points in the same square."
-	},
-	"SHARK REPELLANT SPRAY":{
-		"type":"Immobile",
-		"cost":"4",
-		"relic":"4-6",
-		"english":"Character modifies its defense value by +2 when targeted by a character who possesses #swim# or #transSwim#."
-	},
-	"DISGUISE KIT":{
-		"type":"Immobile",
-		"cost":"7",
-		"relic":"4-6",
-		"english":"Once per turn, this character may use Shape Change."
-	},
-	"TRACER":{
-		"type":"Immobile",
-		"cost":"6",
-		"relic":"4-6",
-		"english":"Give this character a close or ranged combat action to make an attack that deals no damage. Until your next turn, lines of fire drawn to characters hit by this attack are only blocked by indoor blocking terrain."
-	},
-	"BOLOS":{
-		"type":"Immobile",
-		"cost":"5",
-		"relic":"4-6",
-		"english":"Character can use Incapacitate with a maximum range of 4."
-	},
-	"PLASTIQUE EXPLOSIVE":{
-		"type":"Immobile",
-		"cost":"10",
-		"relic":"4-6",
-		"english":"Give this character a power action and place a Plastique special marker in a square adjacent to both this character and either a wall or blocking terrain; remove any other Plastique special markers this character has placed on the map. When this character is within 10 squares of the special marker, you may give it a power action to remove the Plastique special marker and destroy all objects, walls, and blocking terrain within 3 squares of the Plastique special marker."
-	},
-	"KRYPTONITE RING":{
-		"type":"Immobile",
-		"cost":"3",
-		"relic":"4-6",
-		"english":"When this character makes a close combat attack targeting an opposing character possessing the Superman Ally team ability or Kryptonian keyword, damage dealt is penetrating damage."
-	},
-	"NIGHT VISION GOGGLES":{
-		"type":"Immobile",
-		"cost":"3",
-		"relic":"4-6",
-		"english":"This character ignores hindering terrain for line of fire purposes."
-	},
-	"FIRST AID KIT":{
-		"type":"Immobile",
-		"cost":"5",
-		"relic":"4-6",
-		"english":"Character can use Support but subtracts 3 from the result instead of 2."
-	},
-	"MITHRIL VEST":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"5-6",
-		"english":"When this character is hit by a ranged combat attack, roll a d6; on a result of 5-6, this character ignores all damage dealt and is then dealt 1 unavoidable damage."
-	},
-	"LOTHLORIEN CLOAK":{
-		"type":"Immobile",
-		"cost":"10",
-		"relic":"4-6",
-		"english":"This character can use Super Senses when it occupies hindering terrain."
-	},
-	"M'KRAAN CRYSTAL SLIVER":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"4-6",
-		"english":"When character would be KO'd, instead turn its dial to its last nonKO click, and then heal it of 2 damage, then remove this relic from the game."
-	},
-	"THE BOOKCASE":{
-		"type":"Immobile",
-		"cost":"6",
-		"relic":"",
-		"english":"This object can't be destroyed. Characters adjacent to this object can use Empower and Enhancement."
-	},
-	"MORGUL BLADE":{
-		"type":"Immobile",
-		"cost":"6",
-		"relic":"",
-		"english":"When this character makes a close combat attack, damage dealt can't be reduced to less than 1."
-	},
-	"PALANTIR":{
-		"type":"Immobile",
-		"cost":"15",
-		"relic":"3-6",
-		"english":"This character can use Mind Control. When it does, it can use #imptar# #ignbt#."
-	},
-	"IMPACT BEAM":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"4-6",
-		"english":"Character can use Force Blast. A target is knocked back equal to twice the d6 roll for Force Blast. Knock back damage dealt by this character is increased by 1 and is penetrating."
-	},
-	"VORTEX BEAM":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"4-6",
-		"english":"Character can use Telekinesis and the Flight ability."
-	},
-	"WHITE LIGHT":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"4-6",
-		"english":"When character hits a single opposing character with a ranged combat attack, until your next turn, modify the target's attack value by -2 and its damage value by -1."
-	},
-	"FLAME BLAST":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"4-6",
-		"english":"Character can use Penetrating/Psychic Blast with a minimum range value of 4. If it only targets a single character, it can use Energy Explosion as well."
-	},
-	"MENTO-INTENSIFIER":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"4-6",
-		"english":"Character can use Mind Control. It can use it as a free action, but may only target a single character that took damage from this character's attack this turn."
-	},
-	"ICE BLAST":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"4-6",
-		"english":"Character can use Barrier and Incapacitate. When it uses Incapacitate and hits, it may use Barrier as a free action but may only place blocking terrain markers adjacent to the target."
-	},
-	"MATTER REARRANGER":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"4-6",
-		"english":"When character has no action tokens, give it a free action, and choose a square of blocking, hindering, water, or clear terrain within range and line of fire. You may replace that square with one of the other three types listed."
-	},
-	"BLACK LIGHT":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"4-6",
-		"english":"Character can use Smoke Cloud as a free action. Opposing characters that begin their turn in a square with one of these terrain markers placed by this ability modify their speed and range values by -2. This character and adjacent friendly characters can use Stealth if they occupy a square with a terrain marker placed by this ability."
-	},
-	"ELECTRO BLAST":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"4-6",
-		"english":"When making a ranged combat attack, character modifies its damage and range values by +1 and has an additional #lightning#."
-	},
-	"DISINTEGRATION BEAM":{
-		"type":"Immobile",
-		"cost":"8",
-		"relic":"4-6",
-		"english":"When character hits an opposing character with a relic or resource assigned to it, or holding an object, and the attack roll is 10 or more, remove that relic, resource or object from the game. When character hits an opposing character that is 150 points or less, until your next turn, any time the hit character can use Impervious, Invincible, or Invulnerability, it uses Toughness instead."
-	}
+  "BOOKCASE": {
+    "type": "Light",
+    "english": "Increase the attacker's attack value by 1 when used in an attack."
+  },
+  "COMPUTER": {
+    "type": "Heavy",
+    "english": "Increases the attacker's attack value by 1 when used in an attack."
+  },
+  "OFFICE DESK": {
+    "type": "Light",
+    "english": "When a character holding this object is attacked, you may modify the holding character's defense value by +2. If you do, the object is destroyed after the attack resolves."
+  },
+  "SODA MACHINE": {
+    "type": "Heavy",
+    "english": "Increase the attacker's damage dealt by 1 when used in an attack."
+  },
+  "CRATE": {
+    "type": "Light",
+    "english": "A character may throw this object 10 squares."
+  },
+  "DUMPSTER": {
+    "type": "Heavy",
+    "english": "This object is not destroyed when used in an attack. The attacker places it in any square adjacent to the target after use."
+  },
+  "LIGHT POST": {
+    "type": "Heavy",
+    "english": "A target with 0 or 1 action tokens that is successfully hit with this object also receives an action token, which can result in pushing damage."
+  },
+  "MAILBOX": {
+    "type": "Light",
+    "english": "Increases the attacker's damage dealt by 1 when used in an attack."
+  },
+  "BROKEN DRONE": {
+    "type": "Light",
+    "english": "While a character is holding this object, you may choose to either (1) use this object normally in an attack, or (2) give this character a ranged combat action (treating the character's range value as 4) and make a ranged combat attack against a single target opposing character. An attack using option 2 deals 1 damage but does not destroy this object."
+  },
+  "GENERATOR": {
+    "type": "Heavy",
+    "english": "This object is not destroyed when used in an attack. After the Generator is used as part of an attack, the attacker places it in any square adjacent to the target after the attack resolves."
+  },
+  "COM DISH": {
+    "type": "Heavy",
+    "english": "When this object is used in an attack, modify the attacker's damage value by +1 for the attack."
+  },
+  "NEWSBOT": {
+    "type": "Light",
+    "english": "When you give a character an action to attack using this object, it does not count toward your available actions for the turn."
+  },
+  "TELEPORT PAD": {
+    "type": "Immobile",
+    "english": "If a character friendly to you is adjacent to this object, give the character a power action and move it up to 6 squares, ignoring characters and terrain features for movement purposes."
+  },
+  "KINETIC ABSORBER": {
+    "type": "Light",
+    "english": "All clear and water terrain 2 or fewer squares from this object is hindering terrain for movement purposes. This object has no effect when held."
+  },
+  "SEPARATION FIELD GENERATOR": {
+    "type": "Immobile",
+    "english": "A character holding an object or carrying a character immediately drops it into an adjacent square when 3 or fewer squares from this object. The carrying or holding character may continue its move. Objects can't be picked up by characters that are 3 or fewer squares from this object."
+  },
+  "LASER TURRET": {
+    "type": "Heavy",
+    "english": "(optional) Once during your turn (but not during another action) when a character friendly to you occupies this object's square, give this object a free action to make a ranged combat attack (#attack#8, #damage#2, 4#lightning#) against any opposing figure. This object has no effect when held."
+  },
+  "AERIAL BAFFLER": {
+    "type": "Light",
+    "english": "Any character with the #flight# or #transFlight# speed mode that is 3 or fewer squares from this object gains Earthbound. Any character it carries takes no damage and is placed in the nearest square it can occupy. This object has no effect when held."
+  },
+  "FUEL TANK": {
+    "type": "Heavy",
+    "english": "A character may throw this object up to 6 squares. If this object is used as part of a successful attack, also deal 1 damage to all figures adjacent to the target."
+  },
+  "STEPLADDER": {
+    "type": "Light",
+    "english": "When this object occupies a square adjacent to a square of higher elevation, the squares are connected by a ladder. This object is not hindering terrain for movement purposes."
+  },
+  "STATUE": {
+    "type": "Light",
+    "english": "This object deals 3 damage when thrown as part of an attack targeting terrain or a wall."
+  },
+  "METEORITE": {
+    "type": "Heavy",
+    "english": "When this object is used in a successful close combat attack, roll one six-sided die and subtract 2 from the result, minimum result 1. add the result to the attacker's unmodified damage value for the attack. The damage value is locked, and the damage dealt can't otherwise be modified."
+  },
+  "SATELLITE": {
+    "type": "Light",
+    "english": "Give a character holding this object a power action. Remove this object from the game and place a debris token in the square occupied by the character and in any two adjacent, unoccupied squares."
+  },
+  "FORCE FIELD GENERATOR": {
+    "type": "Immobile",
+    "english": "This object allows an adjacent character to use Barrier as if the character had a range value of 0. If this object is destroyed, any barrier terrain markers placed using Barrier granted by this object are removed from the game."
+  },
+  "DARK CAULDRON": {
+    "type": "Immobile",
+    "english": "Characters 4 or fewer squares from this object can't be healed."
+  },
+  "TELEPHONE BOOTH": {
+    "type": "Light",
+    "english": "Once per turn per character, a character occupying the same square as this object can be dealt 1 unavoidable damage as a free action. This object has no effect when held."
+  },
+  "STRUCTURAL INTEGRITY FIELD": {
+    "type": "Heavy",
+    "english": "Blocking terrain (but not blocking terrain markers) and walls 6 or fewer squares from this object can't be destroyed. This object has no effect when held."
+  },
+  "TOMBSTONE": {
+    "type": "Heavy",
+    "english": "The defense value of a character holding a Tombstone is modified by +2. After the resolution of an unsuccessful attack against a character holding a Tombstone, remove Tombstone from the game."
+  },
+  "SHIELD DISRUPTOR": {
+    "type": "Light",
+    "english": "Damage dealt to characters 4 or fewer squares from this object can't be reduced. This object has no effect when held."
+  },
+  "ELEHA'AL VINE": {
+    "type": "Light",
+    "english": "Give a character occupying the same square as this object a power action. Roll a d6 and subtract 4 from the result, minimum result 1. Heal the character of damage equal to the result. This object has no effect when held."
+  },
+  "TRAPPED DUMPSTER": {
+    "type": "Heavy",
+    "english": "When this object is picked up, roll a d6. On a result of 1, deal the character that picked up this object 1 damage immediately after the action resolves (even if the character no longer holds the object)."
+  },
+  "MASS-ABSORBER": {
+    "type": "Light",
+    "english": "If a character using this object as part of a close combat attack is 3 or fewer squares from blocking terrain, modify the character's damage value by +2 (instead of +1)."
+  },
+  "OPENED HYDRANT": {
+    "type": "Immobile",
+    "english": "Clear grounded terrain 3 or fewer squares from this object is water terrain."
+  },
+  "DYNAMOSTAT": {
+    "type": "Heavy",
+    "english": "This object is considered to be blocking terrain until it is destroyed, but it may be picked up and moved normally. This object has no effect when held."
+  },
+  "KINETIC ACCELERATOR": {
+    "type": "Immobile",
+    "english": "When a character occupying the same square as this object is given a move or power action, roll a d6 and replace the character's speed value with its speed value plus the result; on a result of 5 or 6, remove this object from the game after the action resolves. If the roll does not allow the given action to be performed against any targets, the action ends immediately. This object is not considered hindering terrain for movement purposes."
+  },
+  "MJOLNIR": {
+    "type": "Immobile",
+    "cost": "0",
+    "relic": "6",
+    "english": "Modify the characters' attack and damage values by +2, and the character can use Quake, Energy Explosion, and the Flight ability."
+  },
+  "RED LANTERN": {
+    "type": "Light",
+    "cost": "5",
+    "english": "Characters within 4 squares of this object that can use Battle Fury modify their damage value by +1."
+  },
+  "ORANGE LANTERN": {
+    "type": "Light",
+    "cost": "5",
+    "english": "When a character uses Poison within 4 squares of this object, that character is considered to be adjacent to opposing characters up to two squares away to which is has a clear line of fire."
+  },
+  "YELLOW LANTERN": {
+    "type": "Light",
+    "cost": "5",
+    "english": "Characters within 4 squares of this object that can use Exploit Weakness or Penetrating/Psychic Blast modify their attack value by +1."
+  },
+  "GREEN LANTERN": {
+    "type": "Light",
+    "cost": "5",
+    "english": "Characters within 4 squares of this object that can use Indomitable or Willpower modify their defense values by +3 when they are the target of an attack using Incapacitate or Mind Control."
+  },
+  "BLUE LANTERN": {
+    "type": "Light",
+    "cost": "5",
+    "english": "Characters within 4 squares of this object that can use Barrier or Telekinesis modify their range values by +2 and can use Telekinesis for 10 squares instead of 8 (for all limitations of Telekinesis) if they can already use Telekinesis."
+  },
+  "INDIGO LANTERN": {
+    "type": "Light",
+    "cost": "5",
+    "english": "Characters within 4 squares of this object that can use Support or Regeneration only subtract 1 from their die roll instead of 2 when using those powers."
+  },
+  "VIOLET LANTERN": {
+    "type": "Light",
+    "cost": "5",
+    "english": "Characters within 4 squares of this object that can use Mind Control modify their range value for that attack by +2 (figures with a range of 0 replace their range with 6 instead of 4 for that attack), and if that attack is successful, each character successfully hit modifies its damage value by +1 until its free action granted by Mind Control is resolved."
+  },
+  "BLACK LANTERN": {
+    "type": "Light",
+    "cost": "0",
+    "english": "During your turn, whenever an opposing character within 4 squares of this object is KOd, you may heal 1 damage on a single friendly character within 4 squares of this object."
+  },
+  "BUCKET OF WATER": {
+    "type": "Light",
+    "cost": "0",
+    "english": "When not held, a square containing this object is not considered hindering terrain because of this object, it is considered water terrain instead."
+  },
+  "WHITE LANTERN": {
+    "type": "Immobile",
+    "cost": "5",
+    "english": "Characters within 4 squares of this object that can use Support or Regeneration can't have those powers, or special powers that allow their use, countered."
+  },
+  "CRIMSON GEM OF CYTTORAK": {
+    "type": "Immobile",
+    "cost": "5",
+    "relic": "5-6",
+    "english": "Modify the character's damage value by +1 and the character can use Charge, Super Strength, and Toughness. (Characters can't use more than one damage reduction power)."
+  },
+  "SCORPIO KEY": {
+    "type": "Immobile",
+    "cost": "4",
+    "relic": "5-6",
+    "english": "Modify the character's range value by +2 and the character can use Penetrating/Psychic Blast. When that character is defeated, place this object in the square that character last occupied."
+  },
+  "GREEN KRYPTONITE": {
+    "type": "Light",
+    "cost": "5",
+    "english": "Characters within 4 squares modify their attack values by -1 and can't use the Flight ability Characters within 4 squares that possess the Superman Ally team ability or the Kryptonian keyword can't have damage dealt to them reduced below 1."
+  },
+  "RED KRYPTONITE": {
+    "type": "Light",
+    "cost": "5",
+    "english": "Characters within 4 squares must roll a d6 immediately before they are given a non-free action. On a roll of 1-2, the character is given an action token and can't be given any non-free actions this turn, but can use Perplex until your next turn if they can't already use it."
+  },
+  "JEWEL KRYPTONITE": {
+    "type": "Light",
+    "cost": "5",
+    "english": "Characters within 4 squares can use Mind Control and Smoke Cloud if they can't already. Characters using Mind Control in this way can only target characters of a lower Cost. All characters within 4 squares using Mind Control and Smoke Cloud have a minimum range value of 6 when using those powers."
+  },
+  "GOLD KRYPTONITE": {
+    "type": "Light",
+    "cost": "10",
+    "english": "Characters within 4 squares can't use Exploit Weakness, Penetrating/Psychic Blast, Pulse Wave, or Telekinesis. A character holding this object can't use any powers except Super Strength."
+  },
+  "WHITE KRYPTONITE": {
+    "type": "Light",
+    "cost": "10",
+    "english": "Other squares within 4 squares become clear terrain instead of hindering terrain. This has no effect on objects or water terrain."
+  },
+  "X-KRYPTONITE": {
+    "type": "Light",
+    "cost": "10",
+    "english": "Characters within 4 squares that are 75 points or less can use the Flight ability for as long as they are within 4 squares."
+  },
+  "THE ONE RING": {
+    "type": "Immobile",
+    "cost": "15",
+    "relic": "6",
+    "owner": "Frodo, Frodo and Sam, Gollum, Mr. Underhill, Ringbearer, Sauron",
+    "english": "The character controlling The One Ring can use Leadership, Probability Control and Stealth. At the end of each turn of the character controlling The One Ring, roll a d6 that can't be rerolled. On a roll of 1, the character places The One Ring in its square and is dealt 1 unavoidable damage. (Owners automatically roll a 6 when rolling to pick up The One Ring.)"
+  },
+  "GAMMA BOMB": {
+    "type": "Immobile",
+    "cost": "5",
+    "english": "The Gamma Bomb can't be destroyed and begins on the green starting line. At the beginning of each player's turn, if it's not disarmed, click the dial once to the right. Once per game per character, a character occupying this square can be given a free action to roll a d6. On a result of 4 or 5, click the dial 4 clicks to the left (12 is the maximum), and on a result of 6, disarm it. When the red line is crossed, deal 3 damage to each character and destroy each object, wall, and square of blocking terrain within 8 squares and then remove this object from the map."
+  },
+  "GLOBE OF ULTIMATE KNOWLEDGE": {
+    "type": "Immobile",
+    "cost": "10",
+    "relic": "6",
+    "english": "Character can use Outwit."
+  },
+  "SOUL GEM": {
+    "type": "Immobile",
+    "cost": "10",
+    "relic": "5-6",
+    "english": "Character can use Steal Energy. When character KO's an opposing character, heal character of 2 damage."
+  },
+  "POWER GEM": {
+    "type": "Immobile",
+    "cost": "10",
+    "relic": "5-6",
+    "english": "If character's printed range value is 4 or less, character can use Close Combat Expert. If character's printed range value is 5 or more, character can use Ranged Combat Expert."
+  },
+  "TIME GEM": {
+    "type": "Immobile",
+    "cost": "10",
+    "relic": "5-6",
+    "english": "Character can use Incapacitate and Super Senses."
+  },
+  "SPACE GEM": {
+    "type": "Immobile",
+    "cost": "10",
+    "relic": "5-6",
+    "english": "Character can use Phasing/Teleport and the Carry ability. Modify character's speed value by +2."
+  },
+  "REALITY GEM": {
+    "type": "Immobile",
+    "cost": "10",
+    "relic": "5-6",
+    "english": "Character can use Probability Control, but only during character's turn."
+  },
+  "MIND GEM": {
+    "type": "Immobile",
+    "cost": "10",
+    "relic": "5-6",
+    "english": "Character can use Mind Control and Telekinesis."
+  },
+  "NOVA HELMET": {
+    "type": "Immobile",
+    "cost": "6",
+    "relic": "5-6",
+    "english": "This character can use Charge and the Flight ability and possesses the Nova Corps keyword."
+  },
+  "COSMIC CUBE": {
+    "type": "Immobile",
+    "cost": "12",
+    "relic": "4-6",
+    "english": "Character can use Perplex and Probability Control. Each time a character uses one of these powers, after actions resolve, roll a d6 that can't be rerolled. On a roll of 1-2, place the Cosmic Cube in the square that character occupies."
+  },
+  "IRON MAN BRIEFCASE ARMOR": {
+    "type": "Immobile",
+    "cost": "12",
+    "relic": "5-6",
+    "english": "This character can use Force Blast and Invulnerability."
+  },
+  "TANK TURRET": {
+    "type": "Ultra-Heavy",
+    "cost": "2",
+    "english": "When used in a close combat attack, modify the attacker's damage value by +3 instead of +2. This object can't be thrown. Characters less than 100 points can't hold this object. This object can't be the target of Telekinesis. This object can't be destroyed by an attack targeting it for 3 damage; it requires 4 or more."
+  },
+  "MR. FREEZE'S GUN": {
+    "type": "Immobile'",
+    "cost": "5",
+    "relic": "5-6",
+    "english": "Character can use Barrier. When it does, it can use Incapacitate as a free action targeting all opposing characters adjacent to a blocking terrain marker placed by this character with a close combat attack."
+  },
+  "SUIT OF SORROWS": {
+    "type": "Immobile",
+    "cost": "5",
+    "relic": "4-6",
+    "english": "This character can use Battle Fury and Super Strength."
+  },
+  "SONIC TRANSMITTER": {
+    "type": "Immobile",
+    "cost": "7",
+    "relic": "4-6",
+    "english": "Give this character a power action. Each friendly Flock of Bats may be given a move action as a free action; halve its speed value for the action."
+  },
+  "ORCRIST": {
+    "type": "Immobile",
+    "cost": "5",
+    "relic": "5-6",
+    "english": "Character can use Exploit Weakness, but only to target characters with the Monster keyword."
+  },
+  "STING": {
+    "type": "Immobile",
+    "cost": "5",
+    "relic": "5-6",
+    "english": "Character can use Blades/Claws/Fangs. When it is given a close combat action, it may modify its attack value by +2; if it does and hits, it must roll for Blades/Claws/Fangs and the result is a maximum of 3."
+  },
+  "GAS PELLETS/SMOKE GRENADE": {
+    "type": "Immobile",
+    "cost": "3",
+    "relic": "4-6",
+    "english": "Character can use Smoke Cloud. When it does, after actions resolve it can be given a move action as a free action with a speed value of 4."
+  },
+  "BATARANGS": {
+    "type": "Immobile",
+    "cost": "10",
+    "relic": "4-6",
+    "english": "Character can use Incapacitate, the Sharpshooter ability and possesses one additional #lightning#."
+  },
+  "GRAPNEL GUN": {
+    "type": "Immobile",
+    "cost": "4",
+    "relic": "4-6",
+    "english": "Character can use #impmov# #ignet# and the Carry ability."
+  },
+  "FLASH GRENADE": {
+    "type": "Immobile",
+    "cost": "5",
+    "relic": "4-6",
+    "english": "Character can use the Throw a Grenade ability using Flashbang Grenades and has a Grenade Pool: +3."
+  },
+  "REBREATHER": {
+    "type": "Immobile",
+    "cost": "6",
+    "relic": "4-6",
+    "english": "When this character occupies water terrain, it can use Willpower. This character ignores opposing characters' Poison."
+  },
+  "HANDCUFFS": {
+    "type": "Immobile",
+    "cost": "5",
+    "relic": "4-6",
+    "english": "Character can use Plasticity. Opposing characters adjacent to this character modify their attack values by -1."
+  },
+  "BATMAN COWL": {
+    "type": "Immobile",
+    "cost": "5",
+    "relic": "4-6",
+    "english": "This character possesses #tabatman#. If character already possesses #tabatman# and is adjacent to a wall or square of a higher elevated terrain, lines of fire drawn to it are blocked when it is not your turn."
+  },
+  "BAT SIGNAL": {
+    "type": "Heavy",
+    "cost": "2",
+    "english": "Give a character adjacent to this object a power action and choose another friendly character that is not within 8 squares of this object. Place the chosen character adjacent to this character and this object."
+  },
+  "RADAR MONITOR": {
+    "type": "Immobile",
+    "cost": "10",
+    "relic": "5-6",
+    "english": "Immobile: This character is a wild card, but can use opposing team abilities instead of friendly team abilities."
+  },
+  "EYE OF AGAMOTTO": {
+    "type": "Immobile",
+    "cost": "12",
+    "relic": "5-6",
+    "english": "Characters that are attacked by a character with the Eye of Agamotto on its card can't use Shape Change and Super Senses for the attack. A character with the Eye of Agamotto on its card can use Probability Control when it attacks. If a character with the Eye of Agamotto on its card has the Mystical keyword, it can use Perplex."
+  },
+  "DR. OCTOPUS ARMS": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "5-6",
+    "english": "A character with Dr. Octopus Arms on its character card has a minimum range value of 4, has #lightning##lightning##lightning#, and can use Perplex twice during your turn, but only to target itself."
+  },
+  "ROBIN UNIFORM": {
+    "type": "Immobile",
+    "cost": "5",
+    "relic": "4-6",
+    "english": "This character possesses #tateen#. If this character already has #tateen#, it can use the team ability as a free action."
+  },
+  "HARVEST STAFF": {
+    "type": "Immobile",
+    "cost": "15",
+    "relic": "6",
+    "english": "This character can use Incapacitate and Outwit. When you use Outwit and actions resolve, if this character targets the same opposing character with Incapacitate, modify this character's attack value by +1. Give this character a power action and choose a power; that power is countered on all opposing characters within 5 squares. Give this character a double power action and choose a character within 10 squares and line of fire; deal that character 1 unavoidable damage and all of its powers and abilities are countered until your next turn."
+  },
+  "WONDER GIRL LASSO": {
+    "type": "Immobile",
+    "cost": "5",
+    "relic": "5-6",
+    "english": "This character can use Steal Energy, but is also healed when its ranged combat attack causes an opposing character to take damage."
+  },
+  "KUURTH'S HAMMER": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "5-6",
+    "english": "This character can use Charge, #impmov# #igndmg# #ignht#, and Toughness. This character modifies its attack value by +2."
+  },
+  "MOKK'S HAMMER": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "5-6",
+    "english": "This character can use Plasticity and Running Shot with a minimum range of 4. This character modifies its attack value by +2."
+  },
+  "SKIRN'S HAMMER": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "5-6",
+    "english": "This character can use Charge, #impmov# #ignet# #chara#, and Toughness. This character modifies its attack value by +2."
+  },
+  "GREITHOTH'S HAMMER": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "5-6",
+    "english": "This character possesses #giant# and can use Running Shot with a minimum range of 4. This character modifies it's attack value by +2."
+  },
+  "NERKKOD'S HAMMER": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "5-6",
+    "english": "This character can use and Running Shot with a minimum range of 4. This character modifies it's attack value by +2."
+  },
+  "NUL'S HAMMER": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "5-6",
+    "english": "This character can use Running Shot with a minimum range of 4 and Willpower. This character modifies it's attack value by +2."
+  },
+  "ANGRIR'S HAMMER": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "5-6",
+    "english": "This character can use Charge, Regeneration, Steal Energy, and Toughness. This character modifies its attack value by +2."
+  },
+  "SKADI'S HAMMER": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "5-6",
+    "english": "This character can use Charge, Exploit Weakness, and Toughness. This character modifies its attack value by +2."
+  },
+  "URU FORGE": {
+    "type": "Immobile",
+    "cost": "10",
+    "relic": "3-6",
+    "english": "When a character would place this relic on its character card, choose one: Modify this character's speed or range value by +3 this game; Modify this character's attack, defense, or damage value by +1 this game; or remove this relic from the game and replace it with another relic of equal or less points in the same square."
+  },
+  "SHARK REPELLANT SPRAY": {
+    "type": "Immobile",
+    "cost": "4",
+    "relic": "4-6",
+    "english": "Character modifies its defense value by +2 when targeted by a character who possesses #swim# or #transSwim#."
+  },
+  "DISGUISE KIT": {
+    "type": "Immobile",
+    "cost": "7",
+    "relic": "4-6",
+    "english": "Once per turn, this character may use Shape Change."
+  },
+  "TRACER": {
+    "type": "Immobile",
+    "cost": "6",
+    "relic": "4-6",
+    "english": "Give this character a close or ranged combat action to make an attack that deals no damage. Until your next turn, lines of fire drawn to characters hit by this attack are only blocked by indoor blocking terrain."
+  },
+  "BOLOS": {
+    "type": "Immobile",
+    "cost": "5",
+    "relic": "4-6",
+    "english": "Character can use Incapacitate with a maximum range of 4."
+  },
+  "PLASTIQUE EXPLOSIVE": {
+    "type": "Immobile",
+    "cost": "10",
+    "relic": "4-6",
+    "english": "Give this character a power action and place a Plastique special marker in a square adjacent to both this character and either a wall or blocking terrain; remove any other Plastique special markers this character has placed on the map. When this character is within 10 squares of the special marker, you may give it a power action to remove the Plastique special marker and destroy all objects, walls, and blocking terrain within 3 squares of the Plastique special marker."
+  },
+  "KRYPTONITE RING": {
+    "type": "Immobile",
+    "cost": "3",
+    "relic": "4-6",
+    "english": "When this character makes a close combat attack targeting an opposing character possessing the Superman Ally team ability or Kryptonian keyword, damage dealt is penetrating damage."
+  },
+  "NIGHT VISION GOGGLES": {
+    "type": "Immobile",
+    "cost": "3",
+    "relic": "4-6",
+    "english": "This character ignores hindering terrain for line of fire purposes."
+  },
+  "FIRST AID KIT": {
+    "type": "Immobile",
+    "cost": "5",
+    "relic": "4-6",
+    "english": "Character can use Support but subtracts 3 from the result instead of 2."
+  },
+  "MITHRIL VEST": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "5-6",
+    "english": "When this character is hit by a ranged combat attack, roll a d6; on a result of 5-6, this character ignores all damage dealt and is then dealt 1 unavoidable damage."
+  },
+  "LOTHLORIEN CLOAK": {
+    "type": "Immobile",
+    "cost": "10",
+    "relic": "4-6",
+    "english": "This character can use Super Senses when it occupies hindering terrain."
+  },
+  "M'KRAAN CRYSTAL SLIVER": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "4-6",
+    "english": "When character would be KO'd, instead turn its dial to its last nonKO click, and then heal it of 2 damage, then remove this relic from the game."
+  },
+  "THE BOOKCASE": {
+    "type": "Immobile",
+    "cost": "6",
+    "english": "This object can't be destroyed. Characters adjacent to this object can use Empower and Enhancement."
+  },
+  "MORGUL BLADE": {
+    "type": "Immobile",
+    "cost": "6",
+    "english": "When this character makes a close combat attack, damage dealt can't be reduced to less than 1."
+  },
+  "PALANTIR": {
+    "type": "Immobile",
+    "cost": "15",
+    "relic": "3-6",
+    "english": "This character can use Mind Control. When it does, it can use #imptar# #ignbt#."
+  },
+  "IMPACT BEAM": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "4-6",
+    "english": "Character can use Force Blast. A target is knocked back equal to twice the d6 roll for Force Blast. Knock back damage dealt by this character is increased by 1 and is penetrating."
+  },
+  "VORTEX BEAM": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "4-6",
+    "english": "Character can use Telekinesis and the Flight ability."
+  },
+  "WHITE LIGHT": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "4-6",
+    "english": "When character hits a single opposing character with a ranged combat attack, until your next turn, modify the target's attack value by -2 and its damage value by -1."
+  },
+  "FLAME BLAST": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "4-6",
+    "english": "Character can use Penetrating/Psychic Blast with a minimum range value of 4. If it only targets a single character, it can use Energy Explosion as well."
+  },
+  "MENTO-INTENSIFIER": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "4-6",
+    "english": "Character can use Mind Control. It can use it as a free action, but may only target a single character that took damage from this character's attack this turn."
+  },
+  "ICE BLAST": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "4-6",
+    "english": "Character can use Barrier and Incapacitate. When it uses Incapacitate and hits, it may use Barrier as a free action but may only place blocking terrain markers adjacent to the target."
+  },
+  "MATTER REARRANGER": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "4-6",
+    "english": "When character has no action tokens, give it a free action, and choose a square of blocking, hindering, water, or clear terrain within range and line of fire. You may replace that square with one of the other three types listed."
+  },
+  "BLACK LIGHT": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "4-6",
+    "english": "Character can use Smoke Cloud as a free action. Opposing characters that begin their turn in a square with one of these terrain markers placed by this ability modify their speed and range values by -2. This character and adjacent friendly characters can use Stealth if they occupy a square with a terrain marker placed by this ability."
+  },
+  "ELECTRO BLAST": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "4-6",
+    "english": "When making a ranged combat attack, character modifies its damage and range values by +1 and has an additional #lightning#."
+  },
+  "DISINTEGRATION BEAM": {
+    "type": "Immobile",
+    "cost": "8",
+    "relic": "4-6",
+    "english": "When character hits an opposing character with a relic or resource assigned to it, or holding an object, and the attack roll is 10 or more, remove that relic, resource or object from the game. When character hits an opposing character that is 150 points or less, until your next turn, any time the hit character can use Impervious, Invincible, or Invulnerability, it uses Toughness instead."
+  }
 }
