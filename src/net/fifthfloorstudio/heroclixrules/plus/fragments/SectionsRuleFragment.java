@@ -180,10 +180,10 @@ public class SectionsRuleFragment extends Fragment {
 					ruleText.append("\n");
 				}
 				ruleText.append("\n");
-				return ruleText.append(object.getString(ENGLISH));
+				return ruleText.append(parseText(getActivity(), object.getString(ENGLISH)));
 			} catch (JSONException e) {
 				e.printStackTrace();
-				return new SpannableStringBuilder(getString(R.string.no_rule));
+				return new SpannableStringBuilder(parseText(getActivity(), getString(R.string.no_rule)));
 			}
 		}
 
@@ -211,7 +211,7 @@ public class SectionsRuleFragment extends Fragment {
 					ruleText.append("\n");
 				}
 				ruleText.append("\n");
-				return ruleText.append(feat.getString(ENGLISH));
+				return ruleText.append(parseText(getActivity(), feat.getString(ENGLISH)));
 			} catch (JSONException e) {
 				e.printStackTrace();
 				return new SpannableStringBuilder(getString(R.string.no_rule));
