@@ -32,9 +32,16 @@ public class RulesApplication extends Application {
 	private static final String JSON_GLOSSARY = "glossary.json";
 	private static final String JSON_TEAM_ABILITIES_ERRETA = "team_abilities_erreta.json";
 
-	public final static String NAME = "name";
-	public final static String TEXT = "text";
-	public final static String IMAGE = "image";
+	public final static String JSON_NAME = "name";
+	public final static String JSON_TEXT = "text";
+	public final static String JSON_IMAGE = "image";
+
+	public static final String JSON_COST = "cost";
+	public static final String JSON_PREREQUISITE = "prerequisite";
+	public static final String JSON_MODIFIER = "modifier";
+	public static final String JSON_TYPE = "type";
+	public static final String JSON_RELIC = "relic";
+	public static final String JSON_OWNER = "owner";
 
 	public final static String ENGLISH = "english";
 	public final static String SPANISH = "spanish";
@@ -160,7 +167,7 @@ public class RulesApplication extends Application {
 				String[] tmpArray = new String[array.length()];
 				for (int i = 0; i < array.length(); i++) {
 					tmpArray[i] = array.getJSONObject(i)
-							.getJSONObject(language).getString(NAME);
+							.getJSONObject(language).getString(JSON_NAME);
 				}
 				titles.put(category, tmpArray);
 			} catch (JSONException e) {
@@ -175,7 +182,7 @@ public class RulesApplication extends Application {
 		try {
 			JSONObject rule = getRuleJSON(powerId, title, category);
 			if (isPowerRule(category)) {
-				return rule.getJSONObject(language).getString(TEXT);
+				return rule.getJSONObject(language).getString(JSON_TEXT);
 			} else {
 				return rule.getString(language);
 			}
@@ -242,9 +249,9 @@ public class RulesApplication extends Application {
 
 	public int getImageIdForRuleIfExists(JSONObject rule, String title) {
 		try {
-			if (rule.has(IMAGE)) {
+			if (rule.has(JSON_IMAGE)) {
 				String imageName;
-				imageName = rule.getString(IMAGE);
+				imageName = rule.getString(JSON_IMAGE);
 				if (imageName.length() == 0) {
 					imageName = title.toLowerCase(Locale.getDefault())
 							.replaceAll("(\\s|-)", "_");

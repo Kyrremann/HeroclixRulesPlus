@@ -7,6 +7,7 @@
     <string name="ffs">Fifth Floor Studio</string>
     <string name="logo_cd">The Fifth Floor Studio logo. It\'s a pyramide.</string>
     <string name="feedback_subject">Feedback: Heroclix Rules</string>
+    <string name="no_rule">This is not the rule you are looking for!</string>
 
     <string-array name="rules_array">
         <item>Speed powers</item>
@@ -48,8 +49,14 @@
     <string name="drawer_close">Close navigation drawer</string>
     
     <string name="about">About</string>
+    <string name="cost">Cost</string>
     <string name="donate">Donate</string>
     <string name="later">Later</string>
+    <string name="modifier">Modifier</string>
+    <string name="owner">Owner</string>
+    <string name="prerequisite">Prerequisite</string>
     <string name="rate">Rate</string>
+    <string name="relic">Relic</string>
+    <string name="type">Type</string>
 
 </resources>
