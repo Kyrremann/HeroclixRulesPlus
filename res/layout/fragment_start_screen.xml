@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+    <LinearLayout
+        android:id="@+id/power_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal" >
+
+        <ImageView
+            android:id="@+id/speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/speed" />
+
+        <ImageView
+            android:id="@+id/attack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/attack" />
+
+        <ImageView
+            android:id="@+id/defense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/defense" />
+
+        <ImageView
+            android:id="@+id/damage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/damage" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/power_row" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Release 3.0"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a vulputate tortor. Integer accumsan diam at ipsum convallis, a ultrices lorem laoreet. Suspendisse euismod, ligula a viverra semper, tortor massa iaculis justo, eget consectetur nisi erat ac felis. Nam lacinia nunc vitae metus condimentum, vel hendrerit massa sagittis. Nullam ligula elit, tempus quis volutpat a, feugiat sed quam. Donec non placerat diam. Suspendisse commodo tellus vitae eros ullamcorper, at commodo justo elementum. Integer accumsan diam orci, non bibendum nunc gravida sed. Vestibulum ipsum augue, consequat et erat vel, porta ornare felis. Nam consequat nec dui in iaculis. Vivamus laoreet ut nisl ac eleifend. In condimentum, ligula eu congue cursus, nulla risus euismod nisi, vel scelerisque lectus tortor vitae nisi."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

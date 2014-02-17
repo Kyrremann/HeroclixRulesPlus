@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="net.fifthfloorstudio.heroclixrules.plus"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="3.0" >
 
     <uses-sdk
         android:minSdkVersion="8"

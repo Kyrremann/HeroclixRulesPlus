@@ -24,16 +24,15 @@ import android.view.View;
 @SuppressLint("NewApi")
 public class HeroclixRulesPlusHoneyComb extends HeroclixRulesPlus {
 
+	protected ActionBarDrawerToggle mDrawerToggle;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		// enable ActionBar app icon to behave as action to toggle nav drawer
 		getActionBar().setDisplayHomeAsUpEnabled(true);
 		getActionBar().setHomeButtonEnabled(true);
-	}
 
-	@Override
-	protected void createDrawer(Bundle savedInstanceState) {
 		mDrawerToggle = new ActionBarDrawerToggle(this, /* host Activity */
 		mDrawerLayout, /* DrawerLayout object */
 		R.drawable.ic_drawer, /* nav drawer image to replace 'Up' caret */
@@ -52,11 +51,6 @@ public class HeroclixRulesPlusHoneyComb extends HeroclixRulesPlus {
 				// onPrepareOptionsMenu()
 			}
 		};
-		mDrawerLayout.setDrawerListener(mDrawerToggle);
-
-		if (savedInstanceState == null) {
-			selectItem(0);
-		}
 	}
 
 	@Override

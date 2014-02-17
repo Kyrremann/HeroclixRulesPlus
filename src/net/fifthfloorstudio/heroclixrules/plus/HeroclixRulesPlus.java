@@ -18,6 +18,7 @@ package net.fifthfloorstudio.heroclixrules.plus;
 
 import net.fifthfloorstudio.heroclixrules.plus.fragments.RuleListFragment;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.SectionsRuleFragment;
+import net.fifthfloorstudio.heroclixrules.plus.fragments.StartScreenFragment;
 import net.fifthfloorstudio.heroclixrules.plus.utils.RuleSelectedListener;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -46,8 +47,8 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 
 	protected DrawerLayout mDrawerLayout;
 	protected ListView mDrawerList;
-	protected ActionBarDrawerToggle mDrawerToggle;
 	protected CharSequence mDrawerTitle;
+	protected ActionBarDrawerToggle mDrawerToggle;
 
 	protected CharSequence mTitle;
 	protected String[] mRulesTitles;
@@ -65,6 +66,18 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		mRulesTitles = getResources().getStringArray(R.array.rules_array);
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		mDrawerList = (ListView) findViewById(R.id.left_drawer);
+		mDrawerToggle = new ActionBarDrawerToggle(this, /* host Activity */
+		mDrawerLayout, /* DrawerLayout object */
+		R.drawable.ic_drawer, /* nav drawer image to replace 'Up' caret */
+		R.string.drawer_open, /* "open drawer" description for accessibility */
+		R.string.drawer_close /* "close drawer" description for accessibility */
+		) {
+			public void onDrawerClosed(View view) {
+			}
+
+			public void onDrawerOpened(View drawerView) {
+			}
+		};
 
 		// set a custom shadow that overlays the main content when the drawer
 		// opens
@@ -76,6 +89,8 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
 		createDrawer(savedInstanceState);
+
+		// mDrawerLayout.openDrawer(GravityCompat.START);
 	}
 
 	@Override
@@ -158,8 +173,8 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 
 	@Override
 	public void setTitle(CharSequence title) {
-		mTitle = title;
 		super.setTitle(mTitle);
+		mTitle = title;
 	}
 
 	/**
@@ -197,28 +212,16 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	protected void createDrawer(Bundle savedInstanceState) {
 		// ActionBarDrawerToggle ties together the the proper interactions
 		// between the sliding drawer and the action bar app icon
-		mDrawerToggle = new ActionBarDrawerToggle(this, /* host Activity */
-		mDrawerLayout, /* DrawerLayout object */
-		R.drawable.ic_drawer, /* nav drawer image to replace 'Up' caret */
-		R.string.drawer_open, /* "open drawer" description for accessibility */
-		R.string.drawer_close /* "close drawer" description for accessibility */
-		) {
-			public void onDrawerClosed(View view) {
-				// getActionBar().setTitle(mTitle);
-				// invalidateOptionsMenu(); // creates call to
-				// onPrepareOptionsMenu()
-			}
-
-			public void onDrawerOpened(View drawerView) {
-				// getActionBar().setTitle(mDrawerTitle);
-				// invalidateOptionsMenu(); // creates call to
-				// onPrepareOptionsMenu()
-			}
-		};
 		mDrawerLayout.setDrawerListener(mDrawerToggle);
 
 		if (savedInstanceState == null) {
-			selectItem(0);
+			// selectItem(0);
+			Fragment fragment = new StartScreenFragment();
+			FragmentManager fragmentManager = getSupportFragmentManager();
+			fragmentManager.popBackStack(null,
+					FragmentManager.POP_BACK_STACK_INCLUSIVE);
+			fragmentManager.beginTransaction()
+					.replace(R.id.content_frame, fragment).commit();
 		}
 	}
 
