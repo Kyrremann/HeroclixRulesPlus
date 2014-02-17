@@ -15,12 +15,16 @@
         <item>Defense powers</item>
         <item>Damage powers</item>
         <item>Abilities</item>
+        <!--<item>Additional Team Abilities</item>-->
+        <!--<item>Battlefield Conditions</item>-->
         <item>Feats</item>
         <item>General</item>
         <item>Glossary</item>
         <item>Maps</item>
         <item>Objects</item>
         <item>Team Abilities</item>
+        <!--<item>Resources</item>-->
+        <!--<item>Uncarded Figure Keyword</item>-->
         <item>Abilities Erreta</item>
         <item>ATA Erreta</item>
         <item>Maps Erreta</item>
@@ -28,13 +32,6 @@
         <item>Powers Erreta</item>
         <item>Resources Erreta</item>
         <item>Team Abilities Erreta</item>
-        <!--
-        <item>Resources</item> 
-        <item>Additional Team Abilities</item>
-        <item>Battlefield Conditions</item>
-        <item>Glossary</item>
-        <item>Uncarded Figure Keyword</item>
-        -->
     </string-array>
 
     <string name="menu_settings">Settings</string>
