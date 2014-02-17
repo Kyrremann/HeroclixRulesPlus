@@ -31,6 +31,7 @@ public class RulesApplication extends Application {
 	private static final String JSON_ATA_ERRETA = "ata_erreta.json";
 	private static final String JSON_GLOSSARY = "glossary.json";
 	private static final String JSON_TEAM_ABILITIES_ERRETA = "team_abilities_erreta.json";
+	private static final String JSON_HORDE_TOKENS_ERRETA = "horde_tokens_erreta.json";
 
 	public final static String JSON_NAME = "name";
 	public final static String JSON_TEXT = "text";
@@ -42,16 +43,17 @@ public class RulesApplication extends Application {
 	public static final String JSON_TYPE = "type";
 	public static final String JSON_RELIC = "relic";
 	public static final String JSON_OWNER = "owner";
+	public static final String JSON_SET = "set";
+	public static final String JSON_ID = "id";
 
 	public final static String ENGLISH = "english";
 	public final static String SPANISH = "spanish";
 	public final static String ITALIAN = "italian";
 
-	private JSONObject powerRules, teamAbilitiesRules, generalRules,
-			abilitiesRules;
-
-	private HashMap<String, String[]> titles;
-	private String language;
+	private JSONObject powerRules;
+	private JSONObject teamAbilitiesRules;
+	private JSONObject generalRules;
+	private JSONObject abilitiesRules;
 	private JSONObject mapsRules;
 	private JSONObject featsRules;
 	private JSONObject objectsRules;
@@ -63,6 +65,10 @@ public class RulesApplication extends Application {
 	private JSONObject ataErretaRules;
 	private JSONObject glossaryRules;
 	private JSONObject teamAbilitiesErretaRules;
+	private JSONObject hordeTokensErretaRules;
+
+	private HashMap<String, String[]> titles;
+	private String language;
 
 	public RulesApplication() {
 		language = ENGLISH;
@@ -138,22 +144,26 @@ public class RulesApplication extends Application {
 			return mapsErretaRules;
 		} else if (category.equals("ata erreta")) {
 			if (ataErretaRules == null) {
-				ataErretaRules = JSONParser
-						.getJsonRule(this, JSON_ATA_ERRETA);
+				ataErretaRules = JSONParser.getJsonRule(this, JSON_ATA_ERRETA);
 			}
 			return ataErretaRules;
 		} else if (category.equals("glossary")) {
 			if (glossaryRules == null) {
-				glossaryRules = JSONParser
-						.getJsonRule(this, JSON_GLOSSARY);
+				glossaryRules = JSONParser.getJsonRule(this, JSON_GLOSSARY);
 			}
 			return glossaryRules;
 		} else if (category.equals("team abilities erreta")) {
 			if (teamAbilitiesErretaRules == null) {
-				teamAbilitiesErretaRules = JSONParser
-						.getJsonRule(this, JSON_TEAM_ABILITIES_ERRETA);
+				teamAbilitiesErretaRules = JSONParser.getJsonRule(this,
+						JSON_TEAM_ABILITIES_ERRETA);
 			}
 			return teamAbilitiesErretaRules;
+		} else if (category.equals("horde tokens erreta")) {
+			if (hordeTokensErretaRules == null) {
+				hordeTokensErretaRules = JSONParser.getJsonRule(this,
+						JSON_HORDE_TOKENS_ERRETA);
+			}
+			return hordeTokensErretaRules;
 		}
 
 		return null;

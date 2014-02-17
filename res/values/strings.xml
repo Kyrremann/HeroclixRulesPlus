@@ -27,6 +27,7 @@
         <!--<item>Uncarded Figure Keyword</item>-->
         <item>Abilities Erreta</item>
         <item>ATA Erreta</item>
+        <item>Horde Tokens Erreta</item>
         <item>Maps Erreta</item>
         <item>Objects Erreta</item>
         <item>Powers Erreta</item>
@@ -48,12 +49,14 @@
     <string name="about">About</string>
     <string name="cost">Cost</string>
     <string name="donate">Donate</string>
+    <string name="id">ID</string>
     <string name="later">Later</string>
     <string name="modifier">Modifier</string>
     <string name="owner">Owner</string>
     <string name="prerequisite">Prerequisite</string>
     <string name="rate">Rate</string>
     <string name="relic">Relic</string>
+    <string name="set">Set</string>
     <string name="type">Type</string>
 
 </resources>

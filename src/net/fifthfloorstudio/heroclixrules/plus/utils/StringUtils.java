@@ -15,7 +15,7 @@ public class StringUtils {
 	private static final float IMAGE_THRESHOLD_DP = 24f;
 	private static int image_dp = 24;
 	private static float scale = 0f;
-
+	
 	public static SpannableStringBuilder parseText(Context context, String rule) {
 		if (scale == 0) {
 			scale = context.getResources().getDisplayMetrics().density;
@@ -35,7 +35,7 @@ public class StringUtils {
 
 	private static SpannableStringBuilder parseTextAndInsertText(
 			Context context, String rule) {
-		String[] tmp = rule.split("[#]");
+		String[] tmp = rule.split("\\|");
 		SpannableStringBuilder builder = new SpannableStringBuilder();
 		builder.append(tmp[0]);
 
@@ -180,7 +180,7 @@ public class StringUtils {
 
 	private static SpannableStringBuilder parseTextAndInsertImages(
 			Context context, String rule) {
-		String[] tmp = rule.split("[#]");
+		String[] tmp = rule.split("\\|");
 		SpannableStringBuilder builder = new SpannableStringBuilder();
 		builder.append(tmp[0]);
 		int lengthOfPart = builder.length();
@@ -328,7 +328,6 @@ public class StringUtils {
 	}
 
 	private static boolean imageExtraWide(String string) {
-		return string.equals("doubleoarr")
-				|| string.equals("doubleo");
+		return string.equals("doubleoarr") || string.equals("doubleo");
 	}
 }

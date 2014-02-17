@@ -116,7 +116,9 @@ public class SectionsRuleFragment extends Fragment {
 			if (isFeat(category)) {
 				builder = createFeat(position);
 			} else if (isObject(category)) {
-				builder = createObjectposition(position);
+				builder = createObject(position);
+			} else if (isHordeToken()) {
+				builder = createHordetoken(position);
 			} else {
 				builder = createRule(position);
 			}
@@ -126,12 +128,43 @@ public class SectionsRuleFragment extends Fragment {
 			return rootView;
 		}
 
+		private boolean isHordeToken() {
+			return category.equals("horde tokens")
+					|| category.equals("horde tokens erreta");
+		}
+
 		private boolean isObject(String category) {
 			return category.equals("objects");
 		}
 
 		private boolean isFeat(String category) {
 			return category.equals("feats");
+		}
+
+		private SpannableStringBuilder createHordetoken(int position) {
+			try {
+				JSONObject object = application.getRuleJSON(position,
+						rules_array[position], category);
+
+				SpannableStringBuilder ruleText = new SpannableStringBuilder();
+				if (object.has(JSON_SET)) {
+					ruleText.append(getString(R.string.set));
+					ruleText.append(": ");
+					ruleText.append(parseText(getActivity(), object.optString(JSON_SET)));
+					ruleText.append("\n");
+				}
+				if (object.has(JSON_ID)) {
+					ruleText.append(getString(R.string.id));
+					ruleText.append(": ");
+					ruleText.append(parseText(getActivity(), object.optString(JSON_ID)));
+					ruleText.append("\n");
+				}
+				ruleText.append("\n");
+				return ruleText.append(parseText(getActivity(), object.getString(ENGLISH)));
+			} catch (JSONException e) {
+				e.printStackTrace();
+				return new SpannableStringBuilder(parseText(getActivity(), getString(R.string.no_rule)));
+			}
 		}
 
 		private SpannableStringBuilder createRule(int position) {
@@ -149,7 +182,7 @@ public class SectionsRuleFragment extends Fragment {
 					.getRuleText(position, rules_array[position], category)));
 		}
 
-		private SpannableStringBuilder createObjectposition(int position) {
+		private SpannableStringBuilder createObject(int position) {
 			try {
 				JSONObject object = application.getRuleJSON(position,
 						rules_array[position], category);
@@ -158,25 +191,25 @@ public class SectionsRuleFragment extends Fragment {
 				if (object.has(JSON_TYPE)) {
 					ruleText.append(getString(R.string.type));
 					ruleText.append(": ");
-					ruleText.append(object.optString(JSON_TYPE));
+					ruleText.append(parseText(getActivity(), object.optString(JSON_TYPE)));
 					ruleText.append("\n");
 				}
 				if (object.has(JSON_COST)) {
 					ruleText.append(getString(R.string.cost));
 					ruleText.append(": ");
-					ruleText.append(object.optString(JSON_COST));
+					ruleText.append(parseText(getActivity(), object.optString(JSON_COST)));
 					ruleText.append("\n");
 				}
 				if (object.has(JSON_RELIC)) {
 					ruleText.append(getString(R.string.relic));
 					ruleText.append(": ");
-					ruleText.append(object.optString(JSON_RELIC));
+					ruleText.append(parseText(getActivity(), object.optString(JSON_RELIC)));
 					ruleText.append("\n");
 				}
 				if (object.has(JSON_OWNER)) {
 					ruleText.append(getString(R.string.owner));
 					ruleText.append(": ");
-					ruleText.append(object.optString(JSON_OWNER));
+					ruleText.append(parseText(getActivity(), object.optString(JSON_OWNER)));
 					ruleText.append("\n");
 				}
 				ruleText.append("\n");
@@ -195,19 +228,19 @@ public class SectionsRuleFragment extends Fragment {
 				SpannableStringBuilder ruleText = new SpannableStringBuilder();
 				ruleText.append(getString(R.string.cost));
 				ruleText.append(": ");
-				ruleText.append(feat.optString(JSON_COST));
+				ruleText.append(parseText(getActivity(), feat.optString(JSON_COST)));
 				ruleText.append("\n");
 
 				if (feat.has(JSON_MODIFIER)) {
 					ruleText.append(getString(R.string.modifier));
 					ruleText.append(": ");
-					ruleText.append(feat.getString(JSON_MODIFIER));
+					ruleText.append(parseText(getActivity(), feat.getString(JSON_MODIFIER)));
 					ruleText.append("\n");
 				}
 				if (feat.has(JSON_PREREQUISITE)) {
 					ruleText.append(getString(R.string.prerequisite));
 					ruleText.append(": ");
-					ruleText.append(feat.optString(JSON_PREREQUISITE));
+					ruleText.append(parseText(getActivity(), feat.optString(JSON_PREREQUISITE)));
 					ruleText.append("\n");
 				}
 				ruleText.append("\n");
