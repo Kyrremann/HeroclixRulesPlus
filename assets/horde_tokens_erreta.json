@@ -1,5 +1,5 @@
 {
-	"Eagle":{
+	"Eagle (LOTR)":{
 		"set":"Lord of the Rings",
 		"id":"#H007",
 		"english":"Rescue Flight is a speed power."
@@ -27,9 +27,9 @@
 		"set":"The Hobbit",
 		"id":"#H002",
 		"english":"Warg has a point cost of 15."
-	},"#H004":{
+	},"Eagle (The Hobbit)":{
 		"set":"The Hobbit",
-		"id":"Eagle",
+		"id":"#H004",
 		"english":"Death From Above reads: \"When stacked, Eagle may use Charge.\""
 	},"Police Deputy":{
 		"set":"Fear Itself",
