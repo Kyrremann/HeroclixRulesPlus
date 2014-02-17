@@ -1,0 +1,43 @@
+{
+	"Eagle":{
+		"set":"Lord of the Rings",
+		"id":"#H007",
+		"english":"Rescue Flight is a speed power."
+	},"Ent":{
+		"set":"Lord of the Rings",
+		"id":"#H008",
+		"english":"Break the Dam! is a damage power."
+	},"Dead Man of Dunharrow":{
+		"set":"Lord of the Rings",
+		"id":"#H009",
+		"english":"Ghostly Charge is a damage power."
+	},"Mûmakil":{
+		"set":"Lord of the Rings",
+		"id":"#H010",
+		"english":"Trample is a speed power."
+	},"Orc Catapult":{
+		"set":"Lord of the Rings",
+		"id":"#H011",
+		"english":"FIRE! is a damage power."
+	},"Mountain Troll":{
+		"set":"Lord of the Rings",
+		"id":"#H012",
+		"english":"SMASH! is a damage power.\n\nThis figure is named Mountain Troll."
+	},"Warg":{
+		"set":"The Hobbit",
+		"id":"#H002",
+		"english":"Warg has a point cost of 15."
+	},"#H004":{
+		"set":"The Hobbit",
+		"id":"Eagle",
+		"english":"Death From Above reads: \"When stacked, Eagle may use Charge.\""
+	},"Police Deputy":{
+		"set":"Fear Itself",
+		"id":"#H007",
+		"english":"This character has a point cost of 8."
+	},"Mutant Student":{
+		"set":"Fear Itself",
+		"id":"#H007",
+		"english":"This character’s collector number is H014, not H013."
+	}
+}

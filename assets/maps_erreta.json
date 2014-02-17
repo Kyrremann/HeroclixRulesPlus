@@ -132,6 +132,6 @@
     "english": "Effect 4 reads: \"Once during the turn, ships can use Smoke Cloud as a free action immediately before taking another action.\""
   },
   "Star Trek Tactic Map – \"Qo'Nos\"": {
-    "english": "The debris tokens move as though it is a figure with #speed# and the Flight ability."
+    "english": "The debris tokens move as though it is a figure with |speed| and the Flight ability."
   }
 }

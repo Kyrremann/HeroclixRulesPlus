@@ -48,7 +48,7 @@
 		"english":"This card includes the sentence: \"If the roll does not allow the given action to be performed against any targets, the action ends immediately\".\n\nIf a character is given an action that would require them to replace their speed value (e.g., Charge or Running Shot) while they occupy the same square as the Kinetic Accelerator, both replacements occur at the same time and therefore the active player can choose which effect goes first. If the roll makes is so that the given action can't be performed, the character is assigned a token for the action and not moved."
 	},
 	"LASER TURRET":{
-		"english":"Replace the text on the card with: \"(optional) Once during your turn (but not during another action) when a character friendly to you occupies this object's square, give this object a free action to make a ranged combat attack (#attack#8, #damage#2, 4#lightning#) against any opposing figure\".\n\nThe Laser Turret may make an attack against any opposing character within range, regardless of adjacency.\n\nWhen making an attack with the Laser Turret, any adverse effects that can normally result from the attack (such as damage from the Mystics team ability or a critical miss) are dealt to the Laser Turret and not the character using the Laser Turret.\n\nSpecial properties of this object are ignored while it is held."
+		"english":"Replace the text on the card with: \"(optional) Once during your turn (but not during another action) when a character friendly to you occupies this object's square, give this object a free action to make a ranged combat attack (|attack|8, |damage|2, 4|lightning|) against any opposing figure\".\n\nThe Laser Turret may make an attack against any opposing character within range, regardless of adjacency.\n\nWhen making an attack with the Laser Turret, any adverse effects that can normally result from the attack (such as damage from the Mystics team ability or a critical miss) are dealt to the Laser Turret and not the character using the Laser Turret.\n\nSpecial properties of this object are ignored while it is held."
 	},
 	"LIGHT POST":{
 		"english":"The Light Post object does not add an action token to a colossal figure."
@@ -84,7 +84,7 @@
 		"english":"This object reads: \"A character holding an object or carrying a character immediately drops it into an adjacent square when 3 or fewer squares from this object. The carrying or holding character may continue its move. Objects can't be picked up by characters that are 3 or fewer squares from this object\"."
 	},
 	"SHARK REPELLANT SPRAY":{
-		"english":"This object reads: \"Character modifies its defense value by +2 when targeted by a character who possesses #swim# or #tranSwim#\"."
+		"english":"This object reads: \"Character modifies its defense value by +2 when targeted by a character who possesses |swim| or |tranSwim|\"."
 	},
 	"SHIELD DISRUPTOR":{
 		"english":"Special properties of this object are ignored while it is held."

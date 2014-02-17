@@ -1,6 +1,6 @@
 {
   "3-D OBJECT": {
-    "english": "A three-dimensional sculpture marked with the #3d# symbol."
+    "english": "A three-dimensional sculpture marked with the |3d| symbol."
   },
   "ABILITY": {
     "english": "A capability possessed by a character, indicated by a symbol on its base and/or explained on its character card."
@@ -90,7 +90,7 @@
     "english": "An identifying number specific to a particular character in a set."
   },
   "COLOSSAL CHARACTER": {
-    "english": "A character with the Colossal Stamina ability and Great Size ability, usually indicated by the #colossal# damage symbol on its base."
+    "english": "A character with the Colossal Stamina ability and Great Size ability, usually indicated by the |colossal| damage symbol on its base."
   },
   "COMBAT DIAL": {
     "english": "The piece of plastic under a character’s base, upon which the character’s powers and combat values are printed."
@@ -138,7 +138,7 @@
     "english": "The result of rolling the same number on 2d6 (such as two 4s)."
   },
   "DUO CHARACTER": {
-    "english": "A character with the Duo Attack ability, usually indicated by the #duo# attack symbol."
+    "english": "A character with the Duo Attack ability, usually indicated by the |duo| attack symbol."
   },
   "EDGE": {
     "english": "One of the outermost boundaries of a map or an area of terrain."
@@ -171,7 +171,7 @@
     "english": "The person who takes the first turn in a game."
   },
   "FLIER": {
-    "english": "A character using the Flight ability, usually indicated by the #flight# or #transFlight# speed symbols."
+    "english": "A character using the Flight ability, usually indicated by the |flight| or |transFlight| speed symbols."
   },
   "FORCE": {
     "english": "The team of characters controlled by a player."
@@ -225,7 +225,7 @@
     "english": "An object that can’t be carried, placed, or moved by any game effect. Immobile object tokens have a blue border."
   },
   "INDOMITABLE": {
-    "english": "A character using the Indomitable ability usually indicated by the #indomitable# defense symbol."
+    "english": "A character using the Indomitable ability usually indicated by the |indomitable| defense symbol."
   },
   "INDOORS": {
     "english": "Anywhere on a battle map labeled “Indoor” or “Indoors” or inside a yellow boundary line on a map labeled “Indoor/Outdoor.”"
@@ -366,13 +366,13 @@
     "english": "An icon on a character’s base that marks it as part of a particular HeroClix set."
   },
   "SHARPSHOOTER": {
-    "english": "A character using the sharpshooter ability, usually indicated by the #sharpshooter# attack symbol."
+    "english": "A character using the sharpshooter ability, usually indicated by the |sharpshooter| attack symbol."
   },
   "SHIP": {
     "english": "A ship is another name for a character; some character cards and game effects refer to “ships” without mentioning characters. The terms may be used synonymously. For example, an effect that says to target a ship may target a character, and vice versa."
   },
   "SPECIAL OBJECT": {
-    "english": "An object token or 3-D object printed with the #3d# symbol."
+    "english": "An object token or 3-D object printed with the |3d| symbol."
   },
   "SPECIAL POWER": {
     "english": "A power whose name and effects are explained on a character’s character card."
@@ -402,7 +402,7 @@
     "english": "A character that has not been defeated when a game ends."
   },
   "SWIMMER": {
-    "english": "A character using the Swim ability, usually indicated by the #swim# or #transSwim# speed symbols."
+    "english": "A character using the Swim ability, usually indicated by the |swim| or |transSwim| speed symbols."
   },
   "TACTICS": {
     "english": "Additional rules and effects that can be employed in a game of HeroClix if allowed by the agreed-upon format of the game."
@@ -429,13 +429,13 @@
     "english": "The phrase “this character” always refers to the active character or the character using a power."
   },
   "TINY": {
-    "english": "A character with the Tiny Size ability, usually indicated by #tiny# damage symbol."
+    "english": "A character with the Tiny Size ability, usually indicated by |tiny| damage symbol."
   },
   "TRAIT ABILITY": {
-    "english": "An aspect or capability of a character that it possesses at all times, regardless of how its combat dial is turned during a game, as indicated by the #trait# on its base and indicated on its character card."
+    "english": "An aspect or capability of a character that it possesses at all times, regardless of how its combat dial is turned during a game, as indicated by the |trait| on its base and indicated on its character card."
   },
   "TRANSPORTER": {
-    "english": "A character using the Carry ability and Move and Attack ability usually indicated by the #transSpeed#, #transFlight#, or the #transSwim# speed symbol."
+    "english": "A character using the Carry ability and Move and Attack ability usually indicated by the |transSpeed|, |transFlight|, or the |transSwim| speed symbol."
   },
   "ULTRA-HEAVY OBJECT": {
     "english": "An object that can only be carried by characters with a point value of 100 points or more. Ultra- Heavy objects modify a character’s damage value by +3 when used in a close combat attack; they may not be used in a ranged combat attack or placed with Telekinesis. Ultra Heavy object tokens have a purple border and are only destroyed if they are dealt 4 or more damage."

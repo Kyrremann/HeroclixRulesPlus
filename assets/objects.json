@@ -61,11 +61,11 @@
   },
   "LASER TURRET": {
     "type": "Heavy",
-    "english": "(optional) Once during your turn (but not during another action) when a character friendly to you occupies this object's square, give this object a free action to make a ranged combat attack (#attack#8, #damage#2, 4#lightning#) against any opposing figure. This object has no effect when held."
+    "english": "(optional) Once during your turn (but not during another action) when a character friendly to you occupies this object's square, give this object a free action to make a ranged combat attack (|attack|8, |damage|2, 4|lightning|) against any opposing figure. This object has no effect when held."
   },
   "AERIAL BAFFLER": {
     "type": "Light",
-    "english": "Any character with the #flight# or #transFlight# speed mode that is 3 or fewer squares from this object gains Earthbound. Any character it carries takes no damage and is placed in the nearest square it can occupy. This object has no effect when held."
+    "english": "Any character with the |flight| or |transFlight| speed mode that is 3 or fewer squares from this object gains Earthbound. Any character it carries takes no damage and is placed in the nearest square it can occupy. This object has no effect when held."
   },
   "FUEL TANK": {
     "type": "Heavy",
@@ -350,13 +350,13 @@
     "type": "Immobile",
     "cost": "10",
     "relic": "4-6",
-    "english": "Character can use Incapacitate, the Sharpshooter ability and possesses one additional #lightning#."
+    "english": "Character can use Incapacitate, the Sharpshooter ability and possesses one additional |lightning|."
   },
   "GRAPNEL GUN": {
     "type": "Immobile",
     "cost": "4",
     "relic": "4-6",
-    "english": "Character can use #impmov# #ignet# and the Carry ability."
+    "english": "Character can use |impmov| |ignet| and the Carry ability."
   },
   "FLASH GRENADE": {
     "type": "Immobile",
@@ -380,7 +380,7 @@
     "type": "Immobile",
     "cost": "5",
     "relic": "4-6",
-    "english": "This character possesses #tabatman#. If character already possesses #tabatman# and is adjacent to a wall or square of a higher elevated terrain, lines of fire drawn to it are blocked when it is not your turn."
+    "english": "This character possesses |tabatman|. If character already possesses |tabatman| and is adjacent to a wall or square of a higher elevated terrain, lines of fire drawn to it are blocked when it is not your turn."
   },
   "BAT SIGNAL": {
     "type": "Heavy",
@@ -403,13 +403,13 @@
     "type": "Immobile",
     "cost": "8",
     "relic": "5-6",
-    "english": "A character with Dr. Octopus Arms on its character card has a minimum range value of 4, has #lightning##lightning##lightning#, and can use Perplex twice during your turn, but only to target itself."
+    "english": "A character with Dr. Octopus Arms on its character card has a minimum range value of 4, has |lightning||lightning||lightning|, and can use Perplex twice during your turn, but only to target itself."
   },
   "ROBIN UNIFORM": {
     "type": "Immobile",
     "cost": "5",
     "relic": "4-6",
-    "english": "This character possesses #tateen#. If this character already has #tateen#, it can use the team ability as a free action."
+    "english": "This character possesses |tateen|. If this character already has |tateen|, it can use the team ability as a free action."
   },
   "HARVEST STAFF": {
     "type": "Immobile",
@@ -427,7 +427,7 @@
     "type": "Immobile",
     "cost": "8",
     "relic": "5-6",
-    "english": "This character can use Charge, #impmov# #igndmg# #ignht#, and Toughness. This character modifies its attack value by +2."
+    "english": "This character can use Charge, |impmov| |igndmg| |ignht|, and Toughness. This character modifies its attack value by +2."
   },
   "MOKK'S HAMMER": {
     "type": "Immobile",
@@ -439,13 +439,13 @@
     "type": "Immobile",
     "cost": "8",
     "relic": "5-6",
-    "english": "This character can use Charge, #impmov# #ignet# #chara#, and Toughness. This character modifies its attack value by +2."
+    "english": "This character can use Charge, |impmov| |ignet| |chara|, and Toughness. This character modifies its attack value by +2."
   },
   "GREITHOTH'S HAMMER": {
     "type": "Immobile",
     "cost": "8",
     "relic": "5-6",
-    "english": "This character possesses #giant# and can use Running Shot with a minimum range of 4. This character modifies it's attack value by +2."
+    "english": "This character possesses |giant| and can use Running Shot with a minimum range of 4. This character modifies it's attack value by +2."
   },
   "NERKKOD'S HAMMER": {
     "type": "Immobile",
@@ -481,7 +481,7 @@
     "type": "Immobile",
     "cost": "4",
     "relic": "4-6",
-    "english": "Character modifies its defense value by +2 when targeted by a character who possesses #swim# or #transSwim#."
+    "english": "Character modifies its defense value by +2 when targeted by a character who possesses |swim| or |transSwim|."
   },
   "DISGUISE KIT": {
     "type": "Immobile",
@@ -557,7 +557,7 @@
     "type": "Immobile",
     "cost": "15",
     "relic": "3-6",
-    "english": "This character can use Mind Control. When it does, it can use #imptar# #ignbt#."
+    "english": "This character can use Mind Control. When it does, it can use |imptar| |ignbt|."
   },
   "IMPACT BEAM": {
     "type": "Immobile",
@@ -611,7 +611,7 @@
     "type": "Immobile",
     "cost": "8",
     "relic": "4-6",
-    "english": "When making a ranged combat attack, character modifies its damage and range values by +1 and has an additional #lightning#."
+    "english": "When making a ranged combat attack, character modifies its damage and range values by +1 and has an additional |lightning|."
   },
   "DISINTEGRATION BEAM": {
     "type": "Immobile",

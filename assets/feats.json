@@ -1,13 +1,13 @@
 {
   "ALIAS": {
     "cost": "3",
-    "prerequisite": "#attack# and #damage#",
+    "prerequisite": "|attack| and |damage|",
     "english": "Choose a character. This character can use Shape Change, if it cannot already. After this feat is used, remove it from the game."
   },
   "AMBIDEXTROUS": {
     "cost": "Twice the assigned character's printed range value (Minimum cost 12).",
-    "prerequisite": "Range value of 6 or more and one #lightning#.",
-    "english": "Choose a character. The character now has #lightning##lightning#."
+    "prerequisite": "Range value of 6 or more and one |lightning|.",
+    "english": "Choose a character. The character now has |lightning||lightning|."
   },
   "AMBUSH": {
     "cost": "5",
@@ -104,18 +104,18 @@
   },
   "DIVEBOMB": {
     "cost": "10",
-    "modifier": "#attack# -1",
-    "prerequisite": "#flying#",
+    "modifier": "|attack| -1",
+    "prerequisite": "|flying|",
     "english": "Choose a character. When soaring, the character may makeclose combat attacks against grounded characters."
   },
   "DOUBLE-TIME": {
     "cost": "5",
-    "prerequisite": "Transporter or #speed# speed mode",
+    "prerequisite": "Transporter or |speed| speed mode",
     "english": "Choose a character. When the character is not adjacent to an opposing character and is given a move action, it may move up to double its unmodified speed value; it may not make attacks during this move action. At the end of the move, if the character is not a transporter, deal it 1 pushing damage that ignores Willpower and team abilities."
   },
   "DRAG": {
     "cost": "5",
-    "prerequisite": "#flying#",
+    "prerequisite": "|flying|",
     "english": "Choose a character. Give the character a power action when it is adjacent to a target opposing character. If the character successfully breaks away, move the character up to half its speed value and then place the target in an unoccupied square adjacent to the character. If the target is not a flying character and occupied a square of elevated terrain, and then was placed in a square on a lower elevation, deal it 2 damage after being placed."
   },
   "ELITE SNIPER": {
@@ -125,7 +125,7 @@
   },
   "ENDURANCE": {
     "cost": "5",
-    "prerequisite": "#attack# and #damage#",
+    "prerequisite": "|attack| and |damage|",
     "english": "Choose a character. When the character would be dealt pushing damage, you can instead choose to deal no damage to the character and put an endurance token on this card. If there are endurance tokens on this card when the character is given a non-free action, after the action resolves, roll a d6. on a result of 1 or 2, deal the character unavoidable damage equal to the result plus the number of tokens on this card, then remove all tokens form this card."
   },
   "ENERVATION": {
@@ -155,7 +155,7 @@
   },
   "FASTBALL SPECIAL": {
     "cost": "12",
-    "modifiers": "#attack# +2 (see text); /#damage#/#giant# +1 (see text)",
+    "modifiers": "|attack| +2 (see text); /|damage|/|giant| +1 (see text)",
     "prerequisite": "Chosen characters must have the same team abilityprinted on their bases; see feat text",
     "english": "Choose two characters; if one of them isKOd before this feat is used,remove the feat from the game.Give both characters a power actionwhen they are adjacent: Thefirst character must have Super Strengthand the second charactermust be a character without Flight, haveToughness and may nothave adamage value higher than 3. The firstcharacter makes aranged combatattack against a single opposing targetwithin 6squares. Place thesecond character in any square adjacent tothetarget to which thefirst character has clear line of fire. Iftheattack succeeds, thesecond character deals the damage."
   },
@@ -171,7 +171,7 @@
   },
   "FORTITUDE": {
     "cost": "25",
-    "prerequisite": "#attack#",
+    "prerequisite": "|attack|",
     "english": "Choose a character. The character ignores other characters' Exploit Weakness. Outwit can't be used by other characters to counter the character's powers."
   },
   "FROG LEGS": {
@@ -185,12 +185,12 @@
   },
   "GIANT STRIDE": {
     "cost": "9",
-    "prerequisite": "#giant#",
+    "prerequisite": "|giant|",
     "english": "Choose a character. When the character has zero action tokens and is moved as part of a move or power action, it ignores the effects of other characters on movement, though it must break away normally."
   },
   "HAYMAKER": {
     "cost": "10",
-    "modifiers": "#attack# -1, #damage#/#giant# +2",
+    "modifiers": "|attack| -1, |damage|/|giant| +2",
     "english": "Choose a character. Give this character a close combat action targeting a single opposing character. After resolving this action, this character takes 1 pushing damage that ignores Willpower and team abilities."
   },
   "HEALING FACTOR": {
@@ -205,12 +205,12 @@
   },
   "HOLD THE LINE": {
     "cost": "4",
-    "prerequisite": "#attack#, #damage# and Leadership or Super Strength",
+    "prerequisite": "|attack|, |damage| and Leadership or Super Strength",
     "english": "Choose a character. Give the character a power action to make a close combat attack against an opposing character. If the attack succeeds, you may modify the character's attack value by -2 and make a close combat attack against a different opposing character as a free action."
   },
   "HOMING DEVICE": {
     "cost": "8",
-    "modifiers": "#damage# -1",
+    "modifiers": "|damage| -1",
     "english": "Choose a character. When this character hits an opposing character with a close combat attack, lines of fire drawn to that opposing character until the end of your turn are not affected by hindering terrain."
   },
   "IMMORTAL CONTEMPT": {
@@ -275,12 +275,12 @@
   },
   "LOOK! UP IN THE SKY!": {
     "cost": "9",
-    "prerequisite": "#flying#",
+    "prerequisite": "|flying|",
     "english": "Choose acharacter. When the character is given a move action,modify its speedvalue by +2 until the action is resolved.A character assigned thisfeat cannot carry othercharacters and automatically breaks away fromother soaring characters."
   },
   "LUCKY BREAK": {
     "cost": "5",
-    "prerequisite": "#speed# or #swim#",
+    "prerequisite": "|speed| or |swim|",
     "english": "Choose a character. When you make an attack roll for the character, if the result on either of the two dice is a 1, you may reroll one die before determining the attack roll result. You may reroll only once per attack roll. If you use this feat, remove this card from the game after the attack resolves."
   },
   "LUNGE": {
@@ -290,7 +290,7 @@
   },
   "MANEUVER": {
     "cost": "8",
-    "prerequisite": "#speed#, Close Combat Expert or Combat Reflexes",
+    "prerequisite": "|speed|, Close Combat Expert or Combat Reflexes",
     "english": "Choose a character. When the character makes a close combat attack against a single target opposing character, after the attack is resolved, put the target in any unoccupied square adjacent to the character."
   },
   "MENTAL SHIELDS": {
@@ -305,8 +305,8 @@
   },
   "MONSTER HUNTER": {
     "cost": "3",
-    "prerequisite": "#damage#",
-    "english": "Choose a character. Modify the character's attack value and damage value by +1 when it is given a close combat or ranged combat action targeting a character with the #giant# or #colossus# damage symbol or the Monster keyword."
+    "prerequisite": "|damage|",
+    "english": "Choose a character. Modify the character's attack value and damage value by +1 when it is given a close combat or ranged combat action targeting a character with the |giant| or |colossus| damage symbol or the Monster keyword."
   },
   "MOVETHROUGH": {
     "cost": "8",
@@ -315,7 +315,7 @@
   },
   "NANOARMOR": {
     "cost": "6",
-    "prerequisite": "#damage#",
+    "prerequisite": "|damage|",
     "english": "Choose a character. The character ignores damage dealt by objects as well as all modifiers to damage dealt to or taken by this character due to objects."
   },
   "NANOBOTS": {
@@ -355,13 +355,13 @@
   },
   "POUNCE": {
     "cost": "15",
-    "modifiers": "#attack# +1 / #damage# +1",
+    "modifiers": "|attack| +1 / |damage| +1",
     "prerequisite": "Leap/Climb and damage value 1 or 2 ",
     "english": "Choose a character. Give this character a power action. Move the character up to its speed value and makes a close combat attack as a free action. After resolving the attack, the character takes 1 unavoidable damage."
   },
   "POWER BARRAGE": {
     "cost": "6",
-    "prerequisite": "#duoatck#",
+    "prerequisite": "|duoatck|",
     "english": "Choose a character. This character may make a close or ranged  combat attack as a free action with its attack and damage values  modified by -1 for the attack if it deals damage to an opposing  character via any of the following powers: Blades/Claws/Fangs, Energy Explosion, Pulse Wave, Quake, Incapacitate, Penetrating/Psychic Blast or Telekinesis"
   },
   "PRECISION DEMOLITION": {
@@ -380,7 +380,7 @@
   },
   "PYM PARTICLES": {
     "cost": "6",
-    "prerequisite": "#damage#,#tavengers#",
+    "prerequisite": "|damage|,|tavengers|",
     "english": "Choose a character. Once per game, choose one – the character has the damage symbol; or the character modifies its defense value by +1 against ranged combat attacks. The chosen effect lasts until the end of the game."
   },
   "RECHARGE": {
@@ -390,7 +390,7 @@
   },
   "REPULSOR": {
     "cost": "10",
-    "modifier": "#attack# -1",
+    "modifier": "|attack| -1",
     "prerequisite": "Force Blast ",
     "english": "Choose a character. When the character succeeds at a ranged combat attack against a single target opposing character, after the action is resolve the target is knocked back."
   },
@@ -400,7 +400,7 @@
   },
   "RETALIATION": {
     "cost": "5",
-    "prerequisite": "#damage#, Leap/Climb or Blades/Claws/Fangs or Outwit or Super Senses, point value of 60 or greater ",
+    "prerequisite": "|damage|, Leap/Climb or Blades/Claws/Fangs or Outwit or Super Senses, point value of 60 or greater ",
     "english": "Choose a character. When the character takes damage but isn't defeated by a close combat attack made by an opposing character, after the resolution of the attack you can roll 2d6. on a result of 9-11, deal the attacker 1 damage; on a result of 12, deal the attacker 2 damage. After this feat is used, remove it from the game."
   },
   "REVENGE": {
@@ -435,18 +435,18 @@
   },
   "SHELLHEAD": {
     "cost": "10",
-    "modifier": "#defense# +2",
+    "modifier": "|defense| +2",
     "prerequisite": "Impervious, Invulnerability, or Toughness ",
     "english": "Choose a character. The ability modifier for Shellhead applies only when the character has two action tokens placed upon it."
   },
   "SHOCKWAVE": {
     "cost": "8",
-    "prerequisite": "#attack#, Quake",
+    "prerequisite": "|attack|, Quake",
     "english": "Choose a character. Give the character a power action. Make a single attack roll and compare the result to the defense values of all adjacent opposing characters. Characters against which the attack succeeds are dealt no damage, but are knocked back 4 squares."
   },
   "SHOW OFF": {
     "cost": "6",
-    "prerequisite": "#duoatc#",
+    "prerequisite": "|duoatc|",
     "english": "Choose a character.When using the Duo Attack ability, if thischaracterKO's an opposingcharacter with the first attack,you may choose to not give thischaracter a free actionfor the second attack. Instead, do not givethischaracter an action token for the action, though theaction stillcounts towards your available actions."
   },
   "SIDEKICK": {
@@ -455,7 +455,7 @@
   },
   "SIDESTEP": {
     "cost": "10",
-    "prerequisite": "#duoatc#",
+    "prerequisite": "|duoatc|",
     "english": "Choose a character. When using the Duo Attack special ability, before making the second attack the character can attempt to move up to 4 squares (it must still break away, if necessary). If it moves, it must be able to attempt the second attack after the move."
   },
   "SIPHON POWER": {
@@ -489,7 +489,7 @@
   },
   "STREAK OF LUCK": {
     "cost": "5",
-    "prerequisite": "#attack#, #damage#",
+    "prerequisite": "|attack|, |damage|",
     "english": "Choose a character. Each time an attack roll fails against thecharacter, put a luck token on this card if there arefewer than threetokens on this card. If there are lucktokens on this card when thecharacter makes a criticalmiss, the character is not dealtunavoidable damage; afterthe attack is resolved, remove all lucktokens from thiscard. If there are luck tokens on this card when thecharacter makes a critical hit, modify the character'sdamage valueby +X, whereX equals the number of luck tokens on this card;after theattack is resolved, remove all luck tokens from this card."
   },
   "STUNNING BLOW": {
@@ -499,7 +499,7 @@
   },
   "SUBMERGED": {
     "cost": "5",
-    "prerequisite": "#swim#",
+    "prerequisite": "|swim|",
     "english": "Choose a character. When it is not your turn, if the character occupies water terrain, lines of fire drawn to it are blocked."
   },
   "SUNDER": {
@@ -514,9 +514,9 @@
   },
   "SWINGLINE": {
     "cost": "10",
-    "modifier": "#speed# +1",
-    "prerequisite": "#speed#",
-    "english": "Choose a character. The character ignores hindering terrain for movement purposes. If the character succeeds at a ranged combat attack against a target opposing character with the #flying# speed symbol, the target gains Earthbound until the beginning of its controller's next turn."
+    "modifier": "|speed| +1",
+    "prerequisite": "|speed|",
+    "english": "Choose a character. The character ignores hindering terrain for movement purposes. If the character succeeds at a ranged combat attack against a target opposing character with the |flying| speed symbol, the target gains Earthbound until the beginning of its controller's next turn."
   },
   "TACTICS": {
     "cost": "20",
@@ -525,7 +525,7 @@
   },
   "TAUNT": {
     "cost": "15",
-    "modifier": "#attack# +1",
+    "modifier": "|attack| +1",
     "prerequisite": "Range value greater than 0 ",
     "english": "Choose a character. Give this character a power action; it makes a ranged combat attack targeting a single opposing character to which it has a clear line of fire within 6 squares. If the attack succeeds, it deals no damage. The target must either attempt to move adjacent to or attack this character next turn."
   },
@@ -541,13 +541,13 @@
   },
   "TERRIFY": {
     "cost": "6",
-    "modifier": "#attack# -1",
+    "modifier": "|attack| -1",
     "prerequisite": "Battle Fury or Incapacitate or Mind Control",
     "english": "Choose a character. Give the character a power action and make a single close combat attack as a free action (the attack deals no damage). Compare the result to the defense values of all adjacent opposing target characters, maximum four targets. Each target against which the attack succeeds is knocked back a number of squares equal to half its speed values (targets are not dealt knock back damage). If the attack roll is doubles and succeeds against the target, also give an action token to the target if it has zero or one action token (the target is not dealt pushing damage for this token)."
   },
   "THUNDERING BLOW": {
     "cost": "20",
-    "prerequisite": "#attack# attack value 11 or higher",
+    "prerequisite": "|attack| attack value 11 or higher",
     "english": "Choose a character. After the resolution of a successful attack by the character that causes an opposing character to take 3 or more damage, the damage value of all friendly characters attacking that opposing character during that turn is modified by +1 until an attack against that opposing character is unsuccessful. If this feat is assigned to two or more characters on your force, this feat is canceled."
   },
   "THWART": {
@@ -587,7 +587,7 @@
   },
   "VENDETTA": {
     "cost": "6",
-    "prerequisite": "#attackk# and #defense# and #damage#",
+    "prerequisite": "|attackk| and |defense| and |damage|",
     "english": "Choose a character. At the beginning of your first turn, choose an opposing character with a point value greater than this character. Modify the attack value of this character by +1 when it is making a close or ranged combat attack against the chosen character. If this character defeats the chosen character, you score additional victory points equal to half the chosen character's point value. If the chosen character defeats this character, the chosen character's controller scores additional victory points equal to half this character's point value."
   },
   "WARBOUND": {
