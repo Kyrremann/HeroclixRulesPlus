@@ -22,16 +22,17 @@ public class RulesApplication extends Application {
 	public static final String JSON_ABILITIES = "abilities.json";
 	private static final String JSON_FEATS = "feats.json";
 	private static final String JSON_MAPS = "maps.json";
-	private static final String JSON_MAPS_ERRETA = "maps_erreta.json";
-	private static final String JSON_ABILITIES_ERRETA = "abilities_erreta.json";
-	private static final String JSON_RESOURCES_ERRETA = "resources_erreta.json";
-	private static final String JSON_POWERS_ERRETA = "powers_erreta.json";
+	private static final String JSON_MAPS_ERRATA = "maps_errata.json";
+	private static final String JSON_ABILITIES_ERRATA = "abilities_errata.json";
+	private static final String JSON_RESOURCES_ERRATA = "resources_errata.json";
+	private static final String JSON_POWERS_ERRATA = "powers_errata.json";
 	private static final String JSON_OBJECTS = "objects.json";
-	private static final String JSON_OBJECTS_ERRETA = "objects_erreta.json";
-	private static final String JSON_ATA_ERRETA = "ata_erreta.json";
+	private static final String JSON_OBJECTS_ERRATA = "objects_errata.json";
+	private static final String JSON_ATA_ERRATA = "ata_errata.json";
 	private static final String JSON_GLOSSARY = "glossary.json";
-	private static final String JSON_TEAM_ABILITIES_ERRETA = "team_abilities_erreta.json";
-	private static final String JSON_HORDE_TOKENS_ERRETA = "horde_tokens_erreta.json";
+	private static final String JSON_TEAM_ABILITIES_ERRATA = "team_abilities_errata.json";
+	private static final String JSON_HORDE_TOKENS_ERRATA = "horde_tokens_errata.json";
+    private static final String JSON_BFC = "bfc.json";
 
 	public final static String JSON_NAME = "name";
 	public final static String JSON_TEXT = "text";
@@ -57,20 +58,21 @@ public class RulesApplication extends Application {
 	private JSONObject mapsRules;
 	private JSONObject featsRules;
 	private JSONObject objectsRules;
-	private JSONObject powersErretaRules;
-	private JSONObject resourcesErretaRules;
-	private JSONObject abilitiesErretaRules;
-	private JSONObject mapsErretaRules;
-	private JSONObject objectsErretaRules;
-	private JSONObject ataErretaRules;
+	private JSONObject powersErrataRules;
+	private JSONObject resourcesErrataRules;
+	private JSONObject abilitiesErrataRules;
+	private JSONObject mapsErrataRules;
+	private JSONObject objectsErrataRules;
+	private JSONObject ataErrataRules;
 	private JSONObject glossaryRules;
-	private JSONObject teamAbilitiesErretaRules;
-	private JSONObject hordeTokensErretaRules;
+	private JSONObject teamAbilitiesErrataRules;
+	private JSONObject hordeTokensErrataRules;
+    private JSONObject bfcRules;
 
 	private HashMap<String, String[]> titles;
 	private String language;
 
-	public RulesApplication() {
+    public RulesApplication() {
 		language = ENGLISH;
 		titles = new HashMap<String, String[]>(4);
 	}
@@ -113,58 +115,63 @@ public class RulesApplication extends Application {
 			}
 			return objectsRules;
 		} else if (category.equals("objects erreta")) {
-			if (objectsErretaRules == null) {
-				objectsErretaRules = JSONParser.getJsonRule(this,
-						JSON_OBJECTS_ERRETA);
+			if (objectsErrataRules == null) {
+				objectsErrataRules = JSONParser.getJsonRule(this,
+                        JSON_OBJECTS_ERRATA);
 			}
-			return objectsErretaRules;
+			return objectsErrataRules;
 		} else if (category.equals("powers erreta")) {
-			if (powersErretaRules == null) {
-				powersErretaRules = JSONParser.getJsonRule(this,
-						JSON_POWERS_ERRETA);
+			if (powersErrataRules == null) {
+				powersErrataRules = JSONParser.getJsonRule(this,
+                        JSON_POWERS_ERRATA);
 			}
-			return powersErretaRules;
+			return powersErrataRules;
 		} else if (category.equals("resources erreta")) {
-			if (resourcesErretaRules == null) {
-				resourcesErretaRules = JSONParser.getJsonRule(this,
-						JSON_RESOURCES_ERRETA);
+			if (resourcesErrataRules == null) {
+				resourcesErrataRules = JSONParser.getJsonRule(this,
+                        JSON_RESOURCES_ERRATA);
 			}
-			return resourcesErretaRules;
+			return resourcesErrataRules;
 		} else if (category.equals("abilities erreta")) {
-			if (abilitiesErretaRules == null) {
-				abilitiesErretaRules = JSONParser.getJsonRule(this,
-						JSON_ABILITIES_ERRETA);
+			if (abilitiesErrataRules == null) {
+				abilitiesErrataRules = JSONParser.getJsonRule(this,
+                        JSON_ABILITIES_ERRATA);
 			}
-			return abilitiesErretaRules;
+			return abilitiesErrataRules;
 		} else if (category.equals("maps erreta")) {
-			if (mapsErretaRules == null) {
-				mapsErretaRules = JSONParser
-						.getJsonRule(this, JSON_MAPS_ERRETA);
+			if (mapsErrataRules == null) {
+				mapsErrataRules = JSONParser
+						.getJsonRule(this, JSON_MAPS_ERRATA);
 			}
-			return mapsErretaRules;
+			return mapsErrataRules;
 		} else if (category.equals("ata erreta")) {
-			if (ataErretaRules == null) {
-				ataErretaRules = JSONParser.getJsonRule(this, JSON_ATA_ERRETA);
+			if (ataErrataRules == null) {
+				ataErrataRules = JSONParser.getJsonRule(this, JSON_ATA_ERRATA);
 			}
-			return ataErretaRules;
+			return ataErrataRules;
 		} else if (category.equals("glossary")) {
 			if (glossaryRules == null) {
 				glossaryRules = JSONParser.getJsonRule(this, JSON_GLOSSARY);
 			}
 			return glossaryRules;
 		} else if (category.equals("team abilities erreta")) {
-			if (teamAbilitiesErretaRules == null) {
-				teamAbilitiesErretaRules = JSONParser.getJsonRule(this,
-						JSON_TEAM_ABILITIES_ERRETA);
+			if (teamAbilitiesErrataRules == null) {
+				teamAbilitiesErrataRules = JSONParser.getJsonRule(this,
+                        JSON_TEAM_ABILITIES_ERRATA);
 			}
-			return teamAbilitiesErretaRules;
+			return teamAbilitiesErrataRules;
 		} else if (category.equals("horde tokens erreta")) {
-			if (hordeTokensErretaRules == null) {
-				hordeTokensErretaRules = JSONParser.getJsonRule(this,
-						JSON_HORDE_TOKENS_ERRETA);
+			if (hordeTokensErrataRules == null) {
+				hordeTokensErrataRules = JSONParser.getJsonRule(this,
+                        JSON_HORDE_TOKENS_ERRATA);
 			}
-			return hordeTokensErretaRules;
-		}
+			return hordeTokensErrataRules;
+		} else if (category.equals("battlefield conditions")) {
+            if (bfcRules == null) {
+                bfcRules = JSONParser.getJsonRule(this, JSON_BFC);
+            }
+            return bfcRules;
+        }
 
 		return null;
 	}

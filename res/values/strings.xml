@@ -16,23 +16,27 @@
         <item>Damage powers</item>
         <item>Abilities</item>
         <!--<item>Additional Team Abilities</item>-->
-        <!--<item>Battlefield Conditions</item>-->
+        <item>Battlefield Conditions</item>
         <item>Feats</item>
         <item>General</item>
         <item>Glossary</item>
+        <!--<item>Horde Tokens</item>-->
         <item>Maps</item>
+        <!--<item>Miscellaneous</item>-->
         <item>Objects</item>
+        <item>Resources</item>
         <item>Team Abilities</item>
-        <!--<item>Resources</item>-->
         <!--<item>Uncarded Figure Keyword</item>-->
-        <item>Abilities Erreta</item>
-        <item>ATA Erreta</item>
-        <item>Horde Tokens Erreta</item>
-        <item>Maps Erreta</item>
-        <item>Objects Erreta</item>
-        <item>Powers Erreta</item>
-        <item>Resources Erreta</item>
-        <item>Team Abilities Erreta</item>
+        <item>Abilities Errata</item>
+        <!--<item>ATA Errata</item>-->
+        <!--<item>BFC Errata</item>-->
+        <!--<item>Feats Errata</item>-->
+        <item>Horde Tokens Errata</item>
+        <item>Maps Errata</item>
+        <item>Objects Errata</item>
+        <item>Powers Errata</item>
+        <item>Resources Errata</item>
+        <item>Team Abilities Errata</item>
     </string-array>
 
     <string name="menu_settings">Settings</string>
