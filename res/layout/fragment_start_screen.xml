@@ -20,35 +20,39 @@
             android:id="@+id/speed"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/speed" />
+            android:src="@drawable/speed"
+            android:onClick="onPowerClicked" />
 
         <ImageView
             android:id="@+id/attack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/attack" />
+            android:src="@drawable/attack"
+            android:onClick="onPowerClicked" />
 
         <ImageView
             android:id="@+id/defense"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/defense" />
+            android:src="@drawable/defense"
+            android:onClick="onPowerClicked" />
 
         <ImageView
             android:id="@+id/damage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/damage" />
+            android:src="@drawable/damage"
+            android:onClick="onPowerClicked" />
     </LinearLayout>
 
     <ScrollView
-        android:id="@+id/scrollView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/power_row" >
 
         <LinearLayout
+                android:id="@+id/layout_changelog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >

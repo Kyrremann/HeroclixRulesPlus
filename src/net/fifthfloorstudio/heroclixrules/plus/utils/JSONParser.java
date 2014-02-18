@@ -10,7 +10,9 @@ import android.content.Context;
 
 public class JSONParser {
 
-	private static JSONObject getMeSomeJson(Context context, String file)
+    private static final String JSON_CHANGELOG = "changelog.json";
+
+    private static JSONObject getMeSomeJson(Context context, String file)
 			throws IOException, JSONException {
 		if (!file.endsWith(".json")) {
 			file += ".json";
@@ -33,4 +35,16 @@ public class JSONParser {
 
 		return null;
 	}
+
+    public static JSONObject getJsonChangelog(Context context) {
+        try {
+            return getMeSomeJson(context, JSON_CHANGELOG);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
 }
