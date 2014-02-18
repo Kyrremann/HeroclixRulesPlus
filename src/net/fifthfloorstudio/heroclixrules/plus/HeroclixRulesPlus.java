@@ -315,4 +315,34 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 				getString(R.string.feedback_subject) + " " + version);
 		startActivity(Intent.createChooser(intent, ""));
 	}
+
+	public void onPowerClicked(View v) {
+		switch (v.getId()) {
+		case R.id.speed:
+			switchToPower("Speed powers");
+			break;
+		case R.id.attack:
+			switchToPower("Attack powers");
+			break;
+		case R.id.defense:
+			switchToPower("Defense powers");
+			break;
+		case R.id.damage:
+			switchToPower("Damage powers");
+			break;
+		}
+	}
+
+	private void switchToPower(String power) {
+		Fragment fragment = new RuleListFragment();
+		Bundle args = new Bundle();
+		args.putString(RuleListFragment.ARG_RULE_TITLE, power);
+		fragment.setArguments(args);
+
+		FragmentManager fragmentManager = getSupportFragmentManager();
+		fragmentManager.popBackStack(null,
+				FragmentManager.POP_BACK_STACK_INCLUSIVE);
+		fragmentManager.beginTransaction()
+				.replace(R.id.content_frame, fragment).commit();
+	}
 }
