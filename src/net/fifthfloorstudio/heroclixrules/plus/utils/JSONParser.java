@@ -33,7 +33,7 @@ public class JSONParser {
 			e.printStackTrace();
 		}
 
-		return null;
+		return new JSONObject();
 	}
 
     public static JSONObject getJsonChangelog(Context context) {
@@ -45,6 +45,6 @@ public class JSONParser {
             e.printStackTrace();
         }
 
-        return null;
+        return new JSONObject();
     }
 }

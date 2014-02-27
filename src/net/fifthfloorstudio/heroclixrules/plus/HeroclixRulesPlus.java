@@ -34,6 +34,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -329,6 +330,9 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 			break;
 		case R.id.damage:
 			switchToPower("Damage powers");
+			break;
+		case R.id.instruction:
+			mDrawerLayout.openDrawer(GravityCompat.START);
 			break;
 		}
 	}

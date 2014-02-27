@@ -32,7 +32,7 @@ public class RulesApplication extends Application {
 	private static final String JSON_GLOSSARY = "glossary.json";
 	private static final String JSON_TEAM_ABILITIES_ERRATA = "team_abilities_errata.json";
 	private static final String JSON_HORDE_TOKENS_ERRATA = "horde_tokens_errata.json";
-    private static final String JSON_BFC = "bfc.json";
+	private static final String JSON_BFC = "bfc.json";
 
 	public final static String JSON_NAME = "name";
 	public final static String JSON_TEXT = "text";
@@ -67,12 +67,12 @@ public class RulesApplication extends Application {
 	private JSONObject glossaryRules;
 	private JSONObject teamAbilitiesErrataRules;
 	private JSONObject hordeTokensErrataRules;
-    private JSONObject bfcRules;
+	private JSONObject bfcRules;
 
 	private HashMap<String, String[]> titles;
 	private String language;
 
-    public RulesApplication() {
+	public RulesApplication() {
 		language = ENGLISH;
 		titles = new HashMap<String, String[]>(4);
 	}
@@ -117,25 +117,25 @@ public class RulesApplication extends Application {
 		} else if (category.equals("objects erreta")) {
 			if (objectsErrataRules == null) {
 				objectsErrataRules = JSONParser.getJsonRule(this,
-                        JSON_OBJECTS_ERRATA);
+						JSON_OBJECTS_ERRATA);
 			}
 			return objectsErrataRules;
 		} else if (category.equals("powers erreta")) {
 			if (powersErrataRules == null) {
 				powersErrataRules = JSONParser.getJsonRule(this,
-                        JSON_POWERS_ERRATA);
+						JSON_POWERS_ERRATA);
 			}
 			return powersErrataRules;
 		} else if (category.equals("resources erreta")) {
 			if (resourcesErrataRules == null) {
 				resourcesErrataRules = JSONParser.getJsonRule(this,
-                        JSON_RESOURCES_ERRATA);
+						JSON_RESOURCES_ERRATA);
 			}
 			return resourcesErrataRules;
 		} else if (category.equals("abilities erreta")) {
 			if (abilitiesErrataRules == null) {
 				abilitiesErrataRules = JSONParser.getJsonRule(this,
-                        JSON_ABILITIES_ERRATA);
+						JSON_ABILITIES_ERRATA);
 			}
 			return abilitiesErrataRules;
 		} else if (category.equals("maps erreta")) {
@@ -157,21 +157,21 @@ public class RulesApplication extends Application {
 		} else if (category.equals("team abilities erreta")) {
 			if (teamAbilitiesErrataRules == null) {
 				teamAbilitiesErrataRules = JSONParser.getJsonRule(this,
-                        JSON_TEAM_ABILITIES_ERRATA);
+						JSON_TEAM_ABILITIES_ERRATA);
 			}
 			return teamAbilitiesErrataRules;
 		} else if (category.equals("horde tokens erreta")) {
 			if (hordeTokensErrataRules == null) {
 				hordeTokensErrataRules = JSONParser.getJsonRule(this,
-                        JSON_HORDE_TOKENS_ERRATA);
+						JSON_HORDE_TOKENS_ERRATA);
 			}
 			return hordeTokensErrataRules;
 		} else if (category.equals("battlefield conditions")) {
-            if (bfcRules == null) {
-                bfcRules = JSONParser.getJsonRule(this, JSON_BFC);
-            }
-            return bfcRules;
-        }
+			if (bfcRules == null) {
+				bfcRules = JSONParser.getJsonRule(this, JSON_BFC);
+			}
+			return bfcRules;
+		}
 
 		return null;
 	}
@@ -248,11 +248,15 @@ public class RulesApplication extends Application {
 				|| category.equals("defense") || category.equals("damage");
 	}
 
+	private boolean isTeamAbility(String category) {
+		return category.equals("team abilities");
+	}
+
 	public ImageSpan getImageSpanForRuleIfExists(int position, String title,
 			String category) {
 		try {
 			int id = getImageIdForRuleIfExists(
-					getRuleJSON(position, title, category), title);
+					getRuleJSON(position, title, category), title, category);
 			if (id == 0) {
 				return null;
 			}
@@ -264,7 +268,8 @@ public class RulesApplication extends Application {
 		return null;
 	}
 
-	public int getImageIdForRuleIfExists(JSONObject rule, String title) {
+	public int getImageIdForRuleIfExists(JSONObject rule, String title,
+			String category) {
 		try {
 			if (rule.has(JSON_IMAGE)) {
 				String imageName;
@@ -274,14 +279,15 @@ public class RulesApplication extends Application {
 							.replaceAll("(\\s|-)", "_");
 				}
 
-				int id = getResources().getIdentifier("ta_" + imageName,
-						"drawable", getPackageName());
-				if (id == 0) {
-					id = getResources().getIdentifier("pa_" + imageName,
-							"drawable", getPackageName());
+				String prefix = "";
+				if (isPowerRule(category)) {
+					prefix = "pa_";
+				} else if (isTeamAbility(category)) {
+					prefix = "ta_";
 				}
 
-				return id;
+				return getResources().getIdentifier(prefix + imageName,
+						"drawable", getPackageName());
 			}
 		} catch (JSONException e) {
 			e.printStackTrace();

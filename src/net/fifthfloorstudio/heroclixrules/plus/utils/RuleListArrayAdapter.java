@@ -55,7 +55,7 @@ public class RuleListArrayAdapter extends ArrayAdapter<String> implements
 		try {
 			id = application.getImageIdForRuleIfExists(application.getRuleJSON(
 					position, rules_array[position], category),
-					rules_array[position]);
+					rules_array[position], category);
 		} catch (JSONException e) {
 			e.printStackTrace();
 			id = 0;

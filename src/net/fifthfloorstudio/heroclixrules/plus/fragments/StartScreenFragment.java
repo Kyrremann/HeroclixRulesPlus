@@ -37,6 +37,7 @@ public class StartScreenFragment extends Fragment {
 		populateviewWithJSON(changelog);
 	}
 
+	@SuppressWarnings("unchecked")
 	private void populateviewWithJSON(JSONObject changelog) {
 		LinearLayout parent = (LinearLayout) rootView
 				.findViewById(R.id.layout_changelog);
