@@ -45,8 +45,7 @@ public class RuleListFragment extends Fragment implements OnItemClickListener {
 		rules_array = application.getRuleTitles(category);
 		rules_array = moveGeneralItemToTopOfArray(rules_array);
 		list.setAdapter(new RuleListArrayAdapter(getActivity(),
-				R.layout.rules_with_image_row, R.id.rule_title,
-				R.id.rule_image, rules_array, category));
+				R.layout.rules_with_image_row, R.id.rule_row, rules_array, category));
 		list.setOnItemClickListener(this);
 		return rootView;
 	}

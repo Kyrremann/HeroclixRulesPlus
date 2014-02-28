@@ -12,7 +12,7 @@ import android.text.style.ImageSpan;
 
 public class StringUtils {
 
-	private static final float IMAGE_THRESHOLD_DP = 24f;
+	public static final float IMAGE_THRESHOLD_DP = 24f;
 	private static int image_dp = 24;
 	private static float scale = 0f;
 	
