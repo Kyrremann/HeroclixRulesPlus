@@ -114,37 +114,37 @@ public class RulesApplication extends Application {
 				objectsRules = JSONParser.getJsonRule(this, JSON_OBJECTS);
 			}
 			return objectsRules;
-		} else if (category.equals("objects erreta")) {
+		} else if (category.equals("objects errata")) {
 			if (objectsErrataRules == null) {
 				objectsErrataRules = JSONParser.getJsonRule(this,
 						JSON_OBJECTS_ERRATA);
 			}
 			return objectsErrataRules;
-		} else if (category.equals("powers erreta")) {
+		} else if (category.equals("powers errata")) {
 			if (powersErrataRules == null) {
 				powersErrataRules = JSONParser.getJsonRule(this,
 						JSON_POWERS_ERRATA);
 			}
 			return powersErrataRules;
-		} else if (category.equals("resources erreta")) {
+		} else if (category.equals("resources errata")) {
 			if (resourcesErrataRules == null) {
 				resourcesErrataRules = JSONParser.getJsonRule(this,
 						JSON_RESOURCES_ERRATA);
 			}
 			return resourcesErrataRules;
-		} else if (category.equals("abilities erreta")) {
+		} else if (category.equals("abilities errata")) {
 			if (abilitiesErrataRules == null) {
 				abilitiesErrataRules = JSONParser.getJsonRule(this,
 						JSON_ABILITIES_ERRATA);
 			}
 			return abilitiesErrataRules;
-		} else if (category.equals("maps erreta")) {
+		} else if (category.equals("maps errata")) {
 			if (mapsErrataRules == null) {
 				mapsErrataRules = JSONParser
 						.getJsonRule(this, JSON_MAPS_ERRATA);
 			}
 			return mapsErrataRules;
-		} else if (category.equals("ata erreta")) {
+		} else if (category.equals("ata errata")) {
 			if (ataErrataRules == null) {
 				ataErrataRules = JSONParser.getJsonRule(this, JSON_ATA_ERRATA);
 			}
@@ -154,13 +154,13 @@ public class RulesApplication extends Application {
 				glossaryRules = JSONParser.getJsonRule(this, JSON_GLOSSARY);
 			}
 			return glossaryRules;
-		} else if (category.equals("team abilities erreta")) {
+		} else if (category.equals("team abilities errata")) {
 			if (teamAbilitiesErrataRules == null) {
 				teamAbilitiesErrataRules = JSONParser.getJsonRule(this,
 						JSON_TEAM_ABILITIES_ERRATA);
 			}
 			return teamAbilitiesErrataRules;
-		} else if (category.equals("horde tokens erreta")) {
+		} else if (category.equals("horde tokens errata")) {
 			if (hordeTokensErrataRules == null) {
 				hordeTokensErrataRules = JSONParser.getJsonRule(this,
 						JSON_HORDE_TOKENS_ERRATA);
@@ -223,6 +223,7 @@ public class RulesApplication extends Application {
 	private String[] getTitles(String category) {
 		if (titles.get(category) == null) {
 			JSONObject json = getJSONRules(category);
+			System.out.println(json);
 			Iterator<String> keys = json.keys();
 			String[] tmpArray = new String[json.length()];
 			for (int i = 0; i < json.length(); i++) {
@@ -249,7 +250,8 @@ public class RulesApplication extends Application {
 	}
 
 	private boolean isTeamAbility(String category) {
-		return category.equals("team abilities");
+		return category.equals("team abilities")
+				|| category.equals("team abilities errata");
 	}
 
 	public ImageSpan getImageSpanForRuleIfExists(int position, String title,
@@ -280,7 +282,8 @@ public class RulesApplication extends Application {
 				}
 
 				String prefix = "";
-				if (isPowerRule(category)) {
+				if (isPowerRule(category)
+						|| category.equals("powers errata")) {
 					prefix = "pa_";
 				} else if (isTeamAbility(category)) {
 					prefix = "ta_";

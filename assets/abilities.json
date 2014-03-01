@@ -14,7 +14,7 @@
 	},
 	"Flight":{
 		"english":"This character can use |impmov| |ignet|, |ignht|, |ignobt|, |doubleoarr|. An elevated character using this ability ignores knock back damage if its knock back path crosses the boundary to a lower level.",
-		"image":"flight"
+		"image":"flight_transflight"
 	},
 	"Giant Reach":{
 		"english":"This character ignores opposing characters' Plasticity and adds 1 to its d6 roll when breaking away. This character can use the Carry ability. When this character is given an action that includes a close combat attack, all squares within a range of 2 and line of fire are considered adjacent. This ability can't be countered."
@@ -55,7 +55,7 @@
 	},
 	"Swim":{
 		"english":"This character can use |impmov| |ignwt|.",
-		"image":"swim"
+		"image":"swim_transswim"
 	},
 	"Tiny Size":{
 		"english":"Modify this character's defense value by +1 against ranged combat attacks. A friendly character that is larger and adjacent can use the Carry ability to carry up to one |tiny| character regardless of its other combat symbols, does not reduce its speed value for doing so and can continue to use the Carry ability if it can normally. This ability can't be countered.",
