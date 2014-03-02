@@ -69,10 +69,11 @@ public class SettingsActivity extends PreferenceActivity implements
 		if (preference instanceof ListPreference) {
 			ListPreference listPreference = (ListPreference) preference;
 			int index = listPreference.findIndexOfValue(stringValue);
-
 			preference
 					.setSummary(index >= 0 ? listPreference.getEntries()[index]
 							: null);
+			((RulesApplication) preference.getContext().getApplicationContext())
+					.setLanguage(listPreference.getEntries()[index].toString());
 
 		} else if (preference.getKey().equals(PREFS_SCREEN)) {
 			if (Boolean.valueOf(stringValue)) {

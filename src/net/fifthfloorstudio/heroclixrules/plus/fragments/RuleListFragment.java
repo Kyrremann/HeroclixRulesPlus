@@ -25,6 +25,8 @@ public class RuleListFragment extends Fragment implements OnItemClickListener {
 	private RuleSelectedListener mCallback;
 	private String[] rules_array;
 	private RulesApplication application;
+	private ListView listView;
+	private String category;
 
 	public RuleListFragment() {
 		// Empty constructor required for fragment subclasses
@@ -38,15 +40,15 @@ public class RuleListFragment extends Fragment implements OnItemClickListener {
 		String title = getArguments().getString(ARG_RULE_TITLE);
 		getActivity().setTitle(title);
 
-		ListView list = (ListView) rootView.findViewById(R.id.rules_list);
-		String category = title.replaceAll(" powers", "").toLowerCase(
+		listView = (ListView) rootView.findViewById(R.id.rules_list);
+		category = title.replaceAll(" powers", "").toLowerCase(
 				Locale.ENGLISH);
 		application = (RulesApplication) getActivity().getApplicationContext();
 		rules_array = application.getRuleTitles(category);
 		rules_array = moveGeneralItemToTopOfArray(rules_array);
-		list.setAdapter(new RuleListArrayAdapter(getActivity(),
+		listView.setAdapter(new RuleListArrayAdapter(getActivity(),
 				R.layout.rules_with_image_row, R.id.rule_row, rules_array, category));
-		list.setOnItemClickListener(this);
+		listView.setOnItemClickListener(this);
 		return rootView;
 	}
 
@@ -71,5 +73,12 @@ public class RuleListFragment extends Fragment implements OnItemClickListener {
 	public void onItemClick(AdapterView<?> arg0, View arg1, int position,
 			long arg3) {
 		mCallback.onRuleSelectedListener(position, rules_array);
+	}
+
+	public void notifyListChanged() {
+		rules_array = application.getRuleTitles(category);
+		rules_array = moveGeneralItemToTopOfArray(rules_array);
+		listView.setAdapter(new RuleListArrayAdapter(getActivity(),
+				R.layout.rules_with_image_row, R.id.rule_row, rules_array, category));
 	}
 }

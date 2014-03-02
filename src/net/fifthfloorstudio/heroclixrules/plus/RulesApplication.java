@@ -77,6 +77,32 @@ public class RulesApplication extends Application {
 		titles = new HashMap<String, String[]>(4);
 	}
 
+	public void setLanguage(String language) {
+		this.language = language.toLowerCase(Locale.getDefault());
+		resetJsonObjects();
+	}
+	
+	private void resetJsonObjects() {
+		powerRules = null;
+		teamAbilitiesRules = null;
+		generalRules = null;
+		abilitiesRules = null;
+		mapsRules = null;
+		featsRules = null;
+		objectsRules = null;
+		powersErrataRules = null;
+		resourcesErrataRules = null;
+		abilitiesErrataRules = null;
+		mapsErrataRules = null;
+		objectsErrataRules = null;
+		ataErrataRules = null;
+		glossaryRules = null;
+		teamAbilitiesErrataRules = null;
+		hordeTokensErrataRules = null;
+		bfcRules = null;
+		titles.clear();
+	}
+
 	public JSONObject getJSONRules(String category) {
 		if (isPowerRule(category)) {
 			if (powerRules == null) {
@@ -183,8 +209,7 @@ public class RulesApplication extends Application {
 				JSONArray array = json.getJSONArray(category);
 				String[] tmpArray = new String[array.length()];
 				for (int i = 0; i < array.length(); i++) {
-					tmpArray[i] = array.getJSONObject(i)
-							.getJSONObject(language).getString(JSON_NAME);
+					tmpArray[i] = getPowerRuleNameBasedOnLanguage(array.getJSONObject(i));
 				}
 				titles.put(category, tmpArray);
 			} catch (JSONException e) {
@@ -199,9 +224,9 @@ public class RulesApplication extends Application {
 		try {
 			JSONObject rule = getRuleJSON(powerId, title, category);
 			if (isPowerRule(category)) {
-				return rule.getJSONObject(language).getString(JSON_TEXT);
+				return getPowerRuleBasedOnLanguage(rule);
 			} else {
-				return rule.getString(language);
+				return getRuleBasedOnLanguage(rule);
 			}
 		} catch (JSONException e) {
 			e.printStackTrace();
@@ -243,6 +268,30 @@ public class RulesApplication extends Application {
 			return getTitles(category);
 		}
 	}
+	
+	private String getPowerRuleNameBasedOnLanguage(JSONObject rule) throws JSONException {
+		if (rule.has(language)) {
+			return rule.getJSONObject(language).getString(JSON_NAME);
+		} else {
+			return rule.getJSONObject(ENGLISH).getString(JSON_NAME);
+		}
+	}
+	
+	private String getPowerRuleBasedOnLanguage(JSONObject rule) throws JSONException {
+		if (rule.has(language)) {
+			return rule.getJSONObject(language).getString(JSON_TEXT);
+		} else {
+			return rule.getJSONObject(ENGLISH).getString(JSON_TEXT);
+		}
+	}
+	
+	private String getRuleBasedOnLanguage(JSONObject rule) throws JSONException {
+		if (rule.has(language)) {
+			return rule.getString(language);
+		} else {
+			return rule.getString(ENGLISH);
+		}
+	}
 
 	private boolean isPowerRule(String category) {
 		return category.equals("speed") || category.equals("attack")
@@ -282,8 +331,7 @@ public class RulesApplication extends Application {
 				}
 
 				String prefix = "";
-				if (isPowerRule(category)
-						|| category.equals("powers errata")) {
+				if (isPowerRule(category) || category.equals("powers errata")) {
 					prefix = "pa_";
 				} else if (isTeamAbility(category)) {
 					prefix = "ta_";
