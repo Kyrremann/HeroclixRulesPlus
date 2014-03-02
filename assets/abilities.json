@@ -14,7 +14,11 @@
 	},
 	"Flight":{
 		"english":"This character can use |impmov| |ignet|, |ignht|, |ignobt|, |doubleoarr|. An elevated character using this ability ignores knock back damage if its knock back path crosses the boundary to a lower level.",
-		"image":"flight_transflight"
+		"image":"flight"
+	},
+	"Flight (transporter)":{
+		"english":"As well as the regular flight ability this character can use the Carry ability and Move and Attack ability. This is indicated by the black circle behind the symbol.",
+		"image":"transflight"
 	},
 	"Giant Reach":{
 		"english":"This character ignores opposing characters' Plasticity and adds 1 to its d6 roll when breaking away. This character can use the Carry ability. When this character is given an action that includes a close combat attack, all squares within a range of 2 and line of fire are considered adjacent. This ability can't be countered."
@@ -46,6 +50,10 @@
 	"Ram":{
 		"english":"Give this character a move action; it may only move along a straight horizontal or vertical path and it can't change its orientation. After actions resolve, make a close combat attack as a free action that targets all opposing characters that were moved through. Each hit character is dealt this character's damage value and deal this character 1 unavoidable damage for each 100 points of characters dealt damage during the movement."
 	},
+	"Speed (transporter)":{
+		"english":"As well as the regular speed ability this character can use the Carry ability and Move and Attack ability. This is indicated by the black circle behind the symbol.",
+		"image":"transspeed"
+	},
 	"Sharpshooter":{
 		"english":"This character can use |imptar| |ignoc|, |doubleo|.",
 		"image":"sharpshooter"
@@ -55,7 +63,11 @@
 	},
 	"Swim":{
 		"english":"This character can use |impmov| |ignwt|.",
-		"image":"swim_transswim"
+		"image":"swim"
+	},
+	"Swim (transporter)":{
+		"english":"As well as the regular swim ability this character can use the Carry ability and Move and Attack ability. This is indicated by the black circle behind the symbol.",
+		"image":"transswim"
 	},
 	"Tiny Size":{
 		"english":"Modify this character's defense value by +1 against ranged combat attacks. A friendly character that is larger and adjacent can use the Carry ability to carry up to one |tiny| character regardless of its other combat symbols, does not reduce its speed value for doing so and can continue to use the Carry ability if it can normally. This ability can't be countered.",

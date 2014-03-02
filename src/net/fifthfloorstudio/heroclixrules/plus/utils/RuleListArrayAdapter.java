@@ -22,7 +22,8 @@ public class RuleListArrayAdapter extends ArrayAdapter<String> implements
 	private RulesApplication application;
 	private String category;
 
-	public RuleListArrayAdapter(Context context, int layout, int item, String[] rules_array, String category) {
+	public RuleListArrayAdapter(Context context, int layout, int item,
+			String[] rules_array, String category) {
 		super(context, layout, rules_array);
 		this.context = context;
 		this.layout = layout;
@@ -59,13 +60,9 @@ public class RuleListArrayAdapter extends ArrayAdapter<String> implements
 
 		if (id != 0) {
 			float scale = context.getResources().getDisplayMetrics().density;
-			 int dp = (int) (36 * scale + 0.5f); // magic numbers
+			int dp = (int) (36 * scale + 0.5f); // magic numbers
 			Drawable drawable = context.getResources().getDrawable(id);
-			if (imageExtraWide(rules_array[position])) {
-				drawable.setBounds(0, 0, dp * 2, dp);
-			} else {
-				drawable.setBounds(0, 0, dp, dp);
-			}
+			drawable.setBounds(0, 0, dp, dp);
 			holder.item.setVisibility(View.VISIBLE);
 			holder.item.setCompoundDrawables(null, null, drawable, null);
 		} else {
@@ -73,11 +70,6 @@ public class RuleListArrayAdapter extends ArrayAdapter<String> implements
 		}
 
 		return convertView;
-	}
-	
-	private boolean imageExtraWide(String title) {
-		return title.equals("Swim")
-				|| title.equals("Flight");
 	}
 
 	private class ViewHolder {
