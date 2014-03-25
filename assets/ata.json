@@ -1,0 +1,1136 @@
+{
+    "All-Star Squadron":{
+	"english":{
+	    "keywords":"All-Star Squadron",
+	    "cost":"2",
+	    "text":"Characters using this team ability modify their attack value by +1 when making a close combat attack against a character at least twice its point value."
+	},
+	"spanish":{
+	    "keywords":"All-Star Squadron",
+	    "cost":"2",
+	    "text":"Los personajes usando esta habilidad de equipo modiﬁcan su valor de ataque en +1 cuando hacen un ataque cuerpo a cuerpo contra un personaje de al menos el doble de su valor de puntos."
+    },
+	"ALPHA FLIGHT":{
+	"english":{
+	    "keywords":"Alpha Flight",
+	    "cost":"4",
+	    "text":"Once during each game, choose any team ability or opposing character. Each friendly character using this team ability modifies its attack value by +1 when attacking the chosen character or a character possessing the chosen team ability."
+	},
+	"spanish":{
+	    "keywords":"Alpha Flight",
+	    "cost":"4",
+	    "text":"Una vez por juego, escoje una habilidad de equipo o personaje enemigo. Cada personaje aliado usando esta habilidad de equipo modifica su valor de ataque en +1 cuando ataca al personaje escojido o un personaje que posee la habilidad de equipo seleccionada."
+	},
+	"AMAZON":{
+	"english":{
+	    "keywords":"Amazon",
+	    "cost":"4",
+	    "text":"Whenever a character using this team ability takes 2 or more damage from an opponent’s attack, put a Sisterhood token on this card. Before being given a non-free action, a friendly character using this team ability may remove any number of Sisterhood tokens from this card. Modify that character’s speed, attack, or range value by +1 for each token removed until that action is resolved."
+	},
+	"spanish":{
+	    "keywords":"Amazon",
+	    "cost":"4",
+	    "text":"Cada vez que un personaje usando esta habilidad de equipo sufre 2 o más daños por un ataque del oponente, coloca un contador de Hermandad en esta tarjeta. Antes de ser dada una acción no gratuita, un personaje aliado usando esta habilidad de equipo puede retirar cualquier número de contadores de Hermandad de esta tarjeta. Modifica el valor de movimiento, ataque o rango de ese personaje por +1 por cada contador retirado hasta que esa accion sea resuelta."
+    },
+	"ANIMAL":{
+	"english":{
+	    "keywords":"Animal",
+	    "cost":"4",
+	    "text":"At the beginning of your turn, roll a d6. On a result of 5-6 all friendly characters using this team ability ignore Shape Change and Stealth this turn."
+	},
+	"spanish":{
+	    "keywords":"Animal",
+	    "cost":"4",
+	    "text":"Al inicio de tu turno, tira un d6. En un resultado de 5-6 todo personaje aliado usando esta habilidad de equipo ignora Cambio de Forma y Sigilo este turno."
+    },
+	"ANNIHILATORS":{
+	"english":{
+	    "keywords":"Annihilators",
+	    "cost":"4",
+	    "text":"When a character using this team ability KO’s an opposing character of a higher point value with an attack, remove an action token from each friendly character using this team ability that’s less points than the KO’d character."
+	},
+	"spanish":{
+	    "keywords":"Annihilators",
+	    "cost":"4",
+	    "text":"Cuando un personaje usando esta habilidad de equipo noquea con un ataque a un personaje enemigo de mayor valor de puntaje, retira un marcador de accion de cada uno de los personajes aliados usando esta habilidad de equipo que sean de menor puntaje que el personaje noqueado."
+    },
+	"ARKHAM ASYLUM":{
+	"english":{
+	    "keywords":"Arkham Asylum",
+	    "cost":"4",
+	    "text":"At the beginning of your turn, roll a d6 for all friendly characters using this team ability. Those characters can use the indicated power until your next turn. Uncopyable. 1-2 Plasticity, 3-4 Leap/Climb or 5-6 Phasing/Teleport."
+	},
+	"spanish":{
+	    "keywords":"Arkham Asylum",
+	    "cost":"4",
+	    "text":"Al inicio de tu turno, tira un d6 por todos los personajes aliados usando esta habilidad de equipo. Esos personajes pueden usar el poder indicado hasta el siguiente turno. Incopiable. 1-2 Plasticidad, 3-4 Saltar/Trepar o 5-6 Fase/Teletransporte."
+    },
+	"ASGARDIAN":{
+	"english":{
+	    "keywords":"Asgardian",
+	    "cost":"5",
+	    "text":"A character using this team ability can’t have its Willpower or Indomitable countered. A character using this team ability can use Willpower on its first click."
+	},
+	"spanish":{
+	    "keywords":"Asgardian",
+	    "cost":"5",
+	    "text":"Un personaje usando esta habilidad de equipo no puede tener Fuerza de Voluntad o Indómito contrarestados. Un personaje usando esta habilidad de equipo puede usar Fuerza de Voluntad en su primer click."
+    },
+	"ATLANTIS":{
+	"english":{
+	    "keywords":"Atlantis",
+	    "cost":"2",
+	    "text":"Whenever a character using this team ability occupies water terrain, modify its defense values by +1 against ranged combat attacks."
+	},
+	"spanish":{
+	    "keywords":"Atlantis",
+	    "cost":"2",
+	    "text":"Cada vez que un personaje usando esta habilidad de equipo ocupa terreno acuático, modifica su valor de defensa por +1 en contra de ataques en rango."
+    },
+	"AVENGERS (HEROIC AGE)":{
+	"english":{
+	    "keywords":"Avengers",
+	    "cost":"2",
+	    "text":"When a character using this team ability is given a move action, after actions resolve roll a d6 that can’t be rerolled. On a roll of 6, remove an action token from that character."
+	},
+	"spanish":{
+	    "keywords":"Avengers",
+	    "cost":"2",
+	    "text":"Cuando un personaje usando esta habilidad de equipo se le da una accion de movimiento, despues que la accion se resuelve tira un d6 que no puede ser retirado. En un resultado de 6, retira un contador de accion de ese personaje."
+    },
+	"AVENGERS RESPONSE UNIT":{
+	"english":{
+	    "keywords":"Avengers",
+	    "cost":"3",
+	    "text":"When one or more characters using this team ability is adjacent to a friendly character making a close combat attack, modify the characters attack value by +1."
+	},
+	"spanish":{
+	    "keywords":"Avengers",
+	    "cost":"3",
+	    "text":"Cuando uno o mas personajes usando esta habilidad de equipo estan adjacentes a un personaje aliado haciendo una accion de combate cuerpo a cuerpo, modifica el valor de ataque del personaje por +1."
+    },
+	"BATMAN FAMILY":{
+	"english":{
+	    "keywords":"Batman Family",
+	    "cost":"4",
+	    "text":"Characters using this team ability within 8 squares of a friendly character named \"Batman\" or \"Bruce Wayne\" can use Willpower. When not within 8 squares of a friendly character named \"Batman\" or \"Bruce Wayne\", characters using this team ability modify their speed and range values by +1."
+	},
+	"spanish":{
+	    "keywords":"Batman Family",
+	    "cost":"4",
+	    "text":"Personajes usando esta habilidad de equipo dentro de 8 cuadrados de una figura aliada llamaba \"Batman\" o \"Bruce Wayne\" pueden usar Fuerza de Voluntad. Cuando no estan dentro de 8 cuadrados de un personaje aliado llamado \"Batman\" o \"Bruce Wayne\"."
+    },
+	"BATMAN INC":{
+	"english":{
+	    "keywords":"Batman Inc",
+	    "cost":"3",
+	    "text":"At the beginning of the game, choose an opposing character for all charaters using this team ability. While any character using this team ability is on the map, whenever the sum of all modifiers applied to that opposing character's combat values is greater than +1, the sum of all modifiers is instead +1."
+	},
+	"spanish":{
+	    "keywords":"Batman Inc",
+	    "cost":"3",
+	    "text":"Al inicio de el juego, escoje un personaje enemigo por todos los personajes usando esta habilidad de equipo. Mientras algun personaje usando esta habilidad de equipo este en el mapa, cualquier suma de todos los modificadores aplicados a los valores de combate de ese personaje enemigo es mayor que +1, la suma de todos los modificadores es en vez +1."
+    },
+	"BIRDS OF PREY":{
+	"english":{
+	    "keywords":"Birds of Prey",
+	    "cost":"1",
+	    "text":"Once per turn, one friendly character using this team ability can use Support as a free action. When it does, it may only target a character with whom it shares a keyword and it subtracts 3 from the d6 roll instead of 2."
+	},
+	"spanish":{
+	    "keywords":"Birds of Prey",
+	    "cost":"1",
+	    "text":"Una vez por turno, un personaje aliado usando esta habilidad de equipo puede usar Apoyo como accion gratuita. Cuando lo hace, solo podra seleccionar de objetivo un personaje con quien comparta una palabra clave y resta 3 del resultado de la tirada del d6 en vez de 2."
+    },
+	"BLACK LANTERN CORPS":{
+	"english":{
+	    "keywords":"Black Lantern Corps",
+	    "cost":"1",
+	    "text":"When a character using this team ability uses Regeneration, its minimum result is 1. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Black Lantern Corps",
+	    "cost":"1",
+	    "text":"Cuando un personaje usando esta hablidad de equipo usa Regeneracion, el minimo resultado es 1. Incopiable."
+    },
+	"CHECKMATE":{
+	"english":{
+	    "keywords":"Checkmate",
+	    "cost":"6",
+	    "text":"Minion: Kings and Queens and Bishops. When another friendly character using this team ability and with a point value greater than 50 is within 8 squares, this character can be given a power action to use Perplex if it can’t already use Perplex."
+	},
+	"spanish":{
+	    "keywords":"Checkmate",
+	    "cost":"6",
+	    "text":"Secuaz: Reyes y Reinas y Alfiles. Cuando otro personaje aliado usando esta habilidad de equipo y con un mayor valor de puntaje que 50 esta dentro de 8 cuadrados, este personaje puede ser dado acciones de poder para usar Alterar si no puede ya usar Alterar."
+    },
+	"DARK AVENGERS":{
+	"english":{
+	    "keywords":"Dark Avengers",
+	    "cost":"4",
+	    "text":"Whenever an opposing character takes damage from an attack by a character using this team ability, modify that opposing character's defense value by -1 until the end of the turn. Each opposing character can't have this modifier applied more than once per turn."
+	},
+	"spanish":{
+	    "keywords":"Dark Avengers",
+	    "cost":"4",
+	    "text":"Cuando un personaje enemigo toma daño de un ataque de un personaje usando esta habilidad de equipo, modifica el valor de defensa de ese personaje enemigo por -1 hasta el final del turno. Cada personaje oponente no puede tener este modificador aplicado mas de una vez por turno."
+    },
+	"DEFENDERS":{
+	"english":{
+	    "keywords":"Defenders",
+	    "cost":"4",
+	    "text":"Characters using this team ability may replace their attack value with the unmodified attack value of an adjacent friendly character using this team ability."
+	},
+	"spanish":{
+	    "keywords":"Defenders",
+	    "cost":"4",
+	    "text":"Personajes usando esta habilidad de equipo pueden remplazar sus valor de ataque con el valor de ataque no modificado de un personaje aliado adjacente usando esta habilidad de equipo."
+    },
+	"ELDERS OF THE UNIVERSE":{
+	"english":{
+	    "keywords":"Elders of the Universe",
+	    "cost":"5",
+	    "text":"Opposing characters can’t attempt a relic roll while at least two friendly characters can use this team ability."
+	},
+	"spanish":{
+	    "keywords":"Elders of the Universe",
+	    "cost":"5",
+	    "text":"Personajes enemigos no pueden intentar tiradas de reliquias mientras al menos dos personajes aliados puedan usar esta habilidad de equipo."
+    },
+	"FANTASTIC FORCE":{
+	"english":{
+	    "keywords":"Fantastic Four",
+	    "cost":"5",
+	    "text":"Characters using this team ability may replace their defense value with the unmodified defense value of an adjacent friendly character using this team ability."
+	},
+	"spanish":{
+	    "keywords":"Fantastic Four",
+	    "cost":"5",
+	    "text":"Personajes usando esta habilidad de equipo pueden remplazar sus valores de defensas con el valor de defensa sin modificar de un personaje aliado adjacente usando esta habilidad de equipo."
+    },
+	"FEARSOME FIVE":{
+	"english":{
+	    "keywords":"Fearsome Five",
+	    "cost":"3",
+	    "text":"Characters using this team ability can use Mastermind, but may only transfer damage to friendly characters using this team ability. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Fearsome Five",
+	    "cost":"3",
+	    "text":"Personajes usando esta habilidad de equipo pueden usar Mente Maestra, pero solo puede tranferir daño a un personaje aliado usando esta habilidad de equipo. Incopiable."
+    },
+	"FEARSOME FIVE":{
+	"english":{
+	    "keywords":"Fearsome Five",
+	    "cost":"3",
+	    "text":"Characters using this team ability can use Mastermind, but may only transfer damage to friendly characters using this team ability. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Fearsome Five",
+	    "cost":"3",
+	    "text":"Personajes usando esta habilidad de equipo pueden usar Mente Maestra, pero solo puede tranferir daño a un personaje aliado usando esta habilidad de equipo. Incopiable."
+    },
+	"FF":{
+	"english":{
+	    "keywords":"Fantastic Four",
+	    "cost":"3",
+	    "text":"When a character using this team ability KO’s an opposing character, that character may heal any character using this team ability of 1 damage."
+	},
+	"spanish":{
+	    "keywords":"Fantastic Four",
+	    "cost":"3",
+	    "text":"Cuando un personaje usando esta habilidad de equipo noquea un personaje enemigo, este personaje puede curar cualquier personaje usando esta habilidad de equipo por 1 daño."
+    },
+	"FLASHPOINT":{
+	"english":{
+	    "keywords":"Flashpoint",
+	    "cost":"4",
+	    "text":"Once per game per character using this team ability, it may use Probability Control during an adjacent friendly character's attack. When they do, you may reroll only one die and keep the other. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Flashpoint",
+	    "cost":"4",
+	    "text":"Una vez por juego por personaje usando esta habilidad de equipo, podra usar Control de la Probabilidad durante un ataque de un personaje aliado adjacente. Cuando ellos lo hacen, tu podras tirar solamente un dado y mantener el otro. Incopiable."
+    },
+	"GCPD":{
+	"english":{
+	    "keywords":"Gotham City and Police (both keywords)",
+	    "cost":"2",
+	    "text":"At the beginning of your turn, characters using this team ability that have no action tokens may be given a move action as a free action, with a speed value of 4."
+	},
+	"spanish":{
+	    "keywords":"Gotham City y Police (ambas palabras claves)",
+	    "cost":"2",
+	    "text":"Al inicio de tu turno, personajes usando esta habilidad de equipo que no tengan Una vez por juego por personaje usando esta habilidad de equipo, podra usar Control de la Probabilidad durante un ataque de un personaje aliado adjacente. Cuando ellos lo hacen, tu podras tirar solamente un dado y mantener el otro. Incopiable."
+    },
+	"GEN13":{
+	"english":{
+	    "keywords":"Gen13",
+	    "cost":"5",
+	    "text":"At the beginning of the game, choose a keyword for all characters using this team ability. All opposing characters with that keyword modify their attack value by -1 when a character using this team ability is targeted."
+	},
+	"spanish":{
+	    "keywords":"Gen13",
+	    "cost":"5",
+	    "text":"Al inicio de tu juego, escoje una palabra clave por todos los personajes usando esta habilidad de equipo. Todo los personajes enemigos con esta palabra clave modifican sus valores de ataque en -1 cuando un personaje usando esta habilidad de equipo es objetivo."
+    },
+	"GREAT LAKES AVENGERS":{
+	"english":{
+	    "keywords":"Great Lakes Avengers",
+	    "cost":"3",
+	    "text":"During an attack made by a character using this team ability, opposing characters can’t use Probability Control unless a friendly character has already used Probability Control during this attack. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Great Lakes Avengers",
+	    "cost":"3",
+	    "text":"Durante un ataque hecho por un personaje usando esta habilidad de equipo, personajes enemigos no pueden usar Control de la Probabilidad a menos que un personaje aliado ya haya usado Control de la Probabilidad durante este ataque. Incopiable."
+    },
+	"GREEN LANTERN HONOR GUARD":{
+	"english":{
+	    "keywords":"Green Lantern Corps",
+	    "cost":"5",
+	    "text":"Whenever a character using this team ability attacks, modify their attack value by +1 for each other friendly character that attacked the same target this turn while using this team ability."
+	},
+	"spanish":{
+	    "keywords":"Green Lantern Corps",
+	    "cost":"5",
+	    "text":"Cuando un personaje usando esta habilidad de equipo ataca, modifica sus valores de ataque en +1 por cada otro personaje aliado que haya atacado al mismo objetivo este turno mientras estaba usando esta habilidad de equipo."
+    },
+	"GUARDIANS OF THE GALAXY":{
+	"english":{
+	    "keywords":"Guardians of the Galaxy",
+	    "cost":"4",
+	    "text":"Powers possessed by characters using this team ability can’t be countered. This team ability can’t be used by wild cards."
+	},
+	"spanish":{
+	    "keywords":"Guardians of the Galaxy",
+	    "cost":"4",
+	    "text":"Poderes poseidos por personajes usando esta habilidad de equipo no pueden ser contrarestados. Esta habilidad de equipo no puede ser usada por comodines."
+    },
+	"GUARDIANS OF THE GALAXY (SILVER AGE)":{
+	"english":{
+	    "keywords":"Guardians of the Galaxy",
+	    "cost":"1",
+	    "text":"Characters using this team ability are wild cards, but don’t possess any other team abilities. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Guardians of the Galaxy",
+	    "cost":"1",
+	    "text":"Personajes usando esta habilidad de equipo son comodines, pero no poseen ninguna otra habilidad de equipo. Incopiable."
+    },
+	"THE HAND":{
+	"english":{
+	    "keywords":"The Hand",
+	    "cost":"7",
+	    "text":"When it is not your turn, lines of fire to a character using this team ability are blocked if this character is adjacent to a wall or blocking terrain."
+	},
+	"spanish":{
+	    "keywords":"The Hand",
+	    "cost":"7",
+	    "text":"Cuando no es tu turno, lineas de fuego hacia un personaje usando esta habilidad de equipo estan bloqueadas si este personaje esta adjacente a una pared o terreno bloqueado."
+    },
+	"HELLIONS":{
+	"english":{
+	    "keywords":"Hellions",
+	    "cost":"3",
+	    "text":"When a friendly character using this team ability is KO’d during an opponent’s turn, remove an action token from another friendly character with a higher point value that’s using this team ability."
+	},
+	"spanish":{
+	    "keywords":"Hellions",
+	    "cost":"3",
+	    "text":"Cuando un personaje aliado usando esta habilidad de equipo es noqueado durante el turno del oponente, retira un marcador de accion de otro personaje aliado con mayor valor de puntaje que este usando esta habilidad de equipo."
+    },
+	"HEROES FOR HIRE":{
+	"english":{
+	    "keywords":"Heroes for Hire",
+	    "cost":"8",
+	    "text":"At the beginning of the game, place a number of HIRED tokens on this card equal to the number of characters using this team ability. Once per turn, you may remove a HIRED token from this card and one character using this team ability may make one close or ranged combat attack as a free action. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Heroes for Hire",
+	    "cost":"8",
+	    "text":"Al inicio del juego, coloca un numero de marcadores HIRED en esta tarjeta igual al numero de personajes usando esta habilidad de equipo. Una vez por turno, tu puedes remover un marcador HIRED de esta tarjeta y un personaje usando esta habilidad de equipo puede hacer una ataque cuerpo a cuerpo o a distancia como accion gratuita. Incopiable."
+    },
+	"HORSEMEN OF APOCALYPSE":{
+	"english":{
+	    "keywords":"Horsemen of Apocalypse",
+	    "cost":"1",
+	    "text":"As long as you control exactly 4 characters using this team ability, modify this character’s attack value by +1. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Horsemen of Apocalypse",
+	    "cost":"1",
+	    "text":"Siempre y cuando controles exactamente 4 personajes usando esta habilidad de equipo, modifica el valor de ataque de estos personajes en +1. Incopiable."
+    },
+	"HOWLING COMMANDOS":{
+	"english":{
+	    "keywords":"Howling Commandos",
+	    "cost":"3",
+	    "text":"Friendly characters can use Support if they can’t already, but only to target a character using this team ability that took 2 or more damage from a single opponent’s attack since your last turn."
+	},
+	"spanish":{
+	    "keywords":"Howling Commandos",
+	    "cost":"3",
+	    "text":"Personajes aliados puedes usar Apoyo si no puedes ya, pero solo pueden tener de objetivo a personajes usando esta habilidad de equipo que hayan tomado 2 o mas daño de un solo ataque de un oponente desde su ultimo turno."
+    },
+	"HULKBUSTERS":{
+	"english":{
+	    "keywords":"Hulkbusters",
+	    "cost":"2",
+	    "text":"When there are more friendly characters using this team ability on the map than the total number of opposing characters, and a character using this team ability targets an opposing character with a higher point value, modify that opposing character's defense value by -1 for this attack."
+	},
+	"spanish":{
+	    "keywords":"Hulkbusters",
+	    "cost":"2",
+	    "text":"Cuando hay mas personajes aliados usando esta habilidad de equipo en el mapa que el numero total de figuras enemigas, y un personaje usando esta habilidad de equipo selecciona como objetivo a una figura enemiga con mayor valor de puntaje, modifica el valor de de fensa de ese personaje enemigo en -1 por este ataque."
+    },
+	"HULKED-OUT HEROES":{
+	"english":{
+	    "keywords":"Hulked-Out Heroes",
+	    "cost":"5",
+	    "text":"Characters using this team ability can use Super Strength if they are not on click #1. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Hulked-Out Heroes",
+	    "cost":"5",
+	    "text":"Personajes usando esta habilidad de equipo pueden usar Super Fuerza si ellos no estan en su click #1. Incopiable."
+    },
+	"HYDRA DEEP SCIENCE DIVISION":{
+	"english":{
+	    "keywords":"HYDRA",
+	    "cost":"3",
+	    "text":"When an opposing character uses Outwit, Perplex, or Probability Control, modify its range value by -1 for each friendly character using this team ability. Reduce the minimum range value by the same amount, but no lower than 1."
+	},
+	"spanish":{
+	    "keywords":"HYDRA",
+	    "cost":"3",
+	    "text":"Cuando un personaje enemigo use Anular, Alterar, o Control de la Probabilidad, modifica su valor de rango por -1 por cada personaje aliado usando esta habilidad de equipo. Reduce el valor minimo de rango por la misma cantidad, pero no menor a 1."
+    },
+	"INFINITY WATCH":{
+	"english":{
+	    "keywords":"Infinity Watch",
+	    "cost":"2",
+	    "text":"When a character using this team ability rolls for a relic with the |ig| set symbol, it succeeds on a roll of 3-6. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Infinity Watch",
+	    "cost":"2",
+	    "text":"Cuando un personaje usando esta habilidad de equipo hace una tirada para reliquia con simbolo de set |ig|, la tirada tiene exito con 3-6. Incopiable."
+    },
+	"INHUMANS":{
+	"english":{
+	    "keywords":"Inhumans",
+	    "cost":"4",
+	    "text":"Characters using this team ability may use the Carry ability, but only to carry characters that can also use this team ability, and may carry those characters regardless of their combat symbols. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Inhumans",
+	    "cost":"4",
+	    "text":"Personajes usando esta habilidad de equipo pueden usar la habilidad transportar, pero solo puede transportar personajes que pueden usar esta habilidad de equipo, y pueden transportar estos personajes independientemente de sus simbolos de combate. Incopiable."
+    },
+	"INTELLIGENCIA":{
+	"english":{
+	    "keywords":"Intelligencia",
+	    "cost":"3",
+	    "text":"If no friendly character is affected by an opponent's Outwit and/or Perplex, friendly characters that can use Outwit and/or Perplex and all characters using this team ability modify their range values by +2."
+	},
+	"spanish":{
+	    "keywords":"Intelligencia",
+	    "cost":"3",
+	    "text":"Si ningun personaje aliado es afectado por un Anular y/o Alterar de un oponente, personajes aliados que puedan usar Anular y/o Alterar y todo personaje usanto esta habilidad de equipo modifican su valor de rango en +2."
+    },
+	"JUSTICE LEAGUE":{
+	"english":{
+	    "keywords":"Justice League",
+	    "cost":"1",
+	    "text":"A character using this team ability modifies its defense value by +1 when attacked by a character possessing |flight|, |sharpshooter|, |indomitable|, or |giant| combat symbols."
+	},
+	"spanish":{
+	    "keywords":"Justice League",
+	    "cost":"1",
+	    "text":"Un personaje usando esta habilidad de equipo modifica sus valores de defensa en +1 cuando es atacado por un personaje que posee los simbolos de combate |flight|, |sharpshooter|, |indomitable|, o |giant|."
+    },
+	"JUSTICE LEAGUE (SILVER AGE)":{
+	"english":{
+	    "keywords":"JLA, Justice League, Justice League of America",
+	    "cost":"4",
+	    "text":"Once during each game, choose any team ability or opposing character. Each friendly character using this team ability modifies its attack value by +1 when attacking the chosen character or a character possessing the chosen team ability."
+	},
+	"spanish":{
+	    "keywords":"JLA, Justice League, Justice League of America",
+	    "cost":"4",
+	    "text":"Una vez durante cada juego, escoje una habilidad de equipo o un personaje enemigo. Cada personaje aliado usando esta habilidad de equipo modifica su valor de ataque en +1 cuando ataca a el personaje seleccionado o a personajes que posean la habilidad de equipo seleccionada."
+    },
+	"JUSTICE LEAGUE: GENERATION LOST":{
+	"english":{
+	    "keywords":"Justice League International",
+	    "cost":"3",
+	    "text":"At the beginning of the game, choose an opposing character for all characters using this team ability. Characters using this team ability ignore hindering terrain when drawing a line of fire to that character."
+	},
+	"spanish":{
+	    "keywords":"Justice League International",
+	    "cost":"3",
+	    "text":"Al inicio del juego, escoje un personaje enemigo por todos los personajes usando esta habilidad de equipo. Personajes usando esta habilidad de equipo ignoran terreno obstaculizado cuando trazan lineas de fuego a ese personaje."
+    },
+	"JUSTICE LEAGUE: NEW 52":{
+	"english":{
+	    "keywords":"Justice League",
+	    "cost":"3",
+	    "text":"When a character using this team ability is adjacent to a friendly character using Leadership, add 1 to the result of the die roll, maximum 6, if not already modified by this effect."
+	},
+	"spanish":{
+	    "keywords":"Justice League",
+	    "cost":"3",
+	    "text":"Cuando un personaje usando esta habilidad de equipo esta adjacente a un personaje aliado usando Liderazgo, añade 1 al resultado de la tirada de dados, maximo 6, si no fue modificado por este efecto aun."
+    },
+	"JUSTICE LEAGUE DARK":{
+	"english":{
+	    "keywords":"Justice League",
+	    "cost":"2",
+	    "text":"When a character using this team ability is adjacent to a friendly character using this team ability, opposing characters modify their range values by -2 if not already modified by this effect. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Justice League",
+	    "cost":"2",
+	    "text":"Cuando un personaje usando esta habilidad de equipo esta adjacente a un personaje aliado usando esta habilidad de equipo, personajes enemigos modifican su valor de rango en -2 si no lo han modificado por este efecto aun. Incopiable."
+    },
+	"JUSTICE LEAGUE INTERNATIONAL":{
+	"english":{
+	    "keywords":"Justice League Antarctica, Justice League Europe or Justice League International",
+	    "cost":"3",
+	    "text":"Whenever a character using this team ability would be dealt damage, you can choose to reduce damage dealt by 1 if you deal 1 unavoidable damage to a friendly character using this team ability that is adjacent to this character. (This can only be used once per damage dealt.)"
+	},
+	"spanish":{
+	    "keywords":"Justice League Antarctica, Justice League Europe o Justice League International",
+	    "cost":"3",
+	    "text":"Cuando se vaya a infligir daño a un personaje usando esta habilidad de equipo, puedes escojer reducir el daño inflingido en 1 si tu dañas inevitablemente a un personaje aliado usando esta habilidad de equipo que esta adjacente a este personaje. (Esto puede ser usado una vez por daño inflingido.)"
+    },
+	"KRYPTONIAN":{
+	"english":{
+	    "keywords":"Kryptonian",
+	    "cost":"2",
+	    "text":"When characters using this team ability occupy the highest level of clear, outdoor terrain and is not adjacent to blocking or hindering terrain, modify their attack values by +1."
+	},
+	"spanish":{
+	    "keywords":"Kryptonian",
+	    "cost":"2",
+	    "text":"Cuando personajes usando esta habilidad de equipo ocupan el mayor nivel de terreno despejado en exterior, y no esta adjacente a terreno bloqueado u obstaculizado, modifica su valor de ataque en +1."
+    },
+	"LEAGUE OF ASSASSINS":{
+	"english":{
+	    "keywords":"League of Assassins",
+	    "cost":"7",
+	    "text":"When it is not your turn, lines of fire to a character using this team ability are blocked if this character is adjacent to a wall or blocking terrain."
+	},
+	"spanish":{
+	    "keywords":"League of Assassins",
+	    "cost":"7",
+	    "text":"Cuando no es tu turno, lineas de fuego a un personaje usando esta habilidad de equipo estan bloqueadas si este personaje esta adjacente a una pared o un terreno bloqueado."
+    },
+	"LEGION LOST":{
+	"english":{
+	    "keywords":"Legion of Super Heroes, Legion of Super Villains",
+	    "cost":"4",
+	    "text":"Once at the beginning of the game, if no character on your force possesses a team ability that isn't a wild card team ability, choose any one DC team ability other than an additional team ability, a wild card team ability, or a team ability that can't be used by wild cards. Characters using this team ability are not wild cards and can use the chosen team ability if they can't already."
+	},
+	"spanish":{
+	    "keywords":"Legion of Super Heroes, Legion of Super Villains",
+	    "cost":"4",
+	    "text":"Una vez al inicio del juego, si ningun personaje en tu fuerza posee una habilidad de equipo que no sea comodin, escoje cualquier otra habilidad de equipo DC que una habilidad de equipo adicional, una habilidad de equipo comodin, o una habilidad de equipo que no pueda ser usada por comodines. Personajes usando esta habilidad de equipo no son comodines y pueden usar la habilidad de equipo escojida si no pueden aun."
+    },
+	"LEGION OF MONSTERS":{
+	"english":{
+	    "keywords":"Legion of Monsters",
+	    "cost":"5",
+	    "text":"Characters using this team ability can use Plasticity unless adjacent to an opposing character with the Legion of Monsters or Monster keyword."
+	},
+	"spanish":{
+	    "keywords":"Legion of Monsters",
+	    "cost":"5",
+	    "text":"Personajes usando esta habilidad de equipo pueden usar Plasticidad a menos que este adjacente a un personaje enemigo con la palabra clave Legion of Monsters or Monster."
+    },
+	"LEGIONNAIRES":{
+	"english":{
+	    "keywords":"Legion of Super Heroes",
+	    "cost":"2",
+	    "text":"Whenever the friendly character with the highest point value that’s using this team ability is KO’d, remove one action token from each other friendly character using this team ability."
+	},
+	"spanish":{
+	    "keywords":"Legion of Super Heroes",
+	    "cost":"2",
+	    "text":"Cuando el perosnaje aliado con el mayor valor de puntaje que este usando esta habilidad de equipo es noqueado, retira un marcador de accion de cada otro personaje aliado usando esta habilidad de equipo."
+    },
+	"MARVEL KNIGHTS":{
+	"english":{
+	    "keywords":"Marvel Knights",
+	    "cost":"10",
+	    "text":"Characters using this team ability can use Stealth."
+	},
+	"spanish":{
+	    "keywords":"Marvel Knights",
+	    "cost":"10",
+	    "text":"Personajes usando esta habilidad de equipo pueden usar Sigilo."
+    },
+	"MAXIMUM CARNAGE":{
+	"english":{
+	    "keywords":"Maximum Carnage",
+	    "cost":"4",
+	    "text":"When a single opposing character takes damage from an attack by a character using this team ability, after actions resolve, choose another opposing character adjacent to the first. That other character is dealt damage equal to the amount of damage taken. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Maximum Carnage",
+	    "cost":"4",
+	    "text":"Cuando a un solo personaje enemigo le infinjen daño por un ataque de un personaje usando esta habilidad de equipo, despues que la accion se resuelve, escoje otro personaje enemigo adjacente la primero. A ese otro personaje se le inflinge daño igual a la cantidad de daño inflingido. Incopiable. "
+    },
+	"MIDNIGHT SONS":{
+	"english":{
+	    "keywords":"Midnight Sons",
+	    "cost":"4",
+	    "text":"Characters using this team ability can use Stealth on their starting click. If that character can already use Stealth on their starting click, lines of fire may not be drawn to that character by opposing characters while on that click."
+	},
+	"spanish":{
+	    "keywords":"Midnight Sons",
+	    "cost":"4",
+	    "text":"Personajes usando esta habilidad de equipo pueden usar Sigilo en su click de inicio. Si ese presonaje ya puede usar Sigilo en su click de inicio, lineas de fuego no podran ser dibujadas a ese personaje por figuras enemigas mientras este en ese click."
+    },
+	"THE MIGHTY":{
+	"english":{
+	    "keywords":"The Mighty",
+	    "cost":"1",
+	    "text":"When a character using this team ability hits an opposing character and the attack roll is doubles, place 1 Mighty token on this card for each 100 points of the game’s build total. Before any attack roll, you may remove one Mighty token from this card and modify the attacking character’s attack value by -1 for this attack. A character using this team ability modifies their attack value by +1 when attacking a character using The Worthy additional team ability or possessing The Worthy keyword."
+	},
+	"spanish":{
+	    "keywords":"The Mighty",
+	    "cost":"1",
+	    "text":"Cuando un personaje usando esta habilidad de equipo impacta un personaje enemigo y la tirada de dados es dobles, coloca 1 marcador Mighty en esta tarjeta por cada 100 puntos del total de construccion del juego. Antes de cualquier tirada de ataque, tu puedes retirar un marcador Mighty de esta tarjeta y modifica el valor de ataque del personaje atacante en -1 para este ataque. Un personaje usando esta habilidad de equipo modifica su valor de ataque en +1 cuando ataca a un personaje usando la habilidad de equipo adicional The Worthy o que posea la palabra clave The Worthy."
+    },
+	"THE MIGHTY":{
+	"english":{
+	    "keywords":"The Mighty",
+	    "cost":"1",
+	    "text":"When a character using this team ability hits an opposing character and the attack roll is doubles, place 1 Mighty token on this card for each 100 points of the game’s build total. Before any attack roll, you may remove one Mighty token from this card and modify the attacking chracter’s attack value by -1 for this attack. A character using this team ability modifies their attack value by +1 when attacking a character using The Worthy additional team ability or possessing The Worthy keyword."
+	},
+	"spanish":{
+	    "keywords":"The Mighty",
+	    "cost":"1",
+	    "text":"Cuando un personaje usando esta habilidad de equipo impacta un personaje enemigo y la tirada de dados es dobles, coloca 1 marcador Mighty en esta tarjeta por cada 100 puntos del total de construccion del juego. Antes de cualquier tirada de ataque, tu puedes retirar un marcador Mighty de esta tarjeta y modifica el valor de ataque del personaje atacante en -1 para este ataque. Un personaje usando esta habilidad de equipo modifica su valor de ataque en +1 cuando ataca a un personaje usando la habilidad de equipo adicional The Worthy o que posea la palabra clave The Worthy."
+    },
+	"MIGHTY AVENGERS":{
+	"english":{
+	    "keywords":"Avengers",
+	    "cost":"4",
+	    "text":"When a character using this team ability destroys a square of blocking terrain, roll a d6 after actions resolve. On a roll of 5, you may place a standard light object in that square. On a roll of 6, you may place a standard heavy object in that square."
+	},
+	"spanish":{
+	    "keywords":"Avengers",
+	    "cost":"4",
+	    "text":"Cuando un personaje usando esta habilidad de equipo destruye un cuadrado de terreno bloqueado, tira un d6 despues que la accion se resuelva. En un resultado de 5, tu podras colocar un objeto estandar liviano en ese cuadrado. En un resultado de 6, tu podras colocar un objeto estandar pesado en ese cuadrado."
+    },
+	"THE MOB":{
+	"english":{
+	    "keywords":"Gotham City Underworld, Gotham Underworld",
+	    "cost":"2",
+	    "text":"The highest point friendly character using this team ability can use Mastermind, but may only transfer damage to a friendly character using this team ability."
+	},
+	"spanish":{
+	    "keywords":"Gotham City Underworld, Gotham Underworld",
+	    "cost":"2",
+	    "text":"El pesonaje aliado con mayor puntaje usando esta habilidad de equipo puede usar Mente Maestra, pero solamente pueden tranferir el daño a un personaje aliado usando esta habilidad de equipo."
+    },
+	"MODOK’S 11":{
+	"english":{
+	    "keywords":"MODOK’s 11",
+	    "cost":"2",
+	    "text":"Give a character using this team ability a free action to remove one object from the game. This object must be a light or heavy object in the character’s square or a square adjacent to the character."
+	},
+	"spanish":{
+	    "keywords":"MODOK’s 11",
+	    "cost":"2",
+	    "text":"Dale a un personaje usando esta habilidad de equipo una accion gratuita para retirar un objeto del juego. Este objeto debe ser liviano o pesado en el cuadrado del personaje o en un cuadrado ajacente del personaje."
+    },
+	"MONSTER SOCIETY OF EVIL":{
+	"english":{
+	    "keywords":"Injustice Society or Monster Society of Evil",
+	    "cost":"5",
+	    "text":"At the end of your turn, you may roll a d6 for each friendly character using this team ability. On a result of 5 or 6, deal 1 damage to each opposing character adjacent to that character that hasn’t already been dealt damage by this team ability this turn."
+	},
+	"spanish":{
+	    "keywords":"Injustice Society o Monster Society of Evil",
+	    "cost":"5",
+	    "text":"Al final de tu turno, tu podras tirar un d6 por cada personaje aliado usando esta habilidad de equipo. En un resultado de 5 o 6, inflinge 1 daño a cada personaje enemigo adjacente a ese personaje que no ha inflingido daño aun por esta habilidad de equipo este turno."
+    },
+	"MORLOCKS":{
+	"english":{
+	    "keywords":"Gene Nation or Morlocks",
+	    "cost":"2*",
+	    "text":"Whenever a character using this team ability makes a close combat attack, modify its attack value by +1 for each other character using this team ability adjacent to both this character and the target. *(0 if the character possesses the Morlocks team symbol)"
+	},
+	"spanish":{
+	    "keywords":"Gene Nation o Morlocks",
+	    "cost":"2*",
+	    "text":"Cuando un personaje usando esta habilidad de equipo realiza una accion de combate cuerpo a cuerpo, modifica el valor de ataque por +1 por cada otros personaje usando esta habilidad de equipo adjacente a ambos este personaje y el objetivo. *(0 si el personaje posee el simbolo de equipo Morlocks)"
+    },
+	"N.O.W.H.E.R.E.":{
+	"english":{
+	    "keywords":"N.O.W.H.E.R.E.",
+	    "cost":"2",
+	    "text":"Characters using this team ability that have no action tokens can use |impmov|, |ignht|, |ignbt|, during move actions."
+	},
+	"spanish":{
+	    "keywords":"N.O.W.H.E.R.E.",
+	    "cost":"2",
+	    "text":"Personajes usando esta habilidad de equipo que no tengan marcadores de accion pueden usar |impmov|, |ignht|, |ignbt|, durante su accion de movimiento."
+    },
+	"NEGATIVE ZONE":{
+	"english":{
+	    "keywords":"Negative Zone",
+	    "cost":"2",
+	    "text":"A character using this team ability may ignore one wall or square of blocking terrain for movement purposes when it uses Charge or Running Shot. If it does and misses all target opposing characters deal this character 1 unavoidable damage after actions resolve."
+	},
+	"spanish":{
+	    "keywords":"Negative Zone",
+	    "cost":"2",
+	    "text":"Un personaje usando esta habilidad de equipo pueden ignorar una pared o un cuadrado de terreno bloqueado para movimiento cuando usen Carga o Disparo en Carrera. Si lo hace y falla todos personajes enemigos objetivos hacen 1 daño inevitable a este personaje despues que la accion se realize."
+    },
+	"NEW MUTANTS":{
+	"english":{
+	    "keywords":"Generation X or New Mutants",
+	    "cost":"4",
+	    "text":"Whenever a character using this team ability would be dealt damage, you may give an action token to an adjacent friendly character using this team ability. If you do, deal all of the damage to that character instead."
+	},
+	"spanish":{
+	    "keywords":"Generation X o New Mutants",
+	    "cost":"4",
+	    "text":"Cuando un personaje usando esta habilidad de equipo vaya a dañado, tu podras dar un marcador de accion a un personaje adjacente usando estahabilidad de equipo. Si lo haces, en vez haz todo el daño a ese personaje."
+    },
+	"NEW TEEN TITANS":{
+	"english":{
+	    "keywords":"Teen Titans",
+	    "cost":"3",
+	    "text":"The highest-point friendly character using this team ability can use Leadership, but may only remove action tokens from friendly characters using this team ability."
+	},
+	"spanish":{
+	    "keywords":"Teen Titans",
+	    "cost":"3",
+	    "text":"El personaje aliado con mayor puntaje usando esta habilidad de equipo puede usar Liderazgo, pero solo podra remover marcadores de accion de personajes aliados usando esta habilidad de equipo."
+    },
+	"NEWER FANTASTIC FOUR":{
+	"english":{
+	    "keywords":"Fantastic Four",
+	    "cost":"1",
+	    "text":"A character using this team ability modifies its attack value by +1 when attacking characters possessing |indomitable|, |giant|, or |colossuss|."
+	},
+	"spanish":{
+	    "keywords":"Fantastic Four",
+	    "cost":"1",
+	    "text":"Un personaje usando esta habilidad de equipo modifica su valor de ataque por +1 cuando ataca a personajes que posean |indomitable|, |giant|, or |colossuss|."
+    },
+	"NEXTWAVE":{
+	"english":{
+	    "keywords":"Nextwave",
+	    "cost":"5",
+	    "text":"When a character using this team ability KO’s an opposing character of a higher point value with an attack, place this character anywhere on the map."
+	},
+	"spanish":{
+	    "keywords":"Nextwave",
+	    "cost":"5",
+	    "text":"Cuando un personaje usando esta habilidad de equipo con un ataque noquea un personaje enemigo de un puntaje mayor, coloca este personaje en cualquier lugar en el mapa."
+    },
+	"NOVA CORPS":{
+	"english":{
+	    "keywords":"Nova Corps",
+	    "cost":"-10*",
+	    "text":"Friendly characters ignore traits named “Share Through the Worldmind” possessed by friendly characters. *(0 if the character doesn’t possess a trait named “Share Through the Worldmind)"
+	},
+	"spanish":{
+	    "keywords":"Nova Corps",
+	    "cost":"-10*",
+	    "text":"Personajes aliados ignoran rasgos de nombre “Share Through the Worldmind” que posea un personaje aliado. *(0 si el personaje no posee el rasgo nombrado “Share Through the Worldmind)"
+    },
+	"OFFENDERS":{
+	"english":{
+	    "keywords":"Offenders",
+	    "cost":"-10*",
+	    "text":"When a character using this team ability attacks a single character, replace that character's defense value with the lowest printed defense value among all characters adjacent to that character. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Offenders",
+	    "cost":"-10*",
+	    "text":"Cuando un personaje usando esta habilidad de equipo ataca a un solo personaje, reemplaza el valor de defensa de ese personaje con el menor valor de defensa impreso entre todos los personajes adjacentes a ese personaje. Incopiable."
+    },
+	"THE ORDER":{
+	"english":{
+	    "keywords":"Defenders",
+	    "cost":"3",
+	    "text":"Characters using this team ability can’t be targeted by an opposing character using one of the listed powers if any character using this team ability was already hit by an opposing character using that power this turn. Flurry, Charge, Hypersonic Speed, Running Shot, Blades/Claws/Fangs, Incapacitate, Penetrating/Psychic Blast, Ranged Combat Expert, Exploit Weakness Or Close Combat Expert."
+	},
+	"spanish":{
+	    "keywords":"Defenders",
+	    "cost":"3",
+	    "text":"Personajes usando esta habilidad de equipo no puede ser objetivo de un personaje enemigo usando uno de los poderes listados si cualquier personaje usando esta habilidad de equipo fue impactado por un personaje enemigo usando ese poder este turno. Ráfaga de Golpes, Carga, Velocidad Hipersónica, Disparo en Carrera, Cuchillas/Garras/Colmillos, Incapacitar, Rayo Penetrante/Psíquico, Experto en Combate a Distancia, Explotar Debilidad o Experto en Combate Cuerpo a Cuerpo."
+    },
+	"ORIGINAL SINISTER SIX":{
+	"english":{
+	    "keywords":"Sinister Six",
+	    "cost":"3",
+	    "text":"When a character using this team ability hits an opposing character, mark that character with a Sinister Six token. When a character using this team ability attacks an opposing character marked with one or more Sinister Six tokens, modify their attack value by +1 for each token. When attacking a single target with one or more Sinister Six tokens, if the target's name Spider-Man or possesses the Spider-Man Family keyword or the |ta_spiderman| symbol, modify this character's damage value by +1."
+	},
+	"spanish":{
+	    "keywords":"Sinister Six",
+	    "cost":"3",
+	    "text":"Cuando un personaje usando esta habilidad de equipo impacta a un personaje enemigo, marca a ese personaje con un marcador Seis Siniestros. Cuando un personajes usando esta habilidad de equipo ataca a un personaje enemigo marcado con uno o mas marcadores Seis Siniestros, modifica su valor de ataque con +1 por cada token. Cuando atacas a un solo objetivo con uno o mas marcadores Seis Siniestros, si ese objetivo se llama Spider-Man o posee la palabra clave Spider-man Family o el |ta_spiderman| simbolo, modifica el valor de daño del personaje en +1."
+    },
+	"OUTLAWS":{
+	"english":{
+	    "keywords":"Outlaws",
+	    "cost":"1",
+	    "text":"When a character using this team ability is given a move action, modify that character's speed value by +1 for each adjacent character using this team ability at the beginning of the move action."
+	},
+	"spanish":{
+	    "keywords":"Outlaws",
+	    "cost":"1",
+	    "text":"Cuando un personaje usando esta habilidad de equipo es dado una accion de movimiento, modifica el valor de movimiento por +1 por cada personaje adjacente usando esta habilidad de equipo al inicio de la accion de movimiento."
+    },
+	"OUTSIDERS":{
+	"english":{
+	    "keywords":"Outsiders",
+	    "cost":"3",
+	    "text":"At the beginning of your turn, roll a d6 for all friendly characters using this team ability. If the result is equal to or less than the number of friendly characters that can use this team ability, you may immediately give one of those characters a close combat attack as a free action, using its printed combat values. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Outsiders",
+	    "cost":"3",
+	    "text":"Al inicio de tu turno, lanza un d6 por todos los personajes aliados usando esta habilidad de equipo. Si el resultado es igual a o menor que el numero de personajes aliados que pueden usar esta habilidad de equipo, tu podras inmediatamente dar a uno de esos personajes un ataque cuerpo a cuerpo como accion gratuita, usando sus valores de combate impresos. Incopiable."
+    },
+	"PHANTOM ZONE":{
+	"english":{
+	    "keywords":"Phantom Zone",
+	    "cost":"4",
+	    "text":"Once per game per character using this team ability, when they would take 4 or more damage from an attack, you may roll a d6. On a result of 4-6, ignore the damage and place this character in your starting area."
+	},
+	"spanish":{
+	    "keywords":"Phantom Zone",
+	    "cost":"4",
+	    "text":"Una vez por juego por personaje usando esta habilidad de equipo, Cuando ellos vayan a tomar 4 o mas de daño por un ataque, podras lanzar un d6. En un resultado de 4-6, ignora el daño y coloca este personaje en tu area de inicio."
+    },
+	"PRIME’S TITANS":{
+	"english":{
+	    "keywords":"Prime’s Titans",
+	    "cost":"6",
+	    "text":"When a character using this team ability KO’s an opposing character, remove an action token from each other friendly character using this team ability. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Prime’s Titans",
+	    "cost":"6",
+	    "text":"Cuando un personaje usando esta habilidad de equipo noquea un personaje enemigo, retira un marcador de accion de cada otro personaje aliado usando esta habilidad de equipo. Incopiable."
+    },
+	"RAVAGERS":{
+	"english":{
+	    "keywords":"Ravagers",
+	    "cost":"4",
+	    "text":"Characters using this team ability automatically break away. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Ravagers",
+	    "cost":"4",
+	    "text":"Personajes usando esta habilidad de equipo se destraba automaticamente. Incopiable."
+    },
+	"REAVERS":{
+	"english":{
+	    "keywords":"Reavers",
+	    "cost":"8",
+	    "text":"When a character using this team ability has two action tokens, it can be given a non-free action. If you do, after actions resolve deal the character 1 unavoidable damage and do not clear action tokens from it at the end of the turn."
+	},
+	"spanish":{
+	    "keywords":"Reavers",
+	    "cost":"8",
+	    "text":"Cuando un personajes usando esta habilidad de equipo tiene dos marcadores de accion, se le puede dar una accion no gratutita. Si lo hace, despues que la accion se resuelve da al personaje 1 daño inevitable y no retires los marcadores de accion al final del turno."
+    },
+	"RED HOOD AND THE OUTLAWS":{
+	"english":{
+	    "keywords":"Outlaws",
+	    "cost":"6",
+	    "text":"Opposing characters with the highest point value on their force can't draw lines of fire to characters using this team ability. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Outlaws",
+	    "cost":"6",
+	    "text":"Personajes enemigos con el valor de puntaje mas alto en su fuerza no podran dibujar lineas de fuego a personajes usando esta habilidad de equipo. Incopiable."
+    },
+	"RED HOOD AND THE OUTLAWS":{
+	"english":{
+	    "keywords":"Outlaws",
+	    "cost":"6",
+	    "text":"Opposing characters with the highest point value on their force can't draw lines of fire to characters using this team ability. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Outlaws",
+	    "cost":"6",
+	    "text":"Personajes enemigos con el valor de puntaje mas alto en su fuerza no podran dibujar lineas de fuego a personajes usando esta habilidad de equipo. Incopiable."
+    },
+	"ROGUES":{
+	"english":{
+	    "keywords":"Rogues",
+	    "cost":"6",
+	    "text":"Characters using this team ability can use Outwit, but only to counter Hypersonic Speed, the Move and Attack ability, or a special power that specifically allows that character to use Hypersonic Speed or the Move and Attack ability. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Rogues",
+	    "cost":"6",
+	    "text":"Personajes usando esta habilidad de equipo pueden usar Anular, pero solo para contrarrestar Velocidad Hipersónica, la habilidad Mover y Atacar, o un poder especial que especifique permitir a ese personaje el uso de Velocidad Hipersónica o la habilidad Mover y Atacar. Incopiable."
+    },
+	"RUNAWAYS":{
+	"english":{
+	    "keywords":"Runaways",
+	    "cost":"3",
+	    "text":"Whenever a character using this team ability attacks, modify their attack value by +1 for each other friendly character that dealt damage to an opposing character this turn while using this team ability."
+	},
+	"spanish":{
+	    "keywords":"Runaways",
+	    "cost":"3",
+	    "text":"Cuando un personaje usando esta habilidad de equipo ataca, modifica su valor ataque por +1 por cada otro personaje aliado que haya infligido daño a un personaje enemigo este turno mientras esten usando esta habilidad de equipo."
+    },
+	"SAVAGE LAND":{
+	"english":{
+	    "keywords":"Savage Land",
+	    "cost":"3",
+	    "text":"Once per game per character using this team ability, when they roll a d6 for Blades/Claws/Fangs, if the result is a 1 that character may reroll the d6."
+	},
+	"spanish":{
+	    "keywords":"Savage Land",
+	    "cost":"3",
+	    "text":"Una vez por juego por personaje usando esta habilidad de equipo, cuando ellos tiran un d6 para Cuchillas/Garras/Colmillos, si el resultado es un 1 ese personaje podra retirar el d6."
+    },
+	"SECRET AVENGERS":{
+	"english":{
+	    "keywords":"Avengers",
+	    "cost":"5",
+	    "text":"Characters using this team ability can’t be the target of an opponent’s Outwit or Perplex unless they’ve been targeted with an attack previously in the same turn."
+	},
+	"spanish":{
+	    "keywords":"Avengers",
+	    "cost":"5",
+	    "text":"Personajes usando esta habilidad de equipo no pueden ser objetivo de Anular o Alterar de un enemigo a menos ellos hayan sido objetivo previamente de un ataque en este mismo turno."
+    },
+	"SECRET INVASION":{
+	"english":{
+	    "keywords":"Skrulls",
+	    "cost":"2",
+	    "text":"When a character using this team ability is targeted with an attack by an opposing character with which it shares a keyword, modify this character’s defense value by +1."
+	},
+	"spanish":{
+	    "keywords":"Skrulls",
+	    "cost":"2",
+	    "text":"Cuando un personaje usando esta habilidad de equipo es objetivo con un ataque de un personaje enemigo con quien comparta una palabra clave, modifica el valor de defensa de este personaje por +1."
+    },
+	"SECRET SIX":{
+	"english":{
+	    "keywords":"Secret Six",
+	    "cost":"3",
+	    "text":"Whenever a character using this team ability is KO’d, you may roll a d6 and subtract 2 (minimum 1). Deal that much damage, divided as you choose, among any number of opposing characters adjacent to the square the KO’d character occupied."
+	},
+	"spanish":{
+	    "keywords":"Secret Six",
+	    "cost":"3",
+	    "text":"Cuando un personaje usando esta habilidad de equipo es noqueado, podras tirar un d6 y sustraer 2 (minimo 1). Haz esa cantidad de daño, dividida como tu escojas, a cuanto cualquier numero de personajes enemigos adjacentes al cuadrado que ocupaba el personaje noqueado."
+    },
+	"SECRET WARRIORS":{
+	"english":{
+	    "keywords":"Secret Warriors",
+	    "cost":"1",
+	    "text":"When you build your force, choose the H.A.M.M.E.R., HYDRA, or S.H.I.E.L.D. keyword. Characters using this team ability also possess the chosen keyword. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"Secret Warriors",
+	    "cost":"1",
+	    "text":"Cuando construyes tu fuerza, escoje la palabra clave H.A.M.M.E.R., HYDRA, o S.H.I.E.L.D.. Personajes usando esta habilidad de equipo tambien poseen la palabra clave escojida. Incopiable."
+    },
+	"SERPENT SOCIETY":{
+	"english":{
+	    "keywords":"Serpent Society or Serpent Squad",
+	    "cost":"6*",
+	    "text":"Characters using this team ability can use Phasing/Teleport. *(0 if the character possesses the Serpent Society team symbol)"
+	},
+	"spanish":{
+	    "keywords":"Serpent Society o Serpent Squad",
+	    "cost":"6*",
+	    "text":"Personajes usando esta habilidad de equipo pueden usar Fase/Teletransporte. *(0 si este personaje posee el simbolo de equipo Serpent Society)"
+    },
+	"SHADOWPACT":{
+	"english":{
+	    "keywords":"Shadowpact",
+	    "cost":"1",
+	    "text":"This character ignores the Mystics team ability."
+	},
+	"spanish":{
+	    "keywords":"Shadowpact",
+	    "cost":"1",
+	    "text":"Este personaje ignora la habilidad de equipo Mystic."
+    },
+	"SINISTER TWELVE":{
+	"english":{
+	    "keywords":"Sinister Twelve",
+	    "cost":"4",
+	    "text":"When you have more characters on the map than each opponent, modify the attack value of each character using this team ability by +1."
+	},
+	"spanish":{
+	    "keywords":"Sinister Twelve",
+	    "cost":"4",
+	    "text":"Cuando tu tienes mas personajes en el mapa que cada enemigo, modifica el valor de ataque de cada personaje usando esta habilidad de equipo en +1."
+    },
+	"THE SOCIETY":{
+	"english":{
+	    "keywords":"Secret Society of Super Villains or Society",
+	    "cost":"3",
+	    "text":"Whenever a character using this team ability is targeted by Outwit, you roll a d6. On a result of 4-6, the opposing character that targeted your character can’t use Outwit to target that character this turn. This team ability can’t be used by wild cards."
+	},
+	"spanish":{
+	    "keywords":"Secret Society of Super Villains o Society",
+	    "cost":"3",
+	    "text":"Cuando un personaje usando esta habilidad de equipo es objetivo de Anular, tu tiras un d6. En un resultado de 4-6, el personaje enemigo que selecciono a tu personaje de objetivo no puede usar Anular para poner de objetivo a ese personaje este turno. Esta habilidad de equipo no puede ser usada por comodines."
+    },
+	"SPIDER-MAN FAMILY":{
+	"english":{
+	    "keywords":"Spider-Man Family",
+	    "cost":"10*",
+	    "text":"Characters using this team ability possess the Spider-Man team ability if they don't already, and may use the Spider-Man team ability to copy the team abilities of opposing characters as if they were friendly. Uncopyable. *(3 if the character has the |ta_spiderman| symbol)"
+	},
+	"spanish":{
+	    "keywords":"Spider-Man Family",
+	    "cost":"10*",
+	    "text":"Personajes usando esta habilidad de equipo poseen la habilidad de equipo Spider-Man si es que ya no la poseen, y pueden usar la habilidad de equipo Spider-Man para copiar la habilidad de equipo de personajes enemigos como si fueran aliados. Incopiable. *(3 si el personaje tiene el simbolo |ta_spiderman|)"
+    },
+	"SQUADRON SUPREME":{
+	"english":{
+	    "keywords":"Squadron Sinister or Squadron Supreme",
+	    "cost":"5",
+	    "text":"While at least two friendly characters using this team ability are adjacent, one of them of your choice can use Mind Control. This team ability can’t be used by wild cards."
+	},
+	"spanish":{
+	    "keywords":"Squadron Sinister o Squadron Supreme",
+	    "cost":"5",
+	    "text":"Mientras al menos dos personajes aliados usando esta habilidad de equipo esten adjacentes, uno de ellos de tu eleccion podra usar Control Mental. Esta habilidad de equipo no puede ser usada por comodines."
+    },
+	"Strategic Homeland Intervention Enforcement and Logistics Division":{
+	"english":{
+	    "keywords":"S.H.I.E.L.D.",
+	    "cost":"3",
+	    "text":"When a friendly character using this team ability uses Outwit, Perplex, or Probability Control, modify its range value and the minimum range value for the power by +1 for each other friendly character using this team ability."
+	},
+	"spanish":{
+	    "keywords":"S.H.I.E.L.D.",
+	    "cost":"3",
+	    "text":"Cuando un personaje aliado usando esta habilidad de equipo usa Anular, Alterar o Control de la Probabilidad, modifica su valor de rango y el minimo rango para el poder en +1 por cada otro personaje aliado usando esta habilidad de equipo."
+    },
+	"THUNDERBOLTS":{
+	"english":{
+	    "keywords":"Thunderbolts",
+	    "cost":"8",
+	    "text":"Once at the beginning of the game, choose any one Marvel team ability other than an additional team ability, a wild card team ability, or a team ability that can’t be used by wild cards. Characters using this team ability can use the chosen team ability if they can’t already."
+	},
+	"spanish":{
+	    "keywords":"Thunderbolts",
+	    "cost":"8",
+	    "text":"Una vez al inicio del juego, selecciona cualquier habilidad de equipo Marvel otra que una habilidad de equipo adicional, una habilidad de equipo comodin, o una habilidad de equipo que no pueda ser usada por comodines. Personajes usando esta habilidad de equipo pueden usar la habilidad de equipo seleccionada si ellos no pueden usarla aun."
+    },
+	"U-FOES":{
+	"english":{
+	    "keywords":"U-Foes",
+	    "cost":"3",
+	    "text":"When a character using this team ability hits an opposing character with a printed damage value of 4 or more, increase the damage dealt to that character by 1."
+	},
+	"spanish":{
+	    "keywords":"U-Foes",
+	    "cost":"3",
+	    "text":"Cuando un personaje usando esta habilidad de equipo impacta un personaje enemigo con un valor de daño impreso de 4 o mas, incrementa el daño dado a ese personaje por 1."
+    },
+	"UNIVERSAL CHURCH OF TRUTH":{
+	"english":{
+	    "keywords":"Universal Church of Truth",
+	    "cost":"4",
+	    "text":"When an opposing character targets a character using this team ability with an attack and misses, modify the defense value of all characters using this team ability by +1 until the end of the turn."
+	},
+	"spanish":{
+	    "keywords":"Universal Church of Truth",
+	    "cost":"4",
+	    "text":"Cuando un personaje enemigo selecciona de objetivo a un personaje usando esta habilidad de equipo con un ataque y falla, modifica el valor de defensa de todos los personajes usando esta habilidad de equipo en +1 hasta el final del turno."
+    },
+	"VILLAINS FOR HIRE":{
+	"english":{
+	    "keywords":"Villains For Hire ",
+	    "cost":"6",
+	    "text":"Choose a copyable team ability an opposing character possesses; characters using this team ability can use that team ability for the entire game."
+	},
+	"spanish":{
+	    "keywords":"Villains For Hire ",
+	    "cost":"6",
+	    "text":"Escoje una habilidad de equipo copiable que un personaje enemigo posea; personajes usando esta habilidad de equipo pueden usar esta habilidad de equipo por el resto del juego."
+    },
+	"WHITE LANTERN CORPS":{
+	"english":{
+	    "keywords":"White Lantern Corps",
+	    "cost":"3",
+	    "text":"Place a number of tokens on this card equal to the number of characters with the White Lantern Corps keyword with which you begin the game. Immediately before any attack roll, you may remove one token to modify a friendly character’s defense value by +1."
+	},
+	"spanish":{
+	    "keywords":"White Lantern Corps",
+	    "cost":"3",
+	    "text":"Coloca un numero de marcadores en esta tarjeta igual al numero de personajes con la palabra clave White Lantern Corps con los que tu empezaste el juego. Inmediatamente antes de cualquier tirada de dados por un ataque, tu podras remover un marcador para modificar un valor de defensa de un personaje aliado en +1."
+    },
+	"WILDC.A.T.S.":{
+	"english":{
+	    "keywords":"WildC.A.T.S.",
+	    "cost":"1",
+	    "text":"Once per turn, when a character using this team ability makes an attack roll and one of the dice is a 1, you may reroll that die. Uncopyable."
+	},
+	"spanish":{
+	    "keywords":"WildC.A.T.S.",
+	    "cost":"1",
+	    "text":"Una vez por turno, cuando un personaje usando esta habilidad de equipo haga una tirada de dados por un ataque y uno de los dados es 1, tu podras retirar ese dado. Incopiable."
+    },
+	"WINTER GUARD":{
+	"english":{
+	    "keywords":"Soviet Super Soldier, Winter Guard",
+	    "cost":"1",
+	    "text":"Each character using this team ability may be given a power action once per game to be dealt 1 unavoidable damage. If you do, after actions resolve roll a d6 and heal the character of half the result."
+	},
+	"spanish":{
+	    "keywords":"Soviet Super Soldier, Winter Guard",
+	    "cost":"1",
+	    "text":"Cada personaje usando esta habilidad de equipo puede ser dado una accion de poder una vez por juego para ser inflingirse 1 daño inevitable. Si tu lo haces, despues de que la accion se resuelva tira un d6 y cura al personaje la mitad del resultado."
+    },
+	"THE WORTHY":{
+	"english":{
+	    "keywords":"The Worthy",
+	    "cost":"1",
+	    "text":"When a character using this team ability hits an opposing character and the attack roll is doubles, place 1 Worthy token on this card for each 100 points of the game’s build total. Before any attack roll, you may remove one Worthy token from this card and modify the attacking character’s attack value by -1 for this attack. A character using this team ability modifies their attack value by +1 when attacking a character using The Mighty additional team ability or possessing The Mighty keyword."
+	},
+	"spanish":{
+	    "keywords":"The Worthy",
+	    "cost":"1",
+	    "text":"Cuando un personaje usando esta habilidad de equipo impacta un personaje enemigo y la tirada de dados es dobles, coloca 1 marcador Worthy en esta tarjeta por cada 100 puntos del total de construccion del juego. Antes de cualquier tirada de ataque, tu puedes retirar un marcador Worthy de esta tarjeta y modifica el valor de ataque del personaje atacante en -1 para este ataque. Un personaje usando esta habilidad de equipo modifica su valor de ataque en +1 cuando ataca a un personaje usando la habilidad de equipo adicional The Mighty o que posea la palabra clave The Mighty."
+    },
+	"X-FORCE":{
+	"english":{
+	    "keywords":"X-Force",
+	    "cost":"3",
+	    "text":"Characters using this team ability ignore the effects of hindering terrain on their movement."
+	},
+	"spanish":{
+	    "keywords":"X-Force",
+	    "cost":"3",
+	    "text":"Personaje usando esta habilidad de equipo ignoran el efecto de terreno obstaculizado en su movimiento."
+    },
+	"YOUNG JUSTICE":{
+	"english":{
+	    "keywords":"Young Justice",
+	    "cost":"4",
+	    "text":"When a character using this team ability would be KO’d, you may instead turn this character to its last click but only if you deal 1 unavoidable damage to an adjacent friendly character using this team ability."
+	},
+	"spanish":{
+	    "keywords":"Young Justice",
+	    "cost":"4",
+	    "text":"Cuando un personaje usando esta habilidad de equipo va a ser noqueado, en vez de esto podras girar el dial de este personaje a su ultimo click pero solamente si tu inflinges 1 daño inevitable a un personaje adjacente usando esta habilidad de equipo."
+    }
+    }
+}
