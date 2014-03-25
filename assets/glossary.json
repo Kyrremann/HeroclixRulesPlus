@@ -1,6 +1,7 @@
 {
   "3-D OBJECT": {
-    "english": "A three-dimensional sculpture marked with the |3d| symbol."
+    "english": "A three-dimensional sculpture marked with the |3d| symbol.",
+    "image":"3d"
   },
   "ABILITY": {
     "english": "A capability possessed by a character, indicated by a symbol on its base and/or explained on its character card."
@@ -138,7 +139,8 @@
     "english": "The result of rolling the same number on 2d6 (such as two 4s)."
   },
   "DUO CHARACTER": {
-    "english": "A character with the Duo Attack ability, usually indicated by the |duo| attack symbol."
+    "english": "A character with the Duo Attack ability, usually indicated by the |duo| attack symbol.",
+    "image":"duo"
   },
   "EDGE": {
     "english": "One of the outermost boundaries of a map or an area of terrain."
@@ -192,7 +194,8 @@
     "english": "• Animal\n • Armor\n • Brute\n • Celebrity\n • Cosmic\n • Deity\n • Detective\n • Future\n • Herald\n • Kid\n • Martial • Artist\n • Monster\n • Mutant\n • Mystical\n • Past\n • Police\n • Politician\n • Psychic\n • Reporter\n • Robot\n • Ruler\n • Scientist\n • Soldier\n • Spy\n • Teen\n • Vehicle\n • Warrior"
   },
   "GIANT": {
-    "english": "A character with the Giant Reach ability and Great Size ability, usually indicated by damage symbol."
+    "english": "A character with the Giant Reach ability and Great Size ability, usually indicated by |giant| damage symbol.",
+    "image":"giant"
   },
   "GOLDEN AGE": {
     "english": "Golden Age events have no restrictions on the player’s force other than standard HeroClix rules. Between the event format (see below) and special rules (established in the event description), other rules may be applied to the force construction."
@@ -429,10 +432,12 @@
     "english": "The phrase “this character” always refers to the active character or the character using a power."
   },
   "TINY": {
-    "english": "A character with the Tiny Size ability, usually indicated by |tiny| damage symbol."
+    "english": "A character with the Tiny Size ability, usually indicated by |tiny| damage symbol.",
+    "image":"tiny"
   },
   "TRAIT ABILITY": {
-    "english": "An aspect or capability of a character that it possesses at all times, regardless of how its combat dial is turned during a game, as indicated by the |trait| on its base and indicated on its character card."
+    "english": "An aspect or capability of a character that it possesses at all times, regardless of how its combat dial is turned during a game, as indicated by the |trait| on its base and indicated on its character card.",
+    "image":"trait"
   },
   "TRANSPORTER": {
     "english": "A character using the Carry ability and Move and Attack ability usually indicated by the |transSpeed|, |transFlight|, or the |transSwim| speed symbol."

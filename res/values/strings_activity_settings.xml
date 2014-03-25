@@ -12,15 +12,13 @@
 
     <string-array name="pref_language_list_titles">
         <item>English</item>
-        <item>German</item>
         <item>Italian</item>
         <item>Spanish</item>
     </string-array>
     <string-array name="pref_language_list_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
+        <item>english</item>
+        <item>italian</item>
+        <item>spanish</item>
     </string-array>
 
 </resources>

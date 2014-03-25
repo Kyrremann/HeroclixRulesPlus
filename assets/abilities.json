@@ -9,10 +9,16 @@
 		"english":"This character automatically breaks away and can use |imptar| |doubleoarr|. When this character has two action tokens, it can be given a non-free action. If you do, after actions resolve deal it 1 unavoidable damage and do not clear action tokens from it at the end of the turn. This ability can't be countered."
 	},
 	"Duo Attack":{
-		"english":"Give this character a power action to make a duo attack. This character possesses |lightning| for this action. It makes 2 combat attacks (close and/or ranged) as free actions."
+		"english":"Give this character a power action to make a duo attack. This character possesses |lightning| for this action. It makes 2 combat attacks (close and/or ranged) as free actions.",
+		"image":"duo"
 	},
 	"Flight":{
-		"english":"This character can use |impmov| |ignet|, |ignht|, |ignobt|, |doubleoarr|. An elevated character using this ability ignores knock back damage if its knock back path crosses the boundary to a lower level."
+		"english":"This character can use |impmov| |ignet|, |ignht|, |ignobt|, |doubleoarr|. An elevated character using this ability ignores knock back damage if its knock back path crosses the boundary to a lower level.",
+		"image":"flight"
+	},
+	"Flight (transporter)":{
+		"english":"As well as the regular flight ability this character can use the Carry ability and Move and Attack ability. This is indicated by the black circle behind the symbol.",
+		"image":"transflight"
 	},
 	"Giant Reach":{
 		"english":"This character ignores opposing characters' Plasticity and adds 1 to its d6 roll when breaking away. This character can use the Carry ability. When this character is given an action that includes a close combat attack, all squares within a range of 2 and line of fire are considered adjacent. This ability can't be countered."
@@ -21,13 +27,16 @@
 		"english":"This character can use |impmov| |ignet|, |ignht|, |ignobt|, |doubleoarr| and can't be knocked back. When this character makes a close combat attack, it may target characters on higher elevations. This character may draw lines of fire (and have lines of fire drawn to it) as if the character occupied the elevation equal to or greater than the elevation it occupies, using the elevation level with the least restrictive line of fire. This ability can't be countered."
 	},
 	"Improved Movement":{
-		"english":"A character with the |impmov| symbol uses the effects indicated by its character card. Improved Movement activates whenever the character moves.\n\n|ignet| - Ignores elevated terrain.\n|ignht| - Ignores hindering terrain.\n|ignwt| - Ignores water terrain.\n|ignbt| - Ignores blocking terrain.\n|ignibt| - Ignores indoor terrain.\n|ignobt| - Ignores outdoor blocking terrain.\n|igndmg| - Ignores blocking terrain and destroys blocking terrain as the character moves through it.\n|chara| - Ignores characters.\n|ignfc| - --.\n|ignoc| - Ignores opposing characters.\n|doubleo| - May move through squares adjacent to opposing characters but still needs to break away normally.\n|doubleoarr| - May move through squares adjacent to or occupied by opposing characters but still needs to break away normally."
+		"english":"A character with the |impmov| symbol uses the effects indicated by its character card. Improved Movement activates whenever the character moves.\n\n|ignet| - Ignores elevated terrain.\n|ignht| - Ignores hindering terrain.\n|ignwt| - Ignores water terrain.\n|ignbt| - Ignores blocking terrain.\n|ignibt| - Ignores indoor terrain.\n|ignobt| - Ignores outdoor blocking terrain.\n|igndmg| - Ignores blocking terrain and destroys blocking terrain as the character moves through it.\n|chara| - Ignores characters.\n|ignfc| - --.\n|ignoc| - Ignores opposing characters.\n|doubleo| - May move through squares adjacent to opposing characters but still needs to break away normally.\n|doubleoarr| - May move through squares adjacent to or occupied by opposing characters but still needs to break away normally.",
+		"impmov":"impmov"
 	},
 	"Improved Targeting":{
-		"english":"A character with the |imptar| symbol uses the effects indicated by its character card. Improved Targeting activates whenever the character draws a line of fire.\n\n|ignet| - Ignores elevated terrain.\n|ignht| - Ignores hindering terrain.\n|ignwt| - Ignores water terrain.\n|ignbt| - Ignores blocking terrain.\n|ignibt| - Ignores indoor blocking terrain.\n|ignobt| - Ignores outdoor blocking terrain.\n|igndmg| - Ignores blocking terrain. When a ranged combat attack resolves, any blocking terrain along its line of fire to the target is destroyed.\n|chara| - Ignores characters.\n|ignfc| - Ignores friendly characters.\n|ignoc| - Ignores opposing characters.\n|doubleo| - May make a ranged combat attack targeting adjacent opposing characters.\n|doubleoarr| - May make a ranged combat attack while adjacent to an opposing character."
+		"english":"A character with the |imptar| symbol uses the effects indicated by its character card. Improved Targeting activates whenever the character draws a line of fire.\n\n|ignet| - Ignores elevated terrain.\n|ignht| - Ignores hindering terrain.\n|ignwt| - Ignores water terrain.\n|ignbt| - Ignores blocking terrain.\n|ignibt| - Ignores indoor blocking terrain.\n|ignobt| - Ignores outdoor blocking terrain.\n|igndmg| - Ignores blocking terrain. When a ranged combat attack resolves, any blocking terrain along its line of fire to the target is destroyed.\n|chara| - Ignores characters.\n|ignfc| - Ignores friendly characters.\n|ignoc| - Ignores opposing characters.\n|doubleo| - May make a ranged combat attack targeting adjacent opposing characters.\n|doubleoarr| - May make a ranged combat attack while adjacent to an opposing character.",
+		"image":"imptar"
 	},
 	"Indomitable":{
-		"english":"This character can use Willpower."
+		"english":"This character can use Willpower.",
+		"image":"indomitable"
 	},
 	"Merge":{
 		"english":"When this character is adjacent to other friendly characters that each represent one distinct qualifying character listed on a Duo character's character card and all of them have no action tokens, give this character a free action to replace all of them with that Duo character, the same number of clicks from its starting line as this character. The combined point value of the qualifying characters must be equal to or greater than the point value of the Duo character (unless that Duo character previously used the Split ability to be replaced by these same characters). The Duo character can't use the Split ability this turn. This ability can't be countered."
@@ -41,17 +50,28 @@
 	"Ram":{
 		"english":"Give this character a move action; it may only move along a straight horizontal or vertical path and it can't change its orientation. After actions resolve, make a close combat attack as a free action that targets all opposing characters that were moved through. Each hit character is dealt this character's damage value and deal this character 1 unavoidable damage for each 100 points of characters dealt damage during the movement."
 	},
+	"Speed (transporter)":{
+		"english":"As well as the regular speed ability this character can use the Carry ability and Move and Attack ability. This is indicated by the black circle behind the symbol.",
+		"image":"transspeed"
+	},
 	"Sharpshooter":{
-		"english":"This character can use |imptar| |ignoc|, |doubleo|."
+		"english":"This character can use |imptar| |ignoc|, |doubleo|.",
+		"image":"sharpshooter"
 	},
 	"Split":{
 		"english":"Give this character a power action if it has no action tokens. Replace this character with one or more qualifying characters each from a different entry listed on this character's character card. The qualifying replacement character(s) must have either qualifying name and total no more than this character's point value (unless those characters previously used the Merge ability to be replaced by this character). Replacement character(s) are assigned an action token and can't be given an action this turn. Replacement character(s) begin a number of clicks from their starting line equal to the number of clicks from this character's starting line. This ability can't be countered."
 	},
 	"Swim":{
-		"english":"This character can use |impmov| |ignwt|."
+		"english":"This character can use |impmov| |ignwt|.",
+		"image":"swim"
+	},
+	"Swim (transporter)":{
+		"english":"As well as the regular swim ability this character can use the Carry ability and Move and Attack ability. This is indicated by the black circle behind the symbol.",
+		"image":"transswim"
 	},
 	"Tiny Size":{
-		"english":"Modify this character's defense value by +1 against ranged combat attacks. A friendly character that is larger and adjacent can use the Carry ability to carry up to one |tiny| character regardless of its other combat symbols, does not reduce its speed value for doing so and can continue to use the Carry ability if it can normally. This ability can't be countered."
+		"english":"Modify this character's defense value by +1 against ranged combat attacks. A friendly character that is larger and adjacent can use the Carry ability to carry up to one |tiny| character regardless of its other combat symbols, does not reduce its speed value for doing so and can continue to use the Carry ability if it can normally. This ability can't be countered.",
+		"image":"tiny"
 	},
 	"Throw Grenade":{
 		"english":"Give the character a power action, decrease the number of grenades in your grenade pool by 1 (if greater than 0), and choose a type of grenade listed on the character's character card. Choose a target square within 5 squares and line of fire and for this attack, this character can use |imptar| |chara|. Make a ranged combat attack targeting all characters occupying or adjacent to the target square. Deal damage to each character hit based only on the type of grenade chosen.\n\nFLASHBANG (no damage): The target square for this grenade can be within 8 squares. Place an action token on all hit characters that have zero tokens.\n\nFRAG (2 damage): A hit character in the target square is dealt 1 additional damage. Each other hit character is knocked back from the target square.\n\nINK (1 penetrating damage): Place a hindering terrain marker in the target square. At the beginning of your next turn, deal 1 additional penetrating to each character occupying the target or adjacent squares, then remove the marker.\n\nPLASMA (no damage): Mark a hit character in the target square. At the beginning of your next turn, deal 2 damage to the character marked in this way and 1 damage to all adjacent characters that are friendly to that character.\n\nSMOKE (1 damage): Place a hindering terrain marker in the target square and up to two adjacent squares. Remove them at the beginning of your next turn. Characters occupying squares with these markers can't make ranged attacks.\nTHERMITE (1 damage): Destroy up to 3 squares of blocking terrain or walls adjacent to the target square."

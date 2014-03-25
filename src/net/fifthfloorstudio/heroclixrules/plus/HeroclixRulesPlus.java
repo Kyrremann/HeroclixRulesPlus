@@ -16,6 +16,8 @@
 
 package net.fifthfloorstudio.heroclixrules.plus;
 
+import java.util.List;
+
 import net.fifthfloorstudio.heroclixrules.plus.fragments.RuleListFragment;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.SectionsRuleFragment;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.StartScreenFragment;
@@ -28,6 +30,7 @@ import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -45,6 +48,8 @@ import android.widget.ListView;
 public class HeroclixRulesPlus extends FragmentActivity implements
 		RuleSelectedListener {
 
+	private static final int SETTINGS_ACTIVITY = 128;
+
 	protected DrawerLayout mDrawerLayout;
 	protected ListView mDrawerList;
 	protected CharSequence mDrawerTitle;
@@ -61,6 +66,11 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+		((RulesApplication) getApplication()).setLanguage(PreferenceManager
+				.getDefaultSharedPreferences(this).getString(
+						SettingsActivity.PREFS_LANGUAGE,
+						RulesApplication.ENGLISH));
 
 		mTitle = mDrawerTitle = getTitle();
 		mRulesTitles = getResources().getStringArray(R.array.rules_array);
@@ -113,8 +123,9 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 			createAbout();
 			break;
 		case R.id.menu_settings:
-			startActivity(createIntent(SettingsActivity.class,
-					SettingsActivityHoneyComb.class));
+			startActivityForResult(
+					createIntent(SettingsActivity.class,
+							SettingsActivityHoneyComb.class), SETTINGS_ACTIVITY);
 			selectItem(selectedDrawer);
 			break;
 		case R.id.menu_donate:
@@ -163,7 +174,8 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		fragmentManager.popBackStack(null,
 				FragmentManager.POP_BACK_STACK_INCLUSIVE);
 		fragmentManager.beginTransaction()
-				.replace(R.id.content_frame, fragment).commit();
+				.replace(R.id.content_frame, fragment, mRulesTitles[position])
+				.commit();
 
 		// update selected item and title, then close the drawer
 		mDrawerList.setItemChecked(position, true);
@@ -330,6 +342,9 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		case R.id.damage:
 			switchToPower("Damage powers");
 			break;
+		case R.id.instruction:
+			mDrawerLayout.openDrawer(GravityCompat.START);
+			break;
 		}
 	}
 
@@ -344,5 +359,31 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 				FragmentManager.POP_BACK_STACK_INCLUSIVE);
 		fragmentManager.beginTransaction()
 				.replace(R.id.content_frame, fragment).commit();
+	}
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		if (requestCode == SETTINGS_ACTIVITY) {
+			RuleListFragment fragment = getVisibleFragment();
+			if (fragment != null) {
+				fragment.notifyListChanged();
+			}
+		} else {
+			super.onActivityResult(requestCode, resultCode, data);
+		}
+	}
+
+	public RuleListFragment getVisibleFragment() {
+		FragmentManager fragmentManager = getSupportFragmentManager();
+		List<Fragment> fragments = fragmentManager.getFragments();
+		for (Fragment fragment : fragments) {
+			if (fragment != null && fragment.isVisible())
+				if (fragment instanceof RuleListFragment) {
+					return (RuleListFragment) fragment;
+				} else {
+					return null;
+				}
+		}
+		return null;
 	}
 }

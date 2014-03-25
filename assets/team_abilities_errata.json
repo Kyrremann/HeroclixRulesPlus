@@ -3,90 +3,117 @@
 		"english":"Any team abilities that refer to a \"team member\" actually refer to \"a character using this team ability\"."
 	},
 	"2000 AD":{
-		"english":"The choice of opposing team ability or character is made for the entire team. Once the choice is made, all characters with this team ability get the bonus against that team/character.\n\nThe choice of opposing team ability or character is made for the entire team. Once the choice is made, all characters with this team ability get the bonus against that team/character.\n\nDesignating a single character for this team ability grants the bonus only against that single character, even if more than one of that character is in play."
+		"english":"The choice of opposing team ability or character is made for the entire team. Once the choice is made, all characters with this team ability get the bonus against that team/character.\n\nThe choice of opposing team ability or character is made for the entire team. Once the choice is made, all characters with this team ability get the bonus against that team/character.\n\nDesignating a single character for this team ability grants the bonus only against that single character, even if more than one of that character is in play.",
+		"image":"2000ad"
 	},
 	"ARACHNOS":{
-		"english":"This team ability reads: \"When a character using the Arachnos team ability takes damage from an attack, the attacker is dealt 1 unavoidable damage. This damage is not an attack.\"\n\nClarifications: see Mystics"
+		"english":"This team ability reads: \"When a character using the Arachnos team ability takes damage from an attack, the attacker is dealt 1 unavoidable damage. This damage is not an attack.\"\n\nClarifications: see Mystics",
+		"image":"arachnos"
 	},
 	"AVENGERS":{
-		"english":"Clarifications: see Free Moves"
+		"english":"Clarifications: see Free Moves",
+		"image":"avengers"
 	},
 	"BATMAN ENEMY":{
-		"english":"Clarifications: see Sinister Syndicate."
+		"english":"Clarifications: see Sinister Syndicate.",
+		"image":"batman_enemy"
 	},
 	"BROTHERHOOD OF MUTANTS":{
-		"english":"Clarifications: see Free Moves"
+		"english":"Clarifications: see Free Moves",
+		"image":"brotherhood"
 	},
 	"CRIME SYNDICATE":{
-		"english":"The character using this team ability is subject to all the standard rules regarding Probability Control with the additional requirement of placing a token on a character in order to use the ability."
+		"english":"The character using this team ability is subject to all the standard rules regarding Probability Control with the additional requirement of placing a token on a character in order to use the ability.",
+		"image":"crime_syndicate"
 	},
 	"CROSSGEN":{
-		"english":"This team ability reads: \"When a character using the Crossgen team ability takes damage from an attack, the attacker is dealt 1 unavoidable damage. This damage is not an attack.\"\n\nClarifications: see Mystics"
+		"english":"This team ability reads: \"When a character using the Crossgen team ability takes damage from an attack, the attacker is dealt 1 unavoidable damage. This damage is not an attack.\"\n\nClarifications: see Mystics",
+		"image":"crossgen"
 	},
 	"CRUSADE":{
-		"english":"The attack roll does not need to be successful in order to generate knock back.\n\nIf a Crusade team member's Energy Explosion attack is unsuccessful against a target, but doubles are rolled, then the Crusade ability will generate knock back only for the missed target. If a Crusade team member's Energy Explosion is successful against a target, but unsuccessful against an adjacent figure, Crusade's ability will also generate knock back against the adjacent figures."
+		"english":"The attack roll does not need to be successful in order to generate knock back.\n\nIf a Crusade team member's Energy Explosion attack is unsuccessful against a target, but doubles are rolled, then the Crusade ability will generate knock back only for the missed target. If a Crusade team member's Energy Explosion is successful against a target, but unsuccessful against an adjacent figure, Crusade's ability will also generate knock back against the adjacent figures.",
+		"image":"crusade"
 	},
 	"DEFENDERS":{
-		"english":"The Defenders team ability works in the same manner as the \"Defend\" power, except that it can only be used with other Defenders team members.\n\nThis team ability can be used during Support."
+		"english":"The Defenders team ability works in the same manner as the \"Defend\" power, except that it can only be used with other Defenders team members.\n\nThis team ability can be used during Support.",
+		"image":"defenders"
 	},
 	"Free Moves":{
 		"english":"When a character with this team ability is given a move action, that action does not get subtracted from the players action pool for that turn. The acting character is still assigned a token and would be dealt pushing damage as normal, if this is not their first token.\n\nThis team ability does not alter what kinds of actions can be assigned to the character. If it has been carried this turn, you could not assign it a move action, as it is \"free\". It is not a free action, it is an action which is free from the perspective of your action pool (the number of actions you can assign on a turn).\n\nIf a character with this team ability is given a move action that requires break away, it may still use this ability. On a failed break away roll, it would still get a token and the action will not come from the action pool."
 	},
 	"GUARDIANS OF THE GLOBE":{
-		"english":"If doubles are rolled for a no damage attack (such as Mind Control), a token would still be given to the target(s).\n\nIf a character using this team ability rolls doubles while using Incapacitate, then the target character will get 2 tokens if they currently have 0.\n\nIf a character using this team ability rolls doubles while using Quake, the target characters would not be knocked back, but would receive a token instead.\n\nIf a character with this team ability rolls doubles while using Energy Explosion, hit targeted characters would receive a token while untargeted hit characters would be knocked back normally.\n\nIf a target character would normally ignore knock back, they would still receive a token as a result of this team ability."
+		"english":"If doubles are rolled for a no damage attack (such as Mind Control), a token would still be given to the target(s).\n\nIf a character using this team ability rolls doubles while using Incapacitate, then the target character will get 2 tokens if they currently have 0.\n\nIf a character using this team ability rolls doubles while using Quake, the target characters would not be knocked back, but would receive a token instead.\n\nIf a character with this team ability rolls doubles while using Energy Explosion, hit targeted characters would receive a token while untargeted hit characters would be knocked back normally.\n\nIf a target character would normally ignore knock back, they would still receive a token as a result of this team ability.",
+		"image":"guardians_of_the_globe"
 	},
 	"HYDRA":{
-		"english":"This team ability reads: \"When this character is adjacent to a friendly character making a ranged combat attack, modify the target's defense value by -1 if the target is within line of fire of this character.\""
+		"english":"This team ability reads: \"When this character is adjacent to a friendly character making a ranged combat attack, modify the target's defense value by -1 if the target is within line of fire of this character.\"",
+		"image":"hydra"
 	},
 	"HYPERTIME":{
-		"english":"If a character fails its roll while trying to become adjacent to the Hypertime team member, it may continue its move from the current position. If there are no legal squares in which the character that failed its roll against the Hypertime team ability may move, the character must end its movement in the first available legal square along the path it took when moving adjacent to the Hypertime team member, even if that square is the square in which the character began its movement.\n\nThis team ability only applies when a character goes from not being adjacent to a Hypertime character to becoming adjacent to a Hypertime character. If one is adjacent to a Hypertime character at the beginning of an action, for example, and rolls successfully for break away, then a Hypertime roll would not be necessary if the character moves and maintains adjacency to that Hypertime character.\n\nWhen attempting to move into adjacency with two or more opposing characters using this team ability, one roll is made.\n\nThe character attempting to move into adjacency is the character which makes the roll."
+		"english":"If a character fails its roll while trying to become adjacent to the Hypertime team member, it may continue its move from the current position. If there are no legal squares in which the character that failed its roll against the Hypertime team ability may move, the character must end its movement in the first available legal square along the path it took when moving adjacent to the Hypertime team member, even if that square is the square in which the character began its movement.\n\nThis team ability only applies when a character goes from not being adjacent to a Hypertime character to becoming adjacent to a Hypertime character. If one is adjacent to a Hypertime character at the beginning of an action, for example, and rolls successfully for break away, then a Hypertime roll would not be necessary if the character moves and maintains adjacency to that Hypertime character.\n\nWhen attempting to move into adjacency with two or more opposing characters using this team ability, one roll is made.\n\nThe character attempting to move into adjacency is the character which makes the roll.",
+		"image":"hypertime"
 	},
 	"JUSTICE LEAGUE":{
-		"english":"Clarifications: see Free Moves"
+		"english":"Clarifications: see Free Moves",
+		"image":"justice_league"
 	},
 	"JUSTICE SOCIETY":{
-		"english":"Clarifications: see Defenders"
+		"english":"Clarifications: see Defenders",
+		"image":"justice_society"
 	},
 	"MASTERS OF EVIL":{
-		"english":"The damage applied to a character with this team ability on the third turn it acts is not pushing damage. Willpower (or other effects that allow a character to ignore pushing damage) would not apply to the unavoidable damage this team ability generates.\n\nThe second action a character with this team ability takes is normal pushing damage, for which Willpower and other similar effects would work fine."
+		"english":"The damage applied to a character with this team ability on the third turn it acts is not pushing damage. Willpower (or other effects that allow a character to ignore pushing damage) would not apply to the unavoidable damage this team ability generates.\n\nThe second action a character with this team ability takes is normal pushing damage, for which Willpower and other similar effects would work fine.",
+		"image":"masters_of_evil"
 	},
 	"MYSTICS":{
-		"english":"As the damage from this team ability is not an attack, it would not cause retaliation damage if it were applied to another Mystics character.\n\nThis team ability would still activate as the character is KO'd.\n\nIf a Mystics character somehow deals damages to itself in an attack, it will still activate and damage itself."
+		"english":"As the damage from this team ability is not an attack, it would not cause retaliation damage if it were applied to another Mystics character.\n\nThis team ability would still activate as the character is KO'd.\n\nIf a Mystics character somehow deals damages to itself in an attack, it will still activate and damage itself.",
+		"image":"mystics"
 	},
 	"POLICE":{
-		"english":"Clarifications: see Hydra"
+		"english":"Clarifications: see Hydra",
+		"image":"police"
 	},
 	"POWER COSMIC":{
-		"english":"Powers that allow you to ignore other powers would still be effective against a character using this team ability. Exploit Weakness, for example, does not counter damage reducing powers, but ignores them, so it would still work against a character with this team ability."
+		"english":"Powers that allow you to ignore other powers would still be effective against a character using this team ability. Exploit Weakness, for example, does not counter damage reducing powers, but ignores them, so it would still work against a character with this team ability.",
+		"image":"power_cosmic"
 	},
 	"QUINTESSENCE":{
-		"english":"Clarifications: see Power Cosmic."
+		"english":"Clarifications: see Power Cosmic.",
+		"image":"quitessence"
 	},
 	"S.H.I.E.L.D.":{
-		"english":"Multiple S.H.I.E.L.D. characters can be used to provide multiple bonuses to a single friendly character. These bonuses are always subject to the Rule of Three.\n\nThe S.H.I.E.L.D. character does not have to have a line of fire to the target in order to use this ability."
+		"english":"Multiple S.H.I.E.L.D. characters can be used to provide multiple bonuses to a single friendly character. These bonuses are always subject to the Rule of Three.\n\nThe S.H.I.E.L.D. character does not have to have a line of fire to the target in order to use this ability.",
+		"image":"shield"
 	},
 	"SINISTER SYNDICATE":{
-		"english":"The Sinister Syndicate team ability works in the same manner as the \"Defend\" power, except that it can only be used with other Sinister Syndicate team members and it applies to attack value rather than defense value.\n\nThis team ability can be used during Support."
+		"english":"The Sinister Syndicate team ability works in the same manner as the \"Defend\" power, except that it can only be used with other Sinister Syndicate team members and it applies to attack value rather than defense value.\n\nThis team ability can be used during Support.",
+		"image":"sinister_syndicate"
 	},
 	"SUICIDE SQUAD":{
-		"english":"The team ability will activate for each adjacent friendly character KO'd."
+		"english":"The team ability will activate for each adjacent friendly character KO'd.",
+		"image":"suicide_squad"
 	},
 	"SUPERMAN ENEMY":{
-		"english":"This power can be used for each set of adjacent Superman Enemy characters. For example, if you have three Superman Enemy characters all adjacent to one another, with point values 75, 60, and 44, there are three potential pairs: 1) 75/60, 2) 75/44, and 3) 60/44. 75 is higher than 60, so 75 gets to use Outwit. 75 is higher than 44, but 75 already can use Outwit—it can't use it again. 60 is higher than 44, so 60 can use Outwit."
+		"english":"This power can be used for each set of adjacent Superman Enemy characters. For example, if you have three Superman Enemy characters all adjacent to one another, with point values 75, 60, and 44, there are three potential pairs: 1) 75/60, 2) 75/44, and 3) 60/44. 75 is higher than 60, so 75 gets to use Outwit. 75 is higher than 44, but 75 already can use Outwit—it can't use it again. 60 is higher than 44, so 60 can use Outwit.",
+		"image":"superman_enemy"
 	},
-	"TITANS":{
-		"english":"Clarifications: see X-Men"
+	"TEEN TITANS":{
+		"english":"Clarifications: see X-Men",
+		"image":"teen_titans"
 	},
 	"TOP COW":{
-		"english":"Clarifications: see Free Moves"
+		"english":"Clarifications: see Free Moves",
+		"image":"top_cow"
 	},
 	"ULTIMATE X-MEN":{
-		"english":"Each team member chooses an opposing team ability or character. This choice is made on a character by character basis, and may be different from other members of the team.\n\nIf a wild card uses this team ability, they may select their own target team ability/figure for the bonus. Once the choice is made, the wild card may not change that selection even if they use a different team ability.\n\nDesignating a single character for this team ability grants the bonus only against that single character, even if more than one of that character is in play."
+		"english":"Each team member chooses an opposing team ability or character. This choice is made on a character by character basis, and may be different from other members of the team.\n\nIf a wild card uses this team ability, they may select their own target team ability/figure for the bonus. Once the choice is made, the wild card may not change that selection even if they use a different team ability.\n\nDesignating a single character for this team ability grants the bonus only against that single character, even if more than one of that character is in play.",
+		"image":"ultimate_x_men"
 	},
 	"Wild Cards":{
 		"english":"If the last character on a force possessing a team ability is KO'd, or all instances of the team ability are lost, countered, or otherwise absent, any wild card characters that are currently using the team ability can continue to use it until the end of that action. With the start of the next action, that team ability is not able to be used.\n\nA wild card can only use a team ability that is possessed by a friendly character on their force. It can't use a team ability that another character is able to use (but does not possess).\n\nWhen using another team ability, a wild card team member is considered part of that team for team ability purposes; for everything else, it is a member of the team printed on its base.\n\nThe rule regarding using only one team ability per action refers only to the usage of the wild card team ability. If a character is a wild card and also is a member of another team, it can essentially use 2 team abilities as it can use its natural team ability as well as its wild card team ability.\n\nIf a character is a wild card in addition to another team ability, being a wild card does not affect their ability to use that other team ability in any way.\n\nWild cards can't use a team ability if they are already using an identical mechanic through another game effect."
 	},
 	"X-MEN":{
-		"english":"In order for a character to use the X-Men team ability, the adjacent character must be able to be healed"
+		"english":"In order for a character to use the X-Men team ability, the adjacent character must be able to be healed",
+		"image":"x_men"
 	}
 }

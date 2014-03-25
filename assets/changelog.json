@@ -1,6 +1,10 @@
 {
-  "3.0": [
-    "Something done here",
-    "and something done here..."
-  ]
+    "3.0": [
+	"Complete redo of the design, using the new drawer layout",
+	"Translation have been moved, so the user can choose language in the option settings of the app",
+	"You can switch between images and text in the rules",
+	"Update to the rules released 14.02.2014",
+	"Added more rule types, not seen before in the app; errata, resources, and general",
+	"Shortcut menu for the base powers"
+    ]
 }

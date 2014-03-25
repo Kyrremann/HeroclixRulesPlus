@@ -183,7 +183,7 @@
     "english": "Before the beginning of the first round, the player who played this battlefield condition may place an action token on any one opposing character. Then, continuing clockwise around the table, each other player may choose to roll a d6; on a result of 4-6, that player may place an action token on any one opposing character that does not already have one."
   },
   "SHRUNK": {
-    "english": "All characters with the #giant# damage symbol have the #attack# damage symbol instead. All range values are halved, as is the range of all effects that have a range."
+    "english": "All characters with the |giant| damage symbol have the |attack| damage symbol instead. All range values are halved, as is the range of all effects that have a range."
   },
   "SKRULL KILL KREW": {
     "english": "When a character with Plasticity rolls to break away, subtract two from the result (minimum result 1.) When a character using Super Senses or Shape Change rolls a d6, subtract one from the result (minimum result 1.)"

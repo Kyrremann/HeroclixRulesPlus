@@ -8,6 +8,7 @@
     <string name="logo_cd">The Fifth Floor Studio logo. It\'s a pyramide.</string>
     <string name="feedback_subject">Feedback: Heroclix Rules</string>
     <string name="no_rule">This is not the rule you are looking for!</string>
+    <string name="instruction">Click here to see the sidebar with access to all the rules</string>
 
     <string-array name="rules_array">
         <item>Speed powers</item>
