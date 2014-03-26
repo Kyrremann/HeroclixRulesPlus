@@ -3,7 +3,7 @@
     {
       "english": {
         "name": "FLURRY",
-        "text": "Give this character a close combat action. After the close combat attack resolves, it may make a second close combat attack as a free action. The first attack does not activate the Damage Depletion Modifier."
+        "text": "Give this character a close combat action. After the close combat attack resolves, it may make a second close combat attack as a free action. The first attack doesn’t activate the Damage Depletion Modifier."
       },
       "spanish": {
         "name": "RÁFAGA DE GOLPES",
@@ -58,7 +58,7 @@
         "name": "APPIEDATO/DISATTIVATO",
         "text": "Questo personaggio possiede |speed|, |attack|, |defense|, |damage| al posto dei suoi simboli di combattimento. Questo potere non può essere neutralizzato o ignorato."
       },
-      "image": "lime"
+      "image": "(pendiente)"
     },
     {
       "english": {
@@ -78,7 +78,7 @@
     {
       "english": {
         "name": "MIND CONTROL",
-        "text": "Give this character a close or ranged combat action (minimum range value 4) that deals no damage. A successfully hit target becomes friendly to your force. Each target hit may be assigned one action as a free action, immediately after which the target becomes an opposing character again. Deal this character 1 unavoidable damage if the successfully hit targets’ combined point value is 150 points or more."
+        "text": "Give this character a close or ranged combat action (minimum range value 4) that deals no damage. A successfully hit target becomes friendly to your force. Each target hit may be assigned one action as a free action, immediately after which the target becomes an opposing character again. Deal this character 1 unavoidable damage if the successfully hit target’s combined point value is 150 points or more."
       },
       "spanish": {
         "name": "CONTROL MENTAL",
@@ -88,7 +88,7 @@
         "name": "CONTROLLO MENTALE",
         "text": "Assegna a questo personaggio un’azione di combattimento in corpo a corpo o a distanza (gittata minima 4) che non infligge danno. Ogni bersaglio colpito diventa alleato della tua squadra, ad ogni bersaglio colpito può essere assegnata un’azione come azione gratuita a termine della quale il bersaglio tornerà ad essere un avversario della tua squadra. Infliggi al personaggio che utilizza questo potere 1 danno inevitabile se il valore combinato in punti dei personaggi colpiti è 150 o più."
       },
-      "image": "turquois"
+      "image": "(pendiente)"
     },
     {
       "english": {
@@ -138,7 +138,7 @@
     {
       "english": {
         "name": "HYPERSONIC SPEED",
-        "text": "Give this character a power action and move it up to its speed value. It adds 2 to its d6 roll when breaking away and can use |impmov| |doubleo|. During its move, this character may, as a free action, make one close combat or ranged combat attack with its range value halved for the attack. This character must be in a square where it could legally end its move in order to make the attack."
+        "text": "Give this character a power action and move it up to its speed value; it adds 2 to its d6 roll when breaking away and can use |impmov| |doubleo|. During this move, this character may, as a free action, make one close combat or ranged combat attack with its range value halved for the attack. This character must be in a square where it could legally end its move in order to make the attack."
       },
       "spanish": {
         "name": "VELOCIDAD HIPERSÓNICA",
@@ -200,7 +200,7 @@
     {
       "english": {
         "name": "ENERGY EXPLOSION",
-        "text": "When this character is given a ranged combat action and deals damage, an area of effect may include all untargeted characters that are adjacent to one or more hit targets. Hit targets are dealt damage normally, other hit characters are dealt 1 damage for each |lightning| printed on this character’s base."
+        "text": "When this character is given a ranged combat action and deals damage, an area of effect may include all untargeted characters that are adjacent to one or more hit targets assigned at least 1 damage. Hit targets are dealt damage normally, other hit characters are dealt 1 damage for each |lightning| printed on this character’s base."
       },
       "spanish": {
         "name": "EXPLOSIÓN DE ENERGÍA",
@@ -215,7 +215,7 @@
     {
       "english": {
         "name": "PULSE WAVE",
-        "text": "Give this character a ranged combat action even if it is adjacent to an opposing character; the area of effect for this attack is half the character’s range. Draw lines of fire to all other characters within the area of effect, including at least one opposing character; these lines of fire ignore all game effects except for walls, blocking and elevated terrain. Game effects possessed or used by characters with a line of fire drawn to them are ignored until the action has been resolved. If a line of fire is drawn to more than 1 character, this character’s damage value becomes 1 and is locked. Each character hit is dealt damage."
+        "text": "Give this character a ranged combat action even if it is adjacent to an opposing character; the area of effect for this attack is half the character’s range value. Draw lines of fire to all other characters within the area of effect, including at least one opposing character; these lines of fire ignore all game effects except for walls, blocking and elevated terrain. Game effects possessed or used by characters with a line of fire drawn to them are ignored until the action has been resolved. If a line of fire is drawn to more than 1 character, this character’s damage value becomes 1 and is locked. Each character hit is dealt damage."
       },
       "spanish": {
         "name": "ONDA DE PULSOS",
@@ -240,7 +240,7 @@
         "name": "TERREMOTO",
         "text": "Assegna a questo personaggio un’azione di combattimento corpo a corpo, il danno di questo attacco diventa 2 ed è bloccato. Effettua un attacco in corpo a corpo che bersaglia tutti gli avversari che potrebbero essere colpiti con un attacco in corpo a corpo. Ogni avversario che subisce danno da questo attacco subisce contraccolpo."
       },
-      "image": "lime"
+      "image": "(pendiente)"
     },
     {
       "english": {
@@ -270,7 +270,7 @@
         "name": "INTRALCIARE",
         "text": "Assegna a questo personaggio un’azione di combattimento in corpo a corpo o a distanza che non infligge danno. Se l’attacco colpisce assegna al bersaglio un segnalino azione. Se il bersaglio ha già due segnalini, infliggi al bersaglio 1 danno penetrante."
       },
-      "image": "turquois"
+      "image": "(pendiente)"
     },
     {
       "english": {
@@ -350,7 +350,7 @@
     {
       "english": {
         "name": "TELEKINESIS",
-        "text": "Give this character a power action and designate a target character or object (A) and a destination square (B). This character, A, and B must all be within 8 squares and line of fire of each other. Place A in B. If A is a character, it must be a single base character and possess the |tiny| or |damage| symbol. If A is an opposing character, make a close or ranged combat attack that deals no damage against A, and only place the character in B if the target is hit. If A is an object and B is occupied by an opposing character, this character may make a ranged combat attack targeting the character occupying B, dealing object damage and destroying the object. A character that has been placed by Telekinesis this turn can’t use Telekinesis this turn."
+        "text": "Give this character a power action and designate another target character or object (A) and a destination square (B). This character, A, and B must all be within 8 squares and line of fire of each other. Place A in B. If A is a character, it must be a single base character and possess the |tiny| or |damage| symbol. If A is an opposing character, make a close or ranged combat attack that deals no damage against A, and only place the character in B if the target is hit. If A is an object and B is occupied by an opposing character, this character may make a ranged combat attack targeting the character occupying B, dealing object damage and destroying the object. A character that has been placed by Telekinesis this turn can’t use Telekinesis this turn."
       },
       "spanish": {
         "name": "TELEQUINESIS",
@@ -422,7 +422,7 @@
         "name": "RIFLESSI DA COMBATTIMENTO",
         "text": "Modifica il valore di difesa di questo personaggio di +2 contro gli attacchi in corpo a corpo. Questo personaggio ignora il contraccolpo."
       },
-      "image": "lime"
+      "image": "(pendiente)"
     },
     {
       "english": {
@@ -452,12 +452,12 @@
         "name": "BARRIERA",
         "text": "Assegna a questo personaggio un’azione di potere, piazza fino a 4 segnalini di terreno bloccante in caselle libere e adiacenti tutte entro la gittata (gittata minima 4). Almeno uno dei segnalini deve trovarsi sulla linea di fuoco del personaggio quando viene posizionato, i segnalini restano in gioco fino all’inizio del tuo prossimo turno."
       },
-      "image": "turquois"
+      "image": "(pendiente)"
     },
     {
       "english": {
         "name": "MASTERMIND",
-        "text": "When this character would be dealt damage, you may instead choose to have all the damage be dealt to a single adjacent friendly character with a point value less than this character’s. Any additional effects of the damage dealt(knock back, penetrating damage, etc.) are applied to the character taking the damage. Damage dealt by this power is not an attack."
+        "text": "When this character would be dealt damage, you may instead choose to transfer all the damage to be dealt to a single adjacent friendly character with a point value less than this character’s. Any additional effects of the damage dealt (knock back, penetrating damage, etc.) are applied to the character taking the damage. Damage dealt by this power is not an attack."
       },
       "spanish": {
         "name": "MENTE MAESTRA",
@@ -579,7 +579,7 @@
     {
       "english": {
         "name": "SUPPORT",
-        "text": "Give this character a power action and target an adjacent friendly character; neither this character nor the target can be adjacent to an opposing character. Roll 2d6 and add the result to this character’s unmodified attack value. If the result is equal to or higher than the target character’s unmodified defense value, roll a d6 and subtract 2 from the result, minimum result 1. The target is healed of damage equal to the result."
+        "text": "Give this character a power action and target an adjacent friendly character; neither this character nor the target can be adjacent to an opposing character. Roll 2d6 and add the result to this character’s unmodified attack value. If the result is equal to or higher than the tar get character’s unmodified defense value, roll a d6 and subtract 2 from the result, minimum result 1. The target is healed of damage equal to the result."
       },
       "spanish": {
         "name": "APOYO",
@@ -604,7 +604,7 @@
         "name": "PUNTO DEBOLE",
         "text": "Assegna a questo personaggio un’azione di combattimento in corpo a corpo. Il danno da questo attacco è penetrante."
       },
-      "image": "lime"
+      "image": "(pendiente)"
     },
     {
       "english": {
@@ -634,7 +634,7 @@
         "name": "CONTROLLO DELLE PROBABILITÀ",
         "text": "Una volta durante il tuo turno questo personaggio ti permette di ritirare un tiro di dadi ignorando il tiro precedente. Un personaggio che utilizza questo potere deve trovarsi entro raggio (minimo 6) e in linea di fuoco con il personaggio per il quale il tiro di dado originale è stato eseguito. Impiegando le stesse regole, una volta a round durante il turno dell’avversario puoi costringere l’avversario a ritirare un singolo tiro di dado, ignorando il risultato precedente."
       },
-      "image": "turquois"
+      "image": "(pendiente)"
     },
     {
       "english": {

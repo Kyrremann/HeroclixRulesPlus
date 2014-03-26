@@ -33,6 +33,7 @@ public class RulesApplication extends Application {
 	private static final String JSON_TEAM_ABILITIES_ERRATA = "team_abilities_errata.json";
 	private static final String JSON_HORDE_TOKENS_ERRATA = "horde_tokens_errata.json";
 	private static final String JSON_BFC = "bfc.json";
+	private static final String JSON_ATA = "ata.json";
 
 	public final static String JSON_NAME = "name";
 	public final static String JSON_TEXT = "text";
@@ -46,12 +47,14 @@ public class RulesApplication extends Application {
 	public static final String JSON_OWNER = "owner";
 	public static final String JSON_SET = "set";
 	public static final String JSON_ID = "id";
+	public static final String JSON_KEYWORDS = "keywords";
 
 	public final static String ENGLISH = "english";
 	public final static String SPANISH = "spanish";
 	public final static String ITALIAN = "italian";
 
 	private JSONObject powerRules;
+	private JSONObject ataRules;
 	private JSONObject teamAbilitiesRules;
 	private JSONObject generalRules;
 	private JSONObject abilitiesRules;
@@ -109,6 +112,12 @@ public class RulesApplication extends Application {
 				powerRules = JSONParser.getJsonRule(this, JSON_POWERS);
 			}
 			return powerRules;
+		} else if (category.equals("additional team abilities")) {
+			if (ataRules == null) {
+				ataRules = JSONParser.getJsonRule(this,
+						JSON_ATA);
+			}
+			return ataRules;
 		} else if (category.equals("team abilities")) {
 			if (teamAbilitiesRules == null) {
 				teamAbilitiesRules = JSONParser.getJsonRule(this,

@@ -113,12 +113,14 @@ public class SectionsRuleFragment extends Fragment {
 			int position = getArguments().getInt(ARG_SECTION_NUMBER);
 			SpannableStringBuilder builder;
 
-			if (isFeat(category)) {
+			if (isFeat()) {
 				builder = createFeat(position);
-			} else if (isObject(category)) {
+			} else if (isObject()) {
 				builder = createObject(position);
 			} else if (isHordeToken()) {
 				builder = createHordetoken(position);
+			} else if (isAta()) {
+				builder = createAta(position);
 			} else {
 				builder = createRule(position);
 			}
@@ -133,12 +135,16 @@ public class SectionsRuleFragment extends Fragment {
 					|| category.equals("horde tokens erreta");
 		}
 
-		private boolean isObject(String category) {
+		private boolean isObject() {
 			return category.equals("objects");
 		}
 
-		private boolean isFeat(String category) {
+		private boolean isFeat() {
 			return category.equals("feats");
+		}
+
+		private boolean isAta() {
+			return category.equals("additional team abilities");
 		}
 
 		private SpannableStringBuilder createHordetoken(int position) {
@@ -245,6 +251,31 @@ public class SectionsRuleFragment extends Fragment {
 				}
 				ruleText.append("\n");
 				return ruleText.append(parseText(getActivity(), feat.getString(ENGLISH)));
+			} catch (JSONException e) {
+				e.printStackTrace();
+				return new SpannableStringBuilder(getString(R.string.no_rule));
+			}
+		}
+
+		private SpannableStringBuilder createAta(int position) {
+			try {
+				JSONObject ata = application.getRuleJSON(position,
+						rules_array[position], category);
+
+				SpannableStringBuilder ruleText = new SpannableStringBuilder();
+				ruleText.append(getString(R.string.cost));
+				ruleText.append(": ");
+				ruleText.append(parseText(getActivity(), ata.optString(JSON_COST)));
+				ruleText.append("\n");
+
+				if (ata.has(JSON_KEYWORDS)) {
+					ruleText.append(getString(R.string.keywords));
+					ruleText.append(": ");
+					ruleText.append(parseText(getActivity(), ata.getString(JSON_KEYWORDS)));
+					ruleText.append("\n");
+				}
+				ruleText.append("\n");
+				return ruleText.append(parseText(getActivity(), ata.getString(ENGLISH)));
 			} catch (JSONException e) {
 				e.printStackTrace();
 				return new SpannableStringBuilder(getString(R.string.no_rule));
