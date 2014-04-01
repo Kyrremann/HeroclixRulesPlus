@@ -275,7 +275,7 @@ public class SectionsRuleFragment extends Fragment {
 					ruleText.append("\n");
 				}
 				ruleText.append("\n");
-				return ruleText.append(parseText(getActivity(), ata.getString(ENGLISH)));
+				return ruleText.append(parseText(getActivity(), ata.getString(JSON_TEXT)));
 			} catch (JSONException e) {
 				e.printStackTrace();
 				return new SpannableStringBuilder(getString(R.string.no_rule));

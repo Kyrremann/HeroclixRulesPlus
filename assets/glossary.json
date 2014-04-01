@@ -1,7 +1,7 @@
 {
   "3-D OBJECT": {
     "english": "A three-dimensional sculpture marked with the |3d| symbol.",
-    "image":"3d"
+    "image":"threed"
   },
   "ABILITY": {
     "english": "A capability possessed by a character, indicated by a symbol on its base and/or explained on its character card."
@@ -91,7 +91,8 @@
     "english": "An identifying number specific to a particular character in a set."
   },
   "COLOSSAL CHARACTER": {
-    "english": "A character with the Colossal Stamina ability and Great Size ability, usually indicated by the |colossal| damage symbol on its base."
+    "english": "A character with the Colossal Stamina ability and Great Size ability, usually indicated by the |colossus| damage symbol on its base.",
+    "image": "colossus"
   },
   "COMBAT DIAL": {
     "english": "The piece of plastic under a character’s base, upon which the character’s powers and combat values are printed."
@@ -228,7 +229,8 @@
     "english": "An object that can’t be carried, placed, or moved by any game effect. Immobile object tokens have a blue border."
   },
   "INDOMITABLE": {
-    "english": "A character using the Indomitable ability usually indicated by the |indomitable| defense symbol."
+    "english": "A character using the Indomitable ability usually indicated by the |indomitable| defense symbol.",
+    "image": "indomitable"
   },
   "INDOORS": {
     "english": "Anywhere on a battle map labeled “Indoor” or “Indoors” or inside a yellow boundary line on a map labeled “Indoor/Outdoor.”"
@@ -369,13 +371,15 @@
     "english": "An icon on a character’s base that marks it as part of a particular HeroClix set."
   },
   "SHARPSHOOTER": {
-    "english": "A character using the sharpshooter ability, usually indicated by the |sharpshooter| attack symbol."
+    "english": "A character using the sharpshooter ability, usually indicated by the |sharpshooter| attack symbol.",
+    "image": "sharpshooter"
   },
   "SHIP": {
     "english": "A ship is another name for a character; some character cards and game effects refer to “ships” without mentioning characters. The terms may be used synonymously. For example, an effect that says to target a ship may target a character, and vice versa."
   },
   "SPECIAL OBJECT": {
-    "english": "An object token or 3-D object printed with the |3d| symbol."
+    "english": "An object token or 3-D object printed with the |3d| symbol.",
+    "image": "threed"
   },
   "SPECIAL POWER": {
     "english": "A power whose name and effects are explained on a character’s character card."
@@ -401,11 +405,15 @@
   "SUCCESSFUL ATTACK ROLL": {
     "english": "An attack roll that grants an attack total high enough to equal or exceed the target’s defense value, regardless as to whether or not the target evades the attack."
   },
+  "SUCCESSFUL ROLL": {
+    "english": "When a player rolls one or more dice and the final result of the roll would activate a game effect."
+  },
   "SURVIVING CHARACTER": {
     "english": "A character that has not been defeated when a game ends."
   },
   "SWIMMER": {
-    "english": "A character using the Swim ability, usually indicated by the |swim| or |transSwim| speed symbols."
+    "english": "A character using the Swim ability, usually indicated by the |swim| or |transSwim| speed symbols.",
+    "image": "swim_transswim"
   },
   "TACTICS": {
     "english": "Additional rules and effects that can be employed in a game of HeroClix if allowed by the agreed-upon format of the game."
@@ -440,10 +448,14 @@
     "image":"trait"
   },
   "TRANSPORTER": {
-    "english": "A character using the Carry ability and Move and Attack ability usually indicated by the |transSpeed|, |transFlight|, or the |transSwim| speed symbol."
+    "english": "A character using the Carry ability and Move and Attack ability usually indicated by the |transSpeed|, |transFlight|, or the |transSwim| speed symbol.",
+    "image": "trans"
   },
   "ULTRA-HEAVY OBJECT": {
     "english": "An object that can only be carried by characters with a point value of 100 points or more. Ultra- Heavy objects modify a character’s damage value by +3 when used in a close combat attack; they may not be used in a ranged combat attack or placed with Telekinesis. Ultra Heavy object tokens have a purple border and are only destroyed if they are dealt 4 or more damage."
+  },
+  "ULTRA LIGHT OBJECT": {
+    "english": "An object that can be carried by any character. Ultra Light objects don’t modify a character’s damage value when used in a close combat attack; they deal 1 damage when used in a ranged combat attack or placed with Telekinesis. Ultra Light object tokens have a white border."
   },
   "UNAVOIDABLE DAMAGE": {
     "english": "Damage dealt that can’t be evaded, reduced, modified, ignored, or transferred to a different character."

@@ -84,7 +84,7 @@ public class RulesApplication extends Application {
 		this.language = language.toLowerCase(Locale.getDefault());
 		resetJsonObjects();
 	}
-	
+
 	private void resetJsonObjects() {
 		powerRules = null;
 		teamAbilitiesRules = null;
@@ -114,8 +114,7 @@ public class RulesApplication extends Application {
 			return powerRules;
 		} else if (category.equals("additional team abilities")) {
 			if (ataRules == null) {
-				ataRules = JSONParser.getJsonRule(this,
-						JSON_ATA);
+				ataRules = JSONParser.getJsonRule(this, JSON_ATA);
 			}
 			return ataRules;
 		} else if (category.equals("team abilities")) {
@@ -218,7 +217,8 @@ public class RulesApplication extends Application {
 				JSONArray array = json.getJSONArray(category);
 				String[] tmpArray = new String[array.length()];
 				for (int i = 0; i < array.length(); i++) {
-					tmpArray[i] = getPowerRuleNameBasedOnLanguage(array.getJSONObject(i));
+					tmpArray[i] = getPowerRuleNameBasedOnLanguage(array
+							.getJSONObject(i));
 				}
 				titles.put(category, tmpArray);
 			} catch (JSONException e) {
@@ -254,12 +254,11 @@ public class RulesApplication extends Application {
 	}
 
 	/*
-		Does not support power rule
+	 * Does not support power rule
 	 */
-	public JSONObject getRuleJSONBasedOnLanguage(int position, String title, String category)
-			throws JSONException {
-			JSONObject rule = getJSONRules(category).getJSONObject(title);
-		System.out.println(rule.toString(2));
+	public JSONObject getRuleJSONBasedOnLanguage(int position, String title,
+			String category) throws JSONException {
+		JSONObject rule = getJSONRules(category).getJSONObject(title);
 		if (rule.has(language)) {
 			return rule.getJSONObject(language);
 		} else {
@@ -291,23 +290,25 @@ public class RulesApplication extends Application {
 			return getTitles(category);
 		}
 	}
-	
-	private String getPowerRuleNameBasedOnLanguage(JSONObject rule) throws JSONException {
+
+	private String getPowerRuleNameBasedOnLanguage(JSONObject rule)
+			throws JSONException {
 		if (rule.has(language)) {
 			return rule.getJSONObject(language).getString(JSON_NAME);
 		} else {
 			return rule.getJSONObject(ENGLISH).getString(JSON_NAME);
 		}
 	}
-	
-	private String getPowerRuleBasedOnLanguage(JSONObject rule) throws JSONException {
+
+	private String getPowerRuleBasedOnLanguage(JSONObject rule)
+			throws JSONException {
 		if (rule.has(language)) {
 			return rule.getJSONObject(language).getString(JSON_TEXT);
 		} else {
 			return rule.getJSONObject(ENGLISH).getString(JSON_TEXT);
 		}
 	}
-	
+
 	private String getRuleBasedOnLanguage(JSONObject rule) throws JSONException {
 		if (rule.has(language)) {
 			return rule.getString(language);
