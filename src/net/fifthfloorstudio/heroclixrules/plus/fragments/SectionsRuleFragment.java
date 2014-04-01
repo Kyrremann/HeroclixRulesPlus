@@ -259,7 +259,7 @@ public class SectionsRuleFragment extends Fragment {
 
 		private SpannableStringBuilder createAta(int position) {
 			try {
-				JSONObject ata = application.getRuleJSON(position,
+				JSONObject ata = application.getRuleJSONBasedOnLanguage(position,
 						rules_array[position], category);
 
 				SpannableStringBuilder ruleText = new SpannableStringBuilder();

@@ -253,6 +253,20 @@ public class RulesApplication extends Application {
 		}
 	}
 
+	/*
+		Does not support power rule
+	 */
+	public JSONObject getRuleJSONBasedOnLanguage(int position, String title, String category)
+			throws JSONException {
+			JSONObject rule = getJSONRules(category).getJSONObject(title);
+		System.out.println(rule.toString(2));
+		if (rule.has(language)) {
+			return rule.getJSONObject(language);
+		} else {
+			return rule.getJSONObject(ENGLISH);
+		}
+	}
+
 	@SuppressWarnings("unchecked")
 	private String[] getTitles(String category) {
 		if (titles.get(category) == null) {
