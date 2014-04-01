@@ -21,6 +21,7 @@ import java.util.List;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.RuleListFragment;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.SectionsRuleFragment;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.StartScreenFragment;
+import net.fifthfloorstudio.heroclixrules.plus.utils.ChangelogUtil;
 import net.fifthfloorstudio.heroclixrules.plus.utils.RuleSelectedListener;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -59,8 +60,7 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	protected String[] mRulesTitles;
 	protected boolean toggle_images = false;
 	protected int selectedDrawer;
-	private AlertDialog donateDialog;
-	private AlertDialog aboutDialog;
+	private AlertDialog donateDialog, aboutDialog, changelogDialog;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -120,7 +120,7 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		// Handle action buttons
 		switch (item.getItemId()) {
 		case R.id.menu_about:
-			createAbout();
+			showAboutDialog();
 			break;
 		case R.id.menu_settings:
 			startActivityForResult(
@@ -129,10 +129,10 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 			selectItem(selectedDrawer);
 			break;
 		case R.id.menu_donate:
-			createDonate();
+			showDonateDialog();
 			break;
 		case R.id.menu_feedback:
-			createFeedback();
+			startFeedbackActivity();
 			break;
 		default:
 			return super.onOptionsItemSelected(item);
@@ -237,8 +237,7 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		}
 	}
 
-	private void createDonate() {
-		if (donateDialog == null) {
+	private void createDonateDialog() {
 			AlertDialog.Builder builder = new AlertDialog.Builder(this);
 			builder.setTitle("Donation");
 			builder.setMessage(R.string.donateText);
@@ -263,12 +262,9 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 					});
 
 			donateDialog = builder.create();
-		}
-		donateDialog.show();
 	}
 
-	public void createAbout() {
-		if (aboutDialog == null) {
+	public void createAboutDialog() {
 			AlertDialog.Builder builder = new AlertDialog.Builder(this);
 			builder.setTitle(R.string.about);
 			builder.setMessage(R.string.aboutText);
@@ -302,16 +298,28 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 
 						@Override
 						public void onClick(DialogInterface dialog, int which) {
-							createDonate();
+							showDonateDialog();
 						}
 					});
 
 			aboutDialog = builder.create();
-		}
-		aboutDialog.show();
 	}
 
-	private void createFeedback() {
+	private void createChangelogDialog() {
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setTitle(R.string.changelog);
+		builder.setView(ChangelogUtil.getChangelogView(this));
+		builder.setNeutralButton(android.R.string.ok,
+				new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						dialog.cancel();
+					}
+				});
+		changelogDialog = builder.create();
+	}
+
+	private void startFeedbackActivity() {
 		Intent intent = new Intent(Intent.ACTION_SEND);
 		intent.setType("plain/text");
 		intent.putExtra(Intent.EXTRA_EMAIL,
@@ -328,7 +336,7 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		startActivity(Intent.createChooser(intent, ""));
 	}
 
-	public void onPowerClicked(View v) {
+	public void onStartScreenClicked(View v) {
 		switch (v.getId()) {
 		case R.id.speed:
 			switchToPower("Speed powers");
@@ -345,8 +353,33 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		case R.id.instruction:
 			mDrawerLayout.openDrawer(GravityCompat.START);
 			break;
+		case R.id.changelog:
+			showChangelog();
+			break;
 		}
 	}
+
+	private void showChangelog() {
+		if (changelogDialog == null) {
+			createChangelogDialog();
+		}
+		changelogDialog.show();
+	}
+
+	private void showDonateDialog() {
+		if (donateDialog == null) {
+			createDonateDialog();
+		}
+		donateDialog.show();
+	}
+
+	private void showAboutDialog() {
+		if (aboutDialog == null) {
+			createAboutDialog();
+		}
+		aboutDialog.show();
+	}
+
 
 	private void switchToPower(String power) {
 		Fragment fragment = new RuleListFragment();

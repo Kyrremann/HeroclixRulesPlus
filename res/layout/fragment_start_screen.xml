@@ -24,28 +24,28 @@
             android:id="@+id/speed"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onPowerClicked"
+            android:onClick="onStartScreenClicked"
             android:src="@drawable/speed" />
 
         <ImageView
             android:id="@+id/attack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onPowerClicked"
+            android:onClick="onStartScreenClicked"
             android:src="@drawable/attack" />
 
         <ImageView
             android:id="@+id/defense"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onPowerClicked"
+            android:onClick="onStartScreenClicked"
             android:src="@drawable/defense" />
 
         <ImageView
             android:id="@+id/damage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onPowerClicked"
+            android:onClick="onStartScreenClicked"
             android:src="@drawable/damage" />
     </LinearLayout>
 
@@ -68,7 +68,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/power_row_spacer"
         android:clickable="true"
-        android:onClick="onPowerClicked"
+        android:onClick="onStartScreenClicked"
         android:text="@string/instruction"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -83,19 +83,32 @@
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:background="@android:color/darker_gray" />
 
+
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/instruction_spacer" >
+        android:layout_above="@+id/changelog"
+        android:layout_below="@+id/instruction_spacer"
+        android:id="@+id/scrollView">
 
-        <LinearLayout
-            android:id="@+id/layout_changelog"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
-        </LinearLayout>
+	    <TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:text="@string/front_page_news"/>
     </ScrollView>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="@string/see_changelog"
+		android:clickable="true"
+		android:id="@+id/changelog"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:onClick="onStartScreenClicked"/>
 
 </RelativeLayout>

@@ -64,5 +64,8 @@
     <string name="set">Set</string>
     <string name="type">Type</string>
 	<string name="keywords">Keywords</string>
+	<string name="see_changelog">See changelog</string>
+	<string name="changelog">Changelog</string>
+	<string name="front_page_news">The Spanish/Italian PAC and Core Rulebook will remain with the 2013 rules till Wizkids translate them</string>
 
 </resources>
