@@ -20,6 +20,7 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.view.View;
+import heroclix.Rules.R;
 
 @SuppressLint("NewApi")
 public class HeroclixRulesPlusHoneyComb extends HeroclixRulesPlus {

@@ -5,7 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import net.fifthfloorstudio.heroclixrules.plus.R;
+import heroclix.Rules.R;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -2,7 +2,7 @@ package net.fifthfloorstudio.heroclixrules.plus.fragments;
 
 import java.util.Iterator;
 
-import net.fifthfloorstudio.heroclixrules.plus.R;
+import heroclix.Rules.R;
 import net.fifthfloorstudio.heroclixrules.plus.utils.JSONParser;
 
 import org.json.JSONArray;

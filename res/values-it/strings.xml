@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Heroclix Rules</string>
+    <string name="package_name">heroclix.Rules</string>
+    <string name="e_mail">heroclix@fifthfloorstudio.net</string>
+    <string name="ffs">Fifth Floor Studio</string>
+    
 	<string name="front_page_news">Il Core Rulebook e le PAC in Spagnolo e Italiano rimarranno quelle del 2013 fino a che la Wizkids non le tradurrà</string>
 </resources>

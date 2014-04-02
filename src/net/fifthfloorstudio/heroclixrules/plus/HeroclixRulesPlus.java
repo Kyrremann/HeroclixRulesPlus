@@ -16,6 +16,7 @@
 
 package net.fifthfloorstudio.heroclixrules.plus;
 
+import heroclix.Rules.R;
 import java.util.List;
 
 import android.support.v4.app.*;

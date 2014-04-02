@@ -8,7 +8,7 @@ import java.util.Locale;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import net.fifthfloorstudio.heroclixrules.plus.R;
+import heroclix.Rules.R;
 import net.fifthfloorstudio.heroclixrules.plus.RulesApplication;
 
 import android.os.Bundle;

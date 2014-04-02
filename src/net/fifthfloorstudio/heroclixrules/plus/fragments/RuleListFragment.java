@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Locale;
 
-import net.fifthfloorstudio.heroclixrules.plus.R;
+import heroclix.Rules.R;
 import net.fifthfloorstudio.heroclixrules.plus.RulesApplication;
 import net.fifthfloorstudio.heroclixrules.plus.utils.RuleListArrayAdapter;
 import net.fifthfloorstudio.heroclixrules.plus.utils.RuleSelectedListener;

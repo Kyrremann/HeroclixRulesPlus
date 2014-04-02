@@ -8,6 +8,7 @@ import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 import android.view.WindowManager.LayoutParams;
+import heroclix.Rules.R;
 
 /**
  * A {@link PreferenceActivity} that presents a set of application settings. On

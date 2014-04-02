@@ -1,6 +1,6 @@
 package net.fifthfloorstudio.heroclixrules.plus.utils;
 
-import net.fifthfloorstudio.heroclixrules.plus.R;
+import heroclix.Rules.R;
 import net.fifthfloorstudio.heroclixrules.plus.SettingsActivity;
 import android.content.Context;
 import android.content.SharedPreferences;
