@@ -336,15 +336,19 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		switch (v.getId()) {
 		case R.id.speed:
 			switchToPower("Speed powers");
+			selectedDrawer = 0;
 			break;
 		case R.id.attack:
 			switchToPower("Attack powers");
+			selectedDrawer = 1;
 			break;
 		case R.id.defense:
 			switchToPower("Defense powers");
+			selectedDrawer = 2;
 			break;
 		case R.id.damage:
 			switchToPower("Damage powers");
+			selectedDrawer = 3;
 			break;
 		case R.id.instruction:
 			mDrawerLayout.openDrawer(GravityCompat.START);
