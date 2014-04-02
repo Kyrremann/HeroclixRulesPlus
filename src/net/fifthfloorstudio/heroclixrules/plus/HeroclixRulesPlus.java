@@ -18,6 +18,7 @@ package net.fifthfloorstudio.heroclixrules.plus;
 
 import java.util.List;
 
+import android.support.v4.app.*;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.RuleListFragment;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.SectionsRuleFragment;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.StartScreenFragment;
@@ -32,10 +33,6 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v4.app.ActionBarDrawerToggle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.view.Menu;
@@ -46,10 +43,13 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import static android.support.v4.app.FragmentManager.POP_BACK_STACK_INCLUSIVE;
+
 public class HeroclixRulesPlus extends FragmentActivity implements
 		RuleSelectedListener {
 
 	private static final int SETTINGS_ACTIVITY = 128;
+	private static final String STACK_TAG = "LIST";
 
 	protected DrawerLayout mDrawerLayout;
 	protected ListView mDrawerList;
@@ -61,6 +61,7 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	protected boolean toggle_images = false;
 	protected int selectedDrawer;
 	private AlertDialog donateDialog, aboutDialog, changelogDialog;
+	private int homeId;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -99,8 +100,6 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
 		createDrawer(savedInstanceState);
-
-		// mDrawerLayout.openDrawer(GravityCompat.START);
 	}
 
 	@Override
@@ -171,16 +170,28 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		fragment.setArguments(args);
 
 		FragmentManager fragmentManager = getSupportFragmentManager();
-		fragmentManager.popBackStack(null,
-				FragmentManager.POP_BACK_STACK_INCLUSIVE);
+		fragmentManager.popBackStack(STACK_TAG, POP_BACK_STACK_INCLUSIVE);
 		fragmentManager.beginTransaction()
 				.replace(R.id.content_frame, fragment, mRulesTitles[position])
+				.addToBackStack(STACK_TAG)
 				.commit();
 
 		// update selected item and title, then close the drawer
 		mDrawerList.setItemChecked(position, true);
 		setTitle(mRulesTitles[position]);
 		mDrawerLayout.closeDrawer(mDrawerList);
+	}
+
+	protected void createDrawer(Bundle savedInstanceState) {
+		// ActionBarDrawerToggle ties together the the proper interactions
+		// between the sliding drawer and the action bar app icon
+		mDrawerLayout.setDrawerListener(mDrawerToggle);
+
+		if (savedInstanceState == null) {
+			getSupportFragmentManager().beginTransaction()
+					.replace(R.id.content_frame, new StartScreenFragment())
+					.commit();
+		}
 	}
 
 	@Override
@@ -217,24 +228,9 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		args.putStringArray(SectionsRuleFragment.ARG_RULES, rules);
 		fragment.setArguments(args);
 		getSupportFragmentManager().beginTransaction()
-				.replace(R.id.content_frame, fragment).addToBackStack(null)
+				.replace(R.id.content_frame, fragment)
+				.addToBackStack(null)
 				.commit();
-	}
-
-	protected void createDrawer(Bundle savedInstanceState) {
-		// ActionBarDrawerToggle ties together the the proper interactions
-		// between the sliding drawer and the action bar app icon
-		mDrawerLayout.setDrawerListener(mDrawerToggle);
-
-		if (savedInstanceState == null) {
-			// selectItem(0);
-			Fragment fragment = new StartScreenFragment();
-			FragmentManager fragmentManager = getSupportFragmentManager();
-			fragmentManager.popBackStack(null,
-					FragmentManager.POP_BACK_STACK_INCLUSIVE);
-			fragmentManager.beginTransaction()
-					.replace(R.id.content_frame, fragment).commit();
-		}
 	}
 
 	private void createDonateDialog() {
@@ -388,10 +384,11 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		fragment.setArguments(args);
 
 		FragmentManager fragmentManager = getSupportFragmentManager();
-		fragmentManager.popBackStack(null,
-				FragmentManager.POP_BACK_STACK_INCLUSIVE);
+		fragmentManager.popBackStack(STACK_TAG, POP_BACK_STACK_INCLUSIVE);
 		fragmentManager.beginTransaction()
-				.replace(R.id.content_frame, fragment).commit();
+				.replace(R.id.content_frame, fragment)
+				.addToBackStack(STACK_TAG)
+				.commit();
 	}
 
 	@Override
