@@ -1,5 +1,6 @@
 package net.fifthfloorstudio.heroclixrules.plus.utils;
 
+import android.text.Spanned;
 import heroclix.Rules.R;
 import net.fifthfloorstudio.heroclixrules.plus.SettingsActivity;
 import android.content.Context;
@@ -313,10 +314,10 @@ public class StringUtils {
 					} else {
 						d.setBounds(0, 0, image_dp, image_dp);
 					}
-					ImageSpan myImage = new ImageSpan(d);
+					ImageSpan myImage = new ImageSpan(d, ImageSpan.ALIGN_BASELINE);
 					builder.setSpan(myImage, lengthOfPart, lengthOfPart + 1,
 							Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-					builder.append("");
+					builder.append(" ");
 				}
 			} else {
 				builder.append(tmp[i]);
