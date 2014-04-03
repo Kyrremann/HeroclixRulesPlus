@@ -34,6 +34,8 @@ public class RulesApplication extends Application {
 	private static final String JSON_HORDE_TOKENS_ERRATA = "horde_tokens_errata.json";
 	private static final String JSON_BFC = "bfc.json";
 	private static final String JSON_ATA = "ata.json";
+	private static final String JSON_RESOURCES = "resources.json";
+
 
 	public final static String JSON_NAME = "name";
 	public final static String JSON_TEXT = "text";
@@ -71,6 +73,7 @@ public class RulesApplication extends Application {
 	private JSONObject teamAbilitiesErrataRules;
 	private JSONObject hordeTokensErrataRules;
 	private JSONObject bfcRules;
+	private JSONObject resourcesRules;
 
 	private HashMap<String, String[]> titles;
 	private String language;
@@ -205,8 +208,15 @@ public class RulesApplication extends Application {
 				bfcRules = JSONParser.getJsonRule(this, JSON_BFC);
 			}
 			return bfcRules;
+		} else if (category.equals("resources")) {
+			if (resourcesRules == null) {
+				resourcesRules = JSONParser.getJsonRule(this, JSON_RESOURCES);
+			}
+			return resourcesRules;
 		}
 
+		// TODO Should not return null
+		// Maybe throw an exception that we can handle?
 		return null;
 	}
 

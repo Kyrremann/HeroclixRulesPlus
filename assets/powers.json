@@ -18,30 +18,30 @@
     {
       "english": {
         "name": "LEAP/CLIMB",
-        "text": "Give this character a move action and move it up to its speed value; during this movement, this character adds 2 to its d6 roll when breaking away and can use |impmov|, |ignet|, |ignht|, |ignobt|, |ignoc|. When you give this character a close combat action, it may target a character regardless of the target’s elevation."
+        "text": "Give this character a move action and move it up to its speed value; during this movement, this character adds 2 to its d6 roll when breaking away and can use |impmov|, |ignet|, |ignht|, |ignobt|, |doubleoarr|. When you give this character a close combat action, it may target a character regardless of the target’s elevation."
       },
       "spanish": {
         "name": "SALTAR/TREPAR",
-        "text": "Dale a este personaje una acción de movimiento; puede moverse hasta el máximo de su valor de movimiento: durante este movimiento suma 2 a su tirada para destrabar y puede utilizar |impmov|, |ignet|, |ignht|, |ignobt|, |ignoc|. Cuando des a este personaje una acción de combate cuerpo a cuerpo, puede atacar a otros personajes sin importar la elevación del objetivo."
+        "text": "Dale a este personaje una acción de movimiento; puede moverse hasta el máximo de su valor de movimiento: durante este movimiento suma 2 a su tirada para destrabar y puede utilizar |impmov|, |ignet|, |ignht|, |ignobt|, |doubleoarr|. Cuando des a este personaje una acción de combate cuerpo a cuerpo, puede atacar a otros personajes sin importar la elevación del objetivo."
       },
       "italian": {
         "name": "SALTARE/ARRAMPICARSI",
-        "text": "Assegna a questo personaggio un’azione di movimento fino al suo valore di velocità: questo personaggio può utilizzare |impmov|, |ignet|, |ignht|, |ignobt|, |ignoc|. durante questo movimento. Quando assegni a questo personaggio un’azione di combattimento e aggiunge 2 al suo tiro di disingaggio, puoi bersagliare un avversario a prescindere dalla sua quota."
+        "text": "Assegna a questo personaggio un’azione di movimento fino al suo valore di velocità: questo personaggio può utilizzare |impmov|, |ignet|, |ignht|, |ignobt|, |doubleoarr|. durante questo movimento. Quando assegni a questo personaggio un’azione di combattimento e aggiunge 2 al suo tiro di disingaggio, puoi bersagliare un avversario a prescindere dalla sua quota."
       },
       "image": "orange"
     },
     {
       "english": {
         "name": "PHASING/TELEPORT",
-        "text": "Give this character a move action and move it up to its speed value; this character can use |impmov|, |ignet|, |ignht|, |ignbt|, |ignoc| during this movement."
+        "text": "Give this character a move action and move it up to its speed value; this character can use |impmov|, |ignet|, |ignht|, |ignbt|, |chara| during this movement."
       },
       "spanish": {
         "name": "FASE/TELETRANSPORTE",
-        "text": "Dale a este personaje una acción de movimiento: puede moverse hasta el máximo de su valor de movimiento utilizando |impmov|, |ignet|, |ignht|, |ignbt|, |ignoc|."
+        "text": "Dale a este personaje una acción de movimiento: puede moverse hasta el máximo de su valor de movimiento utilizando |impmov|, |ignet|, |ignht|, |ignbt|, |chara|."
       },
       "italian": {
         "name": "FASE/TELETRASPORTO",
-        "text": "Assegna a questo personaggio un’azione di movimento e muovilo fino al suo valore di velocità, questo personaggio può utilizzare |impmov|, |ignet|, |ignht|, |ignbt|, |ignoc| durante questo movimento."
+        "text": "Assegna a questo personaggio un’azione di movimento e muovilo fino al suo valore di velocità, questo personaggio può utilizzare |impmov|, |ignet|, |ignht|, |ignbt|, |chara| durante questo movimento."
       },
       "image": "yellow"
     },
