@@ -6,5 +6,14 @@
 	"Update to the rules released 03.2014",
 	"Added more rule types, not seen before in the app; errata, resources, and general",
 	"Shortcut menu for the base powers"
+    ],
+    "3.0.1": [
+        "Added missing Team Base rule",
+        "Fixed typo in Leap and Climb rule",
+        "Added missing dice-values in Breaking away rule"
+    ],
+    "3.0.2": [
+        "Fixed a bug where some Samsung tablets would crash when trying to open the app"
+        "Added images to feats, objects, resources, and atas"
     ]
 }

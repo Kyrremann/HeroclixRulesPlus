@@ -223,8 +223,16 @@ public class StringUtils {
 				image = R.drawable.bolt;
 			} else if (tmp[i].equals("3d")) {
 				image = R.drawable.threed;
-			} else if (tmp[i].equals("tavengers")) {
-				image = R.drawable.taavengers;
+			} else if (tmp[i].equals("ta_avengers")) {
+				image = R.drawable.ta_avengers;
+			} else if (tmp[i].equals("ta_batman_ally")) {
+				image = R.drawable.ta_batman_ally;
+			} else if (tmp[i].equals("ta_teentitans")) {
+				image = R.drawable.ta_teen_titans;
+			} else if (tmp[i].equals("ta_hypertime")) {
+				image = R.drawable.ta_hypertime;
+			} else if (tmp[i].equals("ta_spider_man_ally")) {
+				image = R.drawable.ta_spider_man_ally;
 			} else if (tmp[i].equals("lotrbook"))
 				image = R.drawable.lotrbook;
 			else if (tmp[i].equals("lotrm"))
@@ -317,7 +325,7 @@ public class StringUtils {
 					ImageSpan myImage = new ImageSpan(d, ImageSpan.ALIGN_BASELINE);
 					builder.setSpan(myImage, lengthOfPart, lengthOfPart + 1,
 							Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-					builder.append(" ");
+					builder.append("");
 				}
 			} else {
 				builder.append(tmp[i]);

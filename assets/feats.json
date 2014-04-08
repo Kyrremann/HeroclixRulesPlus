@@ -380,7 +380,7 @@
   },
   "PYM PARTICLES": {
     "cost": "6",
-    "prerequisite": "|damage|,|tavengers|",
+    "prerequisite": "|damage|,|ta_avengers|",
     "english": "Choose a character. Once per game, choose one – the character has the damage symbol; or the character modifies its defense value by +1 against ranged combat attacks. The chosen effect lasts until the end of the game."
   },
   "RECHARGE": {

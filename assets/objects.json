@@ -380,7 +380,7 @@
     "type": "Immobile",
     "cost": "5",
     "relic": "4-6",
-    "english": "This character possesses |tabatman|. If character already possesses |tabatman| and is adjacent to a wall or square of a higher elevated terrain, lines of fire drawn to it are blocked when it is not your turn."
+    "english": "This character possesses |ta_batman_ally|. If character already possesses |ta_batman_ally| and is adjacent to a wall or square of a higher elevated terrain, lines of fire drawn to it are blocked when it is not your turn."
   },
   "BAT SIGNAL": {
     "type": "Heavy",
@@ -409,7 +409,7 @@
     "type": "Immobile",
     "cost": "5",
     "relic": "4-6",
-    "english": "This character possesses |tateen|. If this character already has |tateen|, it can use the team ability as a free action."
+    "english": "This character possesses |ta_teentitans|. If this character already has |ta_teentitans|, it can use the team ability as a free action."
   },
   "HARVEST STAFF": {
     "type": "Immobile",

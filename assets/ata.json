@@ -819,12 +819,12 @@
     "english": {
       "keywords": "Sinister Six",
       "cost": "3",
-      "text": "When a character using this team ability hits an opposing character, mark that character with a Sinister Six token. When a character using this team ability attacks an opposing character marked with one or more Sinister Six tokens, modify their attack value by +1 for each token. When attacking a single target with one or more Sinister Six tokens, if the target's name Spider-Man or possesses the Spider-Man Family keyword or the |ta_spiderman| symbol, modify this character's damage value by +1."
+      "text": "When a character using this team ability hits an opposing character, mark that character with a Sinister Six token. When a character using this team ability attacks an opposing character marked with one or more Sinister Six tokens, modify their attack value by +1 for each token. When attacking a single target with one or more Sinister Six tokens, if the target's name Spider-Man or possesses the Spider-Man Family keyword or the |ta_spider_man_ally| symbol, modify this character's damage value by +1."
     },
     "spanish": {
       "keywords": "Sinister Six",
       "cost": "3",
-      "text": "Cuando un personaje usando esta habilidad de equipo impacta a un personaje enemigo, marca a ese personaje con un marcador Seis Siniestros. Cuando un personajes usando esta habilidad de equipo ataca a un personaje enemigo marcado con uno o mas marcadores Seis Siniestros, modifica su valor de ataque con +1 por cada token. Cuando atacas a un solo objetivo con uno o mas marcadores Seis Siniestros, si ese objetivo se llama Spider-Man o posee la palabra clave Spider-man Family o el |ta_spiderman| simbolo, modifica el valor de daño del personaje en +1."
+      "text": "Cuando un personaje usando esta habilidad de equipo impacta a un personaje enemigo, marca a ese personaje con un marcador Seis Siniestros. Cuando un personajes usando esta habilidad de equipo ataca a un personaje enemigo marcado con uno o mas marcadores Seis Siniestros, modifica su valor de ataque con +1 por cada token. Cuando atacas a un solo objetivo con uno o mas marcadores Seis Siniestros, si ese objetivo se llama Spider-Man o posee la palabra clave Spider-man Family o el |ta_spider_man_ally| simbolo, modifica el valor de daño del personaje en +1."
     }
   },
   "OUTLAWS": {
@@ -1047,12 +1047,12 @@
     "english": {
       "keywords": "Spider-Man Family",
       "cost": "10*",
-      "text": "Characters using this team ability possess the Spider-Man team ability if they don't already, and may use the Spider-Man team ability to copy the team abilities of opposing characters as if they were friendly. Uncopyable. *(3 if the character has the |ta_spiderman| symbol)"
+      "text": "Characters using this team ability possess the Spider-Man team ability if they don't already, and may use the Spider-Man team ability to copy the team abilities of opposing characters as if they were friendly. Uncopyable. *(3 if the character has the |ta_spider_man_ally| symbol)"
     },
     "spanish": {
       "keywords": "Spider-Man Family",
       "cost": "10*",
-      "text": "Personajes usando esta habilidad de equipo poseen la habilidad de equipo Spider-Man si es que ya no la poseen, y pueden usar la habilidad de equipo Spider-Man para copiar la habilidad de equipo de personajes enemigos como si fueran aliados. Incopiable. *(3 si el personaje tiene el simbolo |ta_spiderman|)"
+      "text": "Personajes usando esta habilidad de equipo poseen la habilidad de equipo Spider-Man si es que ya no la poseen, y pueden usar la habilidad de equipo Spider-Man para copiar la habilidad de equipo de personajes enemigos como si fueran aliados. Incopiable. *(3 si el personaje tiene el simbolo |ta_spider_man_ally|)"
     }
   },
   "SQUADRON SUPREME": {
