@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="heroclix.Rules"
-	android:versionCode="77"
-    android:versionName="3.0.1" >
+	android:versionCode="78"
+    android:versionName="3.0.2" >
 
     <uses-sdk
         android:minSdkVersion="4"
