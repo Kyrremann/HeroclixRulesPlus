@@ -72,7 +72,7 @@ public class RuleListFragment extends Fragment implements OnItemClickListener {
 	@Override
 	public void onItemClick(AdapterView<?> arg0, View arg1, int position,
 			long arg3) {
-		mCallback.onRuleSelectedListener(position, rules_array);
+		mCallback.onRuleSelectedListener(position, rules_array, category);
 	}
 
 	public void notifyListChanged() {

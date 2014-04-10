@@ -163,8 +163,12 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		}
 	}
 
+	/**
+	 *
+	 // update the main content by replacing fragments
+	 * @param position in the drawer-list
+	 */
 	protected void selectItem(int position) {
-		// update the main content by replacing fragments
 		Fragment fragment = new RuleListFragment();
 		Bundle args = new Bundle();
 		args.putString(RuleListFragment.ARG_RULE_TITLE, mRulesTitles[position]);
@@ -221,17 +225,40 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	}
 
 	@Override
-	public void onRuleSelectedListener(int position, String[] rules) {
-		Fragment fragment = new SectionsRuleFragment();
-		Bundle args = new Bundle();
-		args.putString(SectionsRuleFragment.ARG_CATEGORY, mTitle.toString());
-		args.putInt(SectionsRuleFragment.ARG_RULE_POSITION, position);
-		args.putStringArray(SectionsRuleFragment.ARG_RULES, rules);
-		fragment.setArguments(args);
+	public void onRuleSelectedListener(int position, String[] rules, String category) {
+		// TODO Check if rule is a list rule, or a specific rule
+		Fragment fragment;
+		if (isRuleNestedHierarchy(rules[position], category)) {
+			fragment = changeToRuleListFragment(rules[position], category);
+		} else {
+			fragment = changeToSectionsRuleFragment(position, rules);
+		}
 		getSupportFragmentManager().beginTransaction()
 				.replace(R.id.content_frame, fragment)
 				.addToBackStack(null)
 				.commit();
+	}
+
+	private boolean isRuleNestedHierarchy(String rule, String category) {
+		return false;
+	}
+
+	private Fragment changeToRuleListFragment(String rule, String category) {
+		Fragment fragment = new RuleListFragment();
+		Bundle args = new Bundle(1);
+		args.putString(RuleListFragment.ARG_RULE_TITLE, rule);
+		fragment.setArguments(args);
+		return fragment;
+	}
+
+	private Fragment changeToSectionsRuleFragment(int position, String[] rules) {
+		Fragment fragment = new SectionsRuleFragment();
+		Bundle args = new Bundle(2);
+		args.putString(SectionsRuleFragment.ARG_CATEGORY, mTitle.toString());
+		args.putInt(SectionsRuleFragment.ARG_RULE_POSITION, position);
+		args.putStringArray(SectionsRuleFragment.ARG_RULES, rules);
+		fragment.setArguments(args);
+		return fragment;
 	}
 
 	private void createDonateDialog() {
