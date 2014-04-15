@@ -1,5 +1,7 @@
 package net.fifthfloorstudio.heroclixrules.plus.utils;
 
+import java.util.Locale;
+
 import net.fifthfloorstudio.heroclixrules.plus.RulesApplication;
 
 import org.json.JSONException;
@@ -47,7 +49,7 @@ public class RuleListArrayAdapter extends ArrayAdapter<String> implements
 			holder = (ViewHolder) convertView.getTag();
 		}
 
-		holder.item.setText(rules_array[position]);
+		holder.item.setText(rules_array[position].toUpperCase(Locale.ENGLISH));
 		int id;
 		try {
 			id = application.getImageIdForRuleIfExists(application.getRuleJSON(

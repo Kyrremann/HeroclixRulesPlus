@@ -1,0 +1,30 @@
+{
+  "ASSEMBLING YOUR FORCE": {
+    "General": {
+      "english": "In general, characters will comprise the bulk of your force. A force must include at least one character."
+    },
+    "BUILD TOTAL": {
+      "english": "The point value that each character has printed on its base is the number of points it costs to add that character to your force. All players should agree on the build total they will use when assembling their forces. The build total is the maximum value allowed when the point values of all characters and other elements of your force are added together. When building your force, you can choose characters and other elements whose point values add up to less than or equal to the build total—not more than the build total. For your first games using the Core Rules, all players should use a build total of 100 points. When you feel that you understand the rules, you can begin using build totals of 200, 300, or more points; build totals are usually in 100-point increments. Increasing the build total allows you to use more powerful characters and develop more complex strategies. HeroClix battles are best balanced with a 300-point build total, but greater build totals open up the potential for unlimited gaming power!"
+    },
+    "UNIQUE CHARACTERS": {
+      "english": "If a character is Unique, only one copy of that character can be part of your force. Unique characters have a silver ring on their bases (older Unique characters may have a gold or bronze ring). A force can't contain two Unique characters with the same name, the same set symbol, and the same collector's number. If a character is not Unique, you may include as many copies of it on your force as you wish, within the constraints of the force's build total."
+    },
+    "PRIME CHARACTERS": {
+      "english": "Characters with a green ring on their base are Prime characters. When building a force, you may only include one Prime character on it."
+    }
+  },
+  "PREPARING FOR BATTLE": {
+    "General": {
+      "english": "Once all players have assembled their forces, there are still a few steps to go through before the battle can begin."
+    },
+    "STEP 1: REVEAL FORCES AND ESTABLISH THE FIRST PLAYER": {
+      "english": "All players reveal their completed forces. Then, each player rolls 2d6 (reroll ties). The player with the highest total result gets to choose who will be the first player. When playing with more than 2 players, the player with the next highest total gets to choose who will be the second player, and so on.\tEach player turns the combat dial of each of his or her characters to the starting position. The starting position has a click number marked \"1\" and/or is the click to the right of the starting line.\tOnce a character's combat dial has been turned to its starting position, players can turn the dial only when directed to do so by a game effect, such as taking damage or healing."
+    },
+    "STEP 2: CHOOSE MAP AND STARTING AREAS": {
+      "english": " The first player chooses the map where the game will occur. After the first player chooses the map, the player to his or her left chooses the starting area—an area of squares inside a purple boundary line—where he or she will set up his or her force. If there are more than two players, continue clockwise around the table until everyone has chosen a different starting area. In two-player games, the chosen starting areas must always be on opposite sides of the map. If either player's force will not fit within the purple lines, all starting areas increase by one row and one column but can't overlap another player's starting area. Starting areas can be extended until each player's force will fit in their respective starting area."
+    },
+    "STEP 3: PLACE CHARACTERS": {
+      "english": "The first player places all of the characters on his or her force on the map in his or her starting area. The player to the first player's left then places all of his or her characters in his or her starting area. If there are more than two players, continue clockwise around the table until all players have placed their forces in their starting areas.\tYou will constantly pick up your characters during a game to look at or turn their dials; you may want to mark the square your character was in so that you always return it to the correct square.\tOnce Steps 1–3 are complete, play begins with the first player."
+    }
+  }
+}

@@ -16,12 +16,13 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
-public class RuleListFragment extends AbstractRuleFragment implements OnItemClickListener {
-
+public class NestedRuleFragment extends AbstractRuleFragment implements OnItemClickListener {
+	
 	private RuleSelectedListener mCallback;
 	private ListView listView;
+	private String nestedRule;
 
-	public RuleListFragment() {
+	public NestedRuleFragment() {
 		// Empty constructor required for fragment subclasses
 	}
 
@@ -30,6 +31,7 @@ public class RuleListFragment extends AbstractRuleFragment implements OnItemClic
 			Bundle savedInstanceState) {
 		View rootView = inflater.inflate(R.layout.fragment_rule_list, container,
 				false);
+		nestedRule = getArguments().getString(ARG_CATEGORY);
 		String title = getArguments().getString(ARG_RULE_TITLE);
 		getActivity().setTitle(title);
 
@@ -37,7 +39,7 @@ public class RuleListFragment extends AbstractRuleFragment implements OnItemClic
 		category = title.replaceAll(" powers", "").toLowerCase(
 				Locale.ENGLISH);
 		application = (RulesApplication) getActivity().getApplicationContext();
-		rules_array = application.getTitlesOfRules(category);
+		rules_array = application.getNestedRuleTitles(category, nestedRule);
 		rules_array = moveGeneralItemToTopOfArray(rules_array);
 		listView.setAdapter(new RuleListArrayAdapter(getActivity(),
 				R.layout.rules_with_image_row, R.id.rule_row, rules_array, category));
@@ -54,11 +56,11 @@ public class RuleListFragment extends AbstractRuleFragment implements OnItemClic
 	@Override
 	public void onItemClick(AdapterView<?> arg0, View arg1, int position,
 			long arg3) {
-		mCallback.onRuleSelectedListener(position, rules_array, category);
+		mCallback.onNestedRuleSelectedListener(position, rules_array, category, nestedRule);
 	}
 
 	public void notifyListChanged() {
-		rules_array = application.getTitlesOfRules(category);
+		rules_array = application.getNestedRuleTitles(category, nestedRule);
 		rules_array = moveGeneralItemToTopOfArray(rules_array);
 		listView.setAdapter(new RuleListArrayAdapter(getActivity(),
 				R.layout.rules_with_image_row, R.id.rule_row, rules_array, category));

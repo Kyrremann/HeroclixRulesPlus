@@ -1,6 +1,5 @@
 package net.fifthfloorstudio.heroclixrules.plus.utils;
 
-import android.text.Spanned;
 import heroclix.Rules.R;
 import net.fifthfloorstudio.heroclixrules.plus.SettingsActivity;
 import android.content.Context;

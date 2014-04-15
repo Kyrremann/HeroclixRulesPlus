@@ -16,10 +16,10 @@ import android.text.style.ImageSpan;
 
 public class RulesApplication extends Application {
 
-	public static final String JSON_POWERS = "powers.json";
-	public static final String JSON_TEAM_ABILITIES = "team_abilities.json";
-	public static final String JSON_GENERAL_RULES = "general.json";
-	public static final String JSON_ABILITIES = "abilities.json";
+	private static final String JSON_POWERS = "powers.json";
+	private static final String JSON_TEAM_ABILITIES = "team_abilities.json";
+	private static final String JSON_GENERAL_RULES = "general.json";
+	private static final String JSON_ABILITIES = "abilities.json";
 	private static final String JSON_FEATS = "feats.json";
 	private static final String JSON_MAPS = "maps.json";
 	private static final String JSON_MAPS_ERRATA = "maps_errata.json";
@@ -34,8 +34,8 @@ public class RulesApplication extends Application {
 	private static final String JSON_HORDE_TOKENS_ERRATA = "horde_tokens_errata.json";
 	private static final String JSON_BFC = "bfc.json";
 	private static final String JSON_ATA = "ata.json";
+	private static final String JSON_CORE_RULES = "core_rules.json";
 	private static final String JSON_RESOURCES = "resources.json";
-
 
 	public final static String JSON_NAME = "name";
 	public final static String JSON_TEXT = "text";
@@ -70,17 +70,22 @@ public class RulesApplication extends Application {
 	private JSONObject objectsErrataRules;
 	private JSONObject ataErrataRules;
 	private JSONObject glossaryRules;
+	private JSONObject coreRules;
 	private JSONObject teamAbilitiesErrataRules;
 	private JSONObject hordeTokensErrataRules;
 	private JSONObject bfcRules;
 	private JSONObject resourcesRules;
 
-	private HashMap<String, String[]> titles;
+	private HashMap<String, String[]> categoryTitles;
 	private String language;
 
 	public RulesApplication() {
 		language = ENGLISH;
-		titles = new HashMap<String, String[]>(4);
+		categoryTitles = new HashMap<String, String[]>(4);
+	}
+	
+	public String getLanguage() {
+		return language;
 	}
 
 	public void setLanguage(String language) {
@@ -96,19 +101,24 @@ public class RulesApplication extends Application {
 		mapsRules = null;
 		featsRules = null;
 		objectsRules = null;
-		powersErrataRules = null;
-		resourcesErrataRules = null;
-		abilitiesErrataRules = null;
 		mapsErrataRules = null;
 		objectsErrataRules = null;
 		ataErrataRules = null;
 		glossaryRules = null;
+		bfcRules = null;
+		coreRules = null;
 		teamAbilitiesErrataRules = null;
 		hordeTokensErrataRules = null;
-		bfcRules = null;
-		titles.clear();
+		powersErrataRules = null;
+		resourcesErrataRules = null;
+		abilitiesErrataRules = null;
+		categoryTitles.clear();
 	}
 
+	// TODO Could probably change all this to one large map,
+	// so I don't have to have all these objects
+	// The method should just search in the asset folder for a file,
+	// and then load it if it found it
 	public JSONObject getJSONRules(String category) {
 		if (isPowerRule(category)) {
 			if (powerRules == null) {
@@ -213,15 +223,19 @@ public class RulesApplication extends Application {
 				resourcesRules = JSONParser.getJsonRule(this, JSON_RESOURCES);
 			}
 			return resourcesRules;
+		} else if (category.equals("core rules")) {
+			if (coreRules == null) {
+				coreRules = JSONParser.getJsonRule(this, JSON_CORE_RULES);
+			}
+			return coreRules;
 		}
 
-		// TODO Should not return null
-		// Maybe throw an exception that we can handle?
-		return null;
+		throw new UnsupportedOperationException(
+				"Can't find rules with the name '" + category + "'");
 	}
 
 	public String[] getPowerRulesTitles(String category) {
-		if (titles.get(category) == null) {
+		if (categoryTitles.get(category) == null) {
 			JSONObject json = getJSONRules(category);
 			try {
 				JSONArray array = json.getJSONArray(category);
@@ -230,13 +244,13 @@ public class RulesApplication extends Application {
 					tmpArray[i] = getPowerRuleNameBasedOnLanguage(array
 							.getJSONObject(i));
 				}
-				titles.put(category, tmpArray);
+				categoryTitles.put(category, tmpArray);
 			} catch (JSONException e) {
 				e.printStackTrace();
 			}
 		}
 
-		return titles.get(category);
+		return categoryTitles.get(category);
 	}
 
 	public String getRuleText(int powerId, String title, String category) {
@@ -266,8 +280,8 @@ public class RulesApplication extends Application {
 	/*
 	 * Does not support power rule
 	 */
-	public JSONObject getRuleJSONBasedOnLanguage(int position, String title,
-			String category) throws JSONException {
+	public JSONObject getRuleJSONBasedOnLanguage(String title, String category)
+			throws JSONException {
 		JSONObject rule = getJSONRules(category).getJSONObject(title);
 		if (rule.has(language)) {
 			return rule.getJSONObject(language);
@@ -276,29 +290,53 @@ public class RulesApplication extends Application {
 		}
 	}
 
-	@SuppressWarnings("unchecked")
-	private String[] getTitles(String category) {
-		if (titles.get(category) == null) {
-			JSONObject json = getJSONRules(category);
-			System.out.println(json);
-			Iterator<String> keys = json.keys();
-			String[] tmpArray = new String[json.length()];
-			for (int i = 0; i < json.length(); i++) {
-				tmpArray[i] = keys.next();
-			}
-			Arrays.sort(tmpArray);
-			titles.put(category, tmpArray);
+	public JSONObject getRuleJSONBasedOnLanguage(JSONObject rule)
+			throws JSONException {
+		if (rule.has(language)) {
+			return rule.getJSONObject(language);
+		} else {
+			return rule.getJSONObject(ENGLISH);
 		}
-
-		return titles.get(category);
 	}
 
-	public String[] getRuleTitles(String category) {
+	private String[] getNormalRulesTitles(String category) {
+		if (categoryTitles.get(category) == null) {
+			JSONObject json = getJSONRules(category);
+			JSONObjectToArray(json, category);
+		}
+
+		return categoryTitles.get(category);
+	}
+
+	@SuppressWarnings("unchecked")
+	private void JSONObjectToArray(JSONObject json, String category) {
+		Iterator<String> keys = json.keys();
+		String[] tmpArray = new String[json.length()];
+		for (int i = 0; i < json.length(); i++) {
+			tmpArray[i] = keys.next();
+		}
+		Arrays.sort(tmpArray);
+		categoryTitles.put(category, tmpArray);
+	}
+
+	public String[] getTitlesOfRules(String category) {
 		if (isPowerRule(category)) {
 			return getPowerRulesTitles(category);
 		} else {
-			return getTitles(category);
+			return getNormalRulesTitles(category);
 		}
+	}
+
+	public String[] getNestedRuleTitles(String category, String nestedRule) {
+		try {
+			JSONObjectToArray(getJSONRules(nestedRule).getJSONObject(category),
+					category);
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		return categoryTitles.get(category);
 	}
 
 	private String getPowerRuleNameBasedOnLanguage(JSONObject rule)
@@ -319,7 +357,7 @@ public class RulesApplication extends Application {
 		}
 	}
 
-	private String getRuleBasedOnLanguage(JSONObject rule) throws JSONException {
+	public String getRuleBasedOnLanguage(JSONObject rule) throws JSONException {
 		if (rule.has(language)) {
 			return rule.getString(language);
 		} else {
@@ -327,7 +365,7 @@ public class RulesApplication extends Application {
 		}
 	}
 
-	private boolean isPowerRule(String category) {
+	public static boolean isPowerRule(String category) {
 		return category.equals("speed") || category.equals("attack")
 				|| category.equals("defense") || category.equals("damage");
 	}
@@ -379,5 +417,10 @@ public class RulesApplication extends Application {
 		}
 
 		return 0;
+	}
+
+	public int getImageIdForPowerRule(String imageName) {
+		return getResources().getIdentifier("pa_" + imageName, "drawable",
+				getPackageName());
 	}
 }

@@ -16,10 +16,13 @@
 
 package net.fifthfloorstudio.heroclixrules.plus;
 
+import static android.support.v4.app.FragmentManager.POP_BACK_STACK_INCLUSIVE;
 import heroclix.Rules.R;
+
 import java.util.List;
 
-import android.support.v4.app.*;
+import net.fifthfloorstudio.heroclixrules.plus.fragments.AbstractRuleFragment;
+import net.fifthfloorstudio.heroclixrules.plus.fragments.NestedRuleFragment;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.RuleListFragment;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.SectionsRuleFragment;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.StartScreenFragment;
@@ -34,6 +37,10 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.view.Menu;
@@ -43,8 +50,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
-import static android.support.v4.app.FragmentManager.POP_BACK_STACK_INCLUSIVE;
 
 public class HeroclixRulesPlus extends FragmentActivity implements
 		RuleSelectedListener {
@@ -62,7 +67,6 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	protected boolean toggle_images = false;
 	protected int selectedDrawer;
 	private AlertDialog donateDialog, aboutDialog, changelogDialog;
-	private int homeId;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +80,12 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 
 		mTitle = mDrawerTitle = getTitle();
 		mRulesTitles = getResources().getStringArray(R.array.rules_array);
+		initDrawer();
+
+		createDrawer(savedInstanceState);
+	}
+
+	private void initDrawer() {
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		mDrawerList = (ListView) findViewById(R.id.left_drawer);
 		mDrawerToggle = new ActionBarDrawerToggle(this, /* host Activity */
@@ -99,8 +109,6 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		mDrawerList.setAdapter(new ArrayAdapter<String>(this,
 				R.layout.drawer_list_item, mRulesTitles));
 		mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
-
-		createDrawer(savedInstanceState);
 	}
 
 	@Override
@@ -133,6 +141,9 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 			break;
 		case R.id.menu_feedback:
 			startFeedbackActivity();
+			break;
+		case R.id.menu_changelog:
+			showChangelog();
 			break;
 		default:
 			return super.onOptionsItemSelected(item);
@@ -171,7 +182,7 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	protected void selectItem(int position) {
 		Fragment fragment = new RuleListFragment();
 		Bundle args = new Bundle();
-		args.putString(RuleListFragment.ARG_RULE_TITLE, mRulesTitles[position]);
+		args.putString(AbstractRuleFragment.ARG_RULE_TITLE, mRulesTitles[position]);
 		fragment.setArguments(args);
 
 		FragmentManager fragmentManager = getSupportFragmentManager();
@@ -223,13 +234,27 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		// Pass any configuration change to the drawer toggle
 		mDrawerToggle.onConfigurationChanged(newConfig);
 	}
+	
+	@Override
+	public void onNestedRuleSelectedListener(int position, String[] rules, String category, String nestedRule) {
+		Fragment fragment = new SectionsRuleFragment();
+		Bundle args = new Bundle(2);
+		args.putString(SectionsRuleFragment.ARG_CATEGORY, mTitle.toString());
+		args.putInt(SectionsRuleFragment.ARG_RULE_POSITION, position);
+		args.putStringArray(SectionsRuleFragment.ARG_RULES, rules);
+		fragment.setArguments(args);
+		
+		getSupportFragmentManager().beginTransaction()
+		.replace(R.id.content_frame, fragment)
+		.addToBackStack(null)
+		.commit();
+	};
 
 	@Override
 	public void onRuleSelectedListener(int position, String[] rules, String category) {
-		// TODO Check if rule is a list rule, or a specific rule
 		Fragment fragment;
-		if (isRuleNestedHierarchy(rules[position], category)) {
-			fragment = changeToRuleListFragment(rules[position], category);
+		if (isRuleNestedHierarchy(category)) {
+			fragment = changeToNestedRuleFragment(rules[position], category);
 		} else {
 			fragment = changeToSectionsRuleFragment(position, rules);
 		}
@@ -239,13 +264,14 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 				.commit();
 	}
 
-	private boolean isRuleNestedHierarchy(String rule, String category) {
-		return false;
+	private boolean isRuleNestedHierarchy(String category) {
+		return category.equals("core rules");
 	}
 
-	private Fragment changeToRuleListFragment(String rule, String category) {
-		Fragment fragment = new RuleListFragment();
-		Bundle args = new Bundle(1);
+	private Fragment changeToNestedRuleFragment(String rule, String category) {
+		Fragment fragment = new NestedRuleFragment();
+		Bundle args = new Bundle(2);
+		args.putString(SectionsRuleFragment.ARG_CATEGORY, mTitle.toString());
 		args.putString(RuleListFragment.ARG_RULE_TITLE, rule);
 		fragment.setArguments(args);
 		return fragment;

@@ -33,15 +33,15 @@
     {
       "english": {
         "name": "PHASING/TELEPORT",
-        "text": "Give this character a move action and move it up to its speed value; this character can use |impmov|, |ignet|, |ignht|, |ignbt|, |chara| during this movement."
+        "text": "Give this character a move action and move it up to its speed value; this character can use |impmov|, |ignet|, |ignht|, |ignbt|, |chara| during this movement.\n\nBUG: Missing |chara|"
       },
       "spanish": {
         "name": "FASE/TELETRANSPORTE",
-        "text": "Dale a este personaje una acción de movimiento: puede moverse hasta el máximo de su valor de movimiento utilizando |impmov|, |ignet|, |ignht|, |ignbt|, |chara|."
+        "text": "Dale a este personaje una acción de movimiento: puede moverse hasta el máximo de su valor de movimiento utilizando |impmov|, |ignet|, |ignht|, |ignbt|, |chara|.\n\nBUG: Missing |chara|"
       },
       "italian": {
         "name": "FASE/TELETRASPORTO",
-        "text": "Assegna a questo personaggio un’azione di movimento e muovilo fino al suo valore di velocità, questo personaggio può utilizzare |impmov|, |ignet|, |ignht|, |ignbt|, |chara| durante questo movimento."
+        "text": "Assegna a questo personaggio un’azione di movimento e muovilo fino al suo valore di velocità, questo personaggio può utilizzare |impmov|, |ignet|, |ignht|, |ignbt|, |chara| durante questo movimento.\n\nBUG: Missing |chara|"
       },
       "image": "yellow"
     },
