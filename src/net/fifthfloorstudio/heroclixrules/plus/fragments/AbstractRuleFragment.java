@@ -12,6 +12,8 @@ public abstract class AbstractRuleFragment extends Fragment {
 	public static final String ARG_RULE_POSITION = "rule_position";
 	public static final String ARG_RULES = "rules_array";
 	public static final String ARG_CATEGORY = "rule_category";
+	public static final String ARG_NESTED_CATEGORY = "rule_nested_category";
+	public static final String ARG_OBJECT = "rule_object";
 	
 	protected static RulesApplication application;
 	protected static String[] rules_array;

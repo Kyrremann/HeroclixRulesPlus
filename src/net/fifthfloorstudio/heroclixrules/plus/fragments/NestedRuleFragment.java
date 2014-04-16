@@ -29,20 +29,19 @@ public class NestedRuleFragment extends AbstractRuleFragment implements OnItemCl
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		View rootView = inflater.inflate(R.layout.fragment_rule_list, container,
-				false);
-		nestedRule = getArguments().getString(ARG_CATEGORY);
-		String title = getArguments().getString(ARG_RULE_TITLE);
-		getActivity().setTitle(title);
-
+		View rootView = inflater.inflate(R.layout.fragment_rule_list,
+				container, false);
+		category = getArguments().getString(ARG_CATEGORY).toLowerCase(Locale.ENGLISH);
+		nestedRule = getArguments().getString(ARG_RULE_TITLE);
+		getActivity().setTitle(nestedRule);
 		listView = (ListView) rootView.findViewById(R.id.rules_list);
-		category = title.replaceAll(" powers", "").toLowerCase(
-				Locale.ENGLISH);
+		
 		application = (RulesApplication) getActivity().getApplicationContext();
 		rules_array = application.getNestedRuleTitles(category, nestedRule);
 		rules_array = moveGeneralItemToTopOfArray(rules_array);
 		listView.setAdapter(new RuleListArrayAdapter(getActivity(),
-				R.layout.rules_with_image_row, R.id.rule_row, rules_array, category));
+				R.layout.rules_with_image_row, R.id.rule_row, rules_array,
+				category));
 		listView.setOnItemClickListener(this);
 		return rootView;
 	}

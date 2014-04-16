@@ -11,7 +11,7 @@
   "Battle Map Removal": {
     "english": "Characters that are removed from the battle map are not affected by any game effects and may not use their own game effects except as stipulated by the effect removing them from the map."
   },
-  "battlefield condition": {
+  "Battlefield Condition": {
     "english": "Battlefield conditions change the environment of the battlefield. When assembling your force, you can include a single battlefield condition. A battlefield condition has no point value and does not count toward the point total of a force.\nDuring Step 2 of Preparing For Battle, after starting areas have been determined, all players reveal their battlefield condition card simultaneously.\nA battlefield condition alters the rules of the game as explained in its card text. Battlefield conditions affect only characters on the map. If multiple copies of a battlefield condition that causes a die (or dice) roll to occur are in play, roll the die (or dice) for each copy in play. If a player's force is defeated, his or her battlefield condition remains in effect until the end of the game."
   },
   "Breaking Away": {
@@ -50,8 +50,8 @@
   "Event Dials": {
     "english": "Event dials included as part of your force are still subject to having the approval of your opponents."
   },
-  "First-round immunity": {
-    "english": ""
+  "First-round Immunity": {
+    "english": "During the first round of the game, characters that have not been given an action, placed, or moved can't be targeted by opposing characters, knocked back, attacked, or damaged, unless a game effect that does so specifically states that it occurs at the beginning of the game."
   },
   "Free Actions": {
     "english": "If a game effect allows you to perform a specific power or ability as a free action, then that effect is not considered to be the type of action which would normally be given. (For example, when Zoom uses Flurry during Hypersonic Speed, there is no close combat action given.)\n\nFree actions may be used during the beginning of turn and during the end of turn.\n\nAny game effect that grants the character a free action can not use that free action to initiate the action that granted the free action in the first place, unless it specifies otherwise. (For example, the power action of Multiattack can't be used to give the character a power action for another Multiattack)."

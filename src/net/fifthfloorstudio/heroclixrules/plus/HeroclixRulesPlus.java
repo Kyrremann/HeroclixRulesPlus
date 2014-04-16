@@ -20,6 +20,7 @@ import static android.support.v4.app.FragmentManager.POP_BACK_STACK_INCLUSIVE;
 import heroclix.Rules.R;
 
 import java.util.List;
+import java.util.Locale;
 
 import net.fifthfloorstudio.heroclixrules.plus.fragments.AbstractRuleFragment;
 import net.fifthfloorstudio.heroclixrules.plus.fragments.NestedRuleFragment;
@@ -67,16 +68,17 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	protected boolean toggle_images = false;
 	protected int selectedDrawer;
 	private AlertDialog donateDialog, aboutDialog, changelogDialog;
+	private RulesApplication application;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		((RulesApplication) getApplication()).setLanguage(PreferenceManager
-				.getDefaultSharedPreferences(this).getString(
-						SettingsActivity.PREFS_LANGUAGE,
-						RulesApplication.ENGLISH));
+		application = (RulesApplication) getApplication();
+		application.setLanguage(PreferenceManager.getDefaultSharedPreferences(
+				this).getString(SettingsActivity.PREFS_LANGUAGE,
+				RulesApplication.ENGLISH));
 
 		mTitle = mDrawerTitle = getTitle();
 		mRulesTitles = getResources().getStringArray(R.array.rules_array);
@@ -234,26 +236,12 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 		// Pass any configuration change to the drawer toggle
 		mDrawerToggle.onConfigurationChanged(newConfig);
 	}
-	
-	@Override
-	public void onNestedRuleSelectedListener(int position, String[] rules, String category, String nestedRule) {
-		Fragment fragment = new SectionsRuleFragment();
-		Bundle args = new Bundle(2);
-		args.putString(SectionsRuleFragment.ARG_CATEGORY, mTitle.toString());
-		args.putInt(SectionsRuleFragment.ARG_RULE_POSITION, position);
-		args.putStringArray(SectionsRuleFragment.ARG_RULES, rules);
-		fragment.setArguments(args);
-		
-		getSupportFragmentManager().beginTransaction()
-		.replace(R.id.content_frame, fragment)
-		.addToBackStack(null)
-		.commit();
-	};
 
 	@Override
 	public void onRuleSelectedListener(int position, String[] rules, String category) {
 		Fragment fragment;
 		if (isRuleNestedHierarchy(category)) {
+			System.out.println("is " + category);
 			fragment = changeToNestedRuleFragment(rules[position], category);
 		} else {
 			fragment = changeToSectionsRuleFragment(position, rules);
@@ -269,9 +257,10 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	}
 
 	private Fragment changeToNestedRuleFragment(String rule, String category) {
+		System.out.println("nested fragment");
 		Fragment fragment = new NestedRuleFragment();
-		Bundle args = new Bundle(2);
-		args.putString(SectionsRuleFragment.ARG_CATEGORY, mTitle.toString());
+		Bundle args = new Bundle(5);
+		args.putString(SectionsRuleFragment.ARG_CATEGORY, mTitle.toString().toLowerCase(Locale.getDefault()));
 		args.putString(RuleListFragment.ARG_RULE_TITLE, rule);
 		fragment.setArguments(args);
 		return fragment;
@@ -279,12 +268,36 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 
 	private Fragment changeToSectionsRuleFragment(int position, String[] rules) {
 		Fragment fragment = new SectionsRuleFragment();
-		Bundle args = new Bundle(2);
-		args.putString(SectionsRuleFragment.ARG_CATEGORY, mTitle.toString());
+		Bundle args = new Bundle(4);
+		String category = mTitle.toString().replaceAll("\\spowers", "")
+				.toLowerCase(Locale.getDefault());
+		args.putString(SectionsRuleFragment.ARG_CATEGORY, category);
 		args.putInt(SectionsRuleFragment.ARG_RULE_POSITION, position);
 		args.putStringArray(SectionsRuleFragment.ARG_RULES, rules);
+		args.putString(AbstractRuleFragment.ARG_OBJECT, application.getJSONRules(category).toString());
 		fragment.setArguments(args);
 		return fragment;
+	}
+
+	@Override
+	public void onNestedRuleSelectedListener(int position, String[] rules,
+			String category, String nestedRule) {
+		System.out.println("Nested rule section");
+		Fragment fragment = new SectionsRuleFragment();
+		Bundle args = new Bundle(5);
+		category = category.toString().replaceAll("\\spowers", "")
+				.toLowerCase(Locale.getDefault());
+		args.putString(SectionsRuleFragment.ARG_CATEGORY, category);
+		args.putString(SectionsRuleFragment.ARG_NESTED_CATEGORY, nestedRule);
+		args.putInt(SectionsRuleFragment.ARG_RULE_POSITION, position);
+		args.putStringArray(SectionsRuleFragment.ARG_RULES, rules);
+		args.putString(AbstractRuleFragment.ARG_OBJECT, application
+				.getNestedJSONRules(category, nestedRule).toString());
+		fragment.setArguments(args);
+
+		getSupportFragmentManager().beginTransaction()
+				.replace(R.id.content_frame, fragment).addToBackStack(null)
+				.commit();
 	}
 
 	private void createDonateDialog() {

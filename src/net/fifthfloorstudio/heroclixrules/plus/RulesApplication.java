@@ -234,6 +234,18 @@ public class RulesApplication extends Application {
 				"Can't find rules with the name '" + category + "'");
 	}
 
+	public JSONObject getNestedJSONRules(String category, String nestedRule) {
+		JSONObject rules = getJSONRules(category);
+		try {
+			System.out.println(rules.getJSONObject(nestedRule.toUpperCase(Locale.ENGLISH)));
+			return rules.getJSONObject(nestedRule.toUpperCase(Locale.ENGLISH));
+		} catch (JSONException e) {
+			e.printStackTrace();
+			return new JSONObject();
+			// TODO Maybe all this return new should rather throw an exception?
+		}
+	}
+
 	public String[] getPowerRulesTitles(String category) {
 		if (categoryTitles.get(category) == null) {
 			JSONObject json = getJSONRules(category);
@@ -329,14 +341,14 @@ public class RulesApplication extends Application {
 
 	public String[] getNestedRuleTitles(String category, String nestedRule) {
 		try {
-			JSONObjectToArray(getJSONRules(nestedRule).getJSONObject(category),
-					category);
+			JSONObjectToArray(
+					getJSONRules(category).getJSONObject(
+							nestedRule.toUpperCase()), nestedRule.toUpperCase());
 		} catch (JSONException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
-		return categoryTitles.get(category);
+		return categoryTitles.get(nestedRule);
 	}
 
 	private String getPowerRuleNameBasedOnLanguage(JSONObject rule)

@@ -47,13 +47,16 @@ public class SectionsRuleFragment extends AbstractRuleFragment {
 			Bundle savedInstanceState) {
 		rootView = inflater.inflate(R.layout.fragment_rule_section, container,
 				false);
-		category = getArguments().getString(ARG_CATEGORY)
-				.replaceAll("\\spowers", "").toLowerCase(Locale.getDefault());
+		category = getArguments().getString(ARG_CATEGORY);
 		rules_array = getArguments().getStringArray(ARG_RULES);
 		rule_position = getArguments().getInt(ARG_RULE_POSITION);
+		try {
+			rules = new JSONObject(getArguments().getString(ARG_OBJECT));
+		} catch (JSONException e) {
+			e.printStackTrace();
+			rules = new JSONObject();
+		}
 		application = (RulesApplication) getActivity().getApplicationContext();
-		
-		rules = application.getJSONRules(category);
 
 		mSectionsPagerAdapter = new SectionsPagerAdapter(
 				getChildFragmentManager());
