@@ -240,8 +240,7 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	@Override
 	public void onRuleSelectedListener(int position, String[] rules, String category) {
 		Fragment fragment;
-		if (isRuleNestedHierarchy(category)) {
-			System.out.println("is " + category);
+		if (isRuleNestedHierarchy(rules[position], category)) {
 			fragment = changeToNestedRuleFragment(rules[position], category);
 		} else {
 			fragment = changeToSectionsRuleFragment(position, rules);
@@ -252,12 +251,12 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 				.commit();
 	}
 
-	private boolean isRuleNestedHierarchy(String category) {
-		return category.equals("core rules");
+	private boolean isRuleNestedHierarchy(String rule, String category) {
+		return category.equals("core rules")
+				&& application.isRuleNested(rule, category);
 	}
 
 	private Fragment changeToNestedRuleFragment(String rule, String category) {
-		System.out.println("nested fragment");
 		Fragment fragment = new NestedRuleFragment();
 		Bundle args = new Bundle(5);
 		args.putString(SectionsRuleFragment.ARG_CATEGORY, mTitle.toString().toLowerCase(Locale.getDefault()));
@@ -282,7 +281,6 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 	@Override
 	public void onNestedRuleSelectedListener(int position, String[] rules,
 			String category, String nestedRule) {
-		System.out.println("Nested rule section");
 		Fragment fragment = new SectionsRuleFragment();
 		Bundle args = new Bundle(5);
 		category = category.toString().replaceAll("\\spowers", "")

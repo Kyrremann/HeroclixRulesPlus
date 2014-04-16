@@ -50,6 +50,8 @@ public class RulesApplication extends Application {
 	public static final String JSON_SET = "set";
 	public static final String JSON_ID = "id";
 	public static final String JSON_KEYWORDS = "keywords";
+	public static final String JSON_IS_NESTED = "isNested";
+	public static final String JSON_RULES = "rules";
 
 	public final static String ENGLISH = "english";
 	public final static String SPANISH = "spanish";
@@ -235,14 +237,13 @@ public class RulesApplication extends Application {
 	}
 
 	public JSONObject getNestedJSONRules(String category, String nestedRule) {
-		JSONObject rules = getJSONRules(category);
 		try {
-			System.out.println(rules.getJSONObject(nestedRule.toUpperCase(Locale.ENGLISH)));
+			JSONObject rules = getJSONRules(category);
 			return rules.getJSONObject(nestedRule.toUpperCase(Locale.ENGLISH));
 		} catch (JSONException e) {
 			e.printStackTrace();
 			return new JSONObject();
-			// TODO Maybe all this return new should rather throw an exception?
+			// TODO Maybe all this 'return new' should rather throw an exception?
 		}
 	}
 
@@ -343,7 +344,8 @@ public class RulesApplication extends Application {
 		try {
 			JSONObjectToArray(
 					getJSONRules(category).getJSONObject(
-							nestedRule.toUpperCase()), nestedRule.toUpperCase());
+							nestedRule.toUpperCase()).getJSONObject(JSON_RULES),
+					nestedRule.toUpperCase());
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}
@@ -434,5 +436,14 @@ public class RulesApplication extends Application {
 	public int getImageIdForPowerRule(String imageName) {
 		return getResources().getIdentifier("pa_" + imageName, "drawable",
 				getPackageName());
+	}
+
+	public boolean isRuleNested(String nestedRule, String category) {
+		JSONObject rule = getNestedJSONRules(category, nestedRule);
+		try {
+			return rule.has(JSON_IS_NESTED) && rule.getBoolean(JSON_IS_NESTED);
+		} catch (JSONException e) {
+			return false;
+		}
 	}
 }

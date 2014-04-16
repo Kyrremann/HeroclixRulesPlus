@@ -12,6 +12,9 @@ import static net.fifthfloorstudio.heroclixrules.plus.utils.RuleSectionFactory.i
 import static net.fifthfloorstudio.heroclixrules.plus.utils.RuleSectionFactory.isObject;
 import heroclix.Rules.R;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Locale;
 
 import net.fifthfloorstudio.heroclixrules.plus.RulesApplication;
@@ -40,6 +43,7 @@ public class SectionsRuleFragment extends AbstractRuleFragment {
 	private static int rule_position;
 
 	public SectionsRuleFragment() {
+		rulesList = new ArrayList<String>();
 	}
 
 	@Override
@@ -48,13 +52,22 @@ public class SectionsRuleFragment extends AbstractRuleFragment {
 		rootView = inflater.inflate(R.layout.fragment_rule_section, container,
 				false);
 		category = getArguments().getString(ARG_CATEGORY);
-		rules_array = getArguments().getStringArray(ARG_RULES);
+		addToRulesList(getArguments().getStringArray(ARG_RULES)); // rulesList
 		rule_position = getArguments().getInt(ARG_RULE_POSITION);
 		try {
 			rules = new JSONObject(getArguments().getString(ARG_OBJECT));
 		} catch (JSONException e) {
 			e.printStackTrace();
 			rules = new JSONObject();
+		}
+		if (isRulesANestedRule(rules)) {
+			try {
+				rules = rules.getJSONObject(RulesApplication.JSON_RULES);
+			} catch (JSONException e) {
+				e.printStackTrace();
+			}
+		} else {
+			removeNestedRules(rulesList, rules);
 		}
 		application = (RulesApplication) getActivity().getApplicationContext();
 
@@ -66,6 +79,38 @@ public class SectionsRuleFragment extends AbstractRuleFragment {
 		mViewPager.setCurrentItem(rule_position, true);
 
 		return rootView;
+	}
+
+	private boolean isRulesANestedRule(JSONObject rules) {
+		return rules.has(RulesApplication.JSON_IS_NESTED);
+	}
+
+	private void addToRulesList(String[] array) {
+		for (String s : array) {
+			rulesList.add(s);
+		}
+	}
+
+	@SuppressWarnings("unchecked")
+	private void removeNestedRules(List<String> rulesList, JSONObject rules) {
+		List<String> keysToRemove = new ArrayList<String>();
+		Iterator<String> keys = rules.keys();
+		while (keys.hasNext()) {
+			String key = keys.next();
+			try {
+				JSONObject object = rules.getJSONObject(key);
+				if (object.has(RulesApplication.JSON_IS_NESTED)) {
+					keysToRemove.add(key);
+				}
+			} catch (JSONException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		for (String key : keysToRemove) {
+			rules.remove(key);
+			rulesList.remove(key);
+		}
 	}
 
 	public class SectionsPagerAdapter extends FragmentPagerAdapter {
@@ -86,12 +131,12 @@ public class SectionsRuleFragment extends AbstractRuleFragment {
 
 		@Override
 		public int getCount() {
-			return rules_array.length;
+			return rulesList.size();
 		}
 
 		@Override
 		public CharSequence getPageTitle(int position) {
-			return rules_array[position].toUpperCase(Locale.getDefault());
+			return rulesList.get(position).toUpperCase(Locale.getDefault());
 		}
 	}
 
@@ -117,7 +162,7 @@ public class SectionsRuleFragment extends AbstractRuleFragment {
 					false);
 			int position = getArguments().getInt(ARG_SECTION_NUMBER);
 			SpannableStringBuilder builder;
-			String title = rules_array[position];
+			String title = rulesList.get(position);
 			try {
 				
 				if (RulesApplication.isPowerRule(category)) {
