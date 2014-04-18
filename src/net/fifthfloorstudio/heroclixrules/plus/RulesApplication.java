@@ -36,6 +36,7 @@ public class RulesApplication extends Application {
 	private static final String JSON_ATA = "ata.json";
 	private static final String JSON_CORE_RULES = "core_rules.json";
 	private static final String JSON_RESOURCES = "resources.json";
+	private static final String JSON_TACTICS = "tactics.json";
 
 	public final static String JSON_NAME = "name";
 	public final static String JSON_TEXT = "text";
@@ -77,6 +78,7 @@ public class RulesApplication extends Application {
 	private JSONObject hordeTokensErrataRules;
 	private JSONObject bfcRules;
 	private JSONObject resourcesRules;
+	private JSONObject tacticsRules;
 
 	private HashMap<String, String[]> categoryTitles;
 	private String language;
@@ -114,6 +116,7 @@ public class RulesApplication extends Application {
 		powersErrataRules = null;
 		resourcesErrataRules = null;
 		abilitiesErrataRules = null;
+		tacticsRules = null;
 		categoryTitles.clear();
 	}
 
@@ -230,6 +233,11 @@ public class RulesApplication extends Application {
 				coreRules = JSONParser.getJsonRule(this, JSON_CORE_RULES);
 			}
 			return coreRules;
+		} else if (category.equals("tactics")) {
+			if (tacticsRules == null) {
+				tacticsRules = JSONParser.getJsonRule(this, JSON_TACTICS);
+			}
+			return tacticsRules;
 		}
 
 		throw new UnsupportedOperationException(
@@ -439,8 +447,8 @@ public class RulesApplication extends Application {
 	}
 
 	public boolean isRuleNested(String nestedRule, String category) {
-		JSONObject rule = getNestedJSONRules(category, nestedRule);
 		try {
+		JSONObject rule = getNestedJSONRules(category, nestedRule);
 			return rule.has(JSON_IS_NESTED) && rule.getBoolean(JSON_IS_NESTED);
 		} catch (JSONException e) {
 			return false;

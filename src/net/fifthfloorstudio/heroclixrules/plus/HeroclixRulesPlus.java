@@ -251,8 +251,9 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 				.commit();
 	}
 
+	// TODO Make this a static shared test?
 	private boolean isRuleNestedHierarchy(String rule, String category) {
-		return category.equals("core rules")
+		return SectionsRuleFragment.isCategoryANestedList(category)
 				&& application.isRuleNested(rule, category);
 	}
 

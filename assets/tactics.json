@@ -1,0 +1,88 @@
+{
+  "General": {
+    "english": "Tactics are optional elements of HeroClix that you can choose to play in your HeroClix games. Each brings new strategic depth and exciting opportunities to the game, but also additional rules and complexity.\n\tTactics should be added to your game only when you feel you've mastered all other aspects of the HeroClix rules. Even then, you and those you play with might want to add only one Tactic at a time, learning each in turn. Tactics covered in this section include:\n • Special Objects\n • Resources\n • Feats\n • Battlefield Conditions\n • Event Dials\n • Bystanders Tokens\n • Themed Teams"
+  },
+  "SPECIAL OBJECTS": {
+    "rules": {
+      "General": {
+        "english": "Special objects are objects (either tokens or 3-D objects) marked with the |threed| symbol. They represent items on the battlefield that create special effects or grant characters holding or using them special abilities. Regardless of which player places a special object, any player can use its abilities, and all players are subject to its effects. The abilities of the special object continue whether the object is being held or occupying a square, though some objects may specify that their effects are ignored when they are held. When a special object is held, it is considered to occupy the squares of the holding character.\n\tSpecial objects follow normal object rules but also have special effects that can impact nearby terrain and characters, or characters that hold them. Any or all of the objects on your force may be special objects, but each special object must not have the same name as any other special object on your force. Special objects may have a point value listed on their associated card, and cost that many points to add to your force.\n\tWhen placing objects at the start of the game, special objects must be placed 5 or more squares away from any player's starting area."
+      },
+      "RELICS": {
+        "english": "Certain immobile objects are listed as a \"Relic\". A relic will be listed with a range of numbers. Relics can't be destroyed.\n\tIf a character occupies the same square as a relic, that character may be given a power action to roll a d6 that can't be rerolled. This roll is called a relic roll. If the result of that roll is within the indicated range of numbers (or higher), the relic is assigned to that character, placed on that character's card, and the character will gain certain abilities, as described on the relic's card.\n\tWhen a character with a relic on their character card is defeated, place the relic in the square they last occupied.\n\tAt the end of the game, if an opponent's character has a relic on their card or all of your characters have been defeated, victory points for the relic are scored by your opponent."
+      }
+    },
+    "isNested": true
+  },
+  "RESOURCES": {
+    "english": "Resources are HeroClix dials that represent different and unique items from the character's universe. You may include one resource on your force and must pay any associated costs for including them in your force. The effects of each resource are defined on the resource's instruction card.\n\tWhen you include a resource on your force, you may not include any special objects on your force.\n\tResources are included in your force's build total. Although resources may be assigned to a character, it does not change that character's point value. When assigned to a character, victory points are awarded for the resource in the same way that the character's victory points are awarded. A resource included in your force can't be used by an opposing player, even if an assigned character becomes friendly to an opponent's force during the game."
+  },
+  "FEATS": {
+    "rules": {
+      "General": {
+        "english": "Feats are cards that can grant your characters additional game effects if they meet the prerequisites for use and you pay any associated costs for including them in your force. Feat cards indicate the feat's point value, any prerequisites required for a character to use the feat, modifiers the feat makes to a character's combat values, and a description of how to use the feat."
+      },
+      "ASSIGNING FEATS": {
+        "english": "If a feat requires you to choose one or more characters on your force when assigning the feat, you must make the choice when building your force; only the chosen characters will be able to use the feat during the game. When you assign a feat to a character, you must also include the feat's point value in your force's point total. Feats that do not require you to choose characters to be assigned to your force have their point value added to your force's point total.\n\tFeats included as part of your force can't be used by an opposing player, even if a character assigned a feat card becomes friendly to an opposing player's force during the game.\n\tA character can be assigned more than one feat but a character can't be assigned multiple copies of the same feat."
+      },
+      "THE 10% RULE": {
+        "english": "The combined point value of feats included in your force can be no more than 10% of the game's build total. For example, in a standard 300-point game, you are allowed a maximum of 30 points of feats in your force."
+      },
+      "USING FEATS": {
+        "english": "To use a feat, the character must possess or be able to use the game effects, powers, and abilities specified by the prerequisites of the feat. Combat values can't be modified to meet the prerequisites to use a feat. A character that already meets the prerequisites to use a feat can have its combat values modified as long as the modified combat values still meet the prerequisites to use the feat. If a prerequisite power, ability, or symbol has been countered or altered on a character by any game effect (such as the Earthbound or Outwit powers), the character can't use any feats that have them as a prerequisite. If a prerequisite power, ability, or symbol can only be used by a character through specific circumstances, then using the feat is limited only to those same circumstances. For example, if a character can use Ranged Combat Expert only when they occupy hindering terrain, then a feat with Ranged Combat Expert as a prerequisite can only be used by that character if it occupies hindering terrain.\n\tFeats activate in the same ways as powers and abilities. Feats that modify a character's combat values modify those values only when the character is using the feat."
+      },
+      "FEATS AND VICTORY POINTS": {
+        "english": "When the Feats Tactic is being used in a game, the game's victory points are calculated normally but with the following additions:\n\n • Feats assigned to chosen characters.\n\tIf a feat requires you to choose a character, remove the feat from the game when the chosen character is defeated and award victory points to the defeating player for the feat in the same way that victory points are awarded for the defeated character. If a feat requires you to choose two or more characters, remove the feat from the game when the last chosen character is defeated and award victory points to the defeating player for the feat in the same way that victory points were awarded for the last chosen defeated character.\n • Feats with variable point values.\n\tIf the total cost for a feat increases incrementally with each character to which it is assigned, each time an assigned character is defeated, assign victory points equal to that increment of the point value in the same way that victory points were awarded for that character.\n • Feats not assigned to a character.\n\tIf a feat does not require you to choose a character or characters, remove the feat from the game when all the characters on your force are defeated and award victory points to the defeating player for the feat in the same way that victory points were awarded for the last character defeated.\n • Feats removed from surviving characters.\n\tIf a feat is removed from the game and all the assigned characters are on the map, award victory points to the opposing player whose character most recently damaged the character to which the feat was assigned."
+      }
+    },
+    "isNested": true
+  },
+  "BATTLEFIELD CONDITIONS": {
+    "english": "Battlefield conditions change the environment of the battlefield. When assembling your force, you can include a single battlefield condition. A battlefield condition has no point value and does not count toward the point total of a force.\n\tDuring Step 2 of Preparing For Battle, after starting areas have been determined, all players reveal their battlefield condition card simultaneously.\n\tA battlefield condition alters the rules of the game as explained in its card text. Battlefield conditions affect only characters on the map. If multiple copies of a battlefield condition that causes a die (or dice) roll to occur are in play, roll the die (or dice) for each copy in play. If a player's force is defeated, his or her battlefield condition remains in effect until the end of the game."
+  },
+  "EVENT DIALS": {
+    "english": ""
+  },
+  "BYSTANDER TOKENS": {
+    "rules": {
+      "General": {
+        "english": "A bystander token is a character which does not have a combat dial. Although a bystander token has combat values and follows all rules for HeroClix characters, it does not click. If a bystander token takes any damage, it is defeated."
+      },
+      "HORDE TOKENS": {
+        "english": "Horde tokens are bystander tokens marked with the |lotrm| symbol. Unlike other characters, identical horde tokens (those with the same set symbol and collector number) can share a single square on the battlefield by being stacked, and when stacked they can use special powers called horde powers. Many horde powers scale with the number of tokens in the stack."
+      },
+      "STACKING AND UNSTACKING HORDE TOKENS": {
+        "english": "Two or more identical friendly horde tokens in the same square after actions resolve is a stack. A stack can contain up to the maximum number of horde tokens indicated on the token next to the |lotrm| symbol. Horde tokens may be stacked during their placement in the starting area at the beginning of the game during step 3 of Preparing for Battle. Horde tokens may only be stacked if they began the game on the same force. When a horde token or a stack enters a square occupied by an identical horde token/stack, you may choose to have the tokens merge into one stack. If a single horde token/stack merges into another stack, the action that caused the token/stack to move immediately ends and the stack is given the action token that the token/stack would have been given at the resolution of its action. Stacks that move through single horde tokens may continue their action normally.\n\tTwo stacks can also merge, but are still limited by the maximum stack size; any remaining tokens are placed in the last square the stack moved through before merging. When a single horde token joins or creates a stack, if the resulting stack is already marked with an action token (or two) do not place a token on the stack. Stacks break away normally; single horde tokens also need to break away when they are moving out of a stack.\n\tAs tokens and stacks merge into a single stack, any game effects with an ongoing duration that are affecting the token or stack are now affecting the stack. In the cases where this causes an illegal condition (e.g., holding two objects), the token or stack joining the stack has the game effect end as it joins the stack (e.g., the second object would be dropped).\n\tIf a stack has not yet been assigned an action token during a turn, an individual horde token in the stack may unstack. Give the horde token a move action to leave the stack and move away. When a token leaves a stack, any game effects affecting the stack no longer affect the token."
+      },
+      "STACKS ON THE BATTLEFIELD": {
+        "english": "A stack of horde tokens is considered a single character for all purposes. When a stack takes damage from an attack, regardless of the amount of damage taken, remove only one token from the stack. When any other damage is dealt to the stack, remove one token for each click of damage. The token removed from the stack is defeated. A stack of horde tokens has a point value equal to the total point value of all horde tokens in the stack. A stack can't be carried."
+      },
+      "HORDE POWERS": {
+        "english": "Horde powers are explained on the back of horde tokens. When the |lotrs| symbol appears in the text of a horde power, it refers to the current number of tokens in the stack. When the |lotrm| symbol appears in the text of a horde power, it refers to the maximum number of tokens that stack can have. When the phrase \"When |lotrm|\" appears in the text of a horde power, it refers to a power than can only be used if the current number of tokens in the stack is the maximum allowed."
+      },
+      "EPIC HORDES": {
+        "english": "In epic battles, defeated horde tokens are removed from the battlefield as normal but have a chance to return. At the beginning of each player's turn, that player may place horde tokens previously removed from the battlefield back onto the battlefield in that player's starting area. For each 100 points of the game's build total, a player may return two horde tokens to the battlefield at the beginning of their turn, to a maximum of 50 total points of tokens per turn. You may return them directly into a stack if the stack is in that player's starting area and has less than |lotrm| tokens in the stack. In an epic battle, if a player has only horde tokens remaining on the battlefield at the end of any turn, all of their horde tokens are immediately defeated."
+      }
+    },
+    "isNested": true
+  },
+  "THEMED TEAMS": {
+    "rules": {
+      "General": {
+        "english": "Themed teams are forces of HeroClix characters in which all characters share at least one common keyword among the keywords listed on their character cards. Keywords are not case sensitive. Bystander tokens can be included in your force although they do not have keywords, but they are not considered \"characters\" for the purpose of bonuses or counting characters for qualifications described below. A keyword can either be generic or named. Generic keywords appear on the character card in italics (or appear on the list on page 28). Any keyword that is not a generic keyword is a named keyword. In order for a force to be considered a themed team, your force must include at least 2 characters and they must have the shared keyword before the beginning of the game. Once a force is considered a themed team, it remains a themed team until the end of the game, even if the characters on your force no longer meet the criteria of a themed team."
+      },
+      "Initiative Bonus": {
+        "english": "When rolling to establish who will be the first player, the player using a themed team gets a +1 bonus to the roll for each character possessing the shared keyword on that player's force."
+      },
+      "Additional Team Abilities (ATA)": {
+        "english": "Additional Team Ability (ATA) cards can be added to your force when it is a themed team. Each ATA card indicates the cost per character that must be added to your force in order to use it in the game; all characters that meet the prerequisites must be assigned the ATA and your force's build total is affected accordingly. ATA cards provide either different or additional team abilities to the qualifying characters on your force. These team abilities are possessed by the qualifying characters and can be used by wild cards (unless the ATA specifies otherwise). A force may only include one ATA card."
+      },
+      "TIP!": {
+        "english": "Although ATA cards use a keyword as a prerequisite, it is not required that the themed team's shared keyword be the same keyword as the ATA!"
+      },
+      "Themed Team Probability Control (TTPC)": {
+        "english": "When your force is a named themed team, it can use TTPC. TTPC allows any character on a named themed team to use Probability Control. This use of Probability Control does not count towards any other game effects that reference the use of Probability Control (such as meeting prerequisites for feats). The number of times you may use TTPC during a game is equal to the number of characters on your force at the beginning of the game, up to 1 per 100 points of the game's build total. In addition, characters using TTPC:\n • Must possess the keyword that establishes the theme of the force.\n • Must not have already been given a non-free action this turn.\n • Must not be able to use Probability Control through another game effect.\n • Must not have used Probability Control in this way earlier in the turn.\n • Must immediately be given an action token (this does not affect your Action Total for the turn)."
+      }
+    },
+    "isNested": true
+  }
+}

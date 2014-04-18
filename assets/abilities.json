@@ -1,86 +1,142 @@
 {
-	"Capture":{
-		"english":"Give this character a power action and make a close combat attack that deals no damage against a single opposing character with the |damage| or |tiny| damage symbol; targets that can use Phasing/Teleport or Plasticity modify their defense values by +2 for the attack. If the attack succeeds, the target character is captured and is called a captive.\n\nRemove a captive from the battlefield until it is rescued (see below).\n\nIf this character has three captives, it can't capture another character until at least one of the captives is rescued or released (see below), and it can't make close combat attacks.\n\nIf this character has any captives when it is knocked out, before removing this character from the game, each captive is rescued (see below) by the active player..\n\nRELEASING CAPTIVES\nWhen it occupies its starting area, this character can be given a power action to release one of its captives into an adjacent unoccupied square also in the starting area. A released captive is immediately defeated, and this character's player receives additional victory points for the released captive equal to 50 points or the released captive's point value, whichever is less.\n\nRESCUING CAPTIVES\nCharacters friendly to a captive can attempt to rescue that captive. To do so, give a friendly character a power action; it makes a close combat or ranged combat attack that deals no damage against the target character that captured the captive. The target modifies its defense value by –1 for the attack for each of its captives. If the attack succeeds, the attacker chooses a friendly captive. The captive is rescued and put into an unoccupied square adjacent to the target of the attack. The rescued character now has one action token regardless of how many it was previously assigned; it can be given an action in the same turn it is rescued, but it is pushed normally.\n\nCOUNTERING CAPTURE\nWhen Capture would be countered, roll 2d6; if the result of the roll is not doubles, Capture is not countered. If Capture is countered, all captives of this character are rescued immediately."
-	},
-	"Carry":{
-		"english":"When moving as a result of being given an action, this character may carry one friendly character. When this ability is used, modify this character's speed value by –2 until the end of the action. The following characters can't be carried: larger characters, multi-based characters, characters holding an object, and characters with any of the following combat symbols: |transSpeed|, |flight|, |transFlight|, |transSwim|, |duo|. To be carried, the friendly character must be adjacent to this character at the beginning of this character's action. When this character ends its movement for the action, the carried character must be placed in a square adjacent to this character. While being carried, a carried character is not adjacent to any other character, nor can it draw a line of fire until placed at the end of this character's movement for the action. A character which has been carried this turn can't be given an action (other than a free action) until the beginning of the next turn."
-	},
-	"Colossal Stamina":{
-		"english":"This character automatically breaks away and can use |imptar| |doubleoarr|. When this character has two action tokens, it can be given a non-free action. If you do, after actions resolve deal it 1 unavoidable damage and do not clear action tokens from it at the end of the turn. This ability can't be countered."
-	},
-	"Duo Attack":{
-		"english":"Give this character a power action to make a duo attack. This character possesses |lightning| for this action. It makes 2 combat attacks (close and/or ranged) as free actions.",
-		"image":"duo"
-	},
-	"Flight":{
-		"english":"This character can use |impmov| |ignet|, |ignht|, |ignobt|, |doubleoarr|. An elevated character using this ability ignores knock back damage if its knock back path crosses the boundary to a lower level.",
-		"image":"flight"
-	},
-	"Flight (transporter)":{
-		"english":"As well as the regular flight ability this character can use the Carry ability and Move and Attack ability. This is indicated by the black circle behind the symbol.",
-		"image":"transflight"
-	},
-	"Giant Reach":{
-		"english":"This character adds 1 to its d6 roll when breaking away. This character can use the Carry ability. When this character is given an action that includes a close combat attack, all squares within a range of 2 and line of fire are considered adjacent. This ability can’t be countered."
-	},
-	"Great Size":{
-		"english":"This character ignores opposing character's Plasticity, can use |impmov| |ignet|, |ignht|, |ignobt|, |doubleoarr| and can't be knocked back. When this character makes a close combat attack, it may target characters on higher elevations. This character may draw lines of fire (and have lines of fire drawn to it) as if the character occupied the elevation equal to or greater than the elevation it occupies, using the elevation level with the least restrictive line of fire. This ability can't be countered."
-	},
-	"Improved Movement":{
-		"english":"A character with the |impmov| symbol uses the effects indicated by its character card. Improved Movement activates whenever the character moves.\n\n|ignet| - Ignores elevated terrain.\n|ignht| - Ignores hindering terrain.\n|ignwt| - Ignores water terrain.\n|ignbt| - Ignores blocking terrain.\n|ignibt| - Ignores indoor terrain.\n|ignobt| - Ignores outdoor blocking terrain.\n|igndmg| - Ignores blocking terrain and destroys blocking terrain as the character moves through it.\n|chara| - Ignores characters.\n|ignfc| - --.\n|ignoc| - Ignores opposing characters.\n|doubleo| - May move through squares adjacent to opposing characters but still needs to break away normally.\n|doubleoarr| - May move through squares adjacent to or occupied by opposing characters but still needs to break away normally.",
-		"image":"impmov"
-	},
-	"Improved Targeting":{
-		"english":"A character with the |imptar| symbol uses the effects indicated by its character card. Improved Targeting activates whenever the character draws a line of fire.\n\n|ignet| - Ignores elevated terrain.\n|ignht| - Ignores hindering terrain.\n|ignwt| - Ignores water terrain.\n|ignbt| - Ignores blocking terrain.\n|ignibt| - Ignores indoor blocking terrain.\n|ignobt| - Ignores outdoor blocking terrain.\n|igndmg| - Ignores blocking terrain. When a ranged combat attack resolves, any blocking terrain along its line of fire to the target is destroyed.\n|chara| - Ignores characters.\n|ignfc| - Ignores friendly characters.\n|ignoc| - Ignores opposing characters.\n|doubleo| - May make a ranged combat attack targeting adjacent opposing characters.\n|doubleoarr| - May make a ranged combat attack while adjacent to an opposing character.",
-		"image":"imptar"
-	},
-	"Indomitable":{
-		"english":"This character can use Willpower.",
-		"image":"indomitable"
-	},
-	"Merge":{
-		"english":"When this character is adjacent to other friendly characters that each represent one distinct qualifying character listed on a Duo character's character card and all of them have no action tokens, give this character a free action to replace all of them with that Duo character, the same number of clicks from its starting line as this character. The combined point value of the qualifying characters must be equal to or greater than the point value of the Duo character (unless that Duo character previously used the Split ability to be replaced by these same characters). The Duo character can't use the Split ability this turn. This ability can't be countered."
-	},
-	"Move and Attack":{
-		"english":"This character can use Hypersonic Speed if it is not adjacent to an opposing character when given the power action, but its attack value is modified by -2."
-	},
-	"Multiattack":{
-		"english":"Give this character a power action. It can be given any two actions as free actions. This ability can't be countered."
-	},
-	"Ram":{
-		"english":"Give this character a move action; it may only move along a straight horizontal or vertical path and it can't change its orientation. After actions resolve, make a close combat attack as a free action that targets all opposing characters that were moved through. Each hit character is dealt this character's damage value and deal this character 1 unavoidable damage for each 100 points of characters dealt damage during the movement."
-	},
-	"Speed (transporter)":{
-		"english":"As well as the regular speed ability this character can use the Carry ability and Move and Attack ability. This is indicated by the black circle behind the symbol.",
-		"image":"transspeed"
-	},
-	"Sharpshooter":{
-		"english":"This character can use |imptar| |ignoc|, |doubleo|.",
-		"image":"sharpshooter"
-	},
-	"Split":{
-		"english":"Give this character a power action if it has no action tokens. Replace this character with one or more qualifying characters each from a different entry listed on this character's character card. The qualifying replacement character(s) must have either qualifying name and total no more than this character's point value (unless those characters previously used the Merge ability to be replaced by this character). Replacement character(s) are assigned an action token and can't be given an action this turn. Replacement character(s) begin a number of clicks from their starting line equal to the number of clicks from this character's starting line. This ability can't be countered."
-	},
-	"Swim":{
-		"english":"This character can use |impmov| |ignwt|.",
-		"image":"swim"
-	},
-	"Swim (transporter)":{
-		"english":"As well as the regular swim ability this character can use the Carry ability and Move and Attack ability. This is indicated by the black circle behind the symbol.",
-		"image":"transswim"
-	},
-	"Team Bases": {
-		"english":"WORKING TOGETHER\nGive this character a power action and it may be given one action as a free action for every 100 200 points or fraction thereof of its point value. These free actions may be used for any action, but you may only give the character up to 1 move action, up to 1 power action, up to 1 close combat action, and up to 1 ranged combat action. Any number of these free actions may be used to make either a close or ranged combat attack.\n\nSOLO ADVENTURE\nGive this character a power action, remove any team member from the team and insert it into its SwitchClix base. The character is placed adjacent to the team on its SwitchClix base turned to the first click with a click number color that matches the team’s current click number color. If removing the team member from the team would mean that the total point value of removed team members exceeds the point value of the team, then the team member can’t be removed. When a removed character has multiple starting lines, its point value is considered to be the first printed starting line other than an orange starting line preceding the click it is on when placed on the map. Its actual starting line will be the click number on which the character entered play.\n\nTEAM COORDINATION\nWhen counting characters for a themed team do not count the team as a character, instead each team member counts as a character. If the team is part of a themed team, instead of normal themed team initiative bonuses, it grants a +1 bonus to the initiative roll for every 100 points of its point value, or fraction thereof. At the beginning of the game when a team is part of a themed team, choose: Themed Team Probability Control can be used normally or it can’t be used and the team can use Probability Control."
-	},
-	"Tiny Size":{
-		"english":"Modify this character's defense value by +1 against ranged combat attacks. A friendly character that is larger and adjacent can use the Carry ability to carry up to one |tiny| character regardless of its other combat symbols, does not reduce its speed value for doing so and can continue to use the Carry ability if it can normally. This ability can't be countered.",
-		"image":"tiny"
-	},
-	"Throw Grenade":{
-		"english":"Give the character a power action, decrease the number of grenades in your grenade pool by 1 (if greater than 0), and choose a type of grenade listed on the character's character card. Choose a target square within 5 squares and line of fire and for this attack, this character can use |imptar| |chara|. Make a ranged combat attack targeting all characters occupying or adjacent to the target square. Deal damage to each character hit based only on the type of grenade chosen.\n\nFLASHBANG (no damage): The target square for this grenade can be within 8 squares. Place an action token on all hit characters that have zero tokens.\n\nFRAG (2 damage): A hit character in the target square is dealt 1 additional damage. Each other hit character is knocked back from the target square.\n\nINK (1 penetrating damage): Place a hindering terrain marker in the target square. At the beginning of your next turn, deal 1 additional penetrating to each character occupying the target or adjacent squares, then remove the marker.\n\nPLASMA (no damage): Mark a hit character in the target square. At the beginning of your next turn, deal 2 damage to the character marked in this way and 1 damage to all adjacent characters that are friendly to that character.\n\nSMOKE (1 damage): Place a hindering terrain marker in the target square and up to two adjacent squares. Remove them at the beginning of your next turn. Characters occupying squares with these markers can't make ranged attacks.\nTHERMITE (1 damage): Destroy up to 3 squares of blocking terrain or walls adjacent to the target square."
-	},
-  "Vehicles": {
-    "english": "VEHICLES\nA vehicle is a HeroClix character marked with the |wheel| defense symbol. Vehicles can be played in one of two modes, Autopilot and Piloted, each with its own point value. You must choose which mode the vehicle will be played in when building your force. A vehicle can use the Carry ability, but does not modify its speed value from it and can carry up to the maximum number of friendly characters indicated on the vehicle's base next to the (passenger) symbol. When using the Carry ability, vehicles ignore the combat symbols of friendly characters. Vehicles can use |impmov| |ignht|, |chara|, and |imptar| |doubleo|. A vehicle can't be dealt damage through the Mastermind power, can't be assigned a Resource or Relic, and can't be the pilot of another vehicle.\n\nPILOTED VEHICLES\nA friendly character adjacent to a vehicle in Piloted mode can be given a free action to become the vehicle's pilot. A pilot must have the |attack| or |sharpshooter| symbol printed on their base, must be the same size as the vehicle or smaller, can't use Battle Fury, and must have begun the game friendly to the vehicle's force. A vehicle in Piloted mode may only have one pilot at a time. A character who becomes a vehicle's pilot is removed from the battlefield and placed on the vehicle's character card; all of a pilot's powers and abilities are ignored, unless a game effect specifies it activates when the character is a pilot. When a character becomes its pilot, the vehicle may not be given an action until your next turn. A vehicle may have additional traits called Pilot Abilities. When a pilot matches any prerequisite listed for a pilot ability, the vehicle possesses that trait",
+  "CAPTURE": {
+    "rules": {
+      "General": {
+        "english": "Give this character a power action and make a close combat attack that deals no damage against a single opposing character with the |damage| or |tiny| damage symbol; targets that can use Phasing/Teleport or Plasticity modify their defense values by +2 for the attack. If the attack succeeds, the target character is captured and is called a captive.\n\nRemove a captive from the battlefield until it is rescued (see below).\n\nIf this character has three captives, it can't capture another character until at least one of the captives is rescued or released (see below), and it can't make close combat attacks.\n\nIf this character has any captives when it is knocked out, before removing this character from the game, each captive is rescued (see below) by the active player..."
+      },
+      "RELEASING CAPTIVES": {
+        "english": "When it occupies its starting area, this character can be given a power action to release one of its captives into an adjacent unoccupied square also in the starting area. A released captive is immediately defeated, and this character's player receives additional victory points for the released captive equal to 50 points or the released captive's point value, whichever is less."
+      },
+      "RESCUING CAPTIVES": {
+        "english": "Characters friendly to a captive can attempt to rescue that captive. To do so, give a friendly character a power action; it makes a close combat or ranged combat attack that deals no damage against the target character that captured the captive. The target modifies its defense value by –1 for the attack for each of its captives. If the attack succeeds, the attacker chooses a friendly captive. The captive is rescued and put into an unoccupied square adjacent to the target of the attack. The rescued character now has one action token regardless of how many it was previously assigned; it can be given an action in the same turn it is rescued, but it is pushed normally."
+      },
+      "COUNTERING CAPTURE": {
+        "english": "When Capture would be countered, roll 2d6; if the result of the roll is not doubles, Capture is not countered. If Capture is countered, all captives of this character are rescued immediately."
+      }
+    },
+    "isNested": true
+  },
+  "Carry": {
+    "english": "When moving as a result of being given an action, this character may carry one friendly character. When this ability is used, modify this character's speed value by –2 until the end of the action. The following characters can't be carried: larger characters, multi-based characters, characters holding an object, and characters with any of the following combat symbols: |transSpeed|, |flight|, |transFlight|, |transSwim|, |duo|. To be carried, the friendly character must be adjacent to this character at the beginning of this character's action. When this character ends its movement for the action, the carried character must be placed in a square adjacent to this character. While being carried, a carried character is not adjacent to any other character, nor can it draw a line of fire until placed at the end of this character's movement for the action. A character which has been carried this turn can't be given an action (other than a free action) until the beginning of the next turn."
+  },
+  "Colossal Stamina": {
+    "english": "This character automatically breaks away and can use |imptar| |doubleoarr|. When this character has two action tokens, it can be given a non-free action. If you do, after actions resolve deal it 1 unavoidable damage and do not clear action tokens from it at the end of the turn. This ability can't be countered."
+  },
+  "Duo Attack": {
+    "english": "Give this character a power action to make a duo attack. This character possesses |lightning| for this action. It makes 2 combat attacks (close and/or ranged) as free actions.",
+    "image": "duo"
+  },
+  "Flight": {
+    "english": "This character can use |impmov| |ignet|, |ignht|, |ignobt|, |doubleoarr|. An elevated character using this ability ignores knock back damage if its knock back path crosses the boundary to a lower level.",
+    "image": "flight"
+  },
+  "Flight (transporter)": {
+    "english": "As well as the regular flight ability this character can use the Carry ability and Move and Attack ability. This is indicated by the black circle behind the symbol.",
+    "image": "transflight"
+  },
+  "Giant Reach": {
+    "english": "This character adds 1 to its d6 roll when breaking away. This character can use the Carry ability. When this character is given an action that includes a close combat attack, all squares within a range of 2 and line of fire are considered adjacent. This ability can’t be countered."
+  },
+  "Great Size": {
+    "english": "This character ignores opposing character's Plasticity, can use |impmov| |ignet|, |ignht|, |ignobt|, |doubleoarr| and can't be knocked back. When this character makes a close combat attack, it may target characters on higher elevations. This character may draw lines of fire (and have lines of fire drawn to it) as if the character occupied the elevation equal to or greater than the elevation it occupies, using the elevation level with the least restrictive line of fire. This ability can't be countered."
+  },
+  "Improved Movement": {
+    "english": "A character with the |impmov| symbol uses the effects indicated by its character card. Improved Movement activates whenever the character moves.\n\n|ignet| - Ignores elevated terrain.\n|ignht| - Ignores hindering terrain.\n|ignwt| - Ignores water terrain.\n|ignbt| - Ignores blocking terrain.\n|ignibt| - Ignores indoor terrain.\n|ignobt| - Ignores outdoor blocking terrain.\n|igndmg| - Ignores blocking terrain and destroys blocking terrain as the character moves through it.\n|chara| - Ignores characters.\n|ignfc| - --.\n|ignoc| - Ignores opposing characters.\n|doubleo| - May move through squares adjacent to opposing characters but still needs to break away normally.\n|doubleoarr| - May move through squares adjacent to or occupied by opposing characters but still needs to break away normally.",
+    "image": "impmov"
+  },
+  "Improved Targeting": {
+    "english": "A character with the |imptar| symbol uses the effects indicated by its character card. Improved Targeting activates whenever the character draws a line of fire.\n\n|ignet| - Ignores elevated terrain.\n|ignht| - Ignores hindering terrain.\n|ignwt| - Ignores water terrain.\n|ignbt| - Ignores blocking terrain.\n|ignibt| - Ignores indoor blocking terrain.\n|ignobt| - Ignores outdoor blocking terrain.\n|igndmg| - Ignores blocking terrain. When a ranged combat attack resolves, any blocking terrain along its line of fire to the target is destroyed.\n|chara| - Ignores characters.\n|ignfc| - Ignores friendly characters.\n|ignoc| - Ignores opposing characters.\n|doubleo| - May make a ranged combat attack targeting adjacent opposing characters.\n|doubleoarr| - May make a ranged combat attack while adjacent to an opposing character.",
+    "image": "imptar"
+  },
+  "Indomitable": {
+    "english": "This character can use Willpower.",
+    "image": "indomitable"
+  },
+  "Merge": {
+    "english": "When this character is adjacent to other friendly characters that each represent one distinct qualifying character listed on a Duo character's character card and all of them have no action tokens, give this character a free action to replace all of them with that Duo character, the same number of clicks from its starting line as this character. The combined point value of the qualifying characters must be equal to or greater than the point value of the Duo character (unless that Duo character previously used the Split ability to be replaced by these same characters). The Duo character can't use the Split ability this turn. This ability can't be countered."
+  },
+  "Move and Attack": {
+    "english": "This character can use Hypersonic Speed if it is not adjacent to an opposing character when given the power action, but its attack value is modified by -2."
+  },
+  "Multiattack": {
+    "english": "Give this character a power action. It can be given any two actions as free actions. This ability can't be countered."
+  },
+  "Ram": {
+    "english": "Give this character a move action; it may only move along a straight horizontal or vertical path and it can't change its orientation. After actions resolve, make a close combat attack as a free action that targets all opposing characters that were moved through. Each hit character is dealt this character's damage value and deal this character 1 unavoidable damage for each 100 points of characters dealt damage during the movement."
+  },
+  "Speed (transporter)": {
+    "english": "As well as the regular speed ability this character can use the Carry ability and Move and Attack ability. This is indicated by the black circle behind the symbol.",
+    "image": "transspeed"
+  },
+  "Sharpshooter": {
+    "english": "This character can use |imptar| |ignoc|, |doubleo|.",
+    "image": "sharpshooter"
+  },
+  "Split": {
+    "english": "Give this character a power action if it has no action tokens. Replace this character with one or more qualifying characters each from a different entry listed on this character's character card. The qualifying replacement character(s) must have either qualifying name and total no more than this character's point value (unless those characters previously used the Merge ability to be replaced by this character). Replacement character(s) are assigned an action token and can't be given an action this turn. Replacement character(s) begin a number of clicks from their starting line equal to the number of clicks from this character's starting line. This ability can't be countered."
+  },
+  "Swim": {
+    "english": "This character can use |impmov| |ignwt|.",
+    "image": "swim"
+  },
+  "Swim (transporter)": {
+    "english": "As well as the regular swim ability this character can use the Carry ability and Move and Attack ability. This is indicated by the black circle behind the symbol.",
+    "image": "transswim"
+  },
+  "TEAM BASES": {
+    "rules": {
+      "WORKING TOGETHER": {
+        "english": "Give this character a power action and it may be given one action as a free action for every 100 200 points or fraction thereof of its point value. These free actions may be used for any action, but you may only give the character up to 1 move action, up to 1 power action, up to 1 close combat action, and up to 1 ranged combat action. Any number of these free actions may be used to make either a close or ranged combat attack."
+      },
+      "SOLO ADVENTURE": {
+        "english": "Give this character a power action, remove any team member from the team and insert it into its SwitchClix base. The character is placed adjacent to the team on its SwitchClix base turned to the first click with a click number color that matches the team’s current click number color. If removing the team member from the team would mean that the total point value of removed team members exceeds the point value of the team, then the team member can’t be removed. When a removed character has multiple starting lines, its point value is considered to be the first printed starting line other than an orange starting line preceding the click it is on when placed on the map. Its actual starting line will be the click number on which the character entered play."
+      },
+      "TEAM COORDINATION": {
+        "english": "When counting characters for a themed team do not count the team as a character, instead each team member counts as a character. If the team is part of a themed team, instead of normal themed team initiative bonuses, it grants a +1 bonus to the initiative roll for every 100 points of its point value, or fraction thereof. At the beginning of the game when a team is part of a themed team, choose: Themed Team Probability Control can be used normally or it can’t be used and the team can use Probability Control."
+      }
+    },
+    "isNested": true
+  },
+  "Tiny Size": {
+    "english": "Modify this character's defense value by +1 against ranged combat attacks. A friendly character that is larger and adjacent can use the Carry ability to carry up to one |tiny| character regardless of its other combat symbols, does not reduce its speed value for doing so and can continue to use the Carry ability if it can normally. This ability can't be countered.",
+    "image": "tiny"
+  },
+  "GRENADE": {
+    "rules": {
+      "General": {
+        "english": "Give the character a power action, decrease the number of grenades in your grenade pool by 1 (if greater than 0), and choose a type of grenade listed on the character's character card. Choose a target square within 5 squares and line of fire and for this attack, this character can use |imptar| |chara|. Make a ranged combat attack targeting all characters occupying or adjacent to the target square. Deal damage to each character hit based only on the type of grenade chosen."
+      },
+      "FLASHBANG": {
+        "english": "No damage\nThe target square for this grenade can be within 8 squares. Place an action token on all hit characters that have zero tokens."
+      },
+      "FRAG": {
+        "english": "2 damage\nA hit character in the target square is dealt 1 additional damage. Each other hit character is knocked back from the target square."
+      },
+      "INK": {
+        "english": "1 penetrating damage\nPlace a hindering terrain marker in the target square. At the beginning of your next turn, deal 1 additional penetrating to each character occupying the target or adjacent squares, then remove the marker."
+      },
+      "PLASMA": {
+        "english": "No damage\nMark a hit character in the target square. At the beginning of your next turn, deal 2 damage to the character marked in this way and 1 damage to all adjacent characters that are friendly to that character."
+      },
+      "SMOKE": {
+        "english": "1 damage\nPlace a hindering terrain marker in the target square and up to two adjacent squares. Remove them at the beginning of your next turn. Characters occupying squares with these markers can't make ranged attacks."
+      },
+      "THERMITE": {
+        "english": "1 damage\nDestroy up to 3 squares of blocking terrain or walls adjacent to the target square."
+      }
+    },
+    "isNested": true
+  },
+  "VEHICLES": {
+    "rules": {
+      "General": {
+        "english": "A vehicle is a HeroClix character marked with the |wheel| defense symbol. Vehicles can be played in one of two modes, Autopilot and Piloted, each with its own point value. You must choose which mode the vehicle will be played in when building your force. A vehicle can use the Carry ability, but does not modify its speed value from it and can carry up to the maximum number of friendly characters indicated on the vehicle's base next to the (passenger) symbol. When using the Carry ability, vehicles ignore the combat symbols of friendly characters. Vehicles can use |impmov| |ignht|, |chara|, and |imptar| |doubleo|. A vehicle can't be dealt damage through the Mastermind power, can't be assigned a Resource or Relic, and can't be the pilot of another vehicle."
+      },
+      "PILOTED VEHICLES": {
+        "english": "A friendly character adjacent to a vehicle in Piloted mode can be given a free action to become the vehicle's pilot. A pilot must have the |attack| or |sharpshooter| symbol printed on their base, must be the same size as the vehicle or smaller, can't use Battle Fury, and must have begun the game friendly to the vehicle's force. A vehicle in Piloted mode may only have one pilot at a time. A character who becomes a vehicle's pilot is removed from the battlefield and placed on the vehicle's character card; all of a pilot's powers and abilities are ignored, unless a game effect specifies it activates when the character is a pilot. When a character becomes its pilot, the vehicle may not be given an action until your next turn. A vehicle may have additional traits called Pilot Abilities. When a pilot matches any prerequisite listed for a pilot ability, the vehicle possesses that trait"
+      }
+    },
+    "isNested": true,
     "image": "wheel"
   }
 }

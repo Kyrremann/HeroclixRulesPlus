@@ -56,7 +56,6 @@ public class RuleListArrayAdapter extends ArrayAdapter<String> implements
 					position, rules_array[position], category),
 					rules_array[position], category);
 		} catch (JSONException e) {
-			e.printStackTrace();
 			id = 0;
 		}
 

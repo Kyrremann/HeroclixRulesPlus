@@ -1,4 +1,7 @@
 {
+  "ADJACENT SQUARES": {
+    "english": "Adjacent squares are map squares that touch any given square, including squares on the diagonal from that square. This means that most squares have four adjacent squares on their sides and four adjacent squares on their diagonals.\n\tAdjacent characters (and objects and terrain markers) occupy adjacent squares.\n\tSquares are not adjacent if they are on the opposite sides of terrain that blocks movement or on different elevations (see Terrain). A character is never adjacent to the square it occupies, and a character is never adjacent to itself."
+  },
   "ASSEMBLING YOUR FORCE": {
     "rules": {
       "General": {
@@ -15,6 +18,55 @@
       }
     },
     "isNested": true
+  },
+  "HEROCLIX \"GOLDEN RULES\"": {
+    "rules": {
+      "THE RULE OF REPLACE THEN MODIFY": {
+        "english": "Whenever a combat value needs to be calculated for any game effect, the controller of the character whose value needs to be calculated starts with the printed value, applies all replacement values in any order, then applies the sum of all modifiers to arrive at a final result. Remember that a locked value will override any other replacement values and modifiers."
+      },
+      "THE RULE OF THREE": {
+        "english": "Whenever the sum of all modifiers applied to a single combat value is greater than +3 or less than -3, the sum of all modifiers is instead +3 or -3, respectively. All modifiers continue to apply to the combat value; only their sum is changed. This rule only applies to modifiers, not to replacement values. Replacement values can alter the printed combat value by more than 3 before any modifiers apply, with modifiers still limited to a net modification of 3 on the replaced value."
+      },
+      "THE RULE OF OCCUPANCY": {
+        "english": "Any game effect resulting in two or more characters occupying the same square, or characters, terrain markers, or objects occupying a square of blocking terrain, is prohibited (except for Debris markers, see Terrain). If part of a game effect would cause this to happen, that part of the game effect is ignored. If moving or placing a character, terrain marker, or object would cause this, then the character, terrain markers, or object must instead move to or be placed in a different square. Characters using certain powers and abilities may freely travel through other characters and/ or blocking terrain, but if it will end its movement in the same square as another character or blocking terrain, the moving character must end its movement before entering the occupied square."
+      },
+      "THE RULE OF ACTION TOKENS": {
+        "english": "No game effect can result in more than 2 action tokens on a character. If part of a game effect would cause this to happen, place action tokens on the character until it has 2 and then ignore any remaining tokens."
+      },
+      "THE RULE OF MINIMUMS": {
+        "english": "If a game effect specifies that a combat value has a \"minimum\" value and the final result of calculating that value is less than the specified minimum, use that minimum value instead. If the final result is equal to or higher than the minimum value, use the final result normally. If the final result of calculating any combat value is less than zero, use zero instead. In both cases, all replacements and modifiers continue to apply; only the final result of the calculation is changed. If a locked value is less than a specified minimum or zero, use that minimum or zero instead."
+      }
+    },
+    "isNested": true
+  },
+  "LINE OF FIRE": {
+    "english": "A line of fire represents a line between two squares on the map, typically drawn from a character occupying one square to another square. You are allowed to check the map to determine lines of fire between squares at any time.\n\tTo determine if a line of fire can be drawn, use a straight edge or draw an imaginary line from the center of one square to the center of the other square. The line of fire is blocked if:\n • The line of fire passes through a square occupied by a character not in one of the two squares\n • The line of fire crosses blocking terrain or a wall\n\nThe two squares of a line of fire can be the same square, so a character can draw a line of fire to itself or to the square it occupies. This is still a line of fire and would be subject to any conditions that would exist if they were separate squares.\n\tAny game effect that states \"within line of fire\" means there must exist a non-blocked line of fire between the source of the game effect and its target. Any game effect that states \"within range\" means that the target of the game effect must be within the source's Range Value. Any game effect that states \"within x squares\" means that the target of the game effect must be within the indicated number of squares of the source. Each of these phrases are independent of each other. A character can be \"within line of fire\" but not \"within range\". It can be \"within x squares\" but not \"within line of fire\". When a game effect has more than one requirement, the phrases will be combined, such as \"within range and line of fire\".\n\tWhen a line of fire remains in the same row, same column, or crosses an intersection in the square of the target it is said to be a \"direct line of fire\"."
+  },
+  "LOCKING": {
+    "english": "Certain replacement values are referred to as \"locked\". Locked combat values ignore all other replacement values and modifiers. Whenever a combat value is calculated and a locked replacement value is applied to it, the locked replacement value is the only replacement or modifier that can affect that combat value, and if a specific number is locked, that number is the only possible result of the calculation. Unless otherwise specified, locked values last until the end of the attack that caused the locked value. If there was no attack in the action that resulted in the locked value, then the locked value lasts until the action resolves unless specified otherwise."
+  },
+  "MODIFIERS": {
+    "english": "Modifiers increase or decrease a combat value by a specific amount and are cumulative. Modifiers apply to a character for as long as that character meets the modifier's requirements, and are added up when needed to determine a combat value. Modifiers use the word \"modify\", \"modifies\", \"increase\" or \"decrease\". Modifiers never set combat values to specific numbers or halves; they involve adding (+/ increase) or subtracting (-/decrease)."
+  },
+  "REPLACEMENT VALUES": {
+    "english": "Some game effects substitute one combat value for another. These substitute values are called replacement values. When one value becomes or is used instead of the value printed on the dial, it is a replacement value. Replacement values apply to a character for as long as that character meets the replacement's requirements. When a character's combat value is reduced by half or doubled, those are also replacement values. Replacement values set combat values to specific numbers, doubles, or halves; they never solely involve adding or subtracting. A replacement value becomes the character's unmodified combat value."
+  },
+  "REPLACING CHARACTERS": {
+    "rules": {
+      "General": {
+        "english": "Certain game effects will call for a character to be replaced with one or more other characters on the map. When assembling your force, you identify these replacement characters although they are not yet on your force. Replacement characters' point values are not added to your build total. All players should agree on the maximum number of replacement characters allowed per force.\n\tWhile replacement characters are off the map, they should be positioned on their |ko| click. When a game effect causes a character to be replaced:\n • Tokens assigned to the replaced character are assigned to the replacement character, including tokens for the action that placed them on the map, unless otherwise specified by that effect.\n • The replacement character must occupy squares that were occupied by the replaced character. If this is not possible, the replacement character may occupy squares adjacent to squares that were occupied by the replaced character.\n •  Any ongoing effects that apply to the replaced character continue to affect the replacement character.\n • If the replaced character was given a nonfree action this turn, then the replacement character is considered to have been given a non-free action this turn as well.\n • You may only replace a character if that character began the game as part of your force.\n • A replacement character can't have the same set symbol and collector number as the replaced character."
+      },
+      "VICTORY POINTS": {
+        "english": "When one or more characters replace a character that began the game on your force, and all replacement character(s) are KO'd, award victory points equal to the point value of the replaced character that began the game on your force, unless the value of the replacement character(s) is higher."
+      },
+      "EXAMPLE": {
+        "english": "eff is using a Duo character with a point value of 200. Jeff gives the Duo character a power action to use Split, replacing the Duo with the qualifying replacement characters Hero-A (100 points) and Hero-B (75 points). If only Hero-A is KO'd, Jeff's opponent will score 100 points. If both Hero-A and Hero-B are KO'd, Jeff's opponent will score 200 points."
+      }
+    },
+    "isNested": true
+  },
+  "ROUNDING": {
+    "english": "At any point in the calculation of a value, if you have a fractional value (usually caused by \"halving\" a value), immediately round up to the nearest whole number."
   },
   "PREPARING FOR BATTLE": {
     "rules": {
@@ -33,7 +85,216 @@
     },
     "isNested": true
   },
-  "ADJACENT SQUARES": {
-    "english": "Adjacent squares are map squares that touch any given square, including squares on the diagonal from that square. This means that most squares have four adjacent squares on their sides and four adjacent squares on their diagonals.\n\tAdjacent characters (and objects and terrain markers) occupy adjacent squares.\n\tSquares are not adjacent if they are on the opposite sides of terrain that blocks movement or on different elevations (see Terrain). A character is never adjacent to the square it occupies, and a character is never adjacent to itself."
+  "ROUNDS, TURNS, AND ACTIONS": {
+    "rules": {
+      "General": "A HeroClix Core Rules game is broken down into a series of rounds. During a round, the first player takes the first turn. When the first player's turn is complete, the player to the left takes a turn, and so on, clockwise around the table. Once all players have taken a turn, the round is complete and a new round begins. If all of the characters on a player's force are defeated, the remaining players continue taking turns in the same order.",
+      "FIRST-ROUND IMMUNITY": {
+        "english": "During the first round of the game, characters that have not been given an action, placed, or moved can't be targeted by opposing characters, knocked back, attacked, or damaged, unless a game effect that does so specifically states that it occurs at the beginning of the game."
+      },
+      "EFFECTS THAT OCCUR AT THE BEGINNING OR END OF A ROUND OR TURN": {
+        "english": "Before the first player takes his or her turn in a round, effects that occur \"at the beginning of a round\" resolve. When a player begins his or her turn, first resolve and end all effects that last \"until the beginning of your turn\" or \"until your next turn\", then resolve all effects that occur \"at the beginning of your turn\". Game effects activated by free actions may also be resolved during the \"beginning of your turn\" or the \"end of your turn\".\n\tAfter a player has declared their turn over but before the next player begins their turn, first resolve and end all effects that last \"this turn\" or \"until the end of the turn\", then resolve all effects that occur \"at the end of your turn\". After all players have taken a turn in a round, effects that occur \"at the end of a round\" resolve."
+      },
+      "ACTION TOTAL": {
+        "english": "You begin each turn with a certain number of available actions, called your action total. This number remains the same for the entire game. The number of actions you begin with depends on the build total of the game: You get one action for every 100 full points of the game's build total. For example, a game with a build total of 100 points gives you one action every turn; a build total of 200 points gives you two actions every turn; 300 points gives you three actions, and so on. Your action total remains the same even if one or more of your characters is defeated."
+      },
+      "GIVING ACTIONS TO CHARACTERS": {
+        "english": "During your turn, you give actions from your action total to your characters. When a character is given an action, that action can be used for only one power or ability that requires that type of action to activate. You must completely resolve one action before you begin the next action. Resolving an action includes resolving any free actions or game effects that action allows, followed by applying action tokens and then pushing damage to each character that received a second action token during that action. If a character's combat values change before an action is resolved, the character must use the new combat values for the rest of the action. A character can never be given more than one non-free action per turn. If you have more available actions than characters, you can't use the extra actions. You do not have to use all of your available actions, but you can't save them for future turns."
+      },
+      "ACTION TOKENS": {
+        "english": "When you give a character any action (other than a free action), give the character an action token as the action resolves and put it near the character's base on the map. You can use any small object, such as a coin or bead, as an action token. A token reminds all players that a character has been given an action."
+      },
+      "CLEARING ACTION TOKENS": {
+        "english": "At the end of your turn, after you have finished taking and resolving all of your actions (including free actions that occur \"at the end of your turn\") and declared your turn to be over, remove all action tokens from each of the characters on your force that did not receive an action token this turn. This is called \"clearing\" your action tokens."
+      },
+      "PUSHING": {
+        "english": "When a character receives a second action token (usually because it has taken an action on two consecutive turns), deal one pushing damage to that character as actions resolve. Game effects that evade, reduce, ignore, or transfer damage do not affect pushing damage unless the effect specifically says it does.\n\nTIP!\nDon't be afraid to push!\nSometimes pushing damage is a small price to pay for another opportunity to deal damage to a nearby enemy before it can damage you."
+      },
+      "BREAKING AWAY": {
+        "english": "If a character occupying a square adjacent to one or more opposing characters is given an action and attempts to move, that character must successfully break away before it can move.\n\tTo break away, roll a d6. On a result of 3 or less, that character fails to break away and can't move; resolve the action immediately, including assigning that character any action tokens for that action. On a result of 4 or higher, that character succeeds in breaking away from all opposing characters adjacent to it. Regardless of any game effects, a d6 roll of 1 automatically results in a character failing to break away, while a d6 roll of 6 automatically results in a character succeeding in breaking away.\n\tOnly one successful break away roll is required to move away from all adjacent opposing characters or other game effects that may require break away from that square. Once a character successfully breaks away, it can move through squares adjacent to every opposing character or game effect from which it broke away; but ends its movement as normal if it becomes adjacent to an opposing character that it did not break away from this action"
+      },
+      "PLACING CHARACTERS": {
+        "english": "Some game effects instruct you to \"place\" your character. When a character is placed, it is not moving. It does not need to break away, and it ignores all characters and game effects between its starting square and the square in which it is being placed."
+      }
+    },
+    "isNested": true
+  },
+  "TIMING": {
+    "english": "The order in which simultaneous effects are resolved is determined by the active player (the player whose turn it is), followed only when necessary by other players, beginning with the next player and in turn order."
+  },
+  "TYPES OF ACTIONS": {
+    "rules": {
+      "General": {
+        "english": "There are five types of actions that you can give to a character:\n • Free action\n • Power action\n • Move action\n • Close combat action\n • Ranged combat action\n\tEach of these action types can be given to a character to activate a specific game effect. A character with two action tokens can't be given any non-free actions."
+      },
+      "FREE ACTIONS": {
+        "english": "Some game effects do not require the character to be assigned an action token when that action resolves, or they allow a character to do something after the character uses another kind of action, such as a power action or move action.\n\tUsing a free action does not consume one of your available actions for the turn, and you may give your characters as many free actions as game effects allow. A character may not activate the same game effect twice in one turn with free actions, unless the game effect indicates otherwise."
+      },
+      "POWER ACTIONS": {
+        "english": "A power action is an action given to a character that allows it to use a game effect that requires a power action to activate."
+      },
+      "DOUBLE POWER ACTIONS": {
+        "english": "A double power action is a special type of power action; it is also an action given to a character that allows it to use a game effect requiring a double power action. Unlike a typical power action, a double power action results in the character being assigned two action tokens instead of one (dealing pushing damage), so you may only give a character a double power action when it has no action tokens. A character can't be given a double power action to activate game effects that only require a power action. A double power action can't be given as a free action."
+      },
+      "EPIC ACTION": {
+        "english": "When your build total is 400 points or more, it is called an epic battle and each player is granted one epic action per turn. An epic action is a type of power action that can only be used to activate an epic trait ability (indicated by the |lotrbook| symbol on a character card). Unlike a typical power action, an epic action does not count against your action total."
+      },
+      "MOVE ACTIONS": {
+        "english": "A character given a move action can move up to its speed value in squares across the map. A character might have a power or ability that affects how it can move. A character does not have to move its full speed value, and it can choose to move 0 squares. Characters can move diagonally.\n\tWhen a character moves in the same direction– horizontally, vertically, or diagonally– without altering the direction within the movement, it is said to be moving in a direct line. A character moving in a direct line might move as little as one square."
+      },
+      "ATTACKS AND ACTIONS": {
+        "english": "It's important to understand the difference between actions and attacks. Some game effects can be used or triggered only when a character is given a particular type of action. Combat actions, for example, will always lead to combat attacks, allowing the use of those powers, team abilities, or game effects the combat action permits. Other game effects, however, might allow a character to make an attack without the character being given a particular type of action. Effects triggered by a particular type of action can't be used when a character attempts to make an attack without being given the required type of action."
+      },
+      "COMBAT ACTIONS": {
+        "english": "CLOSE COMBAT ACTIONS AND RANGED COMBAT ACTIONS\nThere are two types of combat actions: close combat actions and ranged combat actions. Each of these action types can be used to activate a game effect that requires the corresponding action, but most of the time they will be used to activate an attack. A close combat action can be given to a character to activate a close combat attack that targets an adjacent opposing character. A ranged combat action can be given to a character to activate a ranged combat attack that targets one or more non-adjacent opposing characters that are within range and line of fire.\n\tThe character given the action and making the attack is called the attacker. The character against which the attack is made is called the target. Every attack must have at least one target. A character can't target itself or a friendly character unless specifically allowed to or it uses a game effect that targets \"all characters\" or \"friendly characters\"."
+      }
+    },
+    "isNested": true
+  },
+  "COMBAT ATTACK RULES": {
+    "rules": {
+      "General": {
+        "english": "The following general rules apply to both close combat attacks and ranged combat attacks."
+      },
+      "THE ATTACK ROLL": {
+        "english": "To determine whether or not an attack succeeds, the attacking player rolls 2d6 (the attack roll) and adds the result to the attacker's attack value. The sum is the Attack Total. If the Attack Total is equal to or greater than the target's defense value, the attack succeeds and is a hit (it is a successful attack roll); otherwise, it fails and is a miss.\n\tIf an attack misses, damage is not dealt by the attack. Certain game effects allow characters to evade a hit – evading a hit turns it into a miss."
+      },
+      "DEALING DAMAGE": {
+        "english": "When an attack hits, the damage dealt to the target is equal to the attacker's damage value, modified by any game effects. The target takes that much damage, modified by any game effects. The target's combat dial is turned clockwise a number of times equal to the damage taken. Unless specified otherwise, effects that would increase damage dealt are calculated before effects that would decrease damage dealt. If a character can use multiple game effects to reduce and/or ignore damage dealt, only one of those game effects can activate, to be decided by the character‘s controlling player. If damage dealt is reduced to 0, then the target is not damaged. Damage dealt can't be reduced below 0. Game effects that reference the amount of damage a character has been dealt use the damage dealt value after all modifiers have been applied to it."
+      },
+      "DAMAGE DEPLETION MODIFIER": {
+        "english": "Each time an attack resolves, modify the attacker's damage value by -1 (minimum 1) until the end of the turn."
+      },
+      "NO DAMAGE": {
+        "english": "An attack that deals no damage ignores modifiers to the damage value. Attacks that deal no damage deal neither critical hit damage to the target nor critical miss damage to the attacker (see Rolling 2 and 12: Critical Misses and Critical Hits). Attacks that deal no damage do not activate the Damage Depletion Modifier."
+      },
+      "PENETRATING DAMAGE": {
+        "english": "Penetrating damage is damage dealt that can't be reduced (such as by the Toughness power), but can be evaded, ignored, increased, or transferred to another character."
+      },
+      "UNAVOIDABLE DAMAGE": {
+        "english": "Unavoidable damage is damage dealt that can't be evaded, reduced, modified, ignored, or transferred to another character."
+      },
+      "HEALING": {
+        "english": "Characters can have their damage healed through the use of powers like Regeneration, Steal Energy, and Support, as well as through other game effects. When a character is healed of damage, turn its combat dial counterclockwise a number of times equal to the damage healed. A character can't be healed beyond its starting line or onto a KO click. A character with multiple starting lines can't be healed beyond the starting line that it began within a particular game. A character is not considered \"healed\" unless a game effect causes it to turn its dial counterclockwise."
+      },
+      "DEFEATING CHARACTERS": {
+        "english": "When a |ko| symbol appears in a character's stat slot, that character is defeated. Immediately remove it from the map; it is no longer part of the game."
+      },
+      "ROLLING 2 AND 12": {
+        "english": "CRITICAL MISSES AND CRITICAL HITS\nIf you roll a two (1 1) on an attack roll, you automatically miss the target, even if your Attack Total would allow you to hit the target. This is called a critical miss. Immediately deal the attacking character 1 unavoidable damage; this represents a weapon backfire or your character straining or wounding itself during the action. This unavoidable damage is not part of the attack.\n\tIf you roll a 12 (6 6) on an attack roll, you automatically hit the target, regardless of what you needed to roll to hit. This is called a critical hit. A critical hit increases damage dealt by 1 to each successfully hit target.\n\tWhen using the Support power (see the Powers and Abilities Card) and 1 1 is rolled for the 2d6 roll, the attempt is an automatic miss and the target is dealt 1 unavoidable damage instead. If 6 6 is rolled for the 2d6 roll, the attempt is an automatic hit, and you add 1 to the amount of damage healed by the target."
+      },
+      "KNOCK BACK": {
+        "english": "When a player rolls doubles on a successful attack roll, the target is knocked back after any damage taken from the attack is applied. Knock back represents a character being thrown backward by the force of an attack. Certain game effects might knock back a character or allow a character to ignore knock back (examples– Powers: Charge; Abilities: Great Size; Other effects: Multi-base characters). Game effects that allow a character to be knocked back or prevent knock back are checked before damage is dealt.\n\n\tA knocked back character is moved back one square for each 1 damage taken. Move the character in a straight line away from the attacking character—called the knock back path—even if that path is on a diagonal. If multiple characters take damage from a game effect that causes knock back, resolve the knock back starting with the character farthest from the attacker.\n\tIf the knock back path is not along a direct line, then the knock back path follows the diagonal line starting with the square that is on the opposite side of the target from the attacker, in both the vertical as well as horizontal direction.\n\tMovement along a knock back path ignores the effects of hindering terrain and objects on movement.\n\tGame effects that activate as a result of a character moving are not activated by a character moving due to knock back."
+      },
+      "KNOCK BACK DAMAGE": {
+        "english": "A character's knock back path can't continue beyond a square that blocks movement, elevated terrain of a higher elevation or the edge of the map. If it would do so, the character's knock back path ends in the square before its path would cross into any of these areas, and the character is dealt 1 damage, as shown in Figure 10. This damage dealt is called knock back damage. It can be reduced as normal and is applied separately and after damage dealt by the attacker. Knock back into a terrain feature does not destroy it.\n\tIf the knock back path would cross a square occupied by another character, put the knocked back character in the last unoccupied square adjacent to the square occupied by the other character. Stopping in this way does not deal damage to either character."
+      },
+      "KNOCK BACK OFF ELEVATED TERRAIN": {
+        "english": "When a character is knocked across the rim of elevated terrain (i.e.: from a higher elevation to a lower elevation – see Line of Fire: The Rim, p. 14), the knock back path ends in the first square of a lower elevation and that character is dealt 2 knock back damage. If the first square of a lower elevation along the knock back path is not able to be occupied, the knock back path ends in the last square of the higher elevation and that character is not dealt knock back damage. Characters using the Flight ability (see the Powers and Abilities Card) which are knocked back off of elevated terrain are not dealt knock back damage, though they still end their knock back path in the first empty square of a lower elevation."
+      },
+      "RANGED COMBAT": {
+        "english": "Ranged combat represents attacks that take place over distance, such as thrown bombs, repulsor rays, machine guns, energy blasts, and psionic attacks. Every character has a range value printed on its base. This is the maximum number of squares that a character's ranged combat attack can reach. If the range value is greater than 0 and your character is not adjacent to an opposing character, then your character can make a ranged combat attack. A character can attack in any direction, regardless of the direction it is facing."
+      },
+      "RANGED COMBAT AND LINE OF FIRE": {
+        "english": "Before making a ranged combat attack, you must determine if the attacker can draw a line of fire to the target and if the target is within range.\n\tIf the line of fire is blocked, the attacker can't make a ranged combat attack against that target. Any line of fire that isn't blocked can be drawn. If a line of fire can be drawn, count the shortest route to the target in squares using the imaginary line as a guide. Do not count the square the attacker occupies when determining range.\n\nREMEMBER! While your character is adjacent to an opposing character, it is too occupied with defending itself or fighting the nearest threat to make any ranged combat attack!"
+      },
+      "MULTIPLE RANGED COMBAT TARGETS": {
+        "english": "All characters have one or more |lightning| lightning bolt symbols printed next to their range values. The number of lightning bolts is the maximum number of different targets the character can target with a single ranged combat attack unless a game effect indicates otherwise (for example, by indicating \"targets all characters\"). A character can't target the same character more than once during a ranged combat attack.\n\tIf a character attacks more than one target, that character must be able to draw a line of fire to each target. A character can use its full range against each character targeted.\n\tWhen your character targets multiple targets with a ranged combat attack, make only one attack roll; compare this Attack Total to every target's defense value. Divide the attacker's damage value any way you choose among the successfully hit targets. A successfully hit target can be dealt 0 damage or any non-fractional amount of damage, provided that all damage dealt is divided among the successfully hit targets.\n\nExample #1: Jason gives a ranged combat action to A, which has two lightning bolt symbols next to its range value. Jason chooses two opposing characters within A's range and line of fire.\n\tA has an attack value of 9. Jason rolls 2d6, with a result of 8. The Attack Total is 17 (9+8=17). Jason compares his 17 to the defense value of the two targets: One is B, with a defense value of 18, and the other is C, with a defense value of 15. A misses B, but he hits C for 3 damage. A can't deal less than 3 damage to C.\n\nExample #2: Norm uses A to make a ranged combat attack targeting B and C, hitting both targets and dealing 4 damage. Norm could choose to deal 2 damage to each target, 3 damage to one target and 1 damage to the other, or 4 damage to one target and 0 damage to the other"
+      }
+    },
+    "isNested": true
+  },
+  "TERRAIN": {
+    "rules": {
+      "General": {
+        "english": "Terrain is the printed landscape of the battlefield map; object tokens and 3-D objects; or effects created by the use of powers and abilities which involve the placement of terrain markers. Terrain affects movement of characters and the ability to draw lines of fire.\n\tHeroClix has five types of terrain: clear, hindering, water, blocking, and elevated. All types of terrain (except clear terrain) are indicated by boundary lines drawn on the map:\n • Squares inside a green boundary line are hindering terrain. •     Squares inside a blue boundary line are water terrain.\n • Squares inside a brown boundary line are blocking terrain. Heavy black lines running along the grid of the map are walls, which function as blocking terrain.\n • Squares inside a red boundary line are elevated terrain. Each red boundary line has   numbers indicating the level of that elevated terrain. The larger the number, the higher the elevation. Maps that do not indicate an elevation number treat non-elevated terrain as level 1 and elevated squares as level 2.\n\nThree other boundary line colors indicate particular areas on a map and are clear terrain unless indicated otherwise:\n • Squares inside a purple boundary line are a starting area (see Step 2: Choose Map and Starting Areas).\n • Squares inside a yellow boundary line are interior spaces on an indoor/ outdoor map (see Maps).\n • Squares inside an orange boundary line have special rules, which are explained on the map on which they appear.\n\nLines indicating specific terrain are drawn just inside the grid marked on the map. If a square has a colored boundary line inside of it, the square is the type of terrain indicated by the line. If a line can be drawn from the center of that square into a second square without crossing a boundary line of the same color, the second square is the same type of terrain as the first square.\n\tIf a square does not fall inside the boundary of any colored line, it is clear terrain. All non-clear terrain is surrounded by a contiguous boundary. If a game effect allows for the alteration of terrain, boundary lines are assumed to change so that they always form an uninterrupted boundary. This may result in a single large section of terrain becoming two distinct smaller sections of the same type. Squares may be multiple types if they fall within two or more boundary lines.\n\tNo game effect can target or attack a character in addition to a piece of terrain or object with the same attack, even if they occupy the same square."
+      },
+      "CLEAR, HINDERED, OR BLOCKED": {
+        "english": "Every line of fire or path of movement you can draw is either clear, hindered, or blocked. Clear is less restrictive than hindered, which is less restrictive than blocked, which is the most restrictive. When a line of fire or path of movement crosses several different types of terrain, it is the most restrictive type of line of fire or path of movement in any square it crosses. For example, a line of fire crossing both hindering and blocking terrain is a blocked line of fire."
+      },
+      "CLEAR TERRAIN": {
+        "english": "Clear terrain is open space with no obstructions or terrain or debris markers. Any line of fire or path of movement that crosses only clear terrain is a \"clear\" line of fire or path of movement.\n • Movement: Clear terrain does not impede movement in any way.\n • Line of Fire: Clear terrain does not impede line of fire in any way."
+      },
+      "HINDERING TERRAIN": {
+        "english": "Hindering terrain represents an area containing trees, furniture, debris, objects, and other similar items that might obstruct both a character's line of fire and movement. Close combat attacks are not prevented by hindering terrain. Any line of fire or path of movement that crosses hindering terrain (including the square occupied by the target) is labeled a \"hindered\" line of fire or path of movement. A hindered line of fire is treated as a clear line of fire for the purposes of powers and abilities that require a \"clear\" line of fire, with the additional effects below.\n • Movement: Hindering terrain impedes movement. A character that crosses from terrain that is not hindering for movement into a square that is hindering for movement must stop moving. Any character that begins its movement in hindering terrain halves its speed value before moving.\n • Line of Fire: Hindering terrain impedes line of fire. If a line of fire between two characters is hindered, modify the target's defense value by +1 for the attack, unless the only square of hindering terrain crossed is occupied by the attacker."
+      },
+      "WATER TERRAIN": {
+        "english": "Water terrain represents features like streams, ponds, and other liquids. Water terrain behaves like other terrain for movement and line of fire purposes, though it is still a specific kind of terrain when considered for anything other than movement or line of fire purposes.\n • Movement: Water terrain impedes movement, and is hindering terrain for movement purposes.\n • Line of Fire: Water terrain does not impede line of fire in any way, and is clear terrain for line of fire purposes."
+      },
+      "BLOCKING TERRAIN": {
+        "english": "Blocking terrain represents areas and objects on the map with the potential to completely impede a character's movement and line of fire. Any line of fire or path of movement that crosses blocking terrain is labeled a \"blocked\" line of fire or path of movement, the movement can't happen and the line of fire is not able to be drawn through this terrain.\n • Adjacency: Squares on opposite sides of blocking terrain are not adjacent. Two squares of blocking terrain adjacent to each other across the diagonal of an intersection would prevent adjacency between the two squares on the opposite side of that intersection.\n • Movement: Blocking terrain prevents movement. Characters can't move into or through blocking terrain.\n • Line of Fire: Blocking terrain prevents a line of fire from being drawn between two squares. Any line of fire crossing a square of blocking terrain is blocked (except for a line of fire between two characters on an elevation higher than that of outdoor blocking terrain)."
+      },
+      "DESTROYING BLOCKING TERRAIN": {
+        "english": "A square of blocking terrain can be destroyed by a single attack that deals at least 3 damage. When a character attacks blocking terrain, the attack automatically succeeds. A close combat attack can be used to destroy a square of blocking terrain adjacent to the attacker. A ranged combat attack can be used to destroy a square of blocking terrain by drawing a line of fire to the center of the square of blocking terrain; the line of fire is not blocked by the target square in this instance."
+      },
+      "DEBRIS MARKERS": {
+        "english": "When a square of blocking terrain is destroyed, place a debris marker in the square; this marker represents the rubble left behind by the destruction of the blocking terrain. A debris token is a type of special terrain marker. A debris token is a hindering terrain marker with the special property that it can be placed on blocking terrain. When placed on blocking terrain that square is hindering terrain instead of blocking terrain. Debris tokens can be placed on terrain other than blocking terrain as well, but those squares are considered hindering terrain in addition to their normal properties."
+      },
+      "WALLS": {
+        "english": "Walls are a special type of terrain indicated by heavy black lines that run along the map's grid lines. Walls have no boundary lines, but they behave like blocking terrain. Characters on opposite sides of walls are not adjacent. The edges of a map are not walls."
+      },
+      "DESTROYING WALLS": {
+        "english": "A close combat attack can be used to destroy a wall segment along the edge of the square the character occupies. A ranged combat attack can be used to destroy a wall segment but only if a single line of fire can be drawn to the center of the square on the other side of the wall segment that also crosses the other square along the same edge as the wall segment. The squares on each side of the wall must be within the attacking character's range as shown in Figure 11; in this case, the line of fire is not blocked by the chosen wall segment or a character occupying the targeted square. All other requirements for destroying a wall are the same as those for destroying blocking terrain.\n\tWhen a wall is destroyed, place debris markers in those clear terrain squares adjacent to both sides of the destroyed wall, to represent the debris remaining after the wall's destruction."
+      },
+      "ELEVATED TERRAIN": {
+        "english": "Elevated terrain represents terrain at different levels above the battlefield. Elevated terrain can contain other kinds of terrain like hindering or blocking which would have the properties of both elevated terrain and the other terrain. Elevated terrain itself can't be destroyed. Characters, objects, and terrain features on elevated terrain are considered elevated and their level of elevation is the level of the elevated terrain they occupy. Characters, objects, and terrain that are not elevated are grounded or at elevation level 1. Characters at different elevation levels are not considered adjacent for any game effect. A character at a lower elevation is adjacent to elevated terrain when the only reason the square in question is not adjacent is because it is a higher elevation."
+      },
+      "MOVEMENT: STAIRS AND LADDERS": {
+        "english": "If a character has no other means to enter and leave areas of elevated terrain (such as the Leap/ Climb power or the Flight ability), it must use stairs and ladders. A character can't \"jump off\" elevated terrain to a different elevation unless a game effect allows it to ignore the effects of elevated terrain on movement.\n\tPart of a stairway or ladder is on terrain of a lower elevation and part is on terrain of a higher elevation. A character must pass through the two squares of different elevation to change the character's elevation. On some maps, the 2 squares of different elevations have numbered triangles where the number indicates the level of elevation of each side of the red boundary line. Characters occupying the two squares through which a character can change elevations can make close combat attacks against each other as if they were adjacent. Stairs and ladders are clear terrain, unless there are map boundary lines indicating otherwise.\n\tElevated terrain itself has no other effect on movement."
+      },
+      "LINE OF FIRE": {
+        "english": "If a line of fire between two squares on the same elevation crosses elevated terrain of a higher level, it is blocked. The line of fire between squares on the same elevation is not blocked by elevated terrain of that level or lower, though other terrain at that elevation level crossing the line of fire affects it normally."
+      },
+      "LINE OF FIRE: THE RIM": {
+        "english": "A square with a red line running through it with an elevation of a lower level sharing an edge with it is considered \"the rim\". Characters on the lower elevation are not adjacent to the rim any more than they are adjacent to a character occupying the square that the rim borders. A line of fire between characters or squares on different elevations is blocked by:\n • Blocking terrain on the same elevation as the square on the lower elevation.\n • Elevated terrain of any level higher than the level of the square on the lower elevation, except the square of higher elevation the line of fire is being drawn to or from.\n • Characters using the Great Size ability.\nA line of fire between characters or squares on different elevations is not affected by |damage| or |tiny| characters or hindering terrain, except for the square the target occupies."
+      },
+      "INTERSECTIONS": {
+        "english": "In HeroClix, because the map is composed of a grid of squares, you will quite often find yourself moving diagonally through a point of intersection between 4 map squares. You will also occasionally draw lines of fire that pass directly through these intersection points. In general, to move through or fire across these intersection points requires you to consider the terrain to either side of the point you are trying to pass or shoot through."
+      },
+      "MOVEMENT THROUGH INTERSECTION POINTS": {
+        "english": "Whenever a character would move diagonally through an intersection point between four squares on a map, treat the point as the less restrictive terrain of the two squares that touch that point not along the path of movement. A character moving through a hindered intersection point stops movement in the square immediately following the point along its path."
+      },
+      "LINE OF FIRE ACROSS INTERSECTION POINTS": {
+        "english": "Whenever a character's line of fire crosses exactly through an intersection point, treat the point as the less restrictive of the two squares that touch that point but are not otherwise in the line of fire."
+      },
+      "CHANGING TERRAIN": {
+        "english": "During an action, terrain may change from one type to another. When it does, if the change makes it easier to draw a line of fire or move (e.g., changing blocking to hindering), then the change takes place immediately. If the change makes it more restrictive to draw a line of fire or move (e.g., changing clear to hindering or blocking), then the change takes place after that action resolves."
+      }
+    },
+    "isNested": true
+  },
+  "MAPS": {
+    "english": "HeroClix has three types of maps: outdoor maps, indoor maps, and indoor/outdoor maps that combine features of both. Each map will be labeled as one of these types and game effects that behave differently based on whether they are indoors or outdoors behave accordingly."
+  },
+  "OBJECTS": {
+    "rules": {},
+    "isNested": true
+  },
+  "MULTI-BASE CHARACTERS": {
+    "rules": {
+      "General": {
+        "english": "Most HeroClix characters are mounted on a base that takes up one square of the map; these are called single-base characters. A multi-base character is mounted on a base that takes up more than one square. A multi-base character occupies all of the squares each of its bases occupies and is adjacent to each square adjacent to the squares its bases occupies, as shown in Figure 15. Squares on opposite sides of a multibase character are not adjacent to each other.\n\tA multi-base character that occupies two bases is a peanut base. Peanut bases can be oriented in any two adjacent squares. A multibase character that occupies more than two squares is a larger base character. A larger base character is only allowed to be oriented horizontally or vertically; it can't be oriented diagonally. Multibase characters can't be carried or knocked back. They can't be placed by the Telekinesis power."
+      },
+      "MOVING MULTI-BASE CHARACTERS": {
+        "english": "When a multi-base character moves, choose any square occupied by the multi-base character to begin the movement. The character moves as if it is a single base character moving from the chosen square and follows all movement rules accordingly. Multi-base characters must always end movement so that all of its bases occupy legal, adjacent squares. No part of the base may be moved more squares than the one chosen for the move. If any square a multi-base character occupies is hindering terrain, the character is considered to occupy hindering terrain when it begins to move, no matter which square it starts from."
+      },
+      "ATTACKING AND MULTI-BASE CHARACTERS": {
+        "english": "When attacking or drawing a line of fire to or from a multi-base character, the player attacking or drawing the line of fire can choose to attack or draw the line of fire to or from any one square occupied by the multi-base character. When attacking a character on the same elevation, a line of fire to another character will be blocked if it crosses any square occupied by a multi-base character. One square of a multi-base character will not block the line of fire from another square it occupies. When a multi-base character's attack or line of fire involves multiple targets, each target may have a line of fire drawn from a different square, as long as each square is one that the multi-base character occupies."
+      }
+    },
+    "isNested": true
+  },
+  "WINNING THE GAME": {
+    "rules": {
+      "General": {
+        "english": "A HeroClix game ends when any one of the following situations occurs:\n • Zero or one player has characters left on the map after all current actions have been resolved, OR\n • A predetermined time limit/number of rounds for the game passes, OR\n • A condition of the scenario or event dial being played causes the game to end.\nCharacters can't leave the map before the end of the game unless defeated or unless required to do so by a game effect. After a winner has been determined, all players retrieve their game pieces."
+      },
+      "DETERMINING THE WINNER": {
+        "english": "f only one player has surviving (undefeated) characters at the end of the game, that player is the winner. Otherwise, at the end of the game all players count their victory points (see below). Whoever scores the most victory points wins the game. If two players played as an allied team, their points are added together. If there is a tie in victory points, all tied players roll 2d6 and the player with the highest total result wins."
+      },
+      "DETERMINING VICTORY POINTS": {
+        "english": "Victory points are scored as follows:\n\tDefeated characters. Every opposing character that is defeated during the game earns you a number of victory points equal to its point value.\n\t  Objects. Every object on an opponent's force that is removed from the game earns you a number of victory points equal to its point value.\n\tAdditional Team Abilities. Each defeated character that was assigned an ATA (see p. 23) earns you additional victory points for the point cost per character listed on the ATA card.\n\tFeats and Event Dials. If you used these Tactics in the battle, see Part 4/Tactics for more on how they affect victory points. \n\tWhen playing with more than 2 players, victory points from defeated characters or removed objects go to the player who was active when the character was defeated. If a character was defeated on its owner's turn, the opponent that has most recently damaged the character earns the points. If no opponents damaged the character, the points are divided evenly."
+      }
+    },
+    "isNested": true
   }
 }

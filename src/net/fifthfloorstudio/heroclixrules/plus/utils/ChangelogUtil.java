@@ -1,25 +1,28 @@
 package net.fifthfloorstudio.heroclixrules.plus.utils;
 
-import android.content.Context;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 import heroclix.Rules.R;
+
+import java.util.Iterator;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.Iterator;
+import android.content.Context;
+import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
+import android.widget.TextView;
 
 public class ChangelogUtil {
 
 
 
 	public static View getChangelogView(Context context) {
-		return populateViewWithJSON(context, JSONParser.getJsonChangelog(context));
+		ScrollView view = new ScrollView(context);
+		view.addView(populateViewWithJSON(context, JSONParser.getJsonChangelog(context)));
+		return view;
 	}
-
 
 	@SuppressWarnings("unchecked")
 	private static View populateViewWithJSON(Context context, JSONObject changelog) {

@@ -39,6 +39,7 @@ public class SectionsRuleFragment extends AbstractRuleFragment {
 	private SectionsPagerAdapter mSectionsPagerAdapter;
 	private ViewPager mViewPager;
 	private static JSONObject rules;
+	private static String[] rules_array_original;
 
 	private static int rule_position;
 
@@ -52,7 +53,8 @@ public class SectionsRuleFragment extends AbstractRuleFragment {
 		rootView = inflater.inflate(R.layout.fragment_rule_section, container,
 				false);
 		category = getArguments().getString(ARG_CATEGORY);
-		addToRulesList(getArguments().getStringArray(ARG_RULES)); // rulesList
+		rules_array_original = getArguments().getStringArray(ARG_RULES);
+		addToRulesList(rules_array_original); // rulesList
 		rule_position = getArguments().getInt(ARG_RULE_POSITION);
 		try {
 			rules = new JSONObject(getArguments().getString(ARG_OBJECT));
@@ -66,7 +68,7 @@ public class SectionsRuleFragment extends AbstractRuleFragment {
 			} catch (JSONException e) {
 				e.printStackTrace();
 			}
-		} else {
+		} else if (isCategoryANestedList(category)) {
 			removeNestedRules(rulesList, rules);
 		}
 		application = (RulesApplication) getActivity().getApplicationContext();
@@ -76,9 +78,26 @@ public class SectionsRuleFragment extends AbstractRuleFragment {
 
 		mViewPager = (ViewPager) rootView.findViewById(R.id.pager);
 		mViewPager.setAdapter(mSectionsPagerAdapter);
-		mViewPager.setCurrentItem(rule_position, true);
+		mViewPager.setCurrentItem(giveCorrectPosition(rule_position), true);
 
 		return rootView;
+	}
+
+	private int giveCorrectPosition(int position) {
+		String title = rules_array_original[position];
+		for (int i = 0; i < rulesList.size(); i++) {
+			if (title.equals(rulesList.get(i))) {
+				return i;
+			}
+		}
+		return position;
+	}
+
+	public static boolean isCategoryANestedList(String category) {
+		return category.equals("core rules")
+				|| category.equals("abilities")
+				|| category.equals("general")
+				|| category.equals("tactics");
 	}
 
 	private boolean isRulesANestedRule(JSONObject rules) {
@@ -106,7 +125,7 @@ public class SectionsRuleFragment extends AbstractRuleFragment {
 				e.printStackTrace();
 			}
 		}
-		
+
 		for (String key : keysToRemove) {
 			rules.remove(key);
 			rulesList.remove(key);
@@ -164,7 +183,6 @@ public class SectionsRuleFragment extends AbstractRuleFragment {
 			SpannableStringBuilder builder;
 			String title = rulesList.get(position);
 			try {
-				
 				if (RulesApplication.isPowerRule(category)) {
 					builder = createPowerRule(getActivity(),
 							rules.getJSONArray(category), position);

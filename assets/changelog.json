@@ -17,6 +17,10 @@
     "Added images to feats, objects, resources, and atas"
   ],
   "3.1.0": [
-    ""
+    "Added support for nested rules. For example the Theme Base rule now have an own list for the Theme Base rules, nested under 'Abilities'",
+    "Added more rules from the Core Rule book, such as all the Core Rules and Tactics rules",
+    "Started moving around rules and cleaning up. The goal of is to mimic the Core Rule book and the Players Guide",
+    "Added missing Golden Rules and empty First-Round Immunity rule",
+    "Fixed sorting in the 'General' section"
   ]
 }

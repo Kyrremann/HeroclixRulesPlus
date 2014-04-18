@@ -1,21 +1,11 @@
 package net.fifthfloorstudio.heroclixrules.plus.fragments;
 
-import java.util.Iterator;
-
 import heroclix.Rules.R;
-import net.fifthfloorstudio.heroclixrules.plus.utils.JSONParser;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
 public class StartScreenFragment extends Fragment {
 
