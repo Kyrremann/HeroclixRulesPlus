@@ -97,7 +97,8 @@ public class SectionsRuleFragment extends AbstractRuleFragment {
 		return category.equals("core rules")
 				|| category.equals("abilities")
 				|| category.equals("general")
-				|| category.equals("tactics");
+				|| category.equals("tactics")
+				|| category.equals("power and abilities");
 	}
 
 	private boolean isRulesANestedRule(JSONObject rules) {

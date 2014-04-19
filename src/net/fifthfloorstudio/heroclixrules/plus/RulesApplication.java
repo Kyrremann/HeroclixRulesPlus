@@ -37,6 +37,7 @@ public class RulesApplication extends Application {
 	private static final String JSON_CORE_RULES = "core_rules.json";
 	private static final String JSON_RESOURCES = "resources.json";
 	private static final String JSON_TACTICS = "tactics.json";
+	private static final String JSON_POWER_AND_ABILITIES = "power_and_abilities.json";
 
 	public final static String JSON_NAME = "name";
 	public final static String JSON_TEXT = "text";
@@ -79,6 +80,7 @@ public class RulesApplication extends Application {
 	private JSONObject bfcRules;
 	private JSONObject resourcesRules;
 	private JSONObject tacticsRules;
+	private JSONObject powerAndAbilities;
 
 	private HashMap<String, String[]> categoryTitles;
 	private String language;
@@ -238,6 +240,11 @@ public class RulesApplication extends Application {
 				tacticsRules = JSONParser.getJsonRule(this, JSON_TACTICS);
 			}
 			return tacticsRules;
+		} else if (category.equals("power and abilities")) {
+			if (powerAndAbilities == null) {
+				powerAndAbilities = JSONParser.getJsonRule(this, JSON_POWER_AND_ABILITIES);
+			}
+			return powerAndAbilities;
 		}
 
 		throw new UnsupportedOperationException(
