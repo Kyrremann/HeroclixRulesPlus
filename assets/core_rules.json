@@ -266,7 +266,50 @@
     "english": "HeroClix has three types of maps: outdoor maps, indoor maps, and indoor/outdoor maps that combine features of both. Each map will be labeled as one of these types and game effects that behave differently based on whether they are indoors or outdoors behave accordingly."
   },
   "OBJECTS": {
-    "rules": {},
+    "rules": {
+      "General": {
+        "english": "A HeroClix Game can include up to six standard object tokens – round cardboard tokens that represent items characters might find on a battlefield. Objects are parts of the battlefield that characters can use as weapons or cover in combat. Most objects can be moved, picked up, and used by characters if their powers and abilities allow them to do so.\n\tObjects are either light (yellow-ringed object tokens), heavy (red-ringed object tokens), or immobile (blue-ringed object tokens). Objects without special effects are called standard objects and follow all rules in this section normally. Objects with special effects are called special objects and are discussed in Part 4: Tactics."
+      },
+      "OBJECTS IN YOUR FORCE": {
+        "english": "You may bring up to three objects as part of your force to a game. The first two objects added to your force must be different types (heavy, light, or immobile), and the third object can be any type, though you must have at least one heavy and one light among your three objects. Standard objects cost 0 points to add to your force."
+    },
+    "PLACING OBJECTS": {
+      "english": "Between Steps 2 and 3 in the \"Preparing For Battle\" section, players can place objects. Starting with the first player, each player takes turns placing one of their objects. Objects must be placed in clear terrain outside of any player's starting area."
+      },
+      "LIGHT AND HEAVY OBJECTS": {
+        "english": "Heavy and light objects can be placed, moved, picked up, and held by characters through certain game effects."
+      },
+      "OBJECTS AS TERRAIN": {
+        "english": "A square containing an object not held by a character is hindering terrain."
+      },
+      "DESTROYING OBJECTS": {
+        "english": "Objects can be destroyed using the rules for destroying a square of blocking terrain. A character in the same square as an object does not take damage when the object is destroyed. An attacker can't target both a character and an object with the same attack. A destroyed object is removed from the game and does not cause a debris marker to be placed."
+      },
+      "IMMOBILE OBJECTS": {
+        "english": "Immobile objects can't be picked up, held, moved or placed by any game effect unless specified by the object's abilities."
+      },
+      "USING OBJECTS AS WEAPONS": {
+        "english": "Some powers and abilities (such as Super Strength) allow a character to pick up and hold an object, and then use it in close combat and ranged combat attacks. An object is removed from the game once it is used in an attack, even if the attack fails or is evaded."
+      },
+      "PICKING UP AN OBJECT": {
+        "english": "While a character using Super Strength is moving due to its own action, it can pick up an object. The object must be in either a square the character occupies or a square adjacent to one the character moves through. A character can pick up an object even if another character occupies the same square as the object. Immediately place the object token someplace that indicates the character using Super Strength is holding the object. If entering that square requires that the character end its movement, it can't pick up an object adjacent to that square (the object must be in either a square the character occupies or in an adjacent square). If a character is not holding an object and is given an action that requires the character to not be holding an object during that action, then the character can't pick up an object during that action."
+      },
+      "HOLDING AN OBJECT": {
+        "english": "A character can hold only one object at a time. When an object is held by a character, it occupies the same square(s) as that character, but can't normally be targeted, destroyed, or taken away from the holding character. If, however, a character holding an object is defeated or loses the ability to use Super Strength, the character automatically drops the object, which stays in the square the character occupied when it was defeated or the power was lost. If there is already an object in the square when an object is dropped, the dropped object is removed from the game.\n\tMoving characters holding an object may place it on the map in a square adjacent to one they move through or in the square they occupy. However, during a single move, a character may either pick up an object or place it, it can't do both."
+      },
+      "USING OBJECTS IN CLOSE COMBAT ATTACKS": {
+        "english": "A character holding an object and making a close combat attack against a single target must use the object in the attack unless the character is using a power that will deal no damage. If a character is using a light object in a close combat attack, modify the character's damage value by +1 for the attack; if using a heavy object; modify the character's damage value by +2 for the attack."
+      },
+      "USING OBJECTS IN RANGED COMBAT ATTACKS": {
+        "english": "A character holding an object may throw it at a single opposing character; a character holding an object does not have to attack with the object when given a ranged combat action. To throw an object, give the character a ranged combat action and make a ranged combat attack, even if its range value is 0. Regardless of the attacker's Range Value, light objects can be thrown 6 squares; heavy objects, 4 squares. Regardless of the attacker's damage value, a successful ranged combat attack with an object deals Object Damage. Object Damage means a light object deals 2 damage; and a heavy object deals 3 damage."
+      },
+      "ULTRA HEAVY OBJECTS": {
+        "english": "An Ultra Heavy object is a heavy object with a purple ring instead of a red ring. Ultra Heavy objects follow all of the rules of heavy objects with the following changes:\n • Characters with a point value less than 100 can't pick up or hold this object. Any game effect that would lead to this results in the object being dropped immediately, as if the character lost Super Strength.\n • When used in a close combat attack, modify the character's damage value by +3 instead of +2.\n • The object can't be used to make a ranged combat attack.\n • The object can't be targeted by Telekinesis.\n • The object is only destroyed when it is dealt 4 damage (instead of 3).\n • This object may occupy more than 1 square."
+      },
+      "ULTRA LIGHT OBJECTS": {
+        "english": "An Ultra Light object is a light object with a white ring instead of a yellow one. Ultra Light objects follow all the rules of light objects with the following changes:\n • Any character can pick up or hold this object, even if they can't use Super Strength.\n • This object is not used when making a close combat attack.\n • A square containing this object is not hindering terrain.\n • When used to make a ranged combat attack, this object can be thrown 8 squares and deals 1 damage."
+      }
+    },
     "isNested": true
   },
   "MULTI-BASE CHARACTERS": {
@@ -289,7 +332,7 @@
         "english": "A HeroClix game ends when any one of the following situations occurs:\n • Zero or one player has characters left on the map after all current actions have been resolved, OR\n • A predetermined time limit/number of rounds for the game passes, OR\n • A condition of the scenario or event dial being played causes the game to end.\nCharacters can't leave the map before the end of the game unless defeated or unless required to do so by a game effect. After a winner has been determined, all players retrieve their game pieces."
       },
       "DETERMINING THE WINNER": {
-        "english": "f only one player has surviving (undefeated) characters at the end of the game, that player is the winner. Otherwise, at the end of the game all players count their victory points (see below). Whoever scores the most victory points wins the game. If two players played as an allied team, their points are added together. If there is a tie in victory points, all tied players roll 2d6 and the player with the highest total result wins."
+        "english": "If only one player has surviving (undefeated) characters at the end of the game, that player is the winner. Otherwise, at the end of the game all players count their victory points (see below). Whoever scores the most victory points wins the game. If two players played as an allied team, their points are added together. If there is a tie in victory points, all tied players roll 2d6 and the player with the highest total result wins."
       },
       "DETERMINING VICTORY POINTS": {
         "english": "Victory points are scored as follows:\n\tDefeated characters. Every opposing character that is defeated during the game earns you a number of victory points equal to its point value.\n\t  Objects. Every object on an opponent's force that is removed from the game earns you a number of victory points equal to its point value.\n\tAdditional Team Abilities. Each defeated character that was assigned an ATA (see p. 23) earns you additional victory points for the point cost per character listed on the ATA card.\n\tFeats and Event Dials. If you used these Tactics in the battle, see Part 4/Tactics for more on how they affect victory points. \n\tWhen playing with more than 2 players, victory points from defeated characters or removed objects go to the player who was active when the character was defeated. If a character was defeated on its owner's turn, the opponent that has most recently damaged the character earns the points. If no opponents damaged the character, the points are divided evenly."

@@ -17,9 +17,11 @@
 package net.fifthfloorstudio.heroclixrules.plus;
 
 import android.annotation.SuppressLint;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.view.View;
+import android.view.Window;
 import heroclix.Rules.R;
 
 @SuppressLint("NewApi")
@@ -29,6 +31,10 @@ public class HeroclixRulesPlusHoneyComb extends HeroclixRulesPlus {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		if (android.os.Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
+			requestWindowFeature(Window.FEATURE_NO_TITLE);
+		}
+		
 		super.onCreate(savedInstanceState);
 		// enable ActionBar app icon to behave as action to toggle nav drawer
 		getActionBar().setDisplayHomeAsUpEnabled(true);
