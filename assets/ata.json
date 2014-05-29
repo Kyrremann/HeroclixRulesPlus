@@ -1021,12 +1021,12 @@
   },
   "SINISTER TWELVE": {
     "english": {
-      "keywords": "Sinister Twelve",
+      "keywords": "Sinister Syndicate",
       "cost": "4",
       "text": "When you have more characters on the map than each opponent, modify the attack value of each character using this team ability by +1."
     },
     "spanish": {
-      "keywords": "Sinister Twelve",
+      "keywords": "Sinister Syndicate",
       "cost": "4",
       "text": "Cuando tu tienes mas personajes en el mapa que cada enemigo, modifica el valor de ataque de cada personaje usando esta habilidad de equipo en +1."
     }

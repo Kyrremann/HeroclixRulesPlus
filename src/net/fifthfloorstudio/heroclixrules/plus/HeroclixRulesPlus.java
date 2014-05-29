@@ -336,9 +336,8 @@ public class HeroclixRulesPlus extends FragmentActivity implements
 						@Override
 						public void onClick(DialogInterface dialog, int which) {
 							String url;
-							// url =
-							// "http://www.amazon.com/gp/mas/dl/android?p=heroclix.Rules";
-							url = "market://details?id=heroclix.Rules";
+							url = "http://www.amazon.com/gp/mas/dl/android?p=heroclix.Rules";
+							// url = "market://details?id=heroclix.Rules";
 
 							Intent browserIntent = new Intent(
 									"android.intent.action.VIEW", Uri
