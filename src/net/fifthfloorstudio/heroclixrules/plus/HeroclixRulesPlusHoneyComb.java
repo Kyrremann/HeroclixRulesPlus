@@ -34,6 +34,7 @@ public class HeroclixRulesPlusHoneyComb extends HeroclixRulesPlus {
 		if (android.os.Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
 			requestWindowFeature(Window.FEATURE_NO_TITLE);
 		}
+		getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
 		
 		super.onCreate(savedInstanceState);
 		// enable ActionBar app icon to behave as action to toggle nav drawer
