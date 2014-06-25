@@ -6,11 +6,11 @@
         "text": "Give this character a close combat action. After the close combat attack resolves, it may make a second close combat attack as a free action. The first attack doesn’t activate the Damage Depletion Modifier."
       },
       "spanish": {
-        "name": "RÁFAGA DE GOLPES",
+        "name": "RÁFAGA DE GOLPES (FLURRY)",
         "text": "Dale a este personaje una acción de combate cuerpo a cuerpo. Tras resolver el ataque cuerpo a cuerpo, puede realizar un segundo ataque cuerpo a cuerpo como una acción gratuita."
       },
       "italian": {
-        "name": "RAFFICA",
+        "name": "RAFFICA (FLURRY)",
         "text": "Assegna a questo personaggio una azione di combattimento in corpo a corpo: quando l’azione di combattimento si è risolta il personaggio può eseguire una seconda azione di combattimento in corpo a corpo come azione gratuita."
       },
       "image": "red"
@@ -21,11 +21,11 @@
         "text": "Give this character a move action and move it up to its speed value; during this movement, this character adds 2 to its d6 roll when breaking away and can use |impmov|, |ignet|, |ignht|, |ignobt|, |doubleoarr|. When you give this character a close combat action, it may target a character regardless of the target’s elevation."
       },
       "spanish": {
-        "name": "SALTAR/TREPAR",
+        "name": "SALTAR/TREPAR (LEAP/CLIMB)",
         "text": "Dale a este personaje una acción de movimiento; puede moverse hasta el máximo de su valor de movimiento: durante este movimiento suma 2 a su tirada para destrabar y puede utilizar |impmov|, |ignet|, |ignht|, |ignobt|, |doubleoarr|. Cuando des a este personaje una acción de combate cuerpo a cuerpo, puede atacar a otros personajes sin importar la elevación del objetivo."
       },
       "italian": {
-        "name": "SALTARE/ARRAMPICARSI",
+        "name": "SALTARE/ARRAMPICARSI (LEAP/CLIMB)",
         "text": "Assegna a questo personaggio un’azione di movimento fino al suo valore di velocità: questo personaggio può utilizzare |impmov|, |ignet|, |ignht|, |ignobt|, |doubleoarr|. durante questo movimento. Quando assegni a questo personaggio un’azione di combattimento e aggiunge 2 al suo tiro di disingaggio, puoi bersagliare un avversario a prescindere dalla sua quota."
       },
       "image": "orange"
@@ -36,11 +36,11 @@
         "text": "Give this character a move action and move it up to its speed value; this character can use |impmov|, |ignet|, |ignht|, |ignbt|, |chara| during this movement.\n\nBUG: Missing |chara|"
       },
       "spanish": {
-        "name": "FASE/TELETRANSPORTE",
+        "name": "FASE/TELETRANSPORTE (PHASING/TELEPORT)",
         "text": "Dale a este personaje una acción de movimiento: puede moverse hasta el máximo de su valor de movimiento utilizando |impmov|, |ignet|, |ignht|, |ignbt|, |chara|.\n\nBUG: Missing |chara|"
       },
       "italian": {
-        "name": "FASE/TELETRASPORTO",
+        "name": "FASE/TELETRASPORTO (PHASING/TELEPORT)",
         "text": "Assegna a questo personaggio un’azione di movimento e muovilo fino al suo valore di velocità, questo personaggio può utilizzare |impmov|, |ignet|, |ignht|, |ignbt|, |chara| durante questo movimento.\n\nBUG: Missing |chara|"
       },
       "image": "yellow"
@@ -51,11 +51,11 @@
         "text": "This character possesses |speed|, |attack|, |defense|, |damage| instead of its combat symbols. This power can’t be countered or ignored."
       },
       "spanish": {
-        "name": "TERRESTRE/NEUTRALIZADO",
+        "name": "TERRESTRE/NEUTRALIZADO (EARTHBOUND/NEUTRALIZED)",
         "text": "Este personaje posee |speed|, |attack|, |defense|, |damage| en lugar de sus símbolos de combate. Este poder no puede ser contrarrestado o ignorado."
       },
       "italian": {
-        "name": "APPIEDATO/DISATTIVATO",
+        "name": "APPIEDATO/DISATTIVATO (EARTHBOUND/NEUTRALIZED)",
         "text": "Questo personaggio possiede |speed|, |attack|, |defense|, |damage| al posto dei suoi simboli di combattimento. Questo potere non può essere neutralizzato o ignorato."
       },
       "image": "lime"
@@ -66,11 +66,11 @@
         "text": "Give this character a power action; halve its speed value for the action. Move this character up to its speed value and then it may be given a close combat action as a free action. This character ignores knock back."
       },
       "spanish": {
-        "name": "CARGA",
+        "name": "CARGA (CHARGE)",
         "text": "Dale a este personaje una acción de poder; divide por la mitad su valor de movimiento para esta acción: puede moverse hasta el máximo de su valor de movimiento y al terminar el movimiento puede recibir una acción de combate cuerpo a cuerpo como acción gratuita. Este personaje ignora el retroceso."
       },
       "italian": {
-        "name": "CARICA",
+        "name": "CARICA (CHARGE)",
         "text": "Assegna a questo personaggio un’azione di potere, dimezza il suo valore di velocità per questa azione. Puoi muovere il personaggio fino al suo valore di velocità e puoi quindi assegnargli un’azione di combattimento in corpo a corpo come azione gratuita. Un personaggio che utilizza questo potere ignora il contraccolpo."
       },
       "image": "green"
@@ -81,11 +81,11 @@
         "text": "Give this character a close or ranged combat action (minimum range value 4) that deals no damage. A successfully hit target becomes friendly to your force. Each target hit may be assigned one action as a free action, immediately after which the target becomes an opposing character again. Deal this character 1 unavoidable damage if the successfully hit target’s combined point value is 150 points or more."
       },
       "spanish": {
-        "name": "CONTROL MENTAL",
+        "name": "CONTROL MENTAL (MIND CONTROL)",
         "text": "Dale a este personaje una acción de combate cuerpo a cuerpo o a distancia (alcance mínimo de 4) que no causa daño. Un objetivo impactado con éxito pasa a ser aliado de tu equipo. Cada objetivo impactado puede recibir una acción como acción gratuita, e inmediatamente después el personaje se convierte de nuevo en un personaje enemigo. Inflige a este personaje 1 daño inevitable si el valor de puntos combinado de los personajes impactados es de 150 puntos o más."
       },
       "italian": {
-        "name": "CONTROLLO MENTALE",
+        "name": "CONTROLLO MENTALE (MIND CONTROL)",
         "text": "Assegna a questo personaggio un’azione di combattimento in corpo a corpo o a distanza (gittata minima 4) che non infligge danno. Ogni bersaglio colpito diventa alleato della tua squadra, ad ogni bersaglio colpito può essere assegnata un’azione come azione gratuita a termine della quale il bersaglio tornerà ad essere un avversario della tua squadra. Infliggi al personaggio che utilizza questo potere 1 danno inevitabile se il valore combinato in punti dei personaggi colpiti è 150 o più."
       },
       "image": "turquois"
@@ -96,11 +96,11 @@
         "text": "This character adds 2 to its d6 roll when breaking away. Opposing characters can’t automatically break away from this character and subtract 2 from their d6 roll when breaking away from this character. Opposing characters entering a square adjacent to this character must end their movement, even if they would not have to do so normally."
       },
       "spanish": {
-        "name": "PLASTICIDAD",
+        "name": "PLASTICIDAD (PLASTICITY)",
         "text": "Este personaje suma 2 a su tirada para destrabarse. Los personajes enemigos no pueden destrabarse automáticamente de este personaje y restan 2 a su tirada intentan destrabarse de este personaje. Los personajes enemigos que entran en una casilla adyacente a este personaje deben finalizar su movimiento, incluso aunque normalmente no tuvieran que hacerlo."
       },
       "italian": {
-        "name": "MOBILITÀ",
+        "name": "MOBILITÀ (PLASTICITY)",
         "text": "Questo personaggio aggiunge 2 al suo tiro di d6 quando cerca di disingaggiarsi, gli avversari sottraggono 2 quando cercano di disingaggiarsi da questo personaggio. I personaggi avversari che entrano in una casella adiacente aquesto personaggio devono terminare il loro movimento, anche se non dovrebbero normalmente."
       },
       "image": "blue"
@@ -111,11 +111,11 @@
         "text": "Give this character a power action and roll a d6; a single adjacent opposing character is knocked back from this character a number of squares equal to the result. When this character hits with an attack, you may choose that it generates knock back if it doesn’t already."
       },
       "spanish": {
-        "name": "ESTALLIDO DE FUERZA",
+        "name": "ESTALLIDO DE FUERZA (FORCE BLAST)",
         "text": "Dale a este personaje una acción de poder y tira un d6; escoge un único personaje enemigo adyacente, que sufre retroceso un número de casillas igual al resultado. Cuando este personaje impacta con un ataque, puedes elegir que el ataque cause retroceso si no lo causa ya."
       },
       "italian": {
-        "name": "EMISSIONE DI FORZA",
+        "name": "EMISSIONE DI FORZA (FORCE BLAST)",
         "text": "Assegna a questo personaggio un’azione di potere e tira un d6: un singolo avversario adiacente al personaggio subisce contraccolpo per un numero di caselle pari al risultato. Se questo personaggio colpisce con un attacco puoi decidere di applicare contraccolpo se non lo applicherebbe."
       },
       "image": "purple"
@@ -126,11 +126,11 @@
         "text": "Give this character a free action; it can move with a locked speed value of 2."
       },
       "spanish": {
-        "name": "PASO LATERAL",
+        "name": "PASO LATERAL (SIDESTEP)",
         "text": "Dale a este personaje una acción gratuita; puede moverse con un valor de movimiento fijo de 2."
       },
       "italian": {
-        "name": "PASSO LATERALE",
+        "name": "PASSO LATERALE (SIDESTEP)",
         "text": "Assegna al personaggio un’azione gratuita; può muovere con un valore di movimento bloccato di 2."
       },
       "image": "pink"
