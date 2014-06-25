@@ -141,26 +141,26 @@
         "text": "Give this character a power action and move it up to its speed value; it adds 2 to its d6 roll when breaking away and can use |impmov| |doubleo|. During this move, this character may, as a free action, make one close combat or ranged combat attack with its range value halved for the attack. This character must be in a square where it could legally end its move in order to make the attack."
       },
       "spanish": {
-        "name": "VELOCIDAD HIPERSÓNICA",
+        "name": "VELOCIDAD HIPERSÓNICA (HYPERSONIC SPEED)",
         "text": "Dale a este personaje una acción de poder: puede moverse hasta el máximo de su valor de movimiento; durante este movimiento suma 2 a su tirada para destrabar y puede utilizar |impmov| |doubleo|. Durante este movimiento, este personaje puede realizar como acción gratuita un ataque cuerpo a cuerpo o a distancia con su valor de alcance dividido por la mitad para este ataque. Este personaje debe encontrarse en una casilla en la que pudiera terminar su movimiento para poder realizar el ataque."
       },
       "italian": {
-        "name": "VELOCITÀ SUPERSONICA",
+        "name": "VELOCITÀ SUPERSONICA (VELOCITÀ SUPERSONICA)",
         "text": "A Assegna a questo personaggio un’azione di potere e muovilo fino al suo valore di velocità, si disingaggia automaticamente e può utilizzare |impmov| |doubleo|. Durante questo movimento, come azione gratuita, il personaggio può eseguire un’azione di combattimento in corpo a corpo o a distanza con gittata dimezzata. Il personaggio deve passare in una casella dove potrebbe terminare legalmente il suo movimento per poter attaccare in corpo a corpo. Se questo personaggio perde Velocità Supersonica prima di terminare il suo movimento non può proseguire oltre e deve risolvere immediatamente l’azione."
       },
       "image": "brown"
     },
     {
       "english": {
-        "name": "STEALTH",
+        "name": "STEALTH (STEALTH)",
         "text": "When it is not your turn, hindered lines of fire drawn to this character are blocked."
       },
       "spanish": {
-        "name": "SIGILO",
+        "name": "SIGILO (STEALTH)",
         "text": "Cuando no sea tu turno, las líneas de visión trazadas hacia este personaje que crucen terreno obstaculizado están bloqueadas."
       },
       "italian": {
-        "name": "OCCULTAMENTO",
+        "name": "OCCULTAMENTO (STEALTH)",
         "text": "Quando non è il tuo turno le linee di fuoco verso questo personaggio, se attraversano terreno difficile, sono bloccate."
       },
       "image": "black"
@@ -171,11 +171,11 @@
         "text": "Give this character a power action; halve its speed value for the action. Move this character up to its speed value and it may be given a ranged combat action as a free action."
       },
       "spanish": {
-        "name": "DISPARO EN CARRERA",
+        "name": "DISPARO EN CARRERA (RUNNING SHOT)",
         "text": "Dale a este personaje una acción de poder; divide por la mitad su valor de movimiento para esta acción: puede mover hasta el máximo de su valor de movimiento y al terminar el movimiento puede recibir una acción de combate a distancia como acción gratuita."
       },
       "italian": {
-        "name": "TIRO IN CORSA",
+        "name": "TIRO IN CORSA (RUNNING SHOT)",
         "text": "Assegna a questo personaggio un’azione di potere, dimezza il suo valore di velocità per questa azione. Puoi muovere il personaggio fino al suo valore di velocità e puoi quindi assegnargli un’azione di combattimento a distanza come azione gratuita."
       },
       "image": "grey"
@@ -188,11 +188,11 @@
         "text": "When this character is given a close combat action, you may roll a d6 after making a successful attack. The result replaces this character’s damage value, then that damage value is locked."
       },
       "spanish": {
-        "name": "CUCHILLAS/GARRAS/COLMILLOS",
+        "name": "CUCHILLAS/GARRAS/COLMILLOS (BLADES/CLAWS/FANGS)",
         "text": "Cuando este personaje recibe una acción de combate cuerpo a cuerpo, puedes tirar un d6 tras un ataque con éxito. El resultado remplaza el valor de daño de este personaje, y el valor de daño queda fijado."
       },
       "italian": {
-        "name": "LAME/ARTIGLI/ZANNE",
+        "name": "LAME/ARTIGLI/ZANNE (BLADES/CLAWS/FANGS)",
         "text": "Quando a questo personaggio viene assegnata un’azione di combattimento in corpo a corpo puoi tirare un d6 dopo aver messo a segno il colpo e utilizzare il risultato come valore di danno di questo personaggio, dopodiché quel valore di danno è bloccato."
       },
       "image": "red"
@@ -203,11 +203,11 @@
         "text": "When this character is given a ranged combat action and deals damage, an area of effect may include all untargeted characters that are adjacent to one or more hit targets assigned at least 1 damage. Hit targets are dealt damage normally, other hit characters are dealt 1 damage for each |lightning| printed on this character’s base."
       },
       "spanish": {
-        "name": "EXPLOSIÓN DE ENERGÍA",
+        "name": "EXPLOSIÓN DE ENERGÍA (ENERGY EXPLOSION)",
         "text": "Cuando este personaje recibe una acción de combate a distancia e inflige daño, un área de efecto puede afectar a todos los personajes no objetivo adyacentes a uno o más de los objetivos impactados. Los objetivos impactados reciben daño de manera normal; otros personajes impactados reciben 1 daño por cada |lightning| impreso en la base de este personaje."
       },
       "italian": {
-        "name": "ESPLOSIONE D’ENERGIA",
+        "name": "ESPLOSIONE D’ENERGIA (ENERGY EXPLOSION)",
         "text": "Quando al personaggio viene assegnata un’azione di combattimento a distanza e infligge danno, un’area d’effetto può includere tutti i personaggi non bersagliati ma adiacenti ai bersagli dell’attacco. ai bersagli colpiti il danno viene inflitto normalmente, mentre ai personaggi adiacenti viene inflitto un danno per ogni |lightning| stampato sulla base del personaggio."
       },
       "image": "orange"
@@ -218,11 +218,11 @@
         "text": "Give this character a ranged combat action even if it is adjacent to an opposing character; the area of effect for this attack is half the character’s range value. Draw lines of fire to all other characters within the area of effect, including at least one opposing character; these lines of fire ignore all game effects except for walls, blocking and elevated terrain. Game effects possessed or used by characters with a line of fire drawn to them are ignored until the action has been resolved. If a line of fire is drawn to more than 1 character, this character’s damage value becomes 1 and is locked. Each character hit is dealt damage."
       },
       "spanish": {
-        "name": "ONDA DE PULSOS",
+        "name": "ONDA DE PULSOS (PULSE WAVE)",
         "text": "Dale a este personaje una acción de combate a distancia incluso si tiene un personaje enemigo adyacente; el área de efecto de este ataque es la mitad del valor de alcance de este personaje. Traza líneas de visión hacia todos los personajes dentro del área de efecto, incluyendo al menos un personaje enemigo; estas líneas de visión ignoran todos los efectos del juego excepto muros y terreno bloqueado o elevado. Los efectos de juego que posean o utilicen los personajes a los que se traza una línea de visión se ignoran hasta que se resuelva la acción. Si se trazan líneas de visión a más de un personaje, el valor de daño de este personaje se convierte en 1 y queda fijado. Inflige daño a todos los per sonajes impactados."
       },
       "italian": {
-        "name": "ONDA D’URTO",
+        "name": "ONDA D’URTO (PULSE WAVE)",
         "text": "Assegna a questo personaggio un’azione di combattimento a distanza anche se è ingaggiato, l’area d’effetto dell’attacco è pari a metà del raggio del personaggio. Traccia linee di fuoco verso tutti gli altri personaggi nell’area, compreso almeno 1 personaggio avversario; queste linee di tiro ignorano tutti gli effetti di gioco eccetto terreno bloccante, elevato e muri. Gli effetti di gioco posseduti o utilizzati dai personaggi verso i quali è stata tracciata una linea di tiro sono ignorati fino alla fine dell’azione. Se le linee di tiro sono tracciate verso più di un personaggio, il danno del personaggio diventa 1 ed è bloccato. Il danno viene inflitto ad ogni personaggio colpito."
       },
       "image": "yellow"
@@ -233,11 +233,11 @@
         "text": "Give this character a close combat action; this character’s damage value becomes 2 and is locked. Make a close combat attack that targets all opposing characters this character can attack with a close combat attack. Each hit character is knocked back 2 squares."
       },
       "spanish": {
-        "name": "TERREMOTO",
+        "name": "TERREMOTO (QUAKE)",
         "text": "Dale a este personaje una acción de combate cuerpo a cuerpo; el valor de daño de este personaje se convierte en 2 y se fija. Realiza un ataque cuerpo a cuerpo contra todos los personajes enemigos a los que este personaje pueda atacar con un ataque cuerpo a cuerpo. Cada personaje impactado retrocede 2 casillas."
       },
       "italian": {
-        "name": "TERREMOTO",
+        "name": "TERREMOTO (QUAKE)",
         "text": "Assegna a questo personaggio un’azione di combattimento corpo a corpo, il danno di questo attacco diventa 2 ed è bloccato. Effettua un attacco in corpo a corpo che bersaglia tutti gli avversari che potrebbero essere colpiti con un attacco in corpo a corpo. Ogni avversario che subisce danno da questo attacco subisce contraccolpo."
       },
       "image": "lime"
@@ -248,11 +248,11 @@
         "text": "When this character moves due to its own action, it may either pick up an object or place an object it is holding. The object must be picked up from or placed in either a square the character occupies or an adjacent square. If this power is lost or countered while this character is holding an object, immediately place the object in the square this character occupies."
       },
       "spanish": {
-        "name": "SÚPER FUERZA",
+        "name": "SÚPER FUERZA (SUPER STRENGTH)",
         "text": "Cuando este personaje se mueve a causa de su propia acción, puede coger un objeto o dejar un objeto que esté sujetando. El objeto debe cogerse de (o dejarse en) la casilla que ocupa o una casilla adyacente a alguna que ha atravesado durante su movimiento. Si este poder se pierde o es contrarrestado mientras el personaje sujeta un objeto, coloca inmediatamente el objeto en la casilla que ocupa este personaje."
       },
       "italian": {
-        "name": "SUPER FORZA",
+        "name": "SUPER FORZA (SUPER STRENGTH)",
         "text": "Quando questo personaggio si muove per via di una sua stessa azione può raccogliere un oggetto o depositarlo; tale oggetto deve essere raccolto o depositato o in una casella occupata dal personaggio o in una casella adiacente. Se questo potere è perso o viene annullato mentre il personaggio sta trasportando un oggetto, l’oggetto deve essere lasciato cadere immediatamente nella casella occupata dal personaggio. Quando questo personaggio esegue un attacco in corpo a corpo bersagliando del terreno bloccante, un muro o un oggetto, modifica il suo danno di +2 per l’attacco."
       },
       "image": "green"
@@ -263,11 +263,11 @@
         "text": "Give this character a close combat or ranged combat action to make an attack that deals no damage. If the attack hits, give the target an action token; if the target already has 2 action tokens, deal the target 1 penetrating damage."
       },
       "spanish": {
-        "name": "INCAPACITAR",
+        "name": "INCAPACITAR (INCAPACITATE)",
         "text": "Dale a este personaje una acción de combate cuerpo a cuerpo o a distancia para realizar un ataque que no causa daño. Si el ataque impacta, da al objetivo un marcador de acción; si el objetivo ya tiene 2 marcadores de acción, inflígele 1 daño penetrante."
       },
       "italian": {
-        "name": "INTRALCIARE",
+        "name": "INTRALCIARE (INCAPACITATE)",
         "text": "Assegna a questo personaggio un’azione di combattimento in corpo a corpo o a distanza che non infligge danno. Se l’attacco colpisce assegna al bersaglio un segnalino azione. Se il bersaglio ha già due segnalini, infliggi al bersaglio 1 danno penetrante."
       },
       "image": "turquois"
@@ -278,11 +278,11 @@
         "text": "Give this character a ranged combat action. Damage from the attack is penetrating damage."
       },
       "spanish": {
-        "name": "RAYO PENETRANTE/PSÍQUICO",
+        "name": "RAYO PENETRANTE/PSÍQUICO (PENETRATING/PSYCHIC BLAST)",
         "text": "Dale a este personaje una acción de combate a distancia. El daño de este ataque es daño penetrante."
       },
       "italian": {
-        "name": "ATTACCO PENETRANTE/PSICHICO",
+        "name": "ATTACCO PENETRANTE/PSICHICO (PENETRATING/PSYCHIC BLAST)",
         "text": "Assegna a questo personaggio un’azione di combattimento a distanza. Il danno inflitto da questo attacco è penetrante."
       },
       "image": "blue"
@@ -293,11 +293,11 @@
         "text": "Give this character a power action; place up to 6 hindering terrain markers in distinct, adjacent squares that are all within this character’s range (minimum range value 4). At least one of the terrain markers must be within line of fire when it is placed. The terrain markers remain until the beginning of your next turn. Characters that occupy these terrain markers modify their attack value by -1 unless they can use Smoke Cloud or ignore hindering terrain for line of fire purposes."
       },
       "spanish": {
-        "name": "NUBE DE HUMO",
+        "name": "NUBE DE HUMO (SMOKE CLOUD)",
         "text": "Dale a este personaje una acción de poder; coloca hasta 6 marcadores de terreno obstaculizado en casillas diferentes y adyacentes que se encuentren dentro del valor de alcance de este personaje (valor de alcance mínimo de 4). Al menos uno de los marcadores de terreno debe colocarse dentro de línea de visión. Los marcadores permanecen en el mapa hasta el comienzo de tu siguiente turno. Los personajes que ocupan estos marcadores de terreno modifican su valor de ataque en -1 excepto si pueden utilizar Nube de Humo o ignoran el terreno obstaculizado a efectos de línea de visión."
       },
       "italian": {
-        "name": "NUBE DI FUMO",
+        "name": "NUBE DI FUMO (SMOKE CLOUD)",
         "text": "Assegna a questo personaggio un’azione di potere, posiziona fino a 6 segnalini terreno difficile in caselle distinte adiacenti tra loro e tutte entro la gittata del personaggio (gittata minima 4). Almeno un segnalino deve essere sulla linea di fuoco del personaggio. I segnalini restano in gioco sino all’inizio del tuo prossimo turno. I personaggi che occupano queste caselle modificano il loro attacco di -1 ameno che non posseggano nube di fumo o ignorino lil terreno difficile per le linee di tiro."
       },
       "image": "purple"
@@ -308,11 +308,11 @@
         "text": "When this character makes an attack, it can’t be evaded, and the damage dealt can’t be reduced below 1 or transferred."
       },
       "spanish": {
-        "name": "GOLPE PRECISO",
+        "name": "GOLPE PRECISO (PRECISION STRIKE)",
         "text": "Cuando este personaje realiza un ataque, este no puede ser evadido y el daño infligido no puede reducirse por debajo de 1 ni transferirse."
       },
       "italian": {
-        "name": "COLPO DI PRECISIONE",
+        "name": "COLPO DI PRECISIONE (PRECISION STRIKE)",
         "text": "Quando questo personaggio esegue un attacco, esso non può essere evitato, e il danno non può essere ridotto a meno di 1 né trasferito."
       },
       "image": "pink"
@@ -323,11 +323,11 @@
         "text": "At the beginning of your turn, give this character a free action and deal 1 damage to each adjacent opposing character."
       },
       "spanish": {
-        "name": "VENENO",
+        "name": "VENENO (POISON)",
         "text": "Al comienzo de tu turno, Dale a este personaje una acción gratuita e inflige 1 daño a cada personaje enemigo adyacente."
       },
       "italian": {
-        "name": "VELENO",
+        "name": "VELENO (POISON)",
         "text": "All’inizio del tuo turno assegna a questo personaggio un’azione gratuita e infliggi 1 danno a tutti gli avversari adiacenti."
       },
       "image": "brown"
@@ -338,11 +338,11 @@
         "text": "Each time an opposing character takes damage from a close combat attack made by this character, heal this character of 1 damage."
       },
       "spanish": {
-        "name": "ROBAR ENERGÍA",
+        "name": "ROBAR ENERGÍA (STEAL ENERGY)",
         "text": "Cada vez que un personaje enemigo recibe daño de un ataque cuerpo a cuerpo de este personaje, cura a este personaje 1 daño."
       },
       "italian": {
-        "name": "RISUCCHIA ENERGIA",
+        "name": "RISUCCHIA ENERGIA (STEAL ENERGY)",
         "text": "Ogni volta che un avversario subisce danno da un attacco in corpo a corpo effettuato da questo personaggio, cura questo personaggio di 1 danno."
       },
       "image": "black"
@@ -353,11 +353,11 @@
         "text": "Give this character a power action and designate another target character or object (A) and a destination square (B). This character, A, and B must all be within 8 squares and line of fire of each other. Place A in B. If A is a character, it must be a single base character and possess the |tiny| or |damage| symbol. If A is an opposing character, make a close or ranged combat attack that deals no damage against A, and only place the character in B if the target is hit. If A is an object and B is occupied by an opposing character, this character may make a ranged combat attack targeting the character occupying B, dealing object damage and destroying the object. A character that has been placed by Telekinesis this turn can’t use Telekinesis this turn."
       },
       "spanish": {
-        "name": "TELEQUINESIS",
+        "name": "TELEQUINESIS (TELEKINESIS)",
         "text": "Dale a este personaje una acción de poder e indica un personaje u objeto objetivo (A) y una casilla de destino (B). Este personaje, A y B deben encontrarse en un radio de 8 casillas entre sí y tener línea de visión entre todos ellos. Coloca A en B. Si A es un personaje, debe ser un personaje de base sencilla y poseer el símbolo |tiny| o |damage|. Si A es un personaje enemigo, realiza un ataque cuerpo a cuerpo o a distancia contra A que no inflige daño, y coloca al personaje en B sólo si el ataque impacta. Si A es un objeto y B está ocupada por un personaje enemigo, este personaje puede realizar un ataque a distancia contra B, infligiendo daño por objeto y destr uyendo el objeto. Un personaje que ha sido colocado con Telequinesis este turno no puede utilizar Telequinesis en el mismo turno."
       },
       "italian": {
-        "name": "TELECINESI",
+        "name": "TELECINESI (TELEKINESIS)",
         "text": "Assegna a questo personaggio un’azione di potere, designa un bersaglio, personaggio o oggetto (A) e una casella di destinazione (B). Questo personaggio, A e B devono trovarsi tutti entro 8 caselle e in linea di fuoco tra loro. Metti A in B. Se A è un personaggio deve essere a basetta singola e deve possedere il simbolo |tiny| o |damage|. Se A è un avversario effettua un attacco a distanza o in corpo a corpo che non infligge danno contro A, e spostalo in B solamente se viene colpito. Se A è un oggetto e B è occupata da un avversario, effettua un attacco a distanza con bersaglio il personaggio che occupa la casella B, infliggi il danno da oggetto e quindi distruggi l’oggetto. Un personaggio che è stato spostato con Telecinesi questo turno non può utilizzare Telecinesi."
       },
       "image": "grey"
@@ -370,11 +370,11 @@
         "text": "When this character is hit by an attack, you may roll a d6 before damage is dealt. On a result of 5 or 6, this character evades the attack."
       },
       "spanish": {
-        "name": "SÚPER SENTIDOS",
+        "name": "SÚPER SENTIDOS (SUPER SENSES)",
         "text": "Cuando este personaje es impactado por un ataque, puedes tirar un d6 antes de infligir el daño. Con un resultado de 5 o 6, este personaje evade el ataque."
       },
       "italian": {
-        "name": "SUPER SENSI",
+        "name": "SUPER SENSI (SUPER SENSES)",
         "text": "Quando questo personaggio è colpito da un attacco puoi tirare un d6 prima che venga assegnato il danno. Con un risultato di 5 o 6, il personaggio elude l’attacco."
       },
       "image": "red"
@@ -385,11 +385,11 @@
         "text": "Damage dealt to this character is reduced by 1."
       },
       "spanish": {
-        "name": "DUREZA",
+        "name": "DUREZA (TOUGHNESS)",
         "text": "El daño infligido a este personaje se reduce en 1."
       },
       "italian": {
-        "name": "ROBUSTEZZA",
+        "name": "ROBUSTEZZA (TOUGHNESS)",
         "text": "Il danno inflitto a questo personaggio è diminuito di 1."
       },
       "image": "orange"
@@ -400,11 +400,11 @@
         "text": "Any adjacent friendly character may replace its defense value with this character’s unmodified defense value."
       },
       "spanish": {
-        "name": "DEFENDER",
+        "name": "DEFENDER (DEFEND)",
         "text": "Cualquier personaje aliado adyacente puede remplazar su valor de defensa con el valor de defensa sin modificar de este personaje."
       },
       "italian": {
-        "name": "PROTEGGERE",
+        "name": "PROTEGGERE (DEFEND)",
         "text": "Qualsiasi personaggio alleato adiacente può rimpiazzare il suo valore di difesa con il valore non modificato di difesa di questo personaggio."
       },
       "image": "yellow"
@@ -415,11 +415,11 @@
         "text": "Modify this character’s defense value by +2 against close combat attacks. This character ignores knock back."
       },
       "spanish": {
-        "name": "REFLEJOS DE COMBATE",
+        "name": "REFLEJOS DE COMBATE (COMBAT REFLEXES)",
         "text": "Modifica el valor de defensa de este personaje en +2 contra ataques cuerpo a cuerpo. Este personaje ignora el retroceso."
       },
       "italian": {
-        "name": "RIFLESSI DA COMBATTIMENTO",
+        "name": "RIFLESSI DA COMBATTIMENTO (COMBAT REFLEXES)",
         "text": "Modifica il valore di difesa di questo personaggio di +2 contro gli attacchi in corpo a corpo. Questo personaggio ignora il contraccolpo."
       },
       "image": "lime"
@@ -430,11 +430,11 @@
         "text": "Modify this character’s defense value by +2 against ranged combat attacks."
       },
       "spanish": {
-        "name": "ESCUDO DE ENERGÍA/DEFLECTAR",
+        "name": "ESCUDO DE ENERGÍA/DEFLECTAR (ENERGY SHIELD/DEFLECTION)",
         "text": "Modifica el valor de defensa de este personaje en +2 contra ataques a distancia."
       },
       "italian": {
-        "name": "SCUDO ENERGETICO/DEFLESSIONE",
+        "name": "SCUDO ENERGETICO/DEFLESSIONE (ENERGY SHIELD/DEFLECTION)",
         "text": "Modifica il valore di difesa di questo personaggio di +2 contro gli attacchi a distanza."
       },
       "image": "green"
@@ -445,11 +445,11 @@
         "text": "Give this character a power action; place up to 4 blocking terrain markers in distinct, adjacent squares of clear terrain that are all within this character’s range (minimum range value 4). At least one of the terrain markers must be within line of fire when it is placed. The terrain markers remain until the beginning of your next turn."
       },
       "spanish": {
-        "name": "BARRERA",
+        "name": "BARRERA (BARRIER)",
         "text": "Dale a este personaje una acción de poder; coloca hasta 4 marcadores de terreno bloqueado en casillas de terreno despejado diferentes y adyacentes que se encuentren dentro del alcance del personaje (valor de alcance mínimo 4). Al menos uno de los marcadores de terreno debe colocarse dentro de línea de visión. Los marcadores permanecen en el mapa hasta el comienzo de tu siguiente turno."
       },
       "italian": {
-        "name": "BARRIERA",
+        "name": "BARRIERA (BARRIER)",
         "text": "Assegna a questo personaggio un’azione di potere, piazza fino a 4 segnalini di terreno bloccante in caselle libere e adiacenti tutte entro la gittata (gittata minima 4). Almeno uno dei segnalini deve trovarsi sulla linea di fuoco del personaggio quando viene posizionato, i segnalini restano in gioco fino all’inizio del tuo prossimo turno."
       },
       "image": "turquois"
@@ -460,11 +460,11 @@
         "text": "When this character would be dealt damage, you may instead choose to transfer all the damage to be dealt to a single adjacent friendly character with a point value less than this character’s. Any additional effects of the damage dealt (knock back, penetrating damage, etc.) are applied to the character taking the damage. Damage dealt by this power is not an attack."
       },
       "spanish": {
-        "name": "MENTE MAESTRA",
+        "name": "MENTE MAESTRA (MASTERMIND)",
         "text": "Cuando se vaya a infligir daño a este personaje, puedes elegir infligir todo el daño a un único personaje aliado adyacente con un valor de puntos inferior. Cualquier efecto adicional del daño infligido (retroceso, daño penetrante, etc.) se aplica al personaje que recibe el daño. El daño infligido mediante este poder no es un ataque."
       },
       "italian": {
-        "name": "MENTE CRIMINALE",
+        "name": "MENTE CRIMINALE (MASTERMIND)",
         "text": "Quando dovresti infliggere danni a questo personaggio puoi invece scegliere di infliggere tutto il danno a un singolo alleato adiacente con valore in punti inferiore rispetto a quello del primo personaggio. Qualsiasi effetto addizionale (contraccolpo, danno penetrante) viene applicato al personaggio che subisce il danno. Il danno inflitto da questo potere non è considerato un attacco."
       },
       "image": "blue"
@@ -475,11 +475,11 @@
         "text": "This character may ignore pushing damage."
       },
       "spanish": {
-        "name": "FUERZA DE VOLUNTAD",
+        "name": "FUERZA DE VOLUNTAD (WILLPOWER)",
         "text": "Este personaje ignora el daño por forzar."
       },
       "italian": {
-        "name": "VOLONTÀ DI FERRO",
+        "name": "VOLONTÀ DI FERRO (WILLPOWER)",
         "text": "Questo personaggio può ignorare il danno da sforzo."
       },
       "image": "purple"
@@ -490,11 +490,11 @@
         "text": "Half of damage dealt to this character is ignored."
       },
       "spanish": {
-        "name": "INVENCIBLE",
+        "name": "INVENCIBLE (INVINCIBLE)",
         "text": "La mitad del daño infligido a este personaje es ignorado."
       },
       "italian": {
-        "name": "INVINCIBILE",
+        "name": "INVINCIBILE (INVINCIBLE)",
         "text": "Metà del danno inflitto al personaggio è ignorato."
       },
       "image": "pink"
@@ -505,11 +505,11 @@
         "text": "When this character is dealt damage, roll a d6. On a result of 5 or 6, the damage dealt is reduced to 0. On a result of 1 - 4, the damage dealt is reduced by 2."
       },
       "spanish": {
-        "name": "IMPERTURBABLE",
+        "name": "IMPERTURBABLE (IMPERVIOUS)",
         "text": "Cuando se inflige daño a este personaje, tira un d6. Con un resultado de 5 o 6, el daño infligido se reduce a 0. Con un resultado de 1 - 4, el daño infligido se reduce en 2."
       },
       "italian": {
-        "name": "IMPENETRABILE",
+        "name": "IMPENETRABILE (IMPERVIOUS)",
         "text": "Quando questo personaggio subisce danno, tira un d6. Con un risultato di 5 o 6, il danno subito è ridotto a 0, con un risultato di 1 - 4, il danno subito è ridotto di 2."
       },
       "image": "brown"
@@ -520,11 +520,11 @@
         "text": "Give this character a power action; roll a d6 and subtract 2 from the result, minimum result 0. Heal this character of damage equal to the result."
       },
       "spanish": {
-        "name": "REGENERACIÓN",
+        "name": "REGENERACIÓN (REGENERATION)",
         "text": "Dale a este personaje una acción de poder; tira un d6 y resta 2 al resultado, mínimo 0. Cura a este personaje una cantidad de daño igual al resultado."
       },
       "italian": {
-        "name": "RIGENERAZIONE",
+        "name": "RIGENERAZIONE (REGENERATION)",
         "text": "Assegna a questo personaggio una azione di potere. Tira un d6 e sottrai 2 al risultato, il risultato minimo è 0. Cura il personaggio del risultato."
       },
       "image": "black"
@@ -535,11 +535,11 @@
         "text": "Damage dealt to this character is reduced by 2."
       },
       "spanish": {
-        "name": "INVULNERABILIDAD",
+        "name": "INVULNERABILIDAD (INVULNERABILITY)",
         "text": "El daño infligido a este personaje se reduce en 2."
       },
       "italian": {
-        "name": "INVULNERABILITÀ",
+        "name": "INVULNERABILITÀ (INVULNERABILITY)",
         "text": "Il danno inflitto a questo personaggio è ridotto di 2."
       },
       "image": "grey"
@@ -552,11 +552,11 @@
         "text": "Give this character a power action. It makes a ranged combat attack against a single target character; before making the attack, you may modify its attack value by +2, its damage value by +2, or both combat values by +1."
       },
       "spanish": {
-        "name": "EXPERTO EN COMBATE A DISTANCIA",
+        "name": "EXPERTO EN COMBATE A DISTANCIA (RANGED COMBAT EXPERT)",
         "text": "Dale a este personaje una acción de poder. Realiza un ataque a distancia contra un único personaje objetivo; antes de realizar el ataque, puedes modificar su valor de ataque en +2, su valor de daño en +2 o ambos valores en +1."
       },
       "italian": {
-        "name": "ESPERTO TIRATORE",
+        "name": "ESPERTO TIRATORE (RANGED COMBAT EXPERT)",
         "text": "Assegna a questo personaggio un’ azione di potere, esegui un attacco a distanza contro un singolo bersaglio e prima di eseguirlo, modifica il valore d’attacco di +2, il danno di +2, o entrambi i valori di +1."
       },
       "image": "red"
@@ -567,11 +567,11 @@
         "text": "This character ignores Shape Change, can’t make ranged combat attacks, can’t be carried, and can’t be targeted by Incapacitate or Mind Control."
       },
       "spanish": {
-        "name": "FURIA DE COMBATE",
+        "name": "FURIA DE COMBATE (BATTLE FURY)",
         "text": "Este personaje ignora Cambio de Forma, no puede realizar ataques a distancia, no puede ser transportado y no puede ser objetivo de Incapacitar ni Control Mental."
       },
       "italian": {
-        "name": "FURIA COMBATTIVA",
+        "name": "FURIA COMBATTIVA (BATTLE FURY)",
         "text": "Questo personaggio ignora Mutaforma, non può eseguire attacchi a distanza, non può essere bersaglio di Controllo Mentale o Intralciare, non può essere trasportato."
       },
       "image": "orange"
@@ -582,11 +582,11 @@
         "text": "Give this character a power action and target an adjacent friendly character; neither this character nor the target can be adjacent to an opposing character. Roll 2d6 and add the result to this character’s unmodified attack value. If the result is equal to or higher than the tar get character’s unmodified defense value, roll a d6 and subtract 2 from the result, minimum result 1. The target is healed of damage equal to the result."
       },
       "spanish": {
-        "name": "APOYO",
+        "name": "APOYO (SUPPORT)",
         "text": "Dale a este personaje una acción de poder y elige como objetivo a un personaje aliado adyacente; ninguno de los dos personajes puede estar adyacente a un personaje enemigo. Tira 2d6 y suma el resultado al valor de ataque sin modificar de este personaje. Si el resultado es igual o superior al valor de defensa sin modificar del objetivo, tira un d6 y resta 2 al resultado, mínimo 1. Cura al personaje objetivo una cantidad de daño igual al resultado."
       },
       "italian": {
-        "name": "SUPPORTO",
+        "name": "SUPPORTO (SUPPORT)",
         "text": "Assegna a questo personaggio un’azione di potere ed esegui un tiro per colpire (che non è un attacco) contro un alleato adiacente come se fosse un attacco in corpo a corpo. Quando usi questo potere né questo personaggio né il suo bersaglio possono essere adiacenti a un avversario, ignora tutti i modificatori al combattimento per questa azione. Se il tiro per colpire ha successo tira un d6 e sottrai 2 al risultato (risultato minimo 1), quindi cura il bersaglio dell’azione dell’ammontare calcolato."
       },
       "image": "yellow"
@@ -597,11 +597,11 @@
         "text": "Give this character a close combat action. Damage from the attack is penetrating damage."
       },
       "spanish": {
-        "name": "EXPLOTAR DEBILIDAD",
+        "name": "EXPLOTAR DEBILIDAD (EXPLOIT WEAKNESS)",
         "text": "Dale a este personaje una acción de combate cuerpo a cuerpo. El daño de este ataque es daño penetrante."
       },
       "italian": {
-        "name": "PUNTO DEBOLE",
+        "name": "PUNTO DEBOLE (EXPLOIT WEAKNESS)",
         "text": "Assegna a questo personaggio un’azione di combattimento in corpo a corpo. Il danno da questo attacco è penetrante."
       },
       "image": "lime"
@@ -612,11 +612,11 @@
         "text": "When an adjacent friendly character makes a ranged combat attack, this character modifies that adjacent friendly character’s damage value by +1."
       },
       "spanish": {
-        "name": "MEJORA",
+        "name": "MEJORA (ENHANCEMENT)",
         "text": "Cuando un personaje aliado adyacente realiza un ataque a distancia, este personaje modifica el valor de daño de ese personaje aliado adyacente en +1."
       },
       "italian": {
-        "name": "INCREMENTO",
+        "name": "INCREMENTO (ENHANCEMENT)",
         "text": "Quando un alleato adiacente effettua un attacco a distanza, questo personaggio modifica il danno dell’alleato bersaglio di +1."
       },
       "image": "green"
@@ -627,11 +627,11 @@
         "text": "Once during your turn, this character allows you to reroll one of your rolls, ignoring the original roll. A character using this power must be within range (minimum range 6) and line of fire to the character for which the original roll was made. Using the same rules, once per round during an opponent’s turn, this character allows you to force that opponent to reroll one of their rolls, ignoring the original roll."
       },
       "spanish": {
-        "name": "CONTROL DE LA PROBABILIDAD",
+        "name": "CONTROL DE LA PROBABILIDAD (PROBABILITY CONTROL)",
         "text": "Una vez durante tu turno, este personaje te permite repetir una de tus tiradas, ignorando la tirada original. Un personaje que utiliza este poder debe tener alcance (alcance mínimo de 6) y línea de visión hacia el personaje para el que se realizó la tirada original. Usando las mismas reglas, una vez por ronda durante el turno de un oponente, este personaje te permite obligar a un oponente a repetir una de sus tiradas, ignorando la tirada original."
       },
       "italian": {
-        "name": "CONTROLLO DELLE PROBABILITÀ",
+        "name": "CONTROLLO DELLE PROBABILITÀ (PROBABILITY CONTROL)",
         "text": "Una volta durante il tuo turno questo personaggio ti permette di ritirare un tiro di dadi ignorando il tiro precedente. Un personaggio che utilizza questo potere deve trovarsi entro raggio (minimo 6) e in linea di fuoco con il personaggio per il quale il tiro di dado originale è stato eseguito. Impiegando le stesse regole, una volta a round durante il turno dell’avversario puoi costringere l’avversario a ritirare un singolo tiro di dado, ignorando il risultato precedente."
       },
       "image": "turquois"
@@ -642,11 +642,11 @@
         "text": "When this character is chosen as the target of an attack, you may roll a d6. On a result of 5 or 6, the attacker can’t target this character with an attack this turn and the attacker may choose another target character instead. The attacker then makes the attack unless there are no targets, in which case the action resolves without an attack."
       },
       "spanish": {
-        "name": "CAMBIO DE FORMA",
+        "name": "CAMBIO DE FORMA (SHAPE CHANGE)",
         "text": "Cuando este personaje es escogido como el objetivo de un ataque, puedes tirar un d6. Con un resultado de 5 o 6, el atacante no puede apuntar a este personaje con un ataque este turno, y el atacante debe elegir otro objetivo en su lugar. A continuación, el atacante realiza el ataque a menos que no haya objetivos, en cuyo caso la acción se resuelve sin que haya ataque."
       },
       "italian": {
-        "name": "MUTAFORMA",
+        "name": "MUTAFORMA (SHAPE CHANGE)",
         "text": "Quando questo personaggio è scelto come bersaglio di un attacco puoi tirare un d6. Con un risultato di 5 o 6, l’attaccante non può bersagliare il personaggio e può scegliere un nuovo bersaglio; l’attaccante quindi eseguirà il suo attacco a meno che non ci siano bersagli, caso in cui l’attacco non verrà eseguito."
       },
       "image": "blue"
@@ -657,11 +657,11 @@
         "text": "Give this character a power action. It makes a close combat attack against a single opposing target character; before making the attack you may modify its attack value by +2, its damage value by + 2, or both combat values by +1."
       },
       "spanish": {
-        "name": "EXPERTO EN COMBATE CUERPO A CUERPO",
+        "name": "EXPERTO EN COMBATE CUERPO A CUERPO (CLOSE COMBAT EXPERT)",
         "text": "Dale a este personaje una acción de poder. Realiza un ataque cuerpo a cuerpo contra un único personaje objetivo; antes de realizar el ataque, puedes modificar su valor de ataque en +2, su valor de daño en +2, o ambos valores en +1."
       },
       "italian": {
-        "name": "ESPERTO IN CORPO A CORPO",
+        "name": "ESPERTO IN CORPO A CORPO (CLOSE COMBAT EXPERT)",
         "text": "Assegna a questo personaggio un’azione di potere, esegui un attacco in corpo a corpo contro un singolo bersaglio e prima di eseguirlo, modifica il valore d’attacco di +2, il danno di +2, o entrambi i valori di +1."
       },
       "image": "purple"
@@ -672,11 +672,11 @@
         "text": "When an adjacent friendly character makes a close combat attack, this character modifies that adjacent friendly character’s damage value by +1."
       },
       "spanish": {
-        "name": "FORTALECER",
+        "name": "FORTALECER (EMPOWER)",
         "text": "Cuando un personaje aliado adyacente realiza un combate cuerpo a cuerpo, este personaje modifica el valor de daño del personaje que realiza el ataque en +1."
       },
       "italian": {
-        "name": "POTENZIARE",
+        "name": "POTENZIARE (EMPOWER)",
         "text": "Quando un alleato adiacente effettua un attacco in corpo a corpo, questo personaggio modifica il danno dell’alleato bersaglio di +1."
       },
       "image": "pink"
@@ -687,11 +687,11 @@
         "text": "Give this character a free action to modify by +1 or –1 any combat value of a target character until the beginning of your next turn. A character using this power must be within range (minimum range 6) and line of fire to the target. If a target character is damaged or healed, the effect of Perplex on that character ends immediately."
       },
       "spanish": {
-        "name": "ALTERAR",
+        "name": "ALTERAR (PERPLEX)",
         "text": "Dale a este personaje una acción gratuita para modificar en +1 o –1 cualquier valor de combate de un personaje objetivo hasta el comienzo de tu siguiente turno. Un personaje que utiliza este poder debe tener alcance (alcance mínimo 6) y línea de visión hacia el personaje objetivo. Si el personaje objetivo es dañado o curado, el efecto de Alterar sobre ese personaje termina inmediatamente."
       },
       "italian": {
-        "name": "CONFONDERE",
+        "name": "CONFONDERE (PERPLEX)",
         "text": "Assegna a questo personaggio un’azione gratuita per modificare di +1 o -1 un qualsiasi valore di combattimento di un personaggio bersaglio fino all’inizio del tuo prossimo turno. Un personaggio che utilizza questo potere deve trovarsi entro raggio (minimo 6) e in linea di fuoco con il bersaglio, se il bersaglio viene curato o ferito l’effetto di Confondere termina immediatamente."
       },
       "image": "brown"
@@ -702,11 +702,11 @@
         "text": "Give this character a free action to counter a power or a combat ability possessed by a single target opposing character until the beginning of your next turn. Any game effects with a duration specified by the countered power or combat ability are removed. A character using this power must be within range (minimum range 6) and line of fire to the target."
       },
       "spanish": {
-        "name": "ANULAR",
+        "name": "ANULAR (OUTWIT)",
         "text": "Dale a este personaje una acción gratuita para contrarrestar hasta el comienzo de tu siguiente turno cualquier poder o habilidad de combate que un único personaje enemigo posea. Cualquier efecto de juego con una duración especificada por el poder o habilidad de combate contrarrestada se pierde. Un personaje que utiliza este poder debe tener alcance (alcance mínimo 6) y línea de visión hacia el personaje objetivo."
       },
       "italian": {
-        "name": "ASTUZIA",
+        "name": "ASTUZIA (OUTWIT)",
         "text": "Durante il tuo turno assegna a questo personaggio un’azione gratuita per neutralizzare un potere o un’abilità di combattimento posseduta da un personaggio bersaglio fino all’inizio del tuo prossimo turno. Tutti gli effetti di gioco con una durata specificata dal potere o dall’abilità combattiva neutralizzati sono rimossi. Un personaggio che utilizza questo potere deve trovarsi entro raggio (minimo 6) in linea di fuoco con il bersaglio."
       },
       "image": "black"
@@ -717,11 +717,11 @@
         "text": "At the beginning of your turn, give this character a free action and roll a d6. On a result of 5 or 6, add one action to your action total for that turn and this character may remove an action token from an adjacent friendly character with a lower point value."
       },
       "spanish": {
-        "name": "LIDERAZGO",
+        "name": "LIDERAZGO (LEADERSHIP)",
         "text": "Al comienzo de tu turno, dale a este personaje una acción gratuita y tira un d6. Con un resultado de 5 o 6, añade una acción a tu total de acciones para este turno, y este personaje puede retirar un marcador de acción de un personaje aliado adyacente con un valor de puntos inferior."
       },
       "italian": {
-        "name": "COMANDO",
+        "name": "COMANDO (LEADERSHIP)",
         "text": "Il danno inflitto a questo personaggio è ridotto di 2.All’inizio del tuo turno assegna a questo personaggio un’azione gratuita e tira un d6. Con un risultato di 5 o 6, aggiungi un’azione al totale delle tue azioni per questo turno, e questo personaggio può rimuovere un segnalino azione da un alleato adiacente con un minor costo in punti."
       },
       "image": "grey"
