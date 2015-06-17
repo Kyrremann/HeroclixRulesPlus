@@ -167,6 +167,13 @@
       "text": "Cuando un personaje usando esta hablidad de equipo usa Regeneracion, el minimo resultado es 1. Incopiable."
     }
   },
+  "BROTHERHOOD OF EVIL MUTANTS": {
+  	"english": {
+  		"keywords": "Brotherhood of Mutants",
+  		"cost": "4",
+  		"text": "Characters using this team ability within 4 squares of another friendly character named Magneto can use Willpower. Characters using this team ability named Magneto can use Leadership, but when they do, they may only remove action tokens from other friendly characters using this team ability."
+  	}
+  },
   "CHECKMATE": {
     "english": {
       "keywords": "Checkmate",
@@ -202,6 +209,13 @@
       "cost": "4",
       "text": "Personajes usando esta habilidad de equipo pueden remplazar sus valor de ataque con el valor de ataque no modificado de un personaje aliado adjacente usando esta habilidad de equipo."
     }
+  },
+  "DEPARTMENT H": {
+  	"english": {
+  		"keywords": "Alpha Flight",
+  		"cost": "3",
+  		"text": "When a character using this team ability is KO'd, roll a d6 for each friendly character that can use this team ability. If the result is heal this character 1 click; if the result is , heal this character 2 clicks."
+  	}
   },
   "ELDERS OF THE UNIVERSE": {
     "english": {
@@ -287,6 +301,13 @@
       "text": "Al inicio de tu juego, escoje una palabra clave por todos los personajes usando esta habilidad de equipo. Todo los personajes enemigos con esta palabra clave modifican sus valores de ataque en -1 cuando un personaje usando esta habilidad de equipo es objetivo."
     }
   },
+  "GREAT DARKNESS: MINIONS": {
+  	"english": {
+  		"keywords": "Servants of Darkness",
+  		"cost": "3",
+  		"text": "At the beginning of the game place a Live For Darkseid token on each character's card if they can use this team ability. When this character uses Regeneration, you may remove the Live For Darkseid token from its card and not subtract 2 from the result of the d6."
+  	}
+  },
   "GREAT LAKES AVENGERS": {
     "english": {
       "keywords": "Great Lakes Avengers",
@@ -346,6 +367,13 @@
       "cost": "7",
       "text": "Cuando no es tu turno, lineas de fuego hacia un personaje usando esta habilidad de equipo estan bloqueadas si este personaje esta adjacente a una pared o terreno bloqueado."
     }
+  },
+  "HELLFIRE CLUB INNER CIRCLE": {
+  	"english": {
+  		"keywords": "Hellfire Club",
+  		"cost": "6",
+  		"text": "Characters using this team ability can use Stealth if they are adjacent to a friendly character using this team ability."
+  	}
   },
   "HELLIONS": {
     "english": {
@@ -575,6 +603,13 @@
       "text": "Una vez al inicio del juego, si ningun personaje en tu fuerza posee una habilidad de equipo que no sea comodin, escoje cualquier otra habilidad de equipo DC que una habilidad de equipo adicional, una habilidad de equipo comodin, o una habilidad de equipo que no pueda ser usada por comodines. Personajes usando esta habilidad de equipo no son comodines y pueden usar la habilidad de equipo escojida si no pueden aun."
     }
   },
+  "LEGION OF DOOM": {
+  	"english": {
+  		"keywords": "Legion of Doom",
+  		"cost": "3",
+  		"text": "Characters using this team ability are wild cards, but can only copy the team abilities of adjacent friendly characters using this team ability. If a character using this team ability is already a wild card, it may copy a second team ability, but only from an adjacent friendly character using this team ability. Uncopyable."
+  	}
+  },
   "LEGION OF MONSTERS": {
     "english": {
       "keywords": "Legion of Monsters",
@@ -586,6 +621,13 @@
       "cost": "5",
       "text": "Personajes usando esta habilidad de equipo pueden usar Plasticidad a menos que este adjacente a un personaje enemigo con la palabra clave Legion of Monsters or Monster."
     }
+  },
+  "LEGION OF SUPER-VILLAINS": {
+  	"english": {
+  		"keywords": "Legion of Super-Villains",
+  		"cost": "4",
+  		"text": "Once per turn, when an opposing character targets a character using this team ability with an attack and actions resolve, modify the defense value of all characters using this team ability by +1 until the end of the turn."
+  	}
   },
   "LEGIONNAIRES": {
     "english": {
@@ -610,6 +652,13 @@
       "cost": "10",
       "text": "Personajes usando esta habilidad de equipo pueden usar Sigilo."
     }
+  },
+  "MASTERS OF EVIL": {
+  	"english": {
+  		"keywords": "Masters of Evil",
+  		"cost": "4",
+  		"text": "When a character with this team ability has one or more action tokens and attacks, damage dealt can't be reduced below 1."
+  	}
   },
   "MAXIMUM CARNAGE": {
     "english": {
@@ -730,6 +779,13 @@
       "cost": "2",
       "text": "Un personaje usando esta habilidad de equipo pueden ignorar una pared o un cuadrado de terreno bloqueado para movimiento cuando usen Carga o Disparo en Carrera. Si lo hace y falla todos personajes enemigos objetivos hacen 1 daño inevitable a este personaje despues que la accion se realize."
     }
+  },
+  "NEW GODS": {
+  	"english": {
+  		"keywords": "New Gods",
+  		"cost": "3",
+  		"text": "At the beginning of the game, for all friendly characters using this team ability, choose a keyword possessed by an opposing character. When a character using this team ability is within 4 squares of an opposing character with this keyword, it can use Sidestep. Uncopyable."
+  	}
   },
   "NEW MUTANTS": {
     "english": {
@@ -911,6 +967,13 @@
       "text": "Personajes enemigos con el valor de puntaje mas alto en su fuerza no podran dibujar lineas de fuego a personajes usando esta habilidad de equipo. Incopiable."
     }
   },
+  "ROBOT": {
+  	"english": {
+  		"keywords": "Robot",
+  		"cost": "4",
+  		"text": "When two friendly characters that can use this team ability are adjacent to each other, choose one of them to use Perplex until your next turn, but it may only target characters with the Robot keyword. A character may only use this team ability once per turn. Uncopyable."
+  	}
+  },
   "ROGUES": {
     "english": {
       "keywords": "Rogues",
@@ -1030,6 +1093,20 @@
       "cost": "4",
       "text": "Cuando tu tienes mas personajes en el mapa que cada enemigo, modifica el valor de ataque de cada personaje usando esta habilidad de equipo en +1."
     }
+  },
+  "SQUADRON SUPREME OF EARTH-712": {
+  	"english": {
+  		"keywords": "Squadron Supreme",
+  		"cost": "0",
+  		"text": "A Squadron Supreme themed team may include any number of distinct named prime characters."
+  	}
+  },
+  "STARK INDUSTRIES": {
+  	"english": {
+  		"keywords": "Stark Industries",
+  		"cost": "4",
+  		"text": "When a character using this team ability uses Outwit, you may instead choose a team ability the target character can use. Opposing characters 200 points and less can't use the chosen team ability until your next turn. Uncopyable."
+  	}
   },
   "THE SOCIETY": {
     "english": {
@@ -1186,6 +1263,26 @@
       "cost": "3",
       "text": "Personaje usando esta habilidad de equipo ignoran el efecto de terreno obstaculizado en su movimiento."
     }
+  },"X-MEN: BLUE": {
+  	"english": {
+  		"keywords": "X-Men",
+  		"cost": "3",
+  		"text": "If a character using this ability uses Leadership and succeeds, modify the attack value of all characters using this team ability by +1 this turn. Uncopyable."
+  	}
+  },
+  "X-MEN: GOLD": {
+  	"english": {
+  		"keywords": "X-Men",
+  		"cost": "4",
+  		"text": "Once per turn, give a character using this team ability a free action when it is adjacent to a friendly character using this team ability and choose an opposing character within 6 squares and line of fire. The chosen character's combat values can't be modified until your next turn."
+  	}
+  },
+  "X-MEN (UTOPIA)": {
+  	"english": {
+  		"keywords": "X-Men",
+  		"cost": "3",
+  		"text": "The single highest point friendly character using this team ability can use Leadership, but only to remove action tokens from an adjacent friendly character that's using this team ability. If that highest point character is named Cyclops or Professor X and they use this Leadership and succeed, remove another action token from an adjacent friendly character that can use this team ability."
+  	}
   },
   "YOUNG JUSTICE": {
     "english": {
