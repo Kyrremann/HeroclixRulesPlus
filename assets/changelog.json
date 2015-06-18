@@ -23,5 +23,8 @@
     "Added missing Golden Rules and empty First-Round Immunity rule",
     "Fixed sorting in the 'General' section",
     "Fixed a bug that made the app crash in Android 3.2"
+  ],
+  "3.1.2": [
+    "Added the missing alternate team abilities."
   ]
 }
